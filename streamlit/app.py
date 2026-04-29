@@ -224,6 +224,16 @@ FEATURE_LABELS = {
     "female_character_share": "Female Character Share",
     "dialogue_gender_gap": "Dialogue Gender Gap",
     "characters_total": "Named Characters",
+    "female_protagonist": "Female Protagonist",
+    "high_violence": "High Violence",
+    "high_emotion": "High Emotional Intensity",
+    "complex_plot": "Complex Plot",
+    "dark_or_tense_tone": "Dark or Tense Tone",
+    "tragic_or_ambiguous_ending": "Tragic or Ambiguous Ending",
+    "institutional_negativity": "Institutional Negativity",
+    "war_film": "War Reference",
+    "technology_theme": "Technology Theme",
+    "historical_or_political": "Historical or Political",
 }
 
 GENRE_MAP = {
@@ -912,6 +922,112 @@ def multi_metric_line(df: pd.DataFrame, metrics: list[str], title: str, controls
     return finish_fig(fig)
 
 
+def numeric_correlation_heatmap(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    metrics = [
+        "word_count",
+        "scene_count",
+        "dialogue_density_pct",
+        "plot_complexity",
+        "violence_intensity",
+        "emotional_intensity",
+        "explicit_scene_count",
+        "female_named_character_count",
+        "male_named_character_count",
+        "female_dialogue_share_pct",
+        "male_dialogue_share_pct",
+        "female_character_share",
+        "dialogue_gender_gap",
+    ]
+    available = [
+        col
+        for col in metrics
+        if col in df and pd.api.types.is_numeric_dtype(df[col]) and not pd.api.types.is_bool_dtype(df[col])
+    ]
+    plot_df = df[available].apply(pd.to_numeric, errors="coerce").dropna(axis=1, how="all")
+    if plot_df.shape[1] < 2:
+        raise ValueError("Not enough numeric features available.")
+
+    corr = plot_df.corr()
+    labels = [label(col) for col in corr.columns]
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=corr.values,
+            x=labels,
+            y=labels,
+            zmin=-1,
+            zmax=1,
+            colorscale="RdBu",
+            reversescale=True,
+            colorbar=dict(title="r"),
+            text=np.round(corr.values, 2),
+            texttemplate="%{text:.2f}",
+            hovertemplate="%{y} x %{x}<br>Correlation: %{z:.2f}<extra></extra>",
+        )
+    )
+    fig.update_layout(title="Numeric Feature Correlations")
+    fig.update_xaxes(tickangle=35)
+    return finish_fig(fig, height=660)
+
+
+def binary_feature_cooccurrence_heatmap(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    flags = {
+        "Bechdel Test": df.get("bechdel_test"),
+        "Female Protagonist": df.get("protagonist_gender").eq("female") if "protagonist_gender" in df else None,
+        "LGBTQ+ Presence": df.get("lgbtq_presence"),
+        "Racial Diversity": df.get("racial_diversity_presence"),
+        "Economic Struggle": df.get("economic_struggle_presence"),
+        "Drug Culture": df.get("drug_culture_presence"),
+        "Sexual Content": df.get("sexual_content_presence"),
+        "High Violence": df.get("violence_intensity").ge(4) if "violence_intensity" in df else None,
+        "High Emotion": df.get("emotional_intensity").ge(4) if "emotional_intensity" in df else None,
+        "Complex Plot": df.get("plot_complexity").ge(4) if "plot_complexity" in df else None,
+        "Dark / Tense Tone": df.get("overall_tone").isin(["dark", "tense"]) if "overall_tone" in df else None,
+        "Tragic / Ambiguous Ending": df.get("ending_tone").isin(["tragic", "ambiguous", "disturbing"]) if "ending_tone" in df else None,
+        "Institutional Negativity": df.get("institutional_negativity"),
+        "War Reference": df.get("war_reference").notna() & ~df.get("war_reference").astype(str).str.lower().isin(["none", "unknown", "nan"]) if "war_reference" in df else None,
+        "Technology Theme": (
+            df.get("ai_presence").fillna(False).astype(bool)
+            | df.get("digital_revolution_presence").fillna(False).astype(bool)
+            | df.get("human_vs_technology_conflict").fillna(False).astype(bool)
+            if {"ai_presence", "digital_revolution_presence", "human_vs_technology_conflict"}.issubset(df.columns)
+            else None
+        ),
+        "Historical / Political": (
+            df.get("historical_event_salience").astype(str).str.lower().isin(["background", "central"])
+            | ~df.get("political_climate_reference").astype(str).str.lower().isin(["none", "unknown", "nan"])
+            if {"historical_event_salience", "political_climate_reference"}.issubset(df.columns)
+            else None
+        ),
+    }
+    matrix = pd.DataFrame({name: series for name, series in flags.items() if series is not None}, index=df.index)
+    if matrix.shape[1] < 2:
+        raise ValueError("Not enough binary features available.")
+    matrix = matrix.fillna(False).astype(bool)
+
+    cooccurrence = pd.DataFrame(index=matrix.columns, columns=matrix.columns, dtype=float)
+    for row_feature in matrix.columns:
+        for col_feature in matrix.columns:
+            cooccurrence.loc[row_feature, col_feature] = (matrix[row_feature] & matrix[col_feature]).mean() * 100
+
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=cooccurrence.values,
+            x=cooccurrence.columns,
+            y=cooccurrence.index,
+            zmin=0,
+            zmax=max(1, float(np.nanmax(cooccurrence.values))),
+            colorscale=["#f4eee5", "#0f766e"],
+            colorbar=dict(title="% films"),
+            text=np.round(cooccurrence.values, 1),
+            texttemplate="%{text:.1f}%",
+            hovertemplate="%{y} + %{x}<br>Co-occurrence: %{z:.1f}% of films<extra></extra>",
+        )
+    )
+    fig.update_layout(title="Binary Feature Co-occurrence")
+    fig.update_xaxes(tickangle=35)
+    return finish_fig(fig, height=720)
+
+
 def unknown_rate_chart(df: pd.DataFrame, controls: Controls, block: str | None = None) -> go.Figure:
     features = []
     blocks = [block] if block and block != "all" else list(FEATURE_BLOCKS)
@@ -1148,6 +1264,8 @@ def build_specs() -> list[ChartSpec]:
         S("Tone, Emotion and Themes", "Freedom vs Control Theme", "Freedom vs control theme rate.", lambda d, c: rate_line(d, "freedom_control_theme", True, "Freedom vs Control Theme", c)),
         S("Tone, Emotion and Themes", "Theme vs Ending Tone", "Theme and ending tone.", lambda d, c: crosstab_heatmap(d, "primary_universal_theme", "ending_tone", "Theme vs Ending Tone", c)),
         S("Tone, Emotion and Themes", "Theme vs Protagonist", "Theme and protagonist gender.", lambda d, c: crosstab_heatmap(d, "primary_universal_theme", "protagonist_gender", "Theme vs Protagonist", c)),
+        S("Cross-analysis", "Numeric Feature Correlations", "Correlation heatmap across numeric screenplay and representation metrics.", lambda d, c: numeric_correlation_heatmap(d, c)),
+        S("Cross-analysis", "Binary Feature Co-occurrence", "Pairwise co-occurrence heatmap for the main binary and derived flags.", lambda d, c: binary_feature_cooccurrence_heatmap(d, c)),
         S("Cross-analysis", "Has Female Representation Increased?", "Female dialogue by decade and genre.", lambda d, c: mean_line(d, "female_dialogue_share_pct", "Has Female Representation Increased?", c, "primary_genre")),
         S("Cross-analysis", "Does Bechdel Improve Over Time?", "Bechdel over time by genre.", lambda d, c: rate_line(d, "bechdel_test", True, "Does Bechdel Improve Over Time?", c, "primary_genre")),
         S("Cross-analysis", "Female Protagonists and Ending Tone", "Protagonist gender and ending tone.", lambda d, c: crosstab_heatmap(d, "protagonist_gender", "ending_tone", "Female Protagonists and Ending Tone", c)),
@@ -1264,6 +1382,11 @@ def render_chart_grid(df: pd.DataFrame, controls: Controls, specs: list[ChartSpe
                     st.warning(f"{spec.title} could not be rendered: {exc}")
 
 
+def select_specs(specs: list[ChartSpec], titles: list[str]) -> list[ChartSpec]:
+    by_title = {spec.title: spec for spec in specs}
+    return [by_title[title] for title in titles if title in by_title]
+
+
 def kpi_row(df: pd.DataFrame) -> None:
     c = st.columns(5)
     c[0].metric("Films analyzed", f"{len(df):,}")
@@ -1287,12 +1410,14 @@ def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
     st.markdown('<div class="kicker">Dashboard 1 - General Overview</div>', unsafe_allow_html=True)
     kpi_row(df)
     wanted = [
+        "Numeric Feature Correlations",
+        "Binary Feature Co-occurrence",
         "Films by Decade",
         "Genre Evolution",
         "Coverage by Decade and Genre",
         "Extraction Quality",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
     st.markdown("#### Filtered Films")
     filtered_table(df, controls)
 
@@ -1315,7 +1440,7 @@ def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec
         "Minority Tone",
         "Identity Theme by Decade",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
 
 
 def narrative_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1332,7 +1457,7 @@ def narrative_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartS
         "Character Arc Pattern",
         "Relationship Structure",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
 
 
 def violence_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1349,7 +1474,7 @@ def violence_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
         "Moral Ambiguity vs Ending",
         "Drugs vs Violence",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
 
 
 def institutions_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1366,7 +1491,7 @@ def institutions_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Cha
         "Social Movements",
         "Government vs Political Climate",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
 
 
 def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1383,7 +1508,26 @@ def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Chart
         "Is Cinema Getting Darker?",
         "Are AI Films More Dystopian?",
     ]
-    render_chart_grid(df, controls, [s for s in specs if s.title in wanted])
+    render_chart_grid(df, controls, select_specs(specs, wanted))
+
+
+def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
+    st.markdown('<div class="kicker">Dashboard 7 - Cross-analysis</div>', unsafe_allow_html=True)
+    wanted = [
+        "Numeric Feature Correlations",
+        "Binary Feature Co-occurrence",
+        "Has Female Representation Increased?",
+        "Does Bechdel Improve Over Time?",
+        "Is Cinema Getting Darker?",
+        "Does Violence Increase?",
+        "Economic Struggle and Ending Tone",
+        "Female Dialogue and Bechdel",
+        "Ambiguous Endings and Complexity",
+        "Scenes and Complexity",
+        "Dialogue and Violence",
+        "Identity Theme, LGBTQ+ and Racial Diversity",
+    ]
+    render_chart_grid(df, controls, select_specs(specs, wanted))
 
 
 def explorer_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1589,6 +1733,7 @@ def main() -> None:
             "Violence & Tone",
             "Institutions & History",
             "Technology",
+            "Cross-analysis",
             "Explorer",
             "Films",
             "Data",
@@ -1607,10 +1752,12 @@ def main() -> None:
     with tabs[5]:
         technology_dashboard(filtered, controls, specs)
     with tabs[6]:
-        explorer_dashboard(filtered, controls, specs)
+        cross_analysis_dashboard(filtered, controls, specs)
     with tabs[7]:
-        film_view(filtered)
+        explorer_dashboard(filtered, controls, specs)
     with tabs[8]:
+        film_view(filtered)
+    with tabs[9]:
         data_view(filtered)
 
 
