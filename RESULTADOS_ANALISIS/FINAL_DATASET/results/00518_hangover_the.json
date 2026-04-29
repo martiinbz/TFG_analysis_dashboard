@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Hangover, The",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 20637,
+    "scene_count": 93,
+    "dialogue_density_pct": 41,
+    "int_ext_ratio": "68:32",
+    "day_night_ratio": "56:44",
+    "story_time_span": "hours",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 1,
+    "male_named_character_count": 27,
+    "female_dialogue_share_pct": 3,
+    "male_dialogue_share_pct": 97,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "WW2",
+    "war_portrayal": "critical",
+    "historical_event_reference": "Holocaust",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "slapstick",
+    "emotional_intensity": 3,
+    "ending_tone": "relieved",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "TRACY GARNER"
+      ],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [
+        "GAY MAN",
+        "STU"
+      ],
+      "identity_or_relationship_evidence": [
+        "GAY MAN: 'Hey Stu.' GAY MAN: 'Hey guys. DOUG! DOUG–!'"
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "Holocaust"
+      ],
+      "event_evidence": [
+        "ALAN: The Holocaust, man."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "middle_eastern",
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "THE FRONT DESK A perfectly pressed LEBANESE MAN waits behind the front desk. Vick strides up, smiling, sunglasses still on.",
+        "TELEVISION and turns it on. Merriweather, meanwhile, pulls out a photograph of a slick ASIAN MAN in a red suit, slides it onto the table.",
+        "blow out the candles on his cake, however, we see that it's Vick, ALAN, STU, DOUG, and some BLACK GUY, all very drunk!",
+        "Connecticut, man, we don't even have black people yet. Stu nods, right. Then, after steeling himself, he enters...",
+        "Oh no, my Doug, not your Doug. Black guy, shaved head? The guys look at each other, confused."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

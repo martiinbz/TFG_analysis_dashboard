@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Synecdoche, New York",
+    "release_year": 2008,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "circular-narrative",
+    "plot_complexity": 5,
+    "opening_type": "in media res",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26918,
+    "scene_count": 189,
+    "dialogue_density_pct": 39,
+    "int_ext_ratio": "87:13",
+    "day_night_ratio": "61:39",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 29,
+    "female_dialogue_share_pct": 39,
+    "male_dialogue_share_pct": 61,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 22,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HAZEL",
+        "CLAIRE",
+        "TAMMY",
+        "CADEN CLAIRE",
+        "CLAIRE CADEN",
+        "ARIEL"
+      ],
+      "female_female_dialogue_examples": [
+        "HAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?\nCLAIRE: Fine, thanks. I was supposed to meet Caden here. You know Mr. Cotard, right?",
+        "HAZEL: And my use of the word\nHAZEL: Yes. You're delicious in your\nHAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?",
+        "HAZEL: Yes. You're delicious in your\nHAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?"
+      ],
+      "non_male_topic_examples": [
+        "HAZEL: And my use of the word\nHAZEL: Yes. You're delicious in your\nHAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?",
+        "HAZEL: Yes. You're delicious in your\nHAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?",
+        "HAZEL: Hi, Claire.\nCLAIRE: Of course. Hazel. I knew that! Duh! The box office.\nHAZEL: Yes, I'm the box office.\nCLAIRE: How are you?\nHAZEL: Wonderful! You?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "lies on a metal table in a cold room, while an old man in white military jacket examines him, pressing on his body in various places. The man is silent except for slow, long",
+        "Finally he flips the glasses and studies the painting. Ellen appears to be a chubby, 40 year old white woman, her mousy brown hair tied back in a kerchief. She is naked and",
+        "naked man on a leash. He defecates on the sidewalk. A wild- eyed man in a white t-shirt and Santa hat attacks Caden. As he knocks Caden to the ground and wrestles with him, Caden",
+        "show. It's a moment in time, a street scene very much like the one Caden's in. In the painting, a man in a white t- shirt and Santa hat beats up a man who looks like Caden. The",
+        "182CONTINUED:182 Old Person #2 (actor) hands Caden a small black button. Caden examines it. Old Person #2 (actor) points to his own"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

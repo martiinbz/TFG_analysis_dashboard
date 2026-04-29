@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Life of David Gale, The",
+    "release_year": 2003,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22335,
+    "scene_count": 191,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "63:37",
+    "day_night_ratio": "64:36",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 11,
+    "female_dialogue_share_pct": 38,
+    "male_dialogue_share_pct": 62,
+    "gender_power_dynamics": "balanced",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 16,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "BITSEY BLOOM",
+        "NICO THE GOTH GIRL",
+        "BERLIN",
+        "KRUGER",
+        "REPORTER A J ROBERTS",
+        "INSERT - PHOTO",
+        "COLLEGE GIRL",
+        "ATTRACTIVE WOMAN"
+      ],
+      "female_female_dialogue_examples": [
+        "BITSEY BLOOM: Is your boyfriend here?\nNICO THE GOTH GIRL: He ain't exactly my boyfriend anymore.\nBITSEY BLOOM: Well is his video camera here?\nBITSEY BLOOM: Get it.\nNICO THE GOTH GIRL: I gotta collect first.",
+        "KRUGER: It means only Bitsey. Bill, I don't get to make the rules, I'm a fat black woman.\nBITSEY BLOOM: Gale's going down.\nKRUGER: Why do you always get lordosis around legal? She's here.\nBITSEY BLOOM: Hi. What's lordosis?",
+        "BITSEY BLOOM: Hi. I'm Bitsey Bloom and this is Zack Stemmons. We --\nNICO THE GOTH GIRL: You want the tour?\nBITSEY BLOOM: Uh, yes.\nNICO THE GOTH GIRL: There's a twenty-dollar mandatory donation, apiece. But you get a re- enactment photo packet. It's got five pi"
+      ],
+      "non_male_topic_examples": [
+        "KRUGER: It means only Bitsey. Bill, I don't get to make the rules, I'm a fat black woman.\nBITSEY BLOOM: Gale's going down.\nKRUGER: Why do you always get lordosis around legal? She's here.\nBITSEY BLOOM: Hi. What's lordosis?",
+        "BITSEY BLOOM: Zoom in a hair.\nBITSEY BLOOM: Put the gloves on a dish rack.\nNICO THE GOTH GIRL: I don't have one.\nBITSEY BLOOM: Turn them inside out.\nBITSEY BLOOM: Move the tape roll about a foot to the left. And get rid of the"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "latino",
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "She walks to the photo wall. With a red magic marker she marks a cross over the photo of a Hispanic male.",
+        "get to make the rules, I'm a fat black woman.",
+        "series of kennel-like pens that run along a long building. Inmates watch them pass: A smoking, tattooed white male (30's) stands by his door. A muscular black man (30's) with a Muslim",
+        "Inmates watch them pass: A smoking, tattooed white male (30's) stands by his door. A muscular black man (30's) with a Muslim skullcap speaks quietly to the forty-something redneck beside",
+        "him. A paunchy Hispanic (20's) with a shaved head sits back against the building, making clicking sounds. A skinny white guy with his shirt off tosses a tennis ball against the"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

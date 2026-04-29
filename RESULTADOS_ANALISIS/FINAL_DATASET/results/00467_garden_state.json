@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "Garden State",
+    "release_year": 2004,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24348,
+    "scene_count": 74,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "70:30",
+    "day_night_ratio": "68:32",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 14,
+    "male_named_character_count": 18,
+    "female_dialogue_share_pct": 28,
+    "male_dialogue_share_pct": 72,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SAM",
+        "CAROL",
+        "OLIVIA",
+        "FAYE",
+        "GIRL HOOKING UP",
+        "LADY 1",
+        "LADY 2",
+        "MRS LUBIN"
+      ],
+      "female_female_dialogue_examples": [
+        "LADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 2: \"Time for the nonsense that you're g",
+        "LADY 1: The new thing is \"Talk to the\nLADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 1: \"I don't have the time for you.\"",
+        "LADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\""
+      ],
+      "non_male_topic_examples": [
+        "LADY 1: The new thing is \"Talk to the\nLADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 1: \"I don't have the time for you.\"",
+        "LADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\"",
+        "LADY 1: The new thing is \"Talk to the\nLADY 2: That's what they're doing.\nLADY 1: But you got a hold it out like\nLADY 1: \"I don't have the time for you.\"\nLADY 2: \"So talk to my hand.\""
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "The RADIO NOISE is drowned out by the A CAPELLA, SOPRANO VOICE of a young Indian boy as he sings a melodic Hindi prayer.",
+        "Large flings open the door and enters a long, dark corridor lined with stacked chairs. He passes a WAITER in a black TUNIC wearing eye make-up to make him look Asian.",
+        "lined with stacked chairs. He passes a WAITER in a black TUNIC wearing eye make-up to make him look Asian.",
+        "He moves through the kitchen which is whirling with over thirty people in white: chopping, frying, sauteing, YELLING. The Vietnamese chef wears a headset and BARKS ORDERS down the",
+        "thirty people in white: chopping, frying, sauteing, YELLING. The Vietnamese chef wears a headset and BARKS ORDERS down the line. Large is met by a FRENCH WOMAN MANAGER. She walks with"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

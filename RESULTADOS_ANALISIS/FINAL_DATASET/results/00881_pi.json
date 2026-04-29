@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "Pi",
+    "release_year": 1998,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Thriller",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 14907,
+    "scene_count": 70,
+    "dialogue_density_pct": 32,
+    "int_ext_ratio": "64:36",
+    "day_night_ratio": "68:32",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 6,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 23,
+    "male_dialogue_share_pct": 77,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MARCY DAWSON",
+        "DEVI",
+        "RAV COHEN",
+        "JENNA",
+        "MRS OVADIA",
+        "JENNY ROBESON"
+      ],
+      "female_female_dialogue_examples": [
+        "MRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?",
+        "MAX: The number, the number.\nMRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?",
+        "MRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?\nMAX: 0ut, out, you have to get out. Get out, get out it's my"
+      ],
+      "non_male_topic_examples": [
+        "MRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?",
+        "MAX: The number, the number.\nMRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?",
+        "MRS OVADIA: You're out, you hear me, you're out. I've had enough of you. Look at all this junk.\nMAX: But what is it?\nDEVI: Are you okay?\nMRS OVADIA: What is this stuff? What does it do?\nMAX: 0ut, out, you have to get out. Get out, get out it's my"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "MAX's interactions with Devi, a sexy young Indian woman, suggest racialized interactions.",
+        "Max locks his front door. Meanwhile, his next-door neighbor, DEVI MINSTRY, a sexy young Indian woman, is just getting home. Max looks away and tries to get his door locked."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "MAX's interactions with Devi, a sexy young Indian woman, suggest racialized interactions."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

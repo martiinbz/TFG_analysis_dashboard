@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "She's Out of My League",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "middle_eastern",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22994,
+    "scene_count": 84,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "81:19",
+    "day_night_ratio": "48:52",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 29,
+    "male_dialogue_share_pct": 71,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "happy",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MOLLY MCCLEISH",
+        "PATTY",
+        "MARNIE",
+        "KATIE MCCLEISH",
+        "TINA JORDAN",
+        "DEBBIE KETTNER",
+        "FLIGHT ATTENDANT"
+      ],
+      "female_female_dialogue_examples": [
+        "MOLLY MCCLEISH: Guys, this is my best friend in the whole world, Patty. This is Kirk and, um, Stainer, right?\nPATTY: Hey boys. Nice to meet you.\nMOLLY MCCLEISH: Patty's my assistant and my go-to gal. Whatever you need, she can make it happen on a moments notic",
+        "PATTY: Hey boys. Nice to meet you.\nMOLLY MCCLEISH: Patty's my assistant and my go-to gal. Whatever you need, she can make it happen on a moments notice.\nPATTY: You need a cock-shaped cake with a cotton-candy bush delivered by four o'clock? I'm your connection.",
+        "STAINER: Thanks for the sweet seats!\nMOLLY MCCLEISH: Guys, this is my best friend in the whole world, Patty. This is Kirk and, um, Stainer, right?\nPATTY: Hey boys. Nice to meet you.\nMOLLY MCCLEISH: Patty's my assistant and my go-to gal. Whatever you need, she "
+      ],
+      "non_male_topic_examples": [
+        "PATTY: Hey boys. Nice to meet you.\nMOLLY MCCLEISH: Patty's my assistant and my go-to gal. Whatever you need, she can make it happen on a moments notice.\nPATTY: You need a cock-shaped cake with a cotton-candy bush delivered by four o'clock? I'm your connection."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "The agent leans back and issues a bothered sigh. He looks to his right to check the progress of the BLACK AGENT, who is waiting on an old Asian woman.",
+        "his right to check the progress of the BLACK AGENT, who is waiting on an old Asian woman.",
+        "The Asian woman obviously did not understand a word of the question but she smiles and nods along.",
+        "ASIAN WOMAN Yes."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "sucks. A Middle-Eastern man in a cowboy hat is next in line. Mr. Fuller appears behind Kirk, taps his shoulder and subtly motions to the Arab. Kirk smiles at the potential terroris"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

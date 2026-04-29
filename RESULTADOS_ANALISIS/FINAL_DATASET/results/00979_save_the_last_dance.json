@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Save the Last Dance",
+    "release_year": 2001,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "black",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 25569,
+    "scene_count": 140,
+    "dialogue_density_pct": 32,
+    "int_ext_ratio": "73:27",
+    "day_night_ratio": "45:55",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 17,
+    "male_dialogue_share_pct": 83,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CHENILLE REYNOLDS",
+        "MRS GWYNN",
+        "GLYNN",
+        "DIGGY",
+        "LINDSAY JOHNSON"
+      ],
+      "female_female_dialogue_examples": [
+        "CHENILLE REYNOLDS: Girl, how you get your legs to twist like that?\nDIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.\nDIGGY: Egg-cuse me? I am down.\nCHENILLE REYNOLDS: So, Sara. What's up with ",
+        "CHENILLE REYNOLDS: Girl, how you get your legs to twist like that?\nDIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.\nDIGGY: Egg-cuse me? I am down.",
+        "DIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.\nDIGGY: Egg-cuse me? I am down.\nCHENILLE REYNOLDS: So, Sara. What's up with that?"
+      ],
+      "non_male_topic_examples": [
+        "CHENILLE REYNOLDS: Girl, how you get your legs to twist like that?\nDIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.\nDIGGY: Egg-cuse me? I am down.",
+        "CHENILLE REYNOLDS: Girl, how you get your legs to twist like that?\nDIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.",
+        "DIGGY: Yeah. What was all that double- jointed cheerleader shit?\nCHENILLE REYNOLDS: This is Diggy. Thinks she's down.\nDIGGY: Egg-cuse me? I am down."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "A zaftig BLACK WOMAN clumsily negotiates the aisle. Stops at the first of a few empty seats left in the car.",
+        "Sara's back is to a black girl striding purposefully toward her. CHENILLE -- tall, pretty, with about a",
+        "plump ass. Squirming in too-tight gym shorts that hug the cheeks. ANGLE WIDENS to reveal a stout white girl on a balance beam. Trying to get her legs to stand up on",
+        "into her pocketbook, hands Sara her I.D. PUSH IN ON photo of obese white girl with an untamed trailer trash perm. Sara's eyes go wide."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "SARA is described as Black, and the setting is predominantly Black."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

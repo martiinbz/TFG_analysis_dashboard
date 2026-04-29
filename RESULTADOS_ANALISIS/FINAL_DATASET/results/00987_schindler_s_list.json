@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Schindler's List",
+    "release_year": 1993,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 29459,
+    "scene_count": 262,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "50:50",
+    "day_night_ratio": "75:25",
+    "story_time_span": "years",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 26,
+    "female_dialogue_share_pct": 3,
+    "male_dialogue_share_pct": 97,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "WW2",
+    "war_portrayal": "critical",
+    "historical_event_reference": "WW2",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "EMILIE SCHINDLER",
+        "VIKTORIA KLONOWSKA"
+      ],
+      "female_female_dialogue_examples": [
+        "EMILIE SCHINDLER: I don't have to like her just because you do. It doesn't work that way.\nSCHINDLER: You would, though. That's what I'm\nVIKTORIA KLONOWSKA: Goodbye. It was a pleasure meeting\nEMILIE SCHINDLER: You've done well here.",
+        "SCHINDLER: She's so embarrassed -- look at her --\nSCHINDLER: You know what, you'd like her.\nEMILIE SCHINDLER: Oskar, please --\nEMILIE SCHINDLER: I don't have to like her just because you do. It doesn't work that way.\nSCHINDLER: You would, though. That's what I",
+        "VIKTORIA KLONOWSKA: Goodbye. It was a pleasure meeting\nEMILIE SCHINDLER: You've done well here."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "WW2"
+      ],
+      "event_evidence": [
+        "The scene takes place during World War II, as evidenced by the presence of SS guards and the mention of the Gestapo."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "the boarding of hundreds of people onto another train -- the image turning BLACK AND WHITE."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "SCHINDLER'S LIST \"SCHINDLER'S LIST\" BY Steven Zaillian Final Draft IN BLACK AND WHITE: TRAIN WHEELS grindin"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

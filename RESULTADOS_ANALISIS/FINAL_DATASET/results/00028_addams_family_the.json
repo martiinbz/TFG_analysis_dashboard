@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Addams Family, The",
+    "release_year": 1991,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "child",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "stable",
+    "protagonist_fate": "survives",
+    "relationship_structure": "family unit"
+  },
+  "technical": {
+    "word_count": 8513,
+    "scene_count": 49,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "71:29",
+    "day_night_ratio": "50:50",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 8,
+    "female_dialogue_share_pct": 59,
+    "male_dialogue_share_pct": 41,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "happy",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MORTICIA ADDAMS",
+        "ABIGAIL CRAVEN",
+        "WEDNESDAY ADDAMS",
+        "GRANNY",
+        "GIRL SCOUT"
+      ],
+      "female_female_dialogue_examples": [
+        "WEDNESDAY ADDAMS: If that man isn't Uncle Fester, then who is he, mother?\nMORTICIA ADDAMS: I don't know, darling. I wish I did.\nWEDNESDAY ADDAMS: Why is that lady doing all this?\nMORTICIA ADDAMS: It's hard to say. Sometimes people have had terrible childhoods.",
+        "GRANNY: Here, boy. Here, boy.\nWEDNESDAY ADDAMS: If that man isn't Uncle Fester, then who is he, mother?\nMORTICIA ADDAMS: I don't know, darling. I wish I did.\nWEDNESDAY ADDAMS: Why is that lady doing all this?\nMORTICIA ADDAMS: It's hard to say. Sometimes people",
+        "WEDNESDAY ADDAMS: If that man isn't Uncle Fester, then who is he, mother?\nMORTICIA ADDAMS: I don't know, darling. I wish I did.\nWEDNESDAY ADDAMS: Why is that lady doing all this?"
+      ],
+      "non_male_topic_examples": [
+        "MORTICIA ADDAMS: I don't know, darling. I wish I did.\nWEDNESDAY ADDAMS: Why is that lady doing all this?\nMORTICIA ADDAMS: It's hard to say. Sometimes people have had terrible childhoods. And sometimes they just haven't found their special place in life. And so"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

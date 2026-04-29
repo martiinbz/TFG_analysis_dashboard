@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Red Riding Hood",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 27640,
+    "scene_count": 202,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "38:62",
+    "day_night_ratio": "41:59",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 55,
+    "male_dialogue_share_pct": 45,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ISABELLE",
+        "ROXANNE",
+        "SUZETTE",
+        "PRUDENCE",
+        "ROSEMARIA",
+        "MARGUERITE",
+        "LUCIE",
+        "RED RIDING HOOD"
+      ],
+      "female_female_dialogue_examples": [
+        "ISABELLE: It's past noon.\nSUZETTE: I know. I didn't want to wake\nISABELLE: Where's Father?\nSUZETTE: He'll be home soon. They have no reason to hold him any longer.\nISABELLE: Did they catch the Wolf?\nSUZETTE: No. They lost it in the forest. This gives Isabelle ",
+        "SUZETTE: I think you know the answer to that question.\nISABELLE: No. You say it. Suzette's eyes well up. Then:\nSUZETTE: Lucie was Henri's half-sister. She was not your father's\nISABELLE: Am I? Do you even know?\nSUZETTE: Yes. I was already pregnant when your fa",
+        "SUZETTE: Lucie was Henri's half-sister. She was not your father's\nISABELLE: Am I? Do you even know?\nSUZETTE: Yes. I was already pregnant when your father and I married.\nISABELLE: Does he know?\nSUZETTE: No. And he must never know. Tears spill down Isabelle's ch"
+      ],
+      "non_male_topic_examples": [
+        "ISABELLE: I know. Will you tell her that I forgive her?\nPRUDENCE: Of course.\nISABELLE: You don't have to say anything.\nPRUDENCE: I want to.\nISABELLE: I think you'd better go now. Prudence looks up. The sun has almost set.",
+        "PRUDENCE: Of course.\nISABELLE: You don't have to say anything.\nPRUDENCE: I want to.\nISABELLE: I think you'd better go now. Prudence looks up. The sun has almost set.\nPRUDENCE: Yes. It won't be long now."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "The figure emerges from the coach. A grizzled man with penetrating eyes and a black beard, wearing a strange amalgam of priestly white robes and decidedly un-priestly"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

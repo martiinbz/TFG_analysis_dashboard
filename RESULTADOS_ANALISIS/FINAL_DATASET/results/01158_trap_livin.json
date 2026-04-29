@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Trap Livin'",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20273,
+    "scene_count": 135,
+    "dialogue_density_pct": 35,
+    "int_ext_ratio": "59:41",
+    "day_night_ratio": "62:38",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 17,
+    "female_dialogue_share_pct": 59,
+    "male_dialogue_share_pct": 41,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 19,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "TONYA",
+        "HARMONY",
+        "BEATRICE - LADY BEA"
+      ],
+      "female_female_dialogue_examples": [
+        "TONYA: Who is it.\nHARMONY: It's me.\nHARMONY: Did you forget that I was coming.\nTONYA: No, just not really up for any\nHARMONY: What's wrong. You look Terrible.\nTONYA: Thanks. Maybe that's why my husband didn't come home last night.",
+        "HARMONY: It's me.\nHARMONY: Did you forget that I was coming.\nTONYA: No, just not really up for any\nHARMONY: What's wrong. You look Terrible.\nTONYA: Thanks. Maybe that's why my husband didn't come home last night.\nHARMONY: What? Oh honey, I'm sorry. You need me",
+        "HARMONY: Let's go Tonya\nTONYA: Oh My God They were totally hot.\nHARMONY: They were OK.\nTONYA: Girl you are crazy and his friend was surely checking you.\nHARMONY: Whatever, I don't have time for that. And you don't either. We need to be concentrating on getting"
+      ],
+      "non_male_topic_examples": [
+        "HARMONY: How does it look.\nTONYA: Fabulous. Girl you gone knock them boys off their socks.\nHARMONY: I guess\nTONYA: Yes, and you are going to have a good time and then it is off to\nTONYA: You are right this is suppose to be us. We are suppose to be getting read"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white"
+      ],
+      "evidence_snippets": [
+        "BEATRICE - LADY BEA You tell the white man that you found it."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "title": "Deep Cover",
+    "release_year": 2025,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "threat/disruption",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "black",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20774,
+    "scene_count": 142,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "52:48",
+    "day_night_ratio": "38:62",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 1,
+    "male_named_character_count": 23,
+    "female_dialogue_share_pct": 1,
+    "male_dialogue_share_pct": 99,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": true,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "BLONDE WOMAN"
+      ],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Joe Stevens is described as a 'Black man' in his late 20s, and later as 'John Hull' who is Black.",
+        "The interactions with Joe Jr. and the mention of his separation from his wife suggest a Black protagonist.",
+        "Rain. Christmas lights. A rusted out '56 Lincoln rattles down the bleak boulevard. In it: JOE STEVENS, an angry, black man in his late 20's, beside him his 10-year-old son, JOE",
+        "The boy gazes dreamily at the street. The lunatic Black Santa marches by, ranting to himself (\"Then the white man say...\").",
+        "The boy gazes dreamily at the street. The lunatic Black Santa marches by, ranting to himself (\"Then the white man say...\"). The RAIN HAMMERS on the roof and windshield. Joe Jr. breathes"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "Joe Stevens is described as a 'Black man' in his late 20s, and later as 'John Hull' who is Black."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

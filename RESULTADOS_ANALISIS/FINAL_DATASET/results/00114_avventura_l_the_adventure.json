@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "Avventura, L' (The Adventure)",
+    "release_year": 1932,
+    "decade": "1930s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 29714,
+    "scene_count": 4,
+    "dialogue_density_pct": 20,
+    "int_ext_ratio": "100:0",
+    "day_night_ratio": "unknown",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 2,
+    "female_dialogue_share_pct": 56,
+    "male_dialogue_share_pct": 44,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 7,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PATRIZIA",
+        "ANNA",
+        "ANNA S FATHER"
+      ],
+      "female_female_dialogue_examples": [
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?",
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?\nCLAUDIA: This one is gorgeous.\nANNA: Then why don't you try it on?\nANNA: You know, that thing about the shark was all a",
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?\nCLAUDIA: This one is gorgeous.\nANNA: Then why don't you try it on?"
+      ],
+      "non_male_topic_examples": [
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?",
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?\nCLAUDIA: This one is gorgeous.\nANNA: Then why don't you try it on?\nANNA: You know, that thing about the shark was all a",
+        "ANNA: Only, I'd like to change. I'm a little cold.\nPATRIZIA: But where did the shark go to?\nANNA: Which one shall I wear?\nCLAUDIA: This one is gorgeous.\nANNA: Then why don't you try it on?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "MAN'S VOICE Because this is a Chinese radio.",
+        "self. Sandro moves through the crowd, here and there. Standing next to the orchestra is a girl in black pants, singing strange songs in a soft, suggestive voice."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

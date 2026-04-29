@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Beasts of the Southern Wild",
+    "release_year": 2012,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "child",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 15826,
+    "scene_count": 123,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "40:60",
+    "day_night_ratio": "73:27",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 6,
+    "male_named_character_count": 5,
+    "female_dialogue_share_pct": 50,
+    "male_dialogue_share_pct": 50,
+    "gender_power_dynamics": "balanced",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "central",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "survival"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HUSHPUPPY",
+        "MISS BATHSHEEBA",
+        "LITTLE JO",
+        "MARIETTA"
+      ],
+      "female_female_dialogue_examples": [
+        "MARIETTA: Hi my sweet baby.\nHUSHPUPPY: Hi momma.\nMARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.",
+        "HUSHPUPPY: Hi momma.\nMARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.\nHUSHPUPPY: That's pretty Mamma.",
+        "MARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.\nHUSHPUPPY: That's pretty Mamma.\nMARIETTA: You're pretty Hushpuppy."
+      ],
+      "non_male_topic_examples": [
+        "MARIETTA: Hi my sweet baby.\nHUSHPUPPY: Hi momma.\nMARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.",
+        "HUSHPUPPY: Hi momma.\nMARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.\nHUSHPUPPY: That's pretty Mamma.",
+        "MARIETTA: Hushpuppy what you doing there? You being good like I taught you?\nHUSHPUPPY: Yes, mamma.\nMARIETTA: You're good, you make me happy / you're good, you make me happy.\nHUSHPUPPY: That's pretty Mamma.\nMARIETTA: You're pretty Hushpuppy."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Hushpuppy is a young Black girl.",
+        "Hushpuppy looks up at Wink who is dancing with his best friend WALRUS (60), a slack jawed, white haired, pinked nosed, handsome devil."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

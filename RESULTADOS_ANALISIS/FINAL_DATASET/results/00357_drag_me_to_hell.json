@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Drag Me to Hell",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "latino",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 17597,
+    "scene_count": 80,
+    "dialogue_density_pct": 39,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "53:47",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 20,
+    "male_named_character_count": 7,
+    "female_dialogue_share_pct": 82,
+    "male_dialogue_share_pct": 18,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "STEPHANIE",
+        "RAY",
+        "TRUDY DALTON",
+        "MRS GANUSH",
+        "SHAUN SAN DENA",
+        "ILENKA GANUSH",
+        "STEPHANIE S HAND",
+        "SALESWOMAN"
+      ],
+      "female_female_dialogue_examples": [
+        "STEPHANIE: I'm sorry.\nSTEPHANIE: I tried to talk my boss into it but he just wouldn't approve.\nMRS GANUSH: But where will I live?\nSTEPHANIE: Mrs. Ganush, you've given your\nMRS GANUSH: I would not burden her.\nSTEPHANIE: Okay well, there's several fine \"assisted",
+        "STEPHANIE: I tried to talk my boss into it but he just wouldn't approve.\nMRS GANUSH: But where will I live?\nSTEPHANIE: Mrs. Ganush, you've given your\nMRS GANUSH: I would not burden her.\nSTEPHANIE: Okay well, there's several fine \"assisted living\" facilities fo",
+        "MRS GANUSH: But where will I live?\nSTEPHANIE: Mrs. Ganush, you've given your\nMRS GANUSH: I would not burden her.\nSTEPHANIE: Okay well, there's several fine \"assisted living\" facilities for the elderly.\nMRS GANUSH: A nursing home? No. I will never live in one o"
+      ],
+      "non_male_topic_examples": [
+        "MRS GANUSH: But where will I live?\nSTEPHANIE: Mrs. Ganush, you've given your\nMRS GANUSH: I would not burden her.\nSTEPHANIE: Okay well, there's several fine \"assisted living\" facilities for the elderly.\nMRS GANUSH: A nursing home? No. I will never live in one o",
+        "MRS GANUSH: A nursing home? No. I will never live in one of those places1\nSTEPHANIE: Well, of course, that's your\nMRS GANUSH: It's yours.\nSTEPHANIE: I'm sorry there's nothing I can do. Mrs. Ganush begins to sob.\nMRS GANUSH: I am proud woman, Miss Brown, and ne",
+        "RAY: How you doing?\nSTEPHANIE: Better now. At the time it just seemed so real. I'm so embarrassed.\nRAY: Don't be, you had a terrible day and you.got a little wigged out. It\nSTEPHANIE: po, what now, Doc?\nRAY: I was gonna surprise you, but what the hell. I've be"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "latino",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Rham Jas is described as a small, dark skinned, fifty year old Indian man.",
+        "Rham Jas is described as a small, dark skinned, fifty year old Indian man",
+        "MEXICAN MAN We keep getting the same thing.",
+        "MEXICAN WOMAN And the house will be gone by then.",
+        "3. a MEXICAN MAN Yes. So? 0"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "ning. STEPHANIE Shoo! INT. BANK OF CALIFORNIA -- DAY Stephanie site at her desk, across from a young MEXICAN COUPLE. She studies their mortgage. applic",
+        "to take at least four more weeks. MEXICAN WOMAN And the house will be gone by then. STEPHANIE It says, here your employed by Pemex? MEXICAN That's right. STEPHANIE Isn't Pemex"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

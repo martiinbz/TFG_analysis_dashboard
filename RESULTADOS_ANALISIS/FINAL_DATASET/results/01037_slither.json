@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "Slither",
+    "release_year": 2006,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22730,
+    "scene_count": 197,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "53:47",
+    "day_night_ratio": "22:78",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 58,
+    "male_dialogue_share_pct": 42,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "STARLA GRANT",
+        "KYLIE STRUTEMYER",
+        "BRENDA",
+        "MARGARET",
+        "SHELBY",
+        "JANENE"
+      ],
+      "female_female_dialogue_examples": [
+        "KYLIE STRUTEMYER: He goes from place to place,\nKYLIE STRUTEMYER: Now he's here. He went in Mr.\nSTARLA GRANT: Through a wound on his stomach?\nKYLIE STRUTEMYER: He took him over. His body. His -- his brain, everything what he knew. He's only been dumb stuff befo",
+        "STARLA GRANT: Bill, I'll run out to your car, call for paramedics from there.\nMARGARET: That's a long ways. Them worms are out there.\nSTARLA GRANT: I'll keep my mouth covered.",
+        "KYLIE STRUTEMYER: Now he's here. He went in Mr.\nSTARLA GRANT: Through a wound on his stomach?\nKYLIE STRUTEMYER: He took him over. His body. His -- his brain, everything what he knew. He's only been dumb stuff before - amoeba-things, and rhino-things. He liked "
+      ],
+      "non_male_topic_examples": [
+        "JANENE: What are you so smiley about, girl?\nSTARLA GRANT: Oh, nothin'.\n16: Starla grabs her soda and sits down with Janene. Janene just stares.\nSTARLA GRANT: Just, Grant and I had a nice morning. It's been a while.\nJANENE: Oh! You got that fresh-fucked glow, d",
+        "STARLA GRANT: Just, Grant and I had a nice morning. It's been a while.\nJANENE: Oh! You got that fresh-fucked glow, don't you?\nJANENE: You slut.\nJANENE: No shame. You're a married woman."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "latino",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "coins into a soda machine and chooses Tab. JANENE, a heavyset black teacher, notices this.",
+        "The front door of the precinct opens, and a confused Mexican MAN walks inside. He is trying to keep from crying. Three half-naked children follow him, clutching",
+        "Kiri Goshima done 'em. She's Japanese."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

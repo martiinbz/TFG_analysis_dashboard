@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "title": "My Best Friend's Wedding",
+    "release_year": 1997,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "romantic pair"
+  },
+  "technical": {
+    "word_count": 26813,
+    "scene_count": 66,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "70:30",
+    "day_night_ratio": "67:33",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 4,
+    "female_dialogue_share_pct": 66,
+    "male_dialogue_share_pct": 34,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "happy",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JULIANNE POTTER",
+        "KIMMY",
+        "ISABELLE WALLACE",
+        "FLOWER GIRL"
+      ],
+      "female_female_dialogue_examples": [
+        "JULIANNE POTTER: You need a few dollars.\nKIMMY: Dry. Just like he said.\nJULIANNE POTTER: Excuse me?\nKIMMY: I can be quick. I can even be funny.\nKIMMY: But I can't be dry.\nJULIANNE POTTER: Can you watch the road?\nKIMMY: See. Dry. It's in the delivery.",
+        "KIMMY: About Michael's job.\nJULIANNE POTTER: Oh, that. I forgot I even said\nKIMMY: I just think you're wrong, is all.\nJULIANNE POTTER: Probably am. Forget I brought it\nKIMMY: I mean, he loves his job.\nJULIANNE POTTER: Bad games, bad towns, bad pay, bad flights",
+        "KIMMY: Dry. Just like he said.\nJULIANNE POTTER: Excuse me?\nKIMMY: I can be quick. I can even be funny.\nKIMMY: But I can't be dry.\nJULIANNE POTTER: Can you watch the road?\nKIMMY: See. Dry. It's in the delivery.\nKIMMY: This is a very presumptuous"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "A slender black woman sings a SOARING Gospel number, backed by three ladies who could each solo in any church choir. It is"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

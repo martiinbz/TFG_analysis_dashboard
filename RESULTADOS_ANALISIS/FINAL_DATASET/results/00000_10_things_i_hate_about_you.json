@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "10 Things I Hate About You",
+    "release_year": 1999,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "romantic pair"
+  },
+  "technical": {
+    "word_count": 18435,
+    "scene_count": 120,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "79:21",
+    "day_night_ratio": "62:38",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 64,
+    "male_dialogue_share_pct": 36,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "BIANCA STRATFORD",
+        "MANDELLA",
+        "CHASTITY"
+      ],
+      "female_female_dialogue_examples": [
+        "BIANCA STRATFORD: He practically proposed when he found\nCHASTITY: Is he oily or dry?\nBIANCA STRATFORD: Combination. I don't know -- I thought\nCHASTITY: Bianca, I don't think the highlights of\nBIANCA STRATFORD: Sometimes I wonder if the guys we're",
+        "CHASTITY: Is he oily or dry?\nBIANCA STRATFORD: Combination. I don't know -- I thought\nCHASTITY: Bianca, I don't think the highlights of\nBIANCA STRATFORD: Sometimes I wonder if the guys we're\nCHASTITY: All I know is -- I'd give up my private",
+        "BIANCA STRATFORD: What are you doing here?\nCHASTITY: You think you ' re the only sophomore\nBIANCA STRATFORD: I did.\nCHASTITY: And just so you know, my date isn't\nCHASTITY: Joey Dorsey is only after one thing - -\nCHASTITY: I wanted to tell you"
+      ],
+      "non_male_topic_examples": [
+        "BIANCA STRATFORD: What are you doing here?\nCHASTITY: You think you ' re the only sophomore\nBIANCA STRATFORD: I did.\nCHASTITY: And just so you know, my date isn't"
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "BIANCA"
+      ],
+      "identity_or_relationship_evidence": [
+        "Bianca finds a picture of Jared Leto in her sister's drawer, suggesting she's not a lesbian."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white",
+        "latino"
+      ],
+      "evidence_snippets": [
+        "Big Marley fans. Think they're black.",
+        "doctor's white jacket and carrying his black bag.",
+        "Some people like the Colombian, but it",
+        "Your \"people\" are white, suburban high"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

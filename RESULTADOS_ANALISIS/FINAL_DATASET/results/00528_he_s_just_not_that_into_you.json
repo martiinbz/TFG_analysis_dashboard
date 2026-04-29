@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "He's Just Not That Into You",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Romance",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "emotional hook",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "romantic pair"
+  },
+  "technical": {
+    "word_count": 23764,
+    "scene_count": 121,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "83:17",
+    "day_night_ratio": "50:50",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 14,
+    "male_named_character_count": 17,
+    "female_dialogue_share_pct": 64,
+    "male_dialogue_share_pct": 36,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "GIGI PHILLIPS",
+        "JANINE GUNDERS",
+        "ANNA MARKS",
+        "BETH MURPHY",
+        "MARY HARRIS",
+        "KELLI ANN",
+        "CATHERINE",
+        "PAIGE MURPHY"
+      ],
+      "female_female_dialogue_examples": [
+        "KELLI ANN: Are you joining us for dinner or -\nGIGI PHILLIPS: I'm meeting someone. A guy.\nKELLI ANN: Ugh. Why?\nKELLI ANN: Nothing. Sorry. For dinner?\nGIGI PHILLIPS: I'm meeting someone.\nKELLI ANN: I believe you mentioned that.",
+        "GIGI PHILLIPS: I'm meeting someone. A guy.\nKELLI ANN: Ugh. Why?\nKELLI ANN: Nothing. Sorry. For dinner?\nGIGI PHILLIPS: I'm meeting someone.\nKELLI ANN: I believe you mentioned that.\nGIGI PHILLIPS: I'm gonna wait at the bar.",
+        "KELLI ANN: Ugh. Why?\nKELLI ANN: Nothing. Sorry. For dinner?\nGIGI PHILLIPS: I'm meeting someone.\nKELLI ANN: I believe you mentioned that.\nGIGI PHILLIPS: I'm gonna wait at the bar.\nKELLI ANN: That's a great idea."
+      ],
+      "non_male_topic_examples": [
+        "KELLI ANN: Ugh. Why?\nKELLI ANN: Nothing. Sorry. For dinner?\nGIGI PHILLIPS: I'm meeting someone.\nKELLI ANN: I believe you mentioned that.\nGIGI PHILLIPS: I'm gonna wait at the bar.\nKELLI ANN: That's a great idea.",
+        "KELLI ANN: Nothing. Sorry. For dinner?\nGIGI PHILLIPS: I'm meeting someone.\nKELLI ANN: I believe you mentioned that.\nGIGI PHILLIPS: I'm gonna wait at the bar.\nKELLI ANN: That's a great idea.",
+        "PAIGE MURPHY: No, she didn't.\nBETH MURPHY: Why again do you need to get married so\nCATHERINE: You're so pregnant.\nPAIGE MURPHY: I'm not pregnant.\nCATHERINE: Chug a beer, then. I want to see you chug a beer.\nPAIGE MURPHY: We're in love, you assholes. That's wha"
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "MARY",
+        "EXT. GAY PRIDE PARADE - NIGHT"
+      ],
+      "identity_or_relationship_evidence": [
+        "MARY IS THE ONLY WOMAN WORKING AT THE GAY WEEKLY PAPER.",
+        "EXT. GAY PRIDE PARADE - NIGHT"
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

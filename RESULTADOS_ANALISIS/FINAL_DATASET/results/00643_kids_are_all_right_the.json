@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "title": "Kids Are All Right, The",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "emotional hook",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 15912,
+    "scene_count": 111,
+    "dialogue_density_pct": 39,
+    "int_ext_ratio": "68:32",
+    "day_night_ratio": "67:33",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 8,
+    "female_dialogue_share_pct": 59,
+    "male_dialogue_share_pct": 41,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "same-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "main",
+    "coming_out_narrative": false,
+    "same_sex_relationships": true,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "NIC",
+        "JULES",
+        "SASHA",
+        "BROOKE"
+      ],
+      "female_female_dialogue_examples": [
+        "NIC: I hope you had a designated driver.\nSASHA: Why? I'm not drunk.\nNIC: Well, you seem drunk to me.\nSASHA: Yeah, well, you should know.\nNIC: What did you just say to me?!\nSASHA: I'm going to bed.\nNIC: No, you're not! I'm not done talking to you!",
+        "JULES: I've just felt so cut off from you\nNIC: Oh, right, so it's my fault!\nJULES: No! Who said anything about fault? Just listen to me!\nNIC: I'm listening! What?!\nNIC: What? To be fucked?\nJULES: No, appreciated!\nNIC: It's always what I'm not doing for you, is",
+        "NIC: I don't like the guys in this one. They're too shaved.\nJULES: Don't focus on it.\nNIC: How about the one with the biker\nJULES: We left it in Hawaii.\nNIC: I'm cold, honey.\nJULES: Sorry. I couldn't breathe. Jules wrangles the blankets, trying to cover her pa"
+      ],
+      "non_male_topic_examples": [
+        "NIC: I hope you had a designated driver.\nSASHA: Why? I'm not drunk.\nNIC: Well, you seem drunk to me.\nSASHA: Yeah, well, you should know.\nNIC: What did you just say to me?!\nSASHA: I'm going to bed.\nNIC: No, you're not! I'm not done talking to you!",
+        "SASHA: No. Nic enters from the stairs, having caught the last piece.\nNIC: I hope you had a designated driver.\nSASHA: Why? I'm not drunk.\nNIC: Well, you seem drunk to me.\nSASHA: Yeah, well, you should know.\nNIC: What did you just say to me?!",
+        "NIC: I hope you had a designated driver.\nSASHA: Why? I'm not drunk.\nNIC: Well, you seem drunk to me.\nSASHA: Yeah, well, you should know.\nNIC: What did you just say to me?!\nSASHA: I'm going to bed."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

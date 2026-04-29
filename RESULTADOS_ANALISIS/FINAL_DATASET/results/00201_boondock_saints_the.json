@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Boondock Saints, The",
+    "release_year": 1999,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "non-linear",
+    "plot_complexity": 4,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 26254,
+    "scene_count": 142,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "79:21",
+    "day_night_ratio": "50:50",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 27,
+    "female_dialogue_share_pct": 1,
+    "male_dialogue_share_pct": 99,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 9,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DANCER",
+        "RAYVIE",
+        "FORENSIC WOMAN 1",
+        "REPORTER 2"
+      ],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "oh! oh! Well... shit. Okay, there's a white guy. He's walkin' along the beach and he finds a, a pot, y'know",
+        "pops out. But this genie, he's a ni... he's a black guy."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Bad Teacher",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20814,
+    "scene_count": 139,
+    "dialogue_density_pct": 41,
+    "int_ext_ratio": "76:24",
+    "day_night_ratio": "70:30",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 16,
+    "female_dialogue_share_pct": 69,
+    "male_dialogue_share_pct": 31,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": true,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 7,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ELIZABETH HALSEY",
+        "AMY",
+        "LYNN DAVIES",
+        "MELODY",
+        "DANNI",
+        "CHASE S MOM",
+        "SASHA S MOTHER",
+        "SHEILA"
+      ],
+      "female_female_dialogue_examples": [
+        "ELIZABETH HALSEY: It was another man.\nAMY: Shut the front door! Somebody needs a hug.\nELIZABETH HALSEY: Somebody doesn't.\nAMY: Hm. Another time then. Elizabeth takes an apple from a desk.\nELIZABETH HALSEY: These washed?\nAMY: Of course. I'd never serve a studen",
+        "ELIZABETH HALSEY: It was another man.\nAMY: Shut the front door! Somebody needs a hug.\nELIZABETH HALSEY: Somebody doesn't.\nAMY: Hm. Another time then. Elizabeth takes an apple from a desk.\nELIZABETH HALSEY: These washed?",
+        "AMY: Shut the front door! Somebody needs a hug.\nELIZABETH HALSEY: Somebody doesn't.\nAMY: Hm. Another time then. Elizabeth takes an apple from a desk.\nELIZABETH HALSEY: These washed?\nAMY: Of course. I'd never serve a student unwashed fruit. CRUNCH. Elizabeth ta"
+      ],
+      "non_male_topic_examples": [
+        "AMY: Shut the front door! Somebody needs a hug.\nELIZABETH HALSEY: Somebody doesn't.\nAMY: Hm. Another time then. Elizabeth takes an apple from a desk.\nELIZABETH HALSEY: These washed?\nAMY: Of course. I'd never serve a student unwashed fruit. CRUNCH. Elizabeth ta",
+        "LYNN DAVIES: Are you excited for tomorrow?\nELIZABETH HALSEY: Is tomorrow Saturday?\nLYNN DAVIES: No, it's the first day of school.\nELIZABETH HALSEY: Wait, I thought I had a week to get my class together.\nLYNN DAVIES: Yeah, that was last week.",
+        "ELIZABETH HALSEY: Is tomorrow Saturday?\nLYNN DAVIES: No, it's the first day of school.\nELIZABETH HALSEY: Wait, I thought I had a week to get my class together.\nLYNN DAVIES: Yeah, that was last week.\nELIZABETH HALSEY: Fuck my ass."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

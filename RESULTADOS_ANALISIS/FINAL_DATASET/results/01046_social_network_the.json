@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Social Network, The",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 29894,
+    "scene_count": 188,
+    "dialogue_density_pct": 41,
+    "int_ext_ratio": "86:14",
+    "day_night_ratio": "45:55",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 27,
+    "female_dialogue_share_pct": 5,
+    "male_dialogue_share_pct": 95,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "upper-middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "GRETCHEN",
+        "KC S FRIEND",
+        "ANNE",
+        "ALICE CANTWEL",
+        "COURT REPORTER",
+        "ERICA S ROOMMATE"
+      ],
+      "female_female_dialogue_examples": [
+        "GRETCHEN: Eduardo? EDUARDO looks up.\nEDUARDO SAVERIN: I'm sorry. Could you please repeat the\nCOURT REPORTER: Counsel: \"And when you signed these documents, were you aware that you were signing your own death certificate?\"\nGRETCHEN: Okay. Eduardo? Did Mr. Zucke",
+        "COURT REPORTER: Counsel: \"And when you signed these documents, were you aware that you were signing your own death certificate?\"\nGRETCHEN: Okay. Eduardo? Did Mr. Zuckerberg saying anything to you after you signed the"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "couple of very pretty girls before taking a seat next to DIVYA NARENDRA, a nice looking Indian student whose face is in a copy of the Crimson.",
+        "well-appointed office. A fire crackles in the sitting area and a 40-ish African-American woman, ANNE, in a pants suit is nearby going over some papers.",
+        "shot of Jack Daniels which will instantly get re-filled by a PRETTY ASIAN GIRL. Throughout all this the CHEERING CONTINUES.",
+        "All five candidates drain their shot glasses and slam them down where they get re-filled by the pretty Asian girl.",
+        "welcome to Facebook. The place ERUPTS. The pretty ASIAN GIRL hits an mp3 player that's been hooked up to speakers and a Dr. Dre song blares"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

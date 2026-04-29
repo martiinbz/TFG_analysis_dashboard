@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Eastern Promises",
+    "release_year": 2007,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "threat/disruption",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 21815,
+    "scene_count": 105,
+    "dialogue_density_pct": 28,
+    "int_ext_ratio": "89:11",
+    "day_night_ratio": "47:53",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 31,
+    "male_dialogue_share_pct": 69,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "secondary",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANNA IVANOVNA KHITROVA",
+        "HELEN",
+        "TATIANA"
+      ],
+      "female_female_dialogue_examples": [
+        "HELEN: Did you sleep?\nANNA IVANOVNA KHITROVA: A bit.\nHELEN: There's no point us tiptoeing around if you're not even sleeping.\nANNA IVANOVNA KHITROVA: Mum? Are you OK?\nHELEN: Of course not. It's Christmas.",
+        "HELEN: Then it's up to the proper\nANNA IVANOVNA KHITROVA: The proper authorities will all be skiing until after New Year.\nHELEN: It's part of the grieving.\nANNA IVANOVNA KHITROVA: What grieving?\nHELEN: In the last year you've lost your father and you lost a ba",
+        "ANNA IVANOVNA KHITROVA: Who gave you that?\nHELEN: It was on the dresser.\nANNA IVANOVNA KHITROVA: Mum, you can't go through my things.\nHELEN: You wanted him to translate it.\nANNA IVANOVNA KHITROVA: And he said he wouldn't do it so I've found somebody else."
+      ],
+      "non_male_topic_examples": [
+        "HELEN: Did you sleep?\nANNA IVANOVNA KHITROVA: A bit.\nHELEN: There's no point us tiptoeing around if you're not even sleeping.\nANNA IVANOVNA KHITROVA: Mum? Are you OK?\nHELEN: Of course not. It's Christmas.",
+        "HELEN: Did you sleep?\nANNA IVANOVNA KHITROVA: A bit.\nHELEN: There's no point us tiptoeing around if you're not even sleeping.\nANNA IVANOVNA KHITROVA: Mum? Are you OK?",
+        "ANNA IVANOVNA KHITROVA: A bit.\nHELEN: There's no point us tiptoeing around if you're not even sleeping.\nANNA IVANOVNA KHITROVA: Mum? Are you OK?\nHELEN: Of course not. It's Christmas."
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "NIKOLAI"
+      ],
+      "identity_or_relationship_evidence": [
+        "NIKOLAI - Nikolai says that Soyka was spreading lies about Kirill being a queer."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

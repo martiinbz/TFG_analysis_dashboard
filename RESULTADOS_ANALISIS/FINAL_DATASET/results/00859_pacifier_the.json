@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Pacifier, The",
+    "release_year": 2005,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23394,
+    "scene_count": 186,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "65:35",
+    "day_night_ratio": "65:35",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 25,
+    "female_dialogue_share_pct": 15,
+    "male_dialogue_share_pct": 85,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "WW2",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JULIE PLUMMER",
+        "CLAIRE FLETCHER",
+        "HELGA"
+      ],
+      "female_female_dialogue_examples": [
+        "JULIE PLUMMER: Lieutenant, I don't want you to worry about anything except the safety of my children. Helga will take care of everything else.\nSHANE WOLF: Don't worry. They'll be safe with me.\nHELGA: Everything will be fine, Mrs. Plummer.\nHELGA: Tell me, are y",
+        "JULIE PLUMMER: Don't worry about the Kids, Helga will handle everything. (Worried:) But if there is an emergency, all the emergency numbers are on the fridge. And on the\nZOE: Mom -- we'll be fine, chill.\nJULIE PLUMMER: Lieutenant, I don't want you to worry abo",
+        "ZOE: Mom -- we'll be fine, chill.\nJULIE PLUMMER: Lieutenant, I don't want you to worry about anything except the safety of my children. Helga will take care of everything else.\nSHANE WOLF: Don't worry. They'll be safe with me.\nHELGA: Everything will be fine, M"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "SHANE is described as a white male character who interacts with a diverse group of students and staff.",
+        "KOREAN WOMAN Don't worry, if she loves you, she'll",
+        "MURNEY Pretty slick, Frogman -- I'm a black belt myself. S'why they asked me to coach the",
+        "KOREAN MAN H"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Shame",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "dies",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 15601,
+    "scene_count": 122,
+    "dialogue_density_pct": 28,
+    "int_ext_ratio": "88:12",
+    "day_night_ratio": "45:55",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 6,
+    "female_dialogue_share_pct": 61,
+    "male_dialogue_share_pct": 39,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 17,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "death"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SISSY",
+        "MARIANNE",
+        "ELIZABETH",
+        "LOREN",
+        "COCKTAIL WAITRESS",
+        "CARLY",
+        "ALEXA"
+      ],
+      "female_female_dialogue_examples": [
+        "ELIZABETH: No, I have it.\nSISSY: Ill get the next round.\nSISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-\nSISSY: To nailing it.",
+        "SISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-\nSISSY: To nailing it.\nBRANDON: To nailing it.\nELIZABETH: Success. Yes. Cheers.",
+        "ELIZABETH: No, I have it.\nSISSY: Ill get the next round.\nSISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-"
+      ],
+      "non_male_topic_examples": [
+        "ELIZABETH: No, I have it.\nSISSY: Ill get the next round.\nSISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-\nSISSY: To nailing it.",
+        "SISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-\nSISSY: To nailing it.\nBRANDON: To nailing it.\nELIZABETH: Success. Yes. Cheers.",
+        "ELIZABETH: No, I have it.\nSISSY: Ill get the next round.\nSISSY: You're a strong, independent woman. I like that, I like that.\nELIZABETH: Thank you. Cheers\nSISSY: Listen, cheers.\nELIZABETH: To nailing it, and-"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "A WOMAN, early 30s, phone to her ear, dressed in black jeans and t-shirt, paces along the window. Catching sight of",
+        "A LARGE BLACK WOMAN, face bowed, sits talking to a POLICE OFFICER giving a statement-"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

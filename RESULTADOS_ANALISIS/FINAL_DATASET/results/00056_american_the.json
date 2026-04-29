@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "American, The",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23613,
+    "scene_count": 160,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "46:54",
+    "day_night_ratio": "71:29",
+    "story_time_span": "days",
+    "geographic_setting": "wilderness",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 36,
+    "male_dialogue_share_pct": 64,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CLARA",
+        "MATHILDE",
+        "INGRID",
+        "ANNA"
+      ],
+      "female_female_dialogue_examples": [
+        "CLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.",
+        "CLARA: Where would you like to try,\nJACK: Locanda Grapelli?\nCLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.",
+        "CLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.\nJACK: Locanda Grapelli.\nCLARA: You'll be there?"
+      ],
+      "non_male_topic_examples": [
+        "CLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.",
+        "CLARA: Where would you like to try,\nJACK: Locanda Grapelli?\nCLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.",
+        "CLARA: Locanda Grapelli! Si!\nANNA: This is the best food in the area.\nCLARA: Locanda Grapelli.\nJACK: Locanda Grapelli.\nCLARA: You'll be there?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "Outside the dacha is another MAN, standing by a black Mercedes-Benz sedan.",
+        "The DUCATI gets nearer. The MAN ON THE DUCATI is wearing a black crash helmet with a tinted visor."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

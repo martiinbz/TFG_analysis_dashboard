@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Coriolanus",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "dies",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20928,
+    "scene_count": 80,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "77:23",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 6,
+    "male_named_character_count": 48,
+    "female_dialogue_share_pct": 15,
+    "male_dialogue_share_pct": 85,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "oppressive",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "VOLUMNIA",
+        "VIRGILIA"
+      ],
+      "female_female_dialogue_examples": [
+        "VOLUMNIA: To a cruel war I sent him, from whence he returned, his brows bound with oak.\nVIRGILIA: But had he died in the business, madam, how then?\nVOLUMNIA: Then his good report should have been my",
+        "VOLUMNIA: Tell Menenius we are fit to bid him\nVIRGILIA: Beseech you, give me leave to retire\nVOLUMNIA: Indeed, you shall not! She turns off the TV and goes to a bar to mix drinks. She mixes the drinks aggressively, strangely inspired by the discussion of war:",
+        "VOLUMNIA: Away, you fool! It more becomes a man Than gold his trophy.\nVIRGILIA: Heavens bless my lord from fell\nVOLUMNIA: He'll beat Aufidius' head below his knee And tread upon his neck. Senator Menenius enters, he is comfortable in this house and an old ally"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

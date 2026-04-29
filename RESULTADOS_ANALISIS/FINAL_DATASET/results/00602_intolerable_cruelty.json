@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Intolerable Cruelty",
+    "release_year": 2003,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 17061,
+    "scene_count": 68,
+    "dialogue_density_pct": 36,
+    "int_ext_ratio": "87:13",
+    "day_night_ratio": "55:45",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 28,
+    "male_dialogue_share_pct": 72,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SARAH SORKIN",
+        "REX",
+        "RAMONA BARCELONA",
+        "JUDGE MARVA MUNSON",
+        "BONNIE DONALY",
+        "INSTRUCTOR",
+        "COURT REPORTER"
+      ],
+      "female_female_dialogue_examples": [
+        "SARAH SORKIN: It's not so bad these days. Kids like joint custody. Two sets of toys.\nRAMONA BARCELONA: Maybe next time.\nSARAH SORKIN: We do have a man for you.\nRAMONA BARCELONA: Thorstenson Gieselensen. He just separated from his third. He's in fish. He is fis",
+        "RAMONA BARCELONA: Maybe next time.\nSARAH SORKIN: We do have a man for you.\nRAMONA BARCELONA: Thorstenson Gieselensen. He just separated from his third. He's in fish. He is fish.\nSARAH SORKIN: She's keeping his name. And one of his planes. And all seven of his",
+        "MARYLIN: I can't have a baby with a man I\nSARAH SORKIN: It's not so bad these days. Kids like joint custody. Two sets of toys.\nRAMONA BARCELONA: Maybe next time.\nSARAH SORKIN: We do have a man for you.\nRAMONA BARCELONA: Thorstenson Gieselensen. He just separat"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "CRASH -- the door is kicked open and a short stocky black man built like a bulldog and wearing a porkpie hat rushes",
+        "A large black woman in judicial robes and raiment enters from behind the Solomonic Platform."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "Lincoln",
+    "release_year": 2012,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "white",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26731,
+    "scene_count": 143,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "76:24",
+    "day_night_ratio": "59:41",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 2,
+    "male_named_character_count": 47,
+    "female_dialogue_share_pct": 3,
+    "male_dialogue_share_pct": 97,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "other",
+    "war_portrayal": "critical",
+    "historical_event_reference": "other",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "other"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ELIZABETH KECKLEY",
+        "ELIZABETH BLAIR LEE"
+      ],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "other"
+      ],
+      "event_evidence": [
+        "Lincoln the inveterate dawdler, Lincoln the Southerner, Lincoln the capitulating compromiser, our adversary - and leader of the godforsaken Republican Party, our party - Abraham Lincoln has asked us to work with him to accomplish the death of slavery in Americ",
+        "FERNANDO WOOD (CONT'D) He claimed, as tyrants do, (whispering to Schell:) that the war's emergencies permitted him to turn our army into the unwilling instrument of his monarchical ambitions - and radical Republicanism's abolitionist fanaticism!"
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [
+        "other"
+      ],
+      "movement_evidence": [
+        "FERNANDO WOOD (CONT'D) He claimed, as tyrants do, (whispering to Schell:) that the war's emergencies permitted him to turn our army into the unwilling instrument of his monarchical ambitions - and radical Republicanism's abolitionist fanaticism!"
+      ]
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "The protagonist, Abraham Lincoln, is explicitly described as white.",
+        "MN DAMN DAMN! Uh, hey, how tall are you anyway?! FIRST WHITE SOLDIER Jeez, SHUT up! LINCOLN Could you hear what I said? FIRST WHITE SOLDIER No, sir, not much, it was- SECOND W",
+        "ed in liberty and dedicated to the 5. proposition that all men are created equal.\" LINCOLN That's good, thank you for - FIRST WHITE SOLDIER \"Now we are engaged in a great civi",
+        "ated can long endure. We are, we are, we are met on a great battlefield of that war.\" LINCOLN Thank you, that's - SECOND WHITE SOLDIER \"We have come to dedicate a portion of that",
+        "divisions are called: all across the field, the men put out fires, put on knapsacks. LINCOLN (to the two white SOLDIERS:) You fellas best find your company. FIRST WHITE SOLDIER"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Colombiana",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "latino",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 25519,
+    "scene_count": 284,
+    "dialogue_density_pct": 27,
+    "int_ext_ratio": "71:29",
+    "day_night_ratio": "61:39",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 33,
+    "male_dialogue_share_pct": 67,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "revenge"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CAT",
+        "SHERRI",
+        "GUNMAN",
+        "HEAD SECURITY",
+        "SHARI",
+        "REVERSE ON CAT"
+      ],
+      "female_female_dialogue_examples": [
+        "SHERRI: I'm Sherri. And you are?\nCAT: Very tired.\nSHERRI: Well, 'very tired', I'm sure you want to lay down and rest your little head?\nCAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?",
+        "CAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?\nSHERRI: Are we clear on that?\nCAT: Twenty dollars a week.\nSHERRI: We got a smart one!\nSHERRI: You can go now. In peace.",
+        "CAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?\nSHERRI: Are we clear on that?\nCAT: Twenty dollars a week.\nSHERRI: We got a smart one!"
+      ],
+      "non_male_topic_examples": [
+        "SHERRI: I'm Sherri. And you are?\nCAT: Very tired.\nSHERRI: Well, 'very tired', I'm sure you want to lay down and rest your little head?\nCAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?",
+        "CAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?\nSHERRI: Are we clear on that?\nCAT: Twenty dollars a week.\nSHERRI: We got a smart one!\nSHERRI: You can go now. In peace.",
+        "CAT: I do.\nCAT: But it's gonna cost you. Twenty dollars.\nSHERRI: A week. Peace has it's price, y'know what I'm saying?\nSHERRI: Are we clear on that?\nCAT: Twenty dollars a week.\nSHERRI: We got a smart one!"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "latino",
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Cat is described as having a Hispanic woman as her mother, indicating her race.",
+        "A kind faced Hispanic woman, a...",
+        "Points to a huge black man with USURPER written in white letters across his chest."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "CAT is described as Colombian, which is a clear indication of her race.",
+        "Cat is described as having a Hispanic woman as her mother, indicating her race."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

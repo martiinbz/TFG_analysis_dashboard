@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Carrie",
+    "release_year": 1976,
+    "decade": "1970s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22285,
+    "scene_count": 119,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "89:11",
+    "day_night_ratio": "49:51",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 25,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 73,
+    "male_dialogue_share_pct": 27,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CARRIE",
+        "MARGARET WHITE",
+        "MISS COLLINS",
+        "SUE",
+        "CHRIS HARGENSON",
+        "ELEANOR",
+        "STELLA",
+        "NORMA"
+      ],
+      "female_female_dialogue_examples": [
+        "CARRIE: What are those?\nSTELLA: Those are my breasts, honey.\nCARRIE: I wish I had some.\nSTELLA: You will. `Course you'll have to wait a couple of years, but �\nCARRIE: No I won't.\nSTELLA: Why, sure you will.\nCARRIE: No, I won't.",
+        "STELLA: Those are my breasts, honey.\nCARRIE: I wish I had some.\nSTELLA: You will. `Course you'll have to wait a couple of years, but �\nCARRIE: No I won't.\nSTELLA: Why, sure you will.\nCARRIE: No, I won't.\nSTELLA: Well, I'm a good girl. And besides, doesn't your",
+        "FRIEDA: Hey, where'd you buy your dress? I love it.\nCARRIE: I made it.\nFRIEDA: Made it? No shit.\nCARRIE: No shit.\nFRIEDA: The mural's nice.\nCARRIE: Yes. I'm really nervous.\nFRIEDA: S'okay. We're sitting together."
+      ],
+      "non_male_topic_examples": [
+        "CARRIE: What are those?\nSTELLA: Those are my breasts, honey.\nCARRIE: I wish I had some.\nSTELLA: You will. `Course you'll have to wait a couple of years, but �\nCARRIE: No I won't.\nSTELLA: Why, sure you will.\nCARRIE: No, I won't.",
+        "STELLA: Those are my breasts, honey.\nCARRIE: I wish I had some.\nSTELLA: You will. `Course you'll have to wait a couple of years, but �\nCARRIE: No I won't.\nSTELLA: Why, sure you will.\nCARRIE: No, I won't.\nSTELLA: Well, I'm a good girl. And besides, doesn't your",
+        "FRIEDA: Hey, where'd you buy your dress? I love it.\nCARRIE: I made it.\nFRIEDA: Made it? No shit.\nCARRIE: No shit.\nFRIEDA: The mural's nice.\nCARRIE: Yes. I'm really nervous.\nFRIEDA: S'okay. We're sitting together."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "ard from the White house next door. VOICE (O.S.) What are those? 2 4. STELLA'S POV � CARRIE WHITE A terribly appealing little girl, a child of indeterminable age. Pink cheeks, a h"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

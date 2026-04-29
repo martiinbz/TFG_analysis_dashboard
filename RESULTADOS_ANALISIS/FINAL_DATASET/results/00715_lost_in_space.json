@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Lost in Space",
+    "release_year": 1998,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23714,
+    "scene_count": 245,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "52:48",
+    "story_time_span": "years",
+    "geographic_setting": "space",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 11,
+    "female_dialogue_share_pct": 23,
+    "male_dialogue_share_pct": 77,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "Cold War",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "survival"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DR MAUREEN ROBINSON",
+        "PENNY ROBINSON",
+        "DR JUDY ROBINSON"
+      ],
+      "female_female_dialogue_examples": [
+        "PENNY ROBINSON: Imagine the savings on dating outfits\nPENNY ROBINSON: Can I keep her?\nDR JUDY ROBINSON: Penny, you've never taken care of a thing in your life besides yourself.\nPENNY ROBINSON: Please. She's all alone. I promise I'll look after her. She needs m",
+        "PENNY ROBINSON: Can I keep her?\nDR JUDY ROBINSON: Penny, you've never taken care of a thing in your life besides yourself.\nPENNY ROBINSON: Please. She's all alone. I promise I'll look after her. She needs me.\nPENNY ROBINSON: We're both a long way from home, ar",
+        "PENNY ROBINSON: Mom, look, it's Doctor Smith.\nDR MAUREEN ROBINSON: Pulse, respiration and bleeding-\nPENNY ROBINSON: Basic triage, lock down and stabilize. I know the drill."
+      ],
+      "non_male_topic_examples": [
+        "PENNY ROBINSON: Imagine the savings on dating outfits\nPENNY ROBINSON: Can I keep her?\nDR JUDY ROBINSON: Penny, you've never taken care of a thing in your life besides yourself.\nPENNY ROBINSON: Please. She's all alone. I promise I'll look after her. She needs m",
+        "PENNY ROBINSON: Can I keep her?\nDR JUDY ROBINSON: Penny, you've never taken care of a thing in your life besides yourself.\nPENNY ROBINSON: Please. She's all alone. I promise I'll look after her. She needs me.\nPENNY ROBINSON: We're both a long way from home, ar",
+        "DR MAUREEN ROBINSON: Judy? Baby?\nDR JUDY ROBINSON: You should try to look less worried. It has a tendency to spook the\nDR MAUREEN ROBINSON: Thank you."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

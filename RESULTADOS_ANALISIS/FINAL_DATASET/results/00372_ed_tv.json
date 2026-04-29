@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "title": "Ed TV",
+    "release_year": 1999,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23724,
+    "scene_count": 211,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "91:9",
+    "day_night_ratio": "55:45",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 17,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 67,
+    "male_dialogue_share_pct": 33,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SHARI",
+        "CYNTHIA TOPPING",
+        "JEANETTE",
+        "JILL",
+        "RITA",
+        "MARCIA",
+        "PANEL MEMBER",
+        "ALICE"
+      ],
+      "female_female_dialogue_examples": [
+        "SHARI: Um, I'd like to get a new phone\nRITA: Aren't you excited? He said he loved you on television!\nSHARI: He didn't say it. His stepfather said it.\nSHARI: I think he's great. He just",
+        "SHARI: Um, I'd like to get a new phone\nRITA: Aren't you excited? He said he loved you on television!\nSHARI: He didn't say it. His stepfather said it.",
+        "SHARI: Um, I'd like to get a new phone\nRITA: Aren't you excited? He said he loved you on television!\nSHARI: He didn't say it. His stepfather said it.\nSHARI: I think he's great. He just\nTAD: I'11 tell you something else. The old guy in the wheelchair? The stepf"
+      ],
+      "non_male_topic_examples": [
+        "ALICE: Did you arrange this?\nCYNTHIA TOPPING: Whose dog is that?\nALICE: That's your dog.",
+        "ED: Oh, hi.\nALICE: Did you arrange this?\nCYNTHIA TOPPING: Whose dog is that?\nALICE: That's your dog.",
+        "JILL: We have to stop meeting like\nED: Oh, hi.\nALICE: Did you arrange this?\nCYNTHIA TOPPING: Whose dog is that?\nALICE: That's your dog."
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "RAY",
+        "CYNTHIA",
+        "ALICE",
+        "KEITH",
+        "GREG",
+        "FELICIA"
+      ],
+      "identity_or_relationship_evidence": [
+        "RAY mentions that his cousin Lenny is gay and says 'We knew from when he was five.'"
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "seven years ago she falls in love with this Vietnamese guy who wants to marry her so he can stay in the",
+        "immediately divorces my sister and marries this Vietnamese woman who, he was probably already married to"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

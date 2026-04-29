@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "title": "American Fiction",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "ambiguous",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19097,
+    "scene_count": 109,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "76:24",
+    "day_night_ratio": "70:30",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 61,
+    "male_dialogue_share_pct": 39,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 1,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CORALINE",
+        "LISA ELLISON",
+        "LORRAINE",
+        "AGNES ELLISON",
+        "SINTARA",
+        "PAULA BADERMAN",
+        "AILENE HOOVER",
+        "KENYA DUNSTON"
+      ],
+      "female_female_dialogue_examples": [
+        "LORRAINE: I'm getting married.\nCORALINE: Shut up! What?!\nLORRAINE: I didn't say nothing earlier. It\nCORALINE: Lorraine! That's amazing! Let's\nLORRAINE: It's too much excitement. I don't",
+        "LORRAINE: I'm getting married.\nCORALINE: Shut up! What?!\nLORRAINE: I didn't say nothing earlier. It\nCORALINE: Lorraine! That's amazing! Let's\nLORRAINE: It's too much excitement. I don't\nMONK: Well, you deserve it, Lorraine. And",
+        "AGNES ELLISON: You look fat.\nMONK: I know.\nLORRAINE: You ready to go to dinner, Mrs.\nAGNES ELLISON: I just need my purse, and my black\nLORRAINE: Alright. I'll get it.\nAGNES ELLISON: Are you alright? You overeat when"
+      ],
+      "non_male_topic_examples": [
+        "LORRAINE: I'm getting married.\nCORALINE: Shut up! What?!\nLORRAINE: I didn't say nothing earlier. It\nCORALINE: Lorraine! That's amazing! Let's\nLORRAINE: It's too much excitement. I don't",
+        "LORRAINE: I'm getting married.\nCORALINE: Shut up! What?!\nLORRAINE: I didn't say nothing earlier. It\nCORALINE: Lorraine! That's amazing! Let's\nLORRAINE: It's too much excitement. I don't\nMONK: Well, you deserve it, Lorraine. And",
+        "AGNES ELLISON: You look fat.\nMONK: I know.\nLORRAINE: You ready to go to dinner, Mrs.\nAGNES ELLISON: I just need my purse, and my black\nLORRAINE: Alright. I'll get it.\nAGNES ELLISON: Are you alright? You overeat when"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "MONK is described as a black man throughout the script.",
+        "They have one. I'm black and it's",
+        "up a WHITE MAN several feet away."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "MONK is described as a black man throughout the script.",
+        "een by Cord Jefferson Based upon the novel 'Erasure' by Percival Everett OVER BLACK MONK OK. Let's begin. INT. USC CLASSROOM - DAY We open on THELONIOUS \"MONK\" ELLISON (black",
+        "neurotic, tired) standing before a classroom of college students, most of them white. MONK Who wants to start? BRITTANY (white, 19) raises her hand. MONK (CONT'D) Yes, Britt"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

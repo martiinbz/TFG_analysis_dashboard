@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "title": "Nightmare on Elm Street, A",
+    "release_year": 1984,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26120,
+    "scene_count": 150,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "81:19",
+    "day_night_ratio": "20:80",
+    "story_time_span": "hours",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 58,
+    "male_dialogue_share_pct": 42,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "NANCY THOMPSON",
+        "MARGE THOMPSON",
+        "TINA GRAY",
+        "MRS LANTZ",
+        "HALLGUARD"
+      ],
+      "female_female_dialogue_examples": [
+        "MARGE THOMPSON: Didn't keep you up last night, did I? You look a little\nNANCY THOMPSON: Nah. Just slept heavy.\nMARGE THOMPSON: See ya.\nNANCY THOMPSON: See ya.\nGLEN LANTZ: You believe this fog?\nMARGE THOMPSON: I believe anything's possible.",
+        "TINA GRAY: Rod says the sweetest things.\nNANCY THOMPSON: He's nuts about you.\nTINA GRAY: Yeah, nuts.\nTINA GRAY: Anyway, I'm too tired to worry about the creep. Couldn't get back to sleep at all. So what you dream?\nNANCY THOMPSON: Forget it, the point is, every",
+        "NANCY THOMPSON: Nice to have a fire.\nTINA GRAY: Really. Turn 'er up a little.\nNANCY THOMPSON: Maybe we should call Rod, have him come over too. He might get jealous.\nTINA GRAY: Rod and I are done. He's too much of a maniac."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

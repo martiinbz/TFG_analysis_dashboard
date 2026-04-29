@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Gang Related",
+    "release_year": 1997,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23950,
+    "scene_count": 167,
+    "dialogue_density_pct": 35,
+    "int_ext_ratio": "76:24",
+    "day_night_ratio": "62:38",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 2,
+    "male_named_character_count": 32,
+    "female_dialogue_share_pct": 17,
+    "male_dialogue_share_pct": 83,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CYNTHIA WEBB",
+        "HELEN EDEN"
+      ],
+      "female_female_dialogue_examples": [
+        "HELEN EDEN: Please state your name for the court.\nCYNTHIA WEBB: Cynthia Webb.\nHELEN EDEN: Do you see the man that you identified in a police line-up in this room.\nHELEN EDEN: Is it the defendant, Mr. McCall?\nHELEN EDEN: Please describe what you saw the night o",
+        "HELEN EDEN: Please state your name for the court.\nCYNTHIA WEBB: Cynthia Webb.\nHELEN EDEN: Do you see the man that you identified in a police line-up in this room.\nHELEN EDEN: Is it the defendant, Mr. McCall?",
+        "WILLIAM: No. I mean I know her.\nHELEN EDEN: Please state your name for the court.\nCYNTHIA WEBB: Cynthia Webb.\nHELEN EDEN: Do you see the man that you identified in a police line-up in this room.\nHELEN EDEN: Is it the defendant, Mr. McCall?"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "latino",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "hanging on a street corner. Talking. Normal street traffic. They give a long hard look to an ATTRACTIVE AFRICAN AMERICAN WOMAN who walks past. A little chatter.",
+        "KICKED IN on a grungy small apartment. Divinci and Rodriguez burst in, guns drawn. Scaring the shit out of an HISPANIC MAN (CORTEZ) and his half-naked GIRLFRIEND as they watch",
+        "A BLACK MAN in a three piece suit, picks up the .44 with a GLOVED HAND. His accent is British.",
+        "Cynthia enters. An ASIAN MAN in sweat shirt and jeans is sitting in the room.",
+        "ASIAN MAN You're Cynthia Webb."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Man On Fire",
+    "release_year": 2004,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "ambiguous",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26254,
+    "scene_count": 200,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "64:36",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 6,
+    "male_named_character_count": 24,
+    "female_dialogue_share_pct": 25,
+    "male_dialogue_share_pct": 75,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "mixed",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PINTA",
+        "LISA RAMOS",
+        "SISTER ANNA",
+        "REINA ROSAS",
+        "PINTA GHOST",
+        "MARIA"
+      ],
+      "female_female_dialogue_examples": [
+        "LISA RAMOS: School tomorrow, baby.\nPINTA: I like him, Mom.\nLISA RAMOS: You do?\nPINTA: He's like a great big bear.\nPINTA: There's something about him.\nPINTA: I think he's been sick. He's alright now, but I think he's been very, very",
+        "PINTA: I like him, Mom.\nLISA RAMOS: You do?\nPINTA: He's like a great big bear.\nPINTA: There's something about him.\nPINTA: I think he's been sick. He's alright now, but I think he's been very, very\nLISA RAMOS: Well, think about going to sleep. Good night, baby.",
+        "LISA RAMOS: You should be sleeping, baby.\nPINTA: I'm trying, mom.\nLISA RAMOS: Good news. You're going back to school.\nLISA RAMOS: Samuel is going to hire a new bodyguard. It may take a few days, but you're going\nPINTA: Could he speak English? Emilio couldn't s"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "latino"
+      ],
+      "evidence_snippets": [
+        "A MERCEDES driving around the square, Eighteen's father waving a white shirt out the window like a surrender flag.",
+        "Rayburn in bed with his beautiful 19-year-old Mexican WIFE and their four-year-old SON."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "CREASY, PINTA - CREASY mentions being black",
+        "Creasy's race is explicitly mentioned as Mexican.",
+        "ngs, he answers. RAYBURN Rayburn here. INT. CUSTOMS HOLDING TANK - MEXICO CITY - DAY Creasy on payphone. Work in Progress 2/10/03 8. CREASY When did Mexican Customs start gettin"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

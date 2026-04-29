@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Dune",
+    "release_year": 2021,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "hero's journey",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23612,
+    "scene_count": 261,
+    "dialogue_density_pct": 19,
+    "int_ext_ratio": "50:50",
+    "day_night_ratio": "44:56",
+    "story_time_span": "days",
+    "geographic_setting": "space",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 16,
+    "male_named_character_count": 11,
+    "female_dialogue_share_pct": 31,
+    "male_dialogue_share_pct": 69,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "upper-middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "other",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JESSICA",
+        "DR LIET KYNES",
+        "SHADOUT MAPES",
+        "REVEREND MOTHER MOHIAM",
+        "CHANI"
+      ],
+      "female_female_dialogue_examples": [
+        "SHADOUT MAPES: You know the ancient tongues?\nJESSICA: I know the Bhotani Jib and Chakobsa, all the hunting languages.\nSHADOUT MAPES: As the legend says.\nJESSICA: That's it! The Missionaria Protectiva has been here planting protective legends against a day of B",
+        "JESSICA: And the means of my death should I prove\nSHADOUT MAPES: Do you know this my lady?\nJESSICA: Here is why this Fremen has taken service with me, to ask that one question. Delay is as dangerous as the wrong answer.\nSHADOUT MAPES: My lady, when one has liv",
+        "JESSICA: I know many things. I know you came prepared for violence with a weapon in your bodice.\nJESSICA: And the means of my death should I prove\nSHADOUT MAPES: Do you know this my lady?\nJESSICA: Here is why this Fremen has taken service with me, to ask that "
+      ],
+      "non_male_topic_examples": [
+        "SHADOUT MAPES: You know the ancient tongues?\nJESSICA: I know the Bhotani Jib and Chakobsa, all the hunting languages.\nSHADOUT MAPES: As the legend says.\nJESSICA: That's it! The Missionaria Protectiva has been here planting protective legends against a day of B",
+        "JESSICA: And the means of my death should I prove\nSHADOUT MAPES: Do you know this my lady?\nJESSICA: Here is why this Fremen has taken service with me, to ask that one question. Delay is as dangerous as the wrong answer.\nSHADOUT MAPES: My lady, when one has liv",
+        "JESSICA: I know many things. I know you came prepared for violence with a weapon in your bodice.\nJESSICA: And the means of my death should I prove\nSHADOUT MAPES: Do you know this my lady?\nJESSICA: Here is why this Fremen has taken service with me, to ask that "
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "the REVEREND MOTHER RAMALLO, who sits against smooth black rock. Her eyes are deep blue-within-blue and her skin is a haunting translucent white. Her voice",
+        "Across the room, TWO HARKONNEN SOLDIERS enter, holding big guns on a BOY who is wearing white pants. The Baron smiles when he sees the boy, who"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

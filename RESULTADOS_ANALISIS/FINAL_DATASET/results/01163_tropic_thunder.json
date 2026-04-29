@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Tropic Thunder",
+    "release_year": 2008,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "multiple",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 21771,
+    "scene_count": 94,
+    "dialogue_density_pct": 35,
+    "int_ext_ratio": "43:57",
+    "day_night_ratio": "67:33",
+    "story_time_span": "days",
+    "geographic_setting": "wilderness",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 0,
+    "male_named_character_count": 33,
+    "female_dialogue_share_pct": 0,
+    "male_dialogue_share_pct": 100,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": true,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [
+        "REDYKULOUS",
+        "SANDUSKY"
+      ],
+      "identity_or_relationship_evidence": [
+        "REDYKULOUS reveals he is gay"
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "(YES, LAZARUS WAS WHITE AND IRISH IN THE SATAN'S ALLEY TRAILER, now he is AFRICAN AMERICAN and speaks with an",
+        "(YES, LAZARUS WAS WHITE AND IRISH IN THE SATAN'S ALLEY TRAILER, now he is AFRICAN AMERICAN and speaks with an American accent-- IT WILL BE EXPLAINED SOON!)",
+        "up a bank -- Speedman in drag. They yell at each other in that uptight-white-guy/loose-cannon-black-guy action comedy style."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

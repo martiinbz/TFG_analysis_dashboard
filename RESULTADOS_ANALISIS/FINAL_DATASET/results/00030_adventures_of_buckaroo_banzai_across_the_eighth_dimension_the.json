@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Adventures of Buckaroo Banzai Across the Eighth Dimension, The",
+    "release_year": 1984,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "non-linear",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "ambiguous",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 25188,
+    "scene_count": 264,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "71:29",
+    "day_night_ratio": "52:48",
+    "story_time_span": "days",
+    "geographic_setting": "space",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 38,
+    "female_dialogue_share_pct": 11,
+    "male_dialogue_share_pct": 89,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "Cold War",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PENNY PRIDDY",
+        "MRS JOHNSON",
+        "SENATOR CUNNINGHAM"
+      ],
+      "female_female_dialogue_examples": [
+        "PENNY PRIDDY: What happened to her?\nMRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?\nMRS JOHNSON: Bunkhouse. Off limits. You'll be bedding down in here.",
+        "PENNY PRIDDY: What happened to her?\nMRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?",
+        "MRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?\nMRS JOHNSON: Bunkhouse. Off limits. You'll be bedding down in here."
+      ],
+      "non_male_topic_examples": [
+        "PENNY PRIDDY: What happened to her?\nMRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?\nMRS JOHNSON: Bunkhouse. Off limits. You'll be bedding down in here.",
+        "PENNY PRIDDY: What happened to her?\nMRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?",
+        "MRS JOHNSON: You know any judo?\nPENNY PRIDDY: Any what?\nMRS JOHNSON: Don't worry, I won't hurt you.\nPENNY PRIDDY: What's up those stairs?\nMRS JOHNSON: Bunkhouse. Off limits. You'll be bedding down in here."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "playfully...dressed in the local custom of boots and cowboy hats, the TOW ORIENTAL MEN, A CAUCASIAN MAN, AND A CAUCASIAN WOMAN squint into the hot sun and then down at the jiggling home movie camera, the",
+        "its present operator, a four-year-old child...A LITTLE BOY IN CHAPS AND COWBOY HAT who now joins the other adults, in particular Caucasian woman and the elder Oriental man who pick him up and hug him...",
+        "NARRATOR Doctor Masado Banzai, preeminent Japanese quantum theorist, declares himself anxious to work for the Allies. Enamored of the great American",
+        "4 The fourth scientist, the female Caucasian, busy with last-minute details, securing the two pilots in their seats, checking their",
+        "General Catburd and other VIPS happy to observe on their TV monitors the sight of a MAN IN BLACK COMMANDO PARACHUTE SUIT, carrying a BATTERED OLD BRIEFCASE, climbing into the cockpit of...THE JET CAR."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "Buckaroo Banzai and John Parker diving toward them, their OVERTHRUSTER Firing! FIRING! - Buckaroo Banzai and John Parker are clearly white characters.",
+        "n woman and the elder Oriental man who pick him up and hug him... NARRATOR Doctor Masado Banzai, preeminent Japanese quantum theorist, declares himself anxious to work for the Allies. E"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

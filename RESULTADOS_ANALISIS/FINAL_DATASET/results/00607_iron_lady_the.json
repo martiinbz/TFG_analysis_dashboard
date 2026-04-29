@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Iron Lady, The",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 18941,
+    "scene_count": 137,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "91:9",
+    "day_night_ratio": "54:46",
+    "story_time_span": "years",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 21,
+    "female_dialogue_share_pct": 78,
+    "male_dialogue_share_pct": 22,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "mixed",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "WW2",
+    "historical_event_salience": "central",
+    "political_climate_reference": "Cold War",
+    "social_movement_focus": "other"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "power"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MARGARET THATCHER",
+        "CAROL",
+        "JUNE",
+        "SUSIE",
+        "CAROL OOV",
+        "BEATRICE ROBERTS",
+        "PRETTY YOUNG WOMAN 2"
+      ],
+      "female_female_dialogue_examples": [
+        "SUSIE: Good morning Lady Thatcher. Are you alright ? How are you feeling ?\nMARGARET THATCHER: I'm fine, thank you Susie.\nSUSIE: I've just been reading about the\nMARGARET THATCHER: Yes. Frightful.\nSUSIE: These are the books for you to sign. I brought as many as",
+        "SUSIE: I've just been reading about the\nMARGARET THATCHER: Yes. Frightful.\nSUSIE: These are the books for you to sign. I brought as many as I could find. Shall we go through your\nSUSIE: We said we'd go through them\nMARGARET THATCHER: Yes, of course, dear. Toda",
+        "MARGARET THATCHER: I didn't know that you were dropping by today, dear.\nCAROL: You've got Michael and-\nCAROL: Coming for dinner tonight.\nMARGARET THATCHER: Of course. We're having halibut.\nCAROL: Oh God. Isn't it terrible?"
+      ],
+      "non_male_topic_examples": [
+        "SUSIE: Good morning Lady Thatcher. Are you alright ? How are you feeling ?\nMARGARET THATCHER: I'm fine, thank you Susie.\nSUSIE: I've just been reading about the\nMARGARET THATCHER: Yes. Frightful.\nSUSIE: These are the books for you to sign. I brought as many as",
+        "SUSIE: I've just been reading about the\nMARGARET THATCHER: Yes. Frightful.\nSUSIE: These are the books for you to sign. I brought as many as I could find. Shall we go through your\nSUSIE: We said we'd go through them\nMARGARET THATCHER: Yes, of course, dear. Toda",
+        "MARGARET THATCHER: I didn't know that you were dropping by today, dear.\nCAROL: You've got Michael and-\nCAROL: Coming for dinner tonight.\nMARGARET THATCHER: Of course. We're having halibut.\nCAROL: Oh God. Isn't it terrible?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "WW2"
+      ],
+      "event_evidence": [
+        "The mention of WWII and blackouts in 1974.",
+        "The Second World War"
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [
+        "other"
+      ],
+      "movement_evidence": [
+        "The Irish National Liberation Army has claimed responsibility for the death of Airey Neave, Margaret Thatcher's spokesman on Northern Ireland."
+      ]
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

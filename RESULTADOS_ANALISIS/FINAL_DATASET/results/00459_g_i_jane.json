@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "G.I. Jane",
+    "release_year": 1997,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22695,
+    "scene_count": 190,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "46:54",
+    "day_night_ratio": "74:26",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 61,
+    "male_dialogue_share_pct": 39,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "tense",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LT JORDAN O NEIL",
+        "DEHAVEN",
+        "BLONDELL",
+        "DEHAVEN S AIDE",
+        "NAVAL OFFICER"
+      ],
+      "female_female_dialogue_examples": [
+        "LT JORDAN O NEIL: Captain Dwyer. Technically.\nDEHAVEN: My office will fill him in and help expedite. Look forward to meeting you at the proper time. Jumping off\nLT JORDAN O NEIL: Uh, question, ma'am.\nDEHAVEN: Yes, dear.\nLT JORDAN O NEIL: Would I be the only on",
+        "DEHAVEN: Jordan, dear. How are they treating\nLT JORDAN O NEIL: eyes) Can't complain, ma'am.\nDEHAVEN: Hmmm. Maybe I'll ask when I see you in person.\nLT JORDAN O NEIL: Uh, ma'am.\nDEHAVEN: Gonna be visiting that all-woman's America's cup team in a few weeks -- If",
+        "C O: Standing right here in my office.\nDEHAVEN: Jordan, dear. How are they treating\nLT JORDAN O NEIL: eyes) Can't complain, ma'am.\nDEHAVEN: Hmmm. Maybe I'll ask when I see you in person.\nLT JORDAN O NEIL: Uh, ma'am.\nDEHAVEN: Gonna be visiting that all-woman's "
+      ],
+      "non_male_topic_examples": [
+        "DEHAVEN: Jordan, dear. How are they treating\nLT JORDAN O NEIL: eyes) Can't complain, ma'am.\nDEHAVEN: Hmmm. Maybe I'll ask when I see you in person.\nLT JORDAN O NEIL: Uh, ma'am.\nDEHAVEN: Gonna be visiting that all-woman's America's cup team in a few weeks -- If",
+        "C O: Standing right here in my office.\nDEHAVEN: Jordan, dear. How are they treating\nLT JORDAN O NEIL: eyes) Can't complain, ma'am.\nDEHAVEN: Hmmm. Maybe I'll ask when I see you in person.\nLT JORDAN O NEIL: Uh, ma'am.\nDEHAVEN: Gonna be visiting that all-woman's ",
+        "LT JORDAN O NEIL: Uh, question, ma'am.\nDEHAVEN: Yes, dear.\nLT JORDAN O NEIL: Would I be the only one? The only\nDEHAVEN: There'll be more to follow -- but yes, dear, right now you're the pick of a very large litter. And your success would mean a lot. Jumping,"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "Memorial: JORDAN North Korean beaches are the best protected, most heavily monitored in the world. The"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

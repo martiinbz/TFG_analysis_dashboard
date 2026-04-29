@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Hanna",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 25117,
+    "scene_count": 177,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "75:25",
+    "day_night_ratio": "59:41",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 17,
+    "female_dialogue_share_pct": 79,
+    "male_dialogue_share_pct": 21,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "tense",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HANNA",
+        "MARISSA",
+        "SOPHIE",
+        "RACHEL",
+        "FALSE MARISSA",
+        "KATRIN ZADEK"
+      ],
+      "female_female_dialogue_examples": [
+        "HANNA: I can't walk in this.\nSOPHIE: You look hot.\nHANNA: Where are we going?\nSOPHIE: Shhhhh! HANNA uncomfortable with the situation.\nHANNA: I shouldn't take unnecessary risks.\nSOPHIE: Says who? SOPHIE heads off down the road. HANNA weighs the situation and th",
+        "SOPHIE: What will you do?\nHANNA: I'm going to Berlin. I have to meet my father at the house of Wilhelm\nSOPHIE: As in “Grimm's Fairytales”?\nHANNA: That's right. SOPHIE sighs at HANNA.\nSOPHIE: If you say so.\nHANNA: Did I say the wrong thing again? SOPHIE looks a",
+        "HANNA: There are people that want to harm me. Bad people.\nSOPHIE: I see.\nHANNA: And they wont stop.\nHANNA: Can we still be friends?\nSOPHIE: I don't know. I mean, I don't really know who you are. Do I?\nHANNA: That's just it. Neither do I. She reaches into her b"
+      ],
+      "non_male_topic_examples": [
+        "HANNA: I can't walk in this.\nSOPHIE: You look hot.\nHANNA: Where are we going?\nSOPHIE: Shhhhh! HANNA uncomfortable with the situation.\nHANNA: I shouldn't take unnecessary risks.\nSOPHIE: Says who? SOPHIE heads off down the road. HANNA weighs the situation and th",
+        "HANNA: There are people that want to harm me. Bad people.\nSOPHIE: I see.\nHANNA: And they wont stop.\nHANNA: Can we still be friends?\nSOPHIE: I don't know. I mean, I don't really know who you are. Do I?\nHANNA: That's just it. Neither do I. She reaches into her b",
+        "HANNA: I can't walk in this.\nSOPHIE: You look hot.\nHANNA: Where are we going?\nSOPHIE: Shhhhh! HANNA uncomfortable with the situation.\nHANNA: I shouldn't take unnecessary risks."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

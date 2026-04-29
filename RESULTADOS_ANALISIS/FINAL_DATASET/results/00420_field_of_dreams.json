@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Field of Dreams",
+    "release_year": 1989,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23076,
+    "scene_count": 93,
+    "dialogue_density_pct": 40,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "48:52",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 20,
+    "female_dialogue_share_pct": 21,
+    "male_dialogue_share_pct": 79,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "other",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "political_climate_reference": "civil rights",
+    "social_movement_focus": "none",
+    "historical_event_salience": "central"
+  },
+  "evidence_payload": {
+    "lgbtq": {
+      "identity_or_relationship_evidence": [],
+      "evidence_type": [],
+      "characters": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "It is Sunday afternoon, and Annie's family is visiting. her mother, pink-faced and white-dentured, sits ramrod straight in an antique rocking chair. Also present are her",
+        "Ignoring Us After All These Years \". The photographs show Mann to be a large black man with gentle eyes.",
+        "RAY He's sort of a tall, black man.",
+        "WHITE-HAIRED MAN He always wore a black overcoat, even",
+        "WHITE-HAIRED MAN He always wore a black overcoat, even in the summer, and it was always"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    }
+  }
+}

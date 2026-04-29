@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Jackie Brown",
+    "release_year": 1997,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 32000,
+    "scene_count": 105,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "70:30",
+    "day_night_ratio": "68:32",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 38,
+    "male_dialogue_share_pct": 62,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "oppressive",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JACKIE BROWN",
+        "MELANIE RALSTON",
+        "PUBLIC DEFENDER",
+        "SHERONDA",
+        "AMY BILLINGSLEY SALES GIRL",
+        "SIMONE",
+        "RAYNELLE ORDELL S JUNKIE FRIEND"
+      ],
+      "female_female_dialogue_examples": [
+        "JACKIE BROWN: Who's side are you on?\nPUBLIC DEFENDER: I beg your pardon?\nJACKIE BROWN: What if I plead guilty?\nPUBLIC DEFENDER: And cooperate? You might get\nJACKIE BROWN: If I don't cooperate?\nPUBLIC DEFENDER: With the prior? You could get anywhere from a year",
+        "JACKIE BROWN: Sheronda, can I ask you a question? Are you and Ordell married?\nSHERONDA: He say we like the same thing as\nJACKIE BROWN: Do you live together?\nSHERONDA: Most of the times.\nJACKIE BROWN: Not every day?\nSHERONDA: Sometimes every day, for a while.",
+        "SHERONDA: He say we like the same thing as\nJACKIE BROWN: Do you live together?\nSHERONDA: Most of the times.\nJACKIE BROWN: Not every day?\nSHERONDA: Sometimes every day, for a while.\nJACKIE BROWN: Then you don't see him for a few"
+      ],
+      "non_male_topic_examples": [
+        "JACKIE BROWN: Who's side are you on?\nPUBLIC DEFENDER: I beg your pardon?\nJACKIE BROWN: What if I plead guilty?\nPUBLIC DEFENDER: And cooperate? You might get\nJACKIE BROWN: If I don't cooperate?\nPUBLIC DEFENDER: With the prior? You could get anywhere from a year",
+        "JACKIE BROWN: Hi, Melanie.\nMELANIE RALSTON: Are you getting that black suit?\nJACKIE BROWN: Yeah, do you like it?\nMELANIE RALSTON: It looks good on you.\nJACKIE BROWN: Do you got something for me?\nMELANIE RALSTON: You betcha.",
+        "MELANIE RALSTON: Are you getting that black suit?\nJACKIE BROWN: Yeah, do you like it?\nMELANIE RALSTON: It looks good on you.\nJACKIE BROWN: Do you got something for me?\nMELANIE RALSTON: You betcha.\nMELANIE RALSTON: We coulda worked this. You know that, dontcha?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "JACKIE is described as a very attractive black woman.",
+        "ORDELL is described as a forty-five-year-old black man.",
+        "BEAUMONT is described as a black man from Kentucky.",
+        "racial conflict: Beaumont is described as a black man from Kentucky who has been in trouble with the law.",
+        "Jackie Brown is a very attractive black woman in her mid forties, though she looks like she's in her mid-thirties."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

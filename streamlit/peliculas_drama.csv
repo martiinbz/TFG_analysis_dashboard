@@ -1,0 +1,424 @@
+title,release_year,decade,primary_genre,overall_tone,source_file
+12,2007,2000s,Drama,dramatic,00001_12.json
+12 and Holding,2006,2000s,Drama,dramatic,00002_12_and_holding.json
+12 Years a Slave,2013,2010s,Drama,dark,00004_12_years_a_slave.json
+127 Hours,2010,2010s,Drama,tense,00005_127_hours.json
+1492 Conquest of Paradise,1992,1990s,Drama,dramatic,00006_1492_conquest_of_paradise.json
+187,,unknown,Drama,dark,00009_187.json
+20th Century Women,2016,2010s,Drama,inspirational,00012_20th_century_women.json
+42,2013,2010s,Drama,inspirational,00015_42.json
+44 Inch Chest,2009,2000s,Drama,dramatic,00016_44_inch_chest.json
+50 50,2011,2010s,Drama,dramatic,00018_50_50.json
+Adaptation,2002,2000s,Drama,dark,00027_adaptation.json
+Affliction,1998,1990s,Drama,dark,00031_affliction.json
+After School Special,2017,2010s,Drama,dramatic,00033_after_school_special.json
+Agnes of God,1985,1980s,Drama,dark,00034_agnes_of_god.json
+Air,2023,2020s,Drama,inspirational,00035_air.json
+Ali,2001,2000s,Drama,dramatic,00040_ali.json
+All About Eve,1950,1950s,Drama,dramatic,00047_all_about_eve.json
+All of Us Strangers,2023,2020s,Drama,dramatic,00049_all_of_us_strangers.json
+All the King's Men,1949,1940s,Drama,dramatic,00050_all_the_king_s_men.json
+Almost Famous,2000,2000s,Drama,dramatic,00052_almost_famous.json
+Amadeus,1984,1980s,Drama,dramatic,00054_amadeus.json
+Amelia,2009,2000s,Drama,inspirational,00055_amelia.json
+"American, The",2010,2010s,Drama,dramatic,00056_american_the.json
+American Beauty,1999,1990s,Drama,dark,00057_american_beauty.json
+American Fiction,2023,2020s,Drama,dramatic,00058_american_fiction.json
+American Graffiti,1973,1970s,Drama,dramatic,00060_american_graffiti.json
+American History X,1998,1990s,Drama,dark,00061_american_history_x.json
+American Madness,1932,1930s,Drama,dark,00063_american_madness.json
+American Milkshake,2013,2010s,Drama,dramatic,00064_american_milkshake.json
+"American President, The",1995,1990s,Drama,dramatic,00067_american_president_the.json
+American Splendor,2003,2000s,Drama,dramatic,00071_american_splendor.json
+Amour,2012,2010s,Drama,dramatic,00074_amour.json
+Angel Eyes,2001,2000s,Drama,dramatic,00078_angel_eyes.json
+Anna Karenina,2012,2010s,Drama,dramatic,00080_anna_karenina.json
+"Anniversary Party, The",2001,2000s,Drama,dramatic,00082_anniversary_party_the.json
+Anonymous,2011,2010s,Drama,dramatic,00083_anonymous.json
+Anora,2024,2020s,Drama,dramatic,00084_anora.json
+"Apartment, The",1960,1960s,Drama,dark,00087_apartment_the.json
+Apocalypse Now,1979,1970s,Drama,dark,00088_apocalypse_now.json
+Apollo 13,1995,1990s,Drama,inspirational,00089_apollo_13.json
+Apt Pupil,1998,1990s,Drama,dark,00091_apt_pupil.json
+Arbitrage,2012,2010s,Drama,dark,00092_arbitrage.json
+"Artist, The",2011,2010s,Drama,dramatic,00100_artist_the.json
+As Good As It Gets,1997,1990s,Drama,dramatic,00101_as_good_as_it_gets.json
+At First Sight,1999,1990s,Drama,dramatic,00105_at_first_sight.json
+August Osage County,2013,2010s,Drama,dramatic,00106_august_osage_county.json
+Authors Anonymous,2014,2010s,Drama,dramatic,00109_authors_anonymous.json
+Autumn in New York,2000,2000s,Drama,dramatic,00110_autumn_in_new_york.json
+"Avventura, L' (The Adventure)",1932,1930s,Drama,dramatic,00114_avventura_l_the_adventure.json
+Awakenings,1990,1990s,Drama,inspirational,00115_awakenings.json
+Babel,2006,2000s,Drama,tense,00116_babel.json
+Bad Country,2014,2010s,Drama,dark,00123_bad_country.json
+Bad Day at Black Rock,1955,1950s,Drama,dark,00124_bad_day_at_black_rock.json
+Badlands,1974,1970s,Drama,dark,00129_badlands.json
+Bamboozled,2000,2000s,Drama,dark,00130_bamboozled.json
+Barry Lyndon,1975,1970s,Drama,dramatic,00132_barry_lyndon.json
+Basquiat,1996,1990s,Drama,dramatic,00136_basquiat.json
+"Battle of Algiers, The",1966,1960s,Drama,dark,00140_battle_of_algiers_the.json
+"Battle of Shaker Heights, The",2003,2000s,Drama,dramatic,00141_battle_of_shaker_heights_the.json
+"Beach, The",2000,2000s,Drama,dramatic,00142_beach_the.json
+Beasts of No Nation,2015,2010s,Drama,dark,00144_beasts_of_no_nation.json
+Beasts of the Southern Wild,2012,2010s,Drama,inspirational,00145_beasts_of_the_southern_wild.json
+Beginners,2011,2010s,Drama,inspirational,00149_beginners.json
+Being Human,1994,1990s,Drama,dramatic,00150_being_human.json
+Being the Ricardos,2021,2020s,Drama,dramatic,00152_being_the_ricardos.json
+Being There,1979,1970s,Drama,dramatic,00153_being_there.json
+"Believer, The",2001,2000s,Drama,dark,00154_believer_the.json
+Belle,2013,2010s,Drama,dramatic,00155_belle.json
+Beloved,1998,1990s,Drama,dark,00156_beloved.json
+Benny & Joon,1993,1990s,Drama,dramatic,00157_benny_joon.json
+"Best Exotic Marigold Hotel, The",2012,2010s,Drama,inspirational,00158_best_exotic_marigold_hotel_the.json
+"Big Blue, The",1988,1980s,Drama,dramatic,00160_big_blue_the.json
+Big Eyes,2014,2010s,Drama,dramatic,00161_big_eyes.json
+Big Fish,2003,2000s,Drama,inspirational,00162_big_fish.json
+"Big White, The",2005,2000s,Drama,dramatic,00165_big_white_the.json
+Birdman,2015,2010s,Drama,dark,00166_birdman.json
+Black Snake Moan,2006,2000s,Drama,dark,00172_black_snake_moan.json
+Blackberry,2023,2020s,Drama,dramatic,00174_blackberry.json
+BlacKkKlansman,2018,2010s,Drama,dark,00175_blackkklansman.json
+"Blind Side, The",2009,2000s,Drama,inspirational,00181_blind_side_the.json
+"Bling Ring, The",2013,2010s,Drama,dark,00182_bling_ring_the.json
+Blood and Wine,1996,1990s,Drama,dramatic,00185_blood_and_wine.json
+Blue Valentine,2010,2010s,Drama,dramatic,00188_blue_valentine.json
+Blue Velvet,1986,1980s,Drama,dark,00189_blue_velvet.json
+"Bodies, Rest & Motion",1993,1990s,Drama,unknown,00191_bodies_rest_motion.json
+Bonfire of the Vanities,1990,1990s,Drama,dark,00196_bonfire_of_the_vanities.json
+Bonnie and Clyde,1967,1960s,Drama,dark,00197_bonnie_and_clyde.json
+Bookworm,2024,2020s,Drama,dramatic,00200_bookworm.json
+Boyhood,2014,2010s,Drama,dramatic,00211_boyhood.json
+Break,2018,2010s,Drama,dark,00214_break.json
+Breakdown,1997,1990s,Drama,dark,00215_breakdown.json
+"Breakfast Club, The",1985,1980s,Drama,dramatic,00216_breakfast_club_the.json
+Breaking Away,1979,1970s,Drama,dramatic,00217_breaking_away.json
+Brick,2006,2000s,Drama,dark,00218_brick.json
+Bringing Out the Dead,1999,1990s,Drama,dark,00220_bringing_out_the_dead.json
+Broadcast News,1987,1980s,Drama,dramatic,00221_broadcast_news.json
+Broken Embraces,2009,2000s,Drama,dark,00223_broken_embraces.json
+"Brothers Bloom, The",2008,2000s,Drama,dramatic,00224_brothers_bloom_the.json
+"Brutalist, The",2024,2020s,Drama,dark,00226_brutalist_the.json
+Burning Annie,2007,2000s,Drama,dramatic,00232_burning_annie.json
+"Butterfly Effect, The",2004,2000s,Drama,dark,00233_butterfly_effect_the.json
+Candle to Water,,unknown,Drama,dark,00235_candle_to_water.json
+Capote,2005,2000s,Drama,dramatic,00236_capote.json
+Cassandro,2023,2020s,Drama,dramatic,00241_cassandro.json
+Cast Away,2000,2000s,Drama,dramatic,00242_cast_away.json
+Celeste & Jesse Forever,2012,2010s,Drama,dramatic,00247_celeste_jesse_forever.json
+Changeling,2008,2000s,Drama,tense,00251_changeling.json
+Chasing Sleep,2001,2000s,Drama,dramatic,00256_chasing_sleep.json
+Chinatown,1974,1970s,Drama,dark,00258_chinatown.json
+"Cider House Rules, The",1999,1990s,Drama,dramatic,00262_cider_house_rules_the.json
+"Cincinnati Kid, The",1965,1960s,Drama,dark,00263_cincinnati_kid_the.json
+Cinema Paradiso,1988,1980s,Drama,inspirational,00264_cinema_paradiso.json
+Citizen Kane,1941,1940s,Drama,dramatic,00266_citizen_kane.json
+City of Joy,1992,1990s,Drama,dramatic,00267_city_of_joy.json
+Cobb,1994,1990s,Drama,dramatic,00273_cobb.json
+Cold Mountain,2003,2000s,Drama,dramatic,00276_cold_mountain.json
+"Color Purple, The",1985,1980s,Drama,inspirational,00281_color_purple_the.json
+Confessions of a Dangerous Mind,2002,2000s,Drama,dark,00284_confessions_of_a_dangerous_mind.json
+"Cooler, The",2003,2000s,Drama,dark,00287_cooler_the.json
+Coriolanus,2011,2010s,Drama,dark,00290_coriolanus.json
+Courage Under Fire,1996,1990s,Drama,dramatic,00292_courage_under_fire.json
+Crash,1996,1990s,Drama,dark,00296_crash.json
+"Crazy, Stupid, Love",2011,2010s,Drama,dramatic,00297_crazy_stupid_love.json
+Crazylove,2005,2000s,Drama,dramatic,00298_crazylove.json
+Creation,2009,2000s,Drama,dramatic,00299_creation.json
+Croupier,1998,1990s,Drama,dark,00303_croupier.json
+Crying Game,1992,1990s,Drama,dark,00308_crying_game.json
+"Curious Case of Benjamin Button, The",2008,2000s,Drama,dramatic,00310_curious_case_of_benjamin_button_the.json
+Custody,2016,2010s,Drama,dramatic,00311_custody.json
+Dallas Buyers Club,2013,2010s,Drama,dark,00312_dallas_buyers_club.json
+"Damned United, The",2009,2000s,Drama,dramatic,00313_damned_united_the.json
+Dances with Wolves,1990,1990s,Drama,inspirational,00314_dances_with_wolves.json
+"Danish Girl, The",2015,2010s,Drama,dramatic,00315_danish_girl_the.json
+"Day the Clown Cried, The",1972,1970s,Drama,dark,00324_day_the_clown_cried_the.json
+Days of Heaven,1978,1970s,Drama,dramatic,00326_days_of_heaven.json
+Dead Poets Society,1989,1980s,Drama,inspirational,00327_dead_poets_society.json
+Dear White People,2014,2010s,Drama,dramatic,00329_dear_white_people.json
+"Debt, The",2010,2010s,Drama,dark,00332_debt_the.json
+Deception,2008,2000s,Drama,dark,00333_deception.json
+"Deer Hunter, The",1978,1970s,Drama,dark,00336_deer_hunter_the.json
+Defiance,2008,2000s,Drama,dark,00337_defiance.json
+"Descendants, The",2011,2010s,Drama,dramatic,00339_descendants_the.json
+Devil in a Blue Dress,1995,1990s,Drama,dark,00342_devil_in_a_blue_dress.json
+Diner,1982,1980s,Drama,dramatic,00347_diner.json
+Do The Right Thing,1989,1980s,Drama,dark,00351_do_the_right_thing.json
+Dog Day Afternoon,1975,1970s,Drama,dark,00352_dog_day_afternoon.json
+"Doors, The",1991,1990s,Drama,dark,00355_doors_the.json
+"Dry White Season, A",1989,1980s,Drama,dark,00363_dry_white_season_a.json
+Eastern Promises,2007,2000s,Drama,dark,00370_eastern_promises.json
+An Education,2009,2000s,Drama,dramatic,00374_an_education.json
+Edward Scissorhands,1990,1990s,Drama,dramatic,00375_edward_scissorhands.json
+"Elephant Man, The",1980,1980s,Drama,dramatic,00380_elephant_man_the.json
+Elizabeth The Golden Age,2007,2000s,Drama,dramatic,00381_elizabeth_the_golden_age.json
+Elvis,2022,2020s,Drama,dramatic,00382_elvis.json
+"English Patient, The",1996,1990s,Drama,dramatic,00384_english_patient_the.json
+Enough,2002,2000s,Drama,dark,00385_enough.json
+Erin Brockovich,2000,2000s,Drama,inspirational,00389_erin_brockovich.json
+Eternal Sunshine of the Spotless Mind,2004,2000s,Drama,dramatic,00392_eternal_sunshine_of_the_spotless_mind.json
+Fair Game,2010,2010s,Drama,tense,00403_fair_game.json
+"Family Man, The",2000,2000s,Drama,dramatic,00405_family_man_the.json
+"Fault in Our Stars, The",2014,2010s,Drama,inspirational,00414_fault_in_our_stars_the.json
+Ferrari,2023,2020s,Drama,dramatic,00417_ferrari.json
+A Few Good Men,1992,1990s,Drama,dark,00419_a_few_good_men.json
+Field of Dreams,1989,1980s,Drama,,00420_field_of_dreams.json
+"Fighter, The",2010,2010s,Drama,dramatic,00423_fighter_the.json
+First Cow,2020,2020s,Drama,dramatic,00427_first_cow.json
+Five Easy Pieces,1970,1970s,Drama,dramatic,00428_five_easy_pieces.json
+Flight,2012,2010s,Drama,tense,00431_flight.json
+Flora and Son,2023,2020s,Drama,dramatic,00433_flora_and_son.json
+Foe,2023,2020s,Drama,dramatic,00434_foe.json
+Forrest Gump,1994,1990s,Drama,inspirational,00435_forrest_gump.json
+Four Feathers,1939,1930s,Drama,dramatic,00436_four_feathers.json
+Foxcatcher,2014,2010s,Drama,dark,00438_foxcatcher.json
+Frances,1982,1980s,Drama,dark,00440_frances.json
+Frankenstein,2025,2020s,Drama,dramatic,00441_frankenstein.json
+Freud's Last Session,2023,2020s,Drama,dark,00448_freud_s_last_session.json
+From Here to Eternity,1953,1950s,Drama,dramatic,00453_from_here_to_eternity.json
+Frozen River,2008,2000s,Drama,dramatic,00455_frozen_river.json
+Fruitvale Station,2013,2010s,Drama,dramatic,00456_fruitvale_station.json
+Gandhi,1982,1980s,Drama,inspirational,00464_gandhi.json
+Garden State,2004,2000s,Drama,dramatic,00467_garden_state.json
+Get Low,2010,2010s,Drama,dark,00470_get_low.json
+Get on Up,2014,2010s,Drama,inspirational,00471_get_on_up.json
+Ghost,1990,1990s,Drama,dramatic,00475_ghost.json
+Glengarry Glen Gross,,unknown,Drama,dark,00484_glengarry_glen_gross.json
+Gods and Monsters,1998,1990s,Drama,dark,00489_gods_and_monsters.json
+Gone Baby Gone,2007,2000s,Drama,dark,00491_gone_baby_gone.json
+"Good Girl, The",2002,2000s,Drama,dramatic,00493_good_girl_the.json
+A Good Person,2023,2020s,Drama,dramatic,00494_a_good_person.json
+Good Will Hunting,1997,1990s,Drama,dramatic,00495_good_will_hunting.json
+"Graduate, The",1967,1960s,Drama,dramatic,00498_graduate_the.json
+Gran Torino,2008,2000s,Drama,dark,00499_gran_torino.json
+Grand Hotel,1932,1930s,Drama,dramatic,00500_grand_hotel.json
+"Grapes of Wrath, The",1940,1940s,Drama,dramatic,00502_grapes_of_wrath_the.json
+"Great Gatsby, The",2013,2010s,Drama,dramatic,00504_great_gatsby_the.json
+"Green Mile, The",1999,1990s,Drama,dramatic,00505_green_mile_the.json
+Hannah and Her Sisters,1986,1980s,Drama,dramatic,00520_hannah_and_her_sisters.json
+"Happy Birthday, Wanda June",1971,1970s,Drama,dark,00522_happy_birthday_wanda_june.json
+Heavenly Creatures,1994,1990s,Drama,dark,00531_heavenly_creatures.json
+"Help, The",2011,2010s,Drama,dramatic,00542_help_the.json
+Henry Fool,1998,1990s,Drama,dark,00543_henry_fool.json
+Her,2013,2010s,Drama,dramatic,00545_her.json
+Hesher,2010,2010s,Drama,dark,00547_hesher.json
+Hitchcock,2012,2010s,Drama,tense,00553_hitchcock.json
+"Holdovers, The",2023,2020s,Drama,dramatic,00555_holdovers_the.json
+Honeydripper,2007,2000s,Drama,dramatic,00557_honeydripper.json
+"Horse Whisperer, The",1998,1990s,Drama,inspirational,00559_horse_whisperer_the.json
+"Hospital, The",1971,1970s,Drama,dramatic,00560_hospital_the.json
+Hotel Rwanda,2004,2000s,Drama,dramatic,00563_hotel_rwanda.json
+"Hudsucker Proxy, The",1994,1990s,Drama,dramatic,00569_hudsucker_proxy_the.json
+Human Nature,2001,2000s,Drama,dramatic,00570_human_nature.json
+I am Sam,2001,2000s,Drama,dramatic,00574_i_am_sam.json
+I'll Do Anything,1994,1990s,Drama,dramatic,00575_i_ll_do_anything.json
+I Love You Phillip Morris,2010,2010s,Drama,dramatic,00576_i_love_you_phillip_morris.json
+"Ice Storm, The",1997,1990s,Drama,dramatic,00580_ice_storm_the.json
+"Ides of March, The",2011,2010s,Drama,dark,00581_ides_of_march_the.json
+In the Bedroom,2001,2000s,Drama,dramatic,00583_in_the_bedroom.json
+"Insider, The",1999,1990s,Drama,dramatic,00595_insider_the.json
+Into the Wild,2007,2000s,Drama,dramatic,00600_into_the_wild.json
+Inventing the Abbotts,1997,1990s,Drama,dramatic,00603_inventing_the_abbotts.json
+Invictus,2009,2000s,Drama,inspirational,00605_invictus.json
+"Iron Claw, The",2023,2020s,Drama,tense,00606_iron_claw_the.json
+"Iron Lady, The",2011,2010s,Drama,dramatic,00607_iron_lady_the.json
+It's a Wonderful Life,1946,1940s,Drama,inspirational,00611_it_s_a_wonderful_life.json
+Jane Eyre,2011,2010s,Drama,dramatic,00618_jane_eyre.json
+Jennifer Eight,1992,1990s,Drama,dark,00623_jennifer_eight.json
+Jerry Maguire,1996,1990s,Drama,inspirational,00625_jerry_maguire.json
+Jeux Interdits,1952,1950s,Drama,dramatic,00626_jeux_interdits.json
+Jimmy and Judy,2006,2000s,Drama,dark,00628_jimmy_and_judy.json
+John Q,2002,2000s,Drama,tense,00629_john_q.json
+Jojo Rabbit,2019,2010s,Drama,dramatic,00632_jojo_rabbit.json
+Juno,2007,2000s,Drama,dramatic,00635_juno.json
+Kids,1995,1990s,Drama,dark,00642_kids.json
+"Kids Are All Right, The",2010,2010s,Drama,dramatic,00643_kids_are_all_right_the.json
+Kill Your Darlings,2013,2010s,Drama,dark,00645_kill_your_darlings.json
+Killers of the Flower Moon,2023,2020s,Drama,dark,00647_killers_of_the_flower_moon.json
+"King's Speech, The",2010,2010s,Drama,inspirational,00651_king_s_speech_the.json
+Kiss of the Spider Woman,2025,2020s,Drama,dramatic,00653_kiss_of_the_spider_woman.json
+Kramer vs Kramer,1979,1970s,Drama,dramatic,00656_kramer_vs_kramer.json
+Kundun,1997,1990s,Drama,inspirational,00657_kundun.json
+Labor of Love,1998,1990s,Drama,dramatic,00661_labor_of_love.json
+Last Chance Harvey,2008,2000s,Drama,dramatic,00668_last_chance_harvey.json
+"Last Flight, The",1931,1930s,Drama,dramatic,00669_last_flight_the.json
+"Last Station, The",2009,2000s,Drama,dramatic,00672_last_station_the.json
+Last Tango in Paris,1972,1970s,Drama,dark,00673_last_tango_in_paris.json
+Leaving Las Vegas,1995,1990s,Drama,dark,00676_leaving_las_vegas.json
+Life As A House,2001,2000s,Drama,dramatic,00687_life_as_a_house.json
+"Life of David Gale, The",2003,2000s,Drama,dark,00688_life_of_david_gale_the.json
+Life of Pi,2012,2010s,Drama,inspirational,00689_life_of_pi.json
+Light Sleeper,1992,1990s,Drama,dramatic,00690_light_sleeper.json
+Lincoln,2012,2010s,Drama,dramatic,00693_lincoln.json
+Little Athens,2005,2000s,Drama,dramatic,00696_little_athens.json
+Little Men,2016,2010s,Drama,dramatic,00697_little_men.json
+Lone Star,1996,1990s,Drama,dark,00704_lone_star.json
+Lost Horizon,1937,1930s,Drama,inspirational,00714_lost_horizon.json
+Love and Basketball,2000,2000s,Drama,inspirational,00717_love_and_basketball.json
+Machine Gun Preacher,2011,2010s,Drama,dark,00719_machine_gun_preacher.json
+Maestro,2023,2020s,Drama,dramatic,00722_maestro.json
+Magnolia,1999,1990s,Drama,dark,00723_magnolia.json
+"Majestic, The (The Bijou)",2001,2000s,Drama,dramatic,00724_majestic_the_the_bijou.json
+Malcolm X,1992,1990s,Drama,inspirational,00726_malcolm_x.json
+Man in the Iron Mask,1998,1990s,Drama,dramatic,00729_man_in_the_iron_mask.json
+Man on the Moon,1999,1990s,Drama,dramatic,00731_man_on_the_moon.json
+"Man Who Wasn't There, The",2001,2000s,Drama,dark,00734_man_who_wasn_t_there_the.json
+Margaret,2011,2010s,Drama,dark,00738_margaret.json
+Margot at the Wedding,2007,2000s,Drama,dramatic,00740_margot_at_the_wedding.json
+Marley & Me,2008,2000s,Drama,inspirational,00742_marley_me.json
+Martha Marcy May Marlene,2011,2010s,Drama,dark,00743_martha_marcy_may_marlene.json
+Marty,1955,1950s,Drama,dramatic,00745_marty.json
+"Master, The",2012,2010s,Drama,dark,00748_master_the.json
+Meet Joe Black,1998,1990s,Drama,dramatic,00756_meet_joe_black.json
+Meet John Doe,1941,1940s,Drama,dramatic,00757_meet_john_doe.json
+Midnight Cowboy,1969,1960s,Drama,dark,00767_midnight_cowboy.json
+Midnight Express,1978,1970s,Drama,dark,00768_midnight_express.json
+Milk,2008,2000s,Drama,dramatic,00772_milk.json
+Miller's Girl,2024,2020s,Drama,dark,00774_miller_s_girl.json
+A Million Miles Away,2023,2020s,Drama,inspirational,00775_a_million_miles_away.json
+Mini's First Time,2006,2000s,Drama,dramatic,00777_mini_s_first_time.json
+"Miracle Worker, The",2000,2000s,Drama,inspirational,00779_miracle_worker_the.json
+Moneyball,2011,2010s,Drama,dramatic,00785_moneyball.json
+Monster's Ball,2001,2000s,Drama,dramatic,00787_monster_s_ball.json
+Mr. Holland's Opus,1995,1990s,Drama,inspirational,00796_mr_holland_s_opus.json
+Mrs. Brown,1997,1990s,Drama,dramatic,00797_mrs_brown.json
+Mud,2013,2010s,Drama,dramatic,00798_mud.json
+Mulholland Drive,2001,2000s,Drama,dark,00800_mulholland_drive.json
+Mumford,1999,1990s,Drama,dramatic,00801_mumford.json
+Music of the Heart,1999,1990s,Drama,inspirational,00803_music_of_the_heart.json
+My Girl,1991,1990s,Drama,dramatic,00806_my_girl.json
+My Mother Dreams the Satan's Disciples in New York,1998,1990s,Drama,dark,00807_my_mother_dreams_the_satan_s_disciples_in_new_york.json
+My Week with Marilyn,2011,2010s,Drama,dramatic,00808_my_week_with_marilyn.json
+Napoleon,2023,2020s,Drama,dramatic,00810_napoleon.json
+Nashville,1975,1970s,Drama,dramatic,00812_nashville.json
+Ni vu ni connu,2011,2010s,Drama,dramatic,00821_ni_vu_ni_connu.json
+Nick of Time,1995,1990s,Drama,dramatic,00822_nick_of_time.json
+Nickel Boys,2024,2020s,Drama,dark,00823_nickel_boys.json
+Nine,2009,2000s,Drama,dramatic,00829_nine.json
+Ninotchka,1939,1930s,Drama,dramatic,00832_ninotchka.json
+"Officer and a Gentleman, An",1982,1980s,Drama,dramatic,00847_officer_and_a_gentleman_an.json
+One Flew Over the Cuckoo's Nest,1975,1970s,Drama,dark,00849_one_flew_over_the_cuckoo_s_nest.json
+Oppenheimer,2023,2020s,Drama,dramatic,00852_oppenheimer.json
+Ordinary People,1980,1980s,Drama,dramatic,00853_ordinary_people.json
+Origin,2023,2020s,Drama,dramatic,00855_origin.json
+"Other Boleyn Girl, The",2008,2000s,Drama,dramatic,00857_other_boleyn_girl_the.json
+Pariah,2011,2010s,Drama,dramatic,00864_pariah.json
+"Passion of Joan of Arc, The",2001,2000s,Drama,dramatic,00866_passion_of_joan_of_arc_the.json
+"Patriot, The",2000,2000s,Drama,dramatic,00867_patriot_the.json
+Peggy Sue Got Married,1986,1980s,Drama,dramatic,00871_peggy_sue_got_married.json
+"Perks of Being a Wallflower, The",2012,2010s,Drama,dramatic,00874_perks_of_being_a_wallflower_the.json
+"Persian Version, The",2023,2020s,Drama,dramatic,00875_persian_version_the.json
+Petulia,1968,1960s,Drama,dramatic,00878_petulia.json
+Philadelphia,1993,1990s,Drama,dramatic,00879_philadelphia.json
+"Pianist, The",2002,2000s,Drama,dark,00882_pianist_the.json
+"Piano, The",1993,1990s,Drama,dramatic,00883_piano_the.json
+Platinum Blonde,1931,1930s,Drama,dramatic,00889_platinum_blonde.json
+"Power of One, The",1992,1990s,Drama,inspirational,00896_power_of_one_the.json
+A Prayer Before Dawn,2018,2010s,Drama,dark,00897_a_prayer_before_dawn.json
+Precious,2024,2020s,Drama,dark,00898_precious.json
+Pride and Prejudice,1940,1940s,Drama,dramatic,00902_pride_and_prejudice.json
+Priscilla,2023,2020s,Drama,dramatic,00905_priscilla.json
+"Producer, The",,unknown,Drama,dramatic,00907_producer_the.json
+"Program, The",2015,2010s,Drama,dramatic,00908_program_the.json
+"Queen, The",2006,2000s,Drama,dramatic,00920_queen_the.json
+Rachel Getting Married,2008,2000s,Drama,dramatic,00924_rachel_getting_married.json
+Raging Bull,1980,1980s,Drama,dark,00926_raging_bull.json
+Rambling Rose,1991,1990s,Drama,dramatic,00928_rambling_rose.json
+"Reader, The",2008,2000s,Drama,dark,00930_reader_the.json
+A Real Pain,2024,2020s,Drama,dark,00932_a_real_pain.json
+Rebel Without A Cause,1955,1950s,Drama,dramatic,00934_rebel_without_a_cause.json
+Remember Me,2010,2010s,Drama,dramatic,00939_remember_me.json
+Revolutionary Road,2008,2000s,Drama,dark,00947_revolutionary_road.json
+RKO 281,1999,1990s,Drama,dramatic,00952_rko_281.json
+"Road, The",2009,2000s,Drama,dark,00953_road_the.json
+Rocky,1976,1970s,Drama,inspirational,00958_rocky.json
+Romeo & Juliet,1996,1990s,Drama,dramatic,00960_romeo_juliet.json
+Room,2015,2010s,Drama,dramatic,00962_room.json
+Rosetta,1999,1990s,Drama,dramatic,00964_rosetta.json
+Roughshod,1949,1940s,Drama,dramatic,00965_roughshod.json
+Rush,2013,2010s,Drama,dramatic,00968_rush.json
+Rust and Bone,2012,2010s,Drama,dramatic,00972_rust_and_bone.json
+Rustin,2023,2020s,Drama,dramatic,00973_rustin.json
+Save the Last Dance,2001,2000s,Drama,dramatic,00979_save_the_last_dance.json
+Saving Mr. Banks,2013,2010s,Drama,inspirational,00980_saving_mr_banks.json
+A Scanner Darkly,2006,2000s,Drama,dark,00984_a_scanner_darkly.json
+Schindler's List,1993,1990s,Drama,dark,00987_schindler_s_list.json
+Sense and Sensibility,1995,1990s,Drama,dramatic,00997_sense_and_sensibility.json
+A Serious Man,2009,2000s,Drama,dark,01000_a_serious_man.json
+"Sessions, The",2012,2010s,Drama,dramatic,01001_sessions_the.json
+"Seventh Seal, The",1957,1950s,Drama,dark,01002_seventh_seal_the.json
+"Sex, Lies and Videotape",1989,1980s,Drama,dark,01004_sex_lies_and_videotape.json
+Sexual Life,2005,2000s,Drama,dramatic,01005_sexual_life.json
+Shadow of the Vampire,2000,2000s,Drama,dark,01006_shadow_of_the_vampire.json
+Shame,2011,2010s,Drama,dark,01009_shame.json
+"Shawshank Redemption, The",1994,1990s,Drama,inspirational,01011_shawshank_redemption_the.json
+Shifty,2008,2000s,Drama,dark,01014_shifty.json
+"Shipping News, The",2001,2000s,Drama,dark,01016_shipping_news_the.json
+Sideways,2004,2000s,Drama,dramatic,01021_sideways.json
+Silent Grace,2001,2000s,Drama,dramatic,01025_silent_grace.json
+Silver Linings Playbook,2012,2010s,Drama,dramatic,01027_silver_linings_playbook.json
+Sing Sing,2024,2020s,Drama,dark,01029_sing_sing.json
+Six Degrees of Separation,1993,1990s,Drama,dramatic,01032_six_degrees_of_separation.json
+Sling Blade,1996,1990s,Drama,dark,01036_sling_blade.json
+Slumdog Millionaire,2008,2000s,Drama,dramatic,01038_slumdog_millionaire.json
+Smashed,2012,2010s,Drama,dark,01039_smashed.json
+Snow Falling On Cedars,1999,1990s,Drama,dark,01043_snow_falling_on_cedars.json
+"Social Network, The",2010,2010s,Drama,dark,01046_social_network_the.json
+Someone To Watch Over Me,1987,1980s,Drama,dramatic,01049_someone_to_watch_over_me.json
+Spanglish,2004,2000s,Drama,dramatic,01054_spanglish.json
+Spare Me,,unknown,Drama,dark,01055_spare_me.json
+St. Elmo's Fire,1985,1980s,Drama,dramatic,01062_st_elmo_s_fire.json
+State and Main,2000,2000s,Drama,dramatic,01078_state_and_main.json
+Stepmom,1998,1990s,Drama,dramatic,01080_stepmom.json
+Storytelling,2001,2000s,Drama,dramatic,01083_storytelling.json
+Straight Outta Compton,2015,2010s,Drama,dark,01084_straight_outta_compton.json
+Sugar,2017,2010s,Drama,dramatic,01089_sugar.json
+Sugar and Spice,1997,1990s,Drama,dramatic,01090_sugar_and_spice.json
+Sunset Blvd.,1950,1950s,Drama,dark,01091_sunset_blvd.json
+Sunshine Cleaning,2008,2000s,Drama,dramatic,01092_sunshine_cleaning.json
+"Sweet Hereafter, The",1997,1990s,Drama,dramatic,01101_sweet_hereafter_the.json
+Sweet Smell of Success,1957,1950s,Drama,dark,01102_sweet_smell_of_success.json
+"Synecdoche, New York",2008,2000s,Drama,dark,01105_synecdoche_new_york.json
+Syriana,2005,2000s,Drama,dark,01106_syriana.json
+Take Shelter,2011,2010s,Drama,dark,01107_take_shelter.json
+Taking Sides,2002,2000s,Drama,dark,01110_taking_sides.json
+Tamara Drewe,2010,2010s,Drama,dramatic,01113_tamara_drewe.json
+Taxi Driver,1976,1970s,Drama,dark,01114_taxi_driver.json
+"Teachers' Lounge, The",2023,2020s,Drama,dramatic,01115_teachers_lounge_the.json
+Thelma & Louise,1991,1990s,Drama,dramatic,01122_thelma_louise.json
+"Theory of Everything, The",2014,2010s,Drama,inspirational,01123_theory_of_everything_the.json
+"Things My Father Never Taught Me, The",,unknown,Drama,dramatic,01127_things_my_father_never_taught_me_the.json
+Thirteen Days,2000,2000s,Drama,tense,01128_thirteen_days.json
+This Boy's Life,1993,1990s,Drama,dramatic,01129_this_boy_s_life.json
+Thunderheart,1992,1990s,Drama,dark,01137_thunderheart.json
+Tin Men,1987,1980s,Drama,dramatic,01142_tin_men.json
+Titanic,1997,1990s,Drama,dramatic,01144_titanic.json
+To Sleep with Anger,1990,1990s,Drama,dramatic,01146_to_sleep_with_anger.json
+Traffic,2000,2000s,Drama,dark,01154_traffic.json
+Trainspotting,1996,1990s,Drama,dark,01156_trainspotting.json
+Trap Livin',2023,2020s,Drama,dark,01158_trap_livin.json
+Tristan and Isolde,1972,1970s,Drama,dramatic,01160_tristan_and_isolde.json
+Two For The Money,2005,2000s,Drama,dark,01174_two_for_the_money.json
+Un Singe en Hiver,2014,2010s,Drama,dramatic,01177_un_singe_en_hiver.json
+Under Fire,2025,2020s,Drama,dark,01179_under_fire.json
+Up in the Air,2009,2000s,Drama,dramatic,01182_up_in_the_air.json
+"Verdict, The",1982,1980s,Drama,dramatic,01187_verdict_the.json
+"Walk to Remember, A",2002,2000s,Drama,inspirational,01194_walk_to_remember_a.json
+Wall Street,1987,1980s,Drama,dark,01197_wall_street.json
+Wall Street Money Never Sleeps,2010,2010s,Drama,dark,01198_wall_street_money_never_sleeps.json
+War Horse,2011,2010s,Drama,dramatic,01201_war_horse.json
+Warm Springs,2005,2000s,Drama,dramatic,01203_warm_springs.json
+Warrior,2011,2010s,Drama,dramatic,01204_warrior.json
+Water for Elephants,2011,2010s,Drama,dramatic,01206_water_for_elephants.json
+"Way Back, The",2010,2010s,Drama,dramatic,01207_way_back_the.json
+Whiplash,2014,2010s,Drama,dark,01214_whiplash.json
+"Whistleblower, The",2010,2010s,Drama,dark,01215_whistleblower_the.json
+"White Ribbon, The",2009,2000s,Drama,dramatic,01218_white_ribbon_the.json
+White Squall,1996,1990s,Drama,dramatic,01219_white_squall.json
+Win Win,2011,2010s,Drama,dramatic,01231_win_win.json
+Wonder Boys,2000,2000s,Drama,dramatic,01237_wonder_boys.json
+"Woodsman, The",2004,2000s,Drama,dark,01240_woodsman_the.json
+"Wrestler, The",2008,2000s,Drama,dramatic,01242_wrestler_the.json
+You Can Count On Me,2000,2000s,Drama,dramatic,01249_you_can_count_on_me.json
+Zebra Girl,2021,2020s,Drama,dramatic,01252_zebra_girl.json
+"Zone of Interest, The",2023,2020s,Drama,dark,01255_zone_of_interest_the.json

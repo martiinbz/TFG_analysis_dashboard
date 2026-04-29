@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Basic Instinct",
+    "release_year": 1992,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Thriller",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19955,
+    "scene_count": 144,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "73:27",
+    "day_night_ratio": "44:56",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 36,
+    "male_dialogue_share_pct": 64,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "supporting",
+    "coming_out_narrative": false,
+    "same_sex_relationships": true,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 13,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CATHERINE TRAMELL",
+        "DR BETH GARNER",
+        "THE WOMAN",
+        "ROXY",
+        "HAZEL DOBKINS",
+        "MAID"
+      ],
+      "female_female_dialogue_examples": [
+        "CATHERINE TRAMELL: Honey, why don't you go in the car? I'll be right there.\nHAZEL DOBKINS: Goodbye, Shooter.\nDETECTIVE NICK CURRAN: You like to hang out with murderers or what? Did you know Roxy --\nCATHERINE TRAMELL: Of course I knew.\nCATHERINE TRAMELL: Look. ",
+        "CATHERINE TRAMELL: Honey, why don't you go in the car? I'll be right there.\nHAZEL DOBKINS: Goodbye, Shooter.\nDETECTIVE NICK CURRAN: You like to hang out with murderers or what? Did you know Roxy --\nCATHERINE TRAMELL: Of course I knew.",
+        "DETECTIVE NICK CURRAN: Can I talk to you a minute?\nCATHERINE TRAMELL: Honey, why don't you go in the car? I'll be right there.\nHAZEL DOBKINS: Goodbye, Shooter.\nDETECTIVE NICK CURRAN: You like to hang out with murderers or what? Did you know Roxy --\nCATHERINE T"
+      ],
+      "non_male_topic_examples": [
+        "THE WOMAN: I'm Roxy. I'm her -- friend.\nROXY: She's out at the beach house at Stinson. Seadrift. 1402."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "latino"
+      ],
+      "evidence_snippets": [
+        "It is more a mansion than a house. They ring the bell. An Hispanic MAID answers. They flash their badges."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

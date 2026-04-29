@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Ordinary People",
+    "release_year": 1980,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19744,
+    "scene_count": 184,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "74:26",
+    "day_night_ratio": "37:63",
+    "story_time_span": "months",
+    "geographic_setting": "suburban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 6,
+    "male_dialogue_share_pct": 94,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JEANNINE PRATT",
+        "FRIEND",
+        "FRIEND S WIFE",
+        "AUDREY"
+      ],
+      "female_female_dialogue_examples": [
+        "FRIEND S WIFE: I liked them all.\nCALVIN JARRETT: It was funny.\nFRIEND: It was a comedy. Wasn't it?\nFRIEND S WIFE: Well let's face it: Clyde Banner's getting fat.\nFRIEND S WIFE: He should never turn profile.",
+        "FRIEND S WIFE: I loved it.\nBETH JARRETT: Bev Walsh was wonderful.\nFRIEND S WIFE: I liked them all.\nCALVIN JARRETT: It was funny.\nFRIEND: It was a comedy. Wasn't it?\nFRIEND S WIFE: Well let's face it: Clyde Banner's getting fat.\nFRIEND S WIFE: He should never t",
+        "FRIEND S WIFE: I liked them all.\nCALVIN JARRETT: It was funny.\nFRIEND: It was a comedy. Wasn't it?\nFRIEND S WIFE: Well let's face it: Clyde Banner's getting fat."
+      ],
+      "non_male_topic_examples": [
+        "FRIEND: It was a comedy. Wasn't it?\nFRIEND S WIFE: Well let's face it: Clyde Banner's getting fat."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

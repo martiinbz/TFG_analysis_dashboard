@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Even Cowgirls Get the Blues",
+    "release_year": 1994,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 18751,
+    "scene_count": 117,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "50:50",
+    "day_night_ratio": "82:18",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 18,
+    "male_named_character_count": 7,
+    "female_dialogue_share_pct": 61,
+    "male_dialogue_share_pct": 39,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "celebrated",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "WW2",
+    "war_portrayal": "critical",
+    "historical_event_reference": "WW2",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "freedom vs control"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SISSY",
+        "DELORES DEL RUBY",
+        "MISS ADRIAN",
+        "MADAME ZOE",
+        "COWGIRL DEBBIE",
+        "CARLA",
+        "MARIE BARTH",
+        "MRS HANKSHAW"
+      ],
+      "female_female_dialogue_examples": [
+        "SISSY: You might say that, although I don't think of it as traveling.\nCARLA: How do you think of it?\nSISSY: As moving.\nCARLA: Rupert, before you get too engrossed in your research on Scotch as a cure for aging, don't you think you'd better phone Elaine's and c",
+        "HOWARD BARTH: A traveler, eh?\nSISSY: You might say that, although I don't think of it as traveling.\nCARLA: How do you think of it?\nSISSY: As moving.\nCARLA: Rupert, before you get too engrossed in your research on Scotch as a cure for aging, don't you think you",
+        "MADAME ZOE: Beg your pardon?\nMRS HANKSHAW: Husband. Will she find a husband?\nMADAME ZOE: Oh, I see.\nMADAME ZOE: I see men in your life, honey. I also see women, lots of women.\nMADAME ZOE: A husband, no doubt about it, though he is years away. There are childre"
+      ],
+      "non_male_topic_examples": [
+        "RUBBER ROSE MAID: Excuse me, Miss. Do you care for your breakfast now?\nSISSY: Yeah. I feel a bit hungry.\nSISSY: Road food. How did you know?\nRUBBER ROSE MAID: Well it is a change of our usual grapefruit and melba toast, I'm sure.",
+        "MADAME ZOE: I am the enlightened Madame Zoe.\nMADAME ZOE: There is nothing about your past, present or future that your hands do not know, and there is nothing about your hands that Madame Zoe does not know. There is no hocus-pocus involved. I am a scientist, n",
+        "MADAME ZOE: I guess the most important aspect of your thumbs is the, ahem, over all size. Uh, what was it, do you know,\nSISSY: Just lucky I guess.\nMADAME ZOE: Do you study history in school? Galileo, Descartes, Newton? Lebinitz had very large thumbs; Voltaire'"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "WW2"
+      ],
+      "event_evidence": [
+        "The Chink mentions being in Tule Lake detention camp during World War II.",
+        "The Chink talks about the Second World War and the Clock People."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "SISSY'S VIEW. The man driving is black-skinned, beret-topped and he has four smiling gold teeth and six shiny brass",
+        "MAN You bet your raggedy white ass I am.",
+        "born a male Russian countess into a white middle class Baptist family in Mississippi and you'll see what I"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

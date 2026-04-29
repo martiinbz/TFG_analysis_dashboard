@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Youth in Revolt",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26004,
+    "scene_count": 225,
+    "dialogue_density_pct": 40,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "70:30",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 16,
+    "female_dialogue_share_pct": 22,
+    "male_dialogue_share_pct": 78,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "psychological",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 34,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "freedom vs control"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SHEENI",
+        "LACEY",
+        "TAGGARTY",
+        "MRS SAUNDERS"
+      ],
+      "female_female_dialogue_examples": [
+        "MRS SAUNDERS: That's no excuse. Another helicopter passes overhead.\nTAGGARTY: The food is delicious, Paul.\nPAUL SAUNDERS: Thank you.\nSHEENI: Not long enough, Paul.\nNICK TWISP: I hope it's the first of many such occasions for me. Sheeni narrows her eyes at him.",
+        "PAUL SAUNDERS: Well, mother, he is sitting in his own bowel movement.\nMRS SAUNDERS: That's no excuse. Another helicopter passes overhead.\nTAGGARTY: The food is delicious, Paul.\nPAUL SAUNDERS: Thank you.\nSHEENI: Not long enough, Paul.\nNICK TWISP: I hope it's th",
+        "LACEY: Dear Lord, thank you for this bounty. Help us to be tolerant of others - especially the boyfriends and girlfriends of our immediate relations. Amen.\nMRS SAUNDERS: Paul? Your father looks rather"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "In the clearing, a UC JOCK stands behind his ASIAN GIRLFRIEND, kissing her neck and removing her clothes.",
+        "has an open French textbook as he tries to decipher Sheeni's letter. An Indian boy, VIJAY JOSHI, 16, makes his way to them.",
+        "POLICE OFFICER Indian music. So we're a checkin' the INS files, see if we can get"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Two For The Money",
+    "release_year": 2005,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 26510,
+    "scene_count": 146,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "73:27",
+    "day_night_ratio": "54:46",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 16,
+    "male_dialogue_share_pct": 84,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "TONI MORROW",
+        "JULIA",
+        "TAMMY",
+        "FRIEND",
+        "MAKE-UP ARTIST"
+      ],
+      "female_female_dialogue_examples": [
+        "JULIA: Can we play?\nTONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.\nTONI MORROW: So do I. Go put your dress on.",
+        "JULIA: Can we play?\nTONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.\nTONI MORROW: So do I. Go put your dress on.\nWALTER ABRAMS: Easy 200, huh? Here's something extra for a cab.",
+        "JULIA: Can we play?\nTONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.\nTONI MORROW: So do I. Go put your dress on.\nWALTER ABRAMS: Easy 200, huh? Here's something extra for a cab.\nWALTER ABRAMS: I can explain."
+      ],
+      "non_male_topic_examples": [
+        "JULIA: Can we play?\nTONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.\nTONI MORROW: So do I. Go put your dress on.",
+        "JULIA: Can we play?\nTONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.",
+        "TONI MORROW: Okay, let me just put the groceries away.\nJULIA: I want to play princess.\nTONI MORROW: So do I. Go put your dress on."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "middle_eastern",
+        "black",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "A MIDDLE EASTERN MAN (ratty t-shirt, beard stubble, sleepless look) stands in the back of a low-end dry cleaners.",
+        "Big breasts, G-strings, testosterone. BRANDON in a booth with a topless BLACK GIRL. We can see from his moves it's the Million Dollar Man talking. Drinking Dom. Flashing cash. He whispers",
+        "MUSIC from the club rumbles through the space, reduced to a driving bass beat. The ASIAN GIRL pulls an outrageous wad of cash from BRANDON'S pocket, tosses it confetti-like in the air",
+        "cash from BRANDON'S pocket, tosses it confetti-like in the air as -- BRANDON, the ASIAN GIRL and the BLACK GIRL fall on the gold lame sheets. Clothes are peeled off, money sticking to",
+        "Black girL"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

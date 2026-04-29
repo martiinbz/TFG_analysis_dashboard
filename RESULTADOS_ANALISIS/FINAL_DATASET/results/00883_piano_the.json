@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "Piano, The",
+    "release_year": 1993,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 21484,
+    "scene_count": 1,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "0:100",
+    "day_night_ratio": "unknown",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 15,
+    "male_named_character_count": 18,
+    "female_dialogue_share_pct": 41,
+    "male_dialogue_share_pct": 59,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 7,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "secondary",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "FLORA MCGRATH",
+        "AUNT MORAG",
+        "HIRA",
+        "NESSIE",
+        "SEAMEN",
+        "ADA",
+        "TREE GIRL"
+      ],
+      "female_female_dialogue_examples": [
+        "AUNT MORAG: We'll bring out the bride.\nFLORA MCGRATH: My REAL father was a famous German composer\nAUNT MORAG: Ohh the tag is broken.\nFLORA MCGRATH: my mother was an opera\nFLORA MCGRATH: I want to be in the photograph.\nAUNT MORAG: I thought she met your father ",
+        "AUNT MORAG: Watch your feet!\nNESSIE: Watch your feet!\nAUNT MORAG: Careful! Watch his hand.\nNESSIE: Watch his hand\nAUNT MORAG: Stop it!\nAUNT MORAG: We'll bring out the bride.",
+        "FLORA MCGRATH: I want to be in the photograph.\nAUNT MORAG: I thought she met your father in Luxemburg.\nFLORA MCGRATH: Well, yes, in Austria where be conducted the Royal Orchestra.\nAUNT MORAG: get married?\nFLORA MCGRATH: thick and expressive) In an enormous for"
+      ],
+      "non_male_topic_examples": [
+        "FLORA MCGRATH: No, I tell a lie, it was in a small country church, near the\nAUNT MORAG: Which mountains are those dear?\nFLORA MCGRATH: The Alps.\nAUNT MORAG: Ohhh I've never been there.\nFLORA MCGRATH: Mother used to sing the songs in German and her voice would ",
+        "AUNT MORAG: Which mountains are those dear?\nFLORA MCGRATH: The Alps.\nAUNT MORAG: Ohhh I've never been there.\nFLORA MCGRATH: Mother used to sing the songs in German and her voice would echo across the valleys\nAUNT MORAG: Oh what happened?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "The girl wearing her skates sits on a small black pony. An old man is pulling it, but it won't move. (In the background, another aspect of",
+        "fall by grasping hold of branches and shoots. Finally their fall is checked. The old man is white haired, the front of his suit splattered with the debris of many meals. He sits up feeling about for his",
+        "I marry white man Peini, he a whaler like you. He very good"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

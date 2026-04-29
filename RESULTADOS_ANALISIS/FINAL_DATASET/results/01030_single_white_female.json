@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Single White Female",
+    "release_year": 1992,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Thriller",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 28351,
+    "scene_count": 235,
+    "dialogue_density_pct": 16,
+    "int_ext_ratio": "91:9",
+    "day_night_ratio": "52:48",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 2,
+    "female_dialogue_share_pct": 47,
+    "male_dialogue_share_pct": 53,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 21,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HEDRA HEDY CARLSON",
+        "ANSWERING MACHINE",
+        "TALKATIVE APPLICANT",
+        "PERFECT APPLICANT"
+      ],
+      "female_female_dialogue_examples": [
+        "ANSWERING MACHINE: No messages.\nHEDRA HEDY CARLSON: I know I shouldn't have, but they were just giving him",
+        "ANSWERING MACHINE: No messages.\nHEDRA HEDY CARLSON: I know I shouldn't have, but they were just giving him\nALLISON ALLIE JONES: Well, I hope they meant it.\nHEDRA HEDY CARLSON: Tomorrow, okay. I promise.",
+        "ALLISON ALLIE JONES: Yoo-hoo !\nANSWERING MACHINE: No messages.\nHEDRA HEDY CARLSON: I know I shouldn't have, but they were just giving him\nALLISON ALLIE JONES: Well, I hope they meant it.\nHEDRA HEDY CARLSON: Tomorrow, okay. I promise."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "SINGLE WHITE FEMALE",
+        "A young butch woman, wearing a leather jacket and a black and white bandana around her head, bangs her fist on the walls of the",
+        "A young butch woman, wearing a leather jacket and a black and white bandana around her head, bangs her fist on the walls of the kitchen. She enters the kitchen, where Allison is sitting at a",
+        "A young woman is standing in the middle of the room, wearing a white blouse and brown large pants, looking very discreet... too perfect !"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

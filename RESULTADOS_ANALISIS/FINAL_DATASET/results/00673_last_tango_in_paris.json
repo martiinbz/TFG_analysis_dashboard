@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Last Tango in Paris",
+    "release_year": 1972,
+    "decade": "1970s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 17444,
+    "scene_count": 76,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "76:24",
+    "day_night_ratio": "97:3",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 16,
+    "male_named_character_count": 4,
+    "female_dialogue_share_pct": 50,
+    "male_dialogue_share_pct": 50,
+    "gender_power_dynamics": "balanced",
+    "bechdel_test": true,
+    "sexual_content_presence": "same-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 12,
+    "moral_ambiguity": "high",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JEANNE",
+        "ROSA S MOTHER",
+        "CATHERINE",
+        "JEANNE S MOTHER",
+        "CONCIERGE",
+        "DANCE FLOOR"
+      ],
+      "female_female_dialogue_examples": [
+        "JEANNE: I've come to see the flat. I saw the sign.\nCONCIERGE: The sign?\nCONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!",
+        "CONCIERGE: The sign?\nCONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!\nCONCIERGE: They rent, they leave and I'm the last to know. Do you think that's",
+        "CONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!\nCONCIERGE: They rent, they leave and I'm the last to know. Do you think that's"
+      ],
+      "non_male_topic_examples": [
+        "JEANNE: I've come to see the flat. I saw the sign.\nCONCIERGE: The sign?\nCONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!",
+        "CONCIERGE: The sign?\nCONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!\nCONCIERGE: They rent, they leave and I'm the last to know. Do you think that's",
+        "CONCIERGE: It's always the same! Nobody ever tells me anything.\nJEANNE: I'd like to see it.\nCONCIERGE: You want to rent it?\nJEANNE: I don't know yet!\nCONCIERGE: They rent, they leave and I'm the last to know. Do you think that's"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

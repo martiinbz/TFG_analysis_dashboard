@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "South Park",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Animation",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "multiple",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "rivalry"
+  },
+  "technical": {
+    "word_count": 25545,
+    "scene_count": 120,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "57:43",
+    "day_night_ratio": "72:28",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 41,
+    "male_dialogue_share_pct": 59,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 14,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "other",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "satirical",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 3,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CARTMAN",
+        "KYLE S MOTHER",
+        "CARTMAN S MOTHER",
+        "KENNY S MOTHER",
+        "STAN S MOTHER"
+      ],
+      "female_female_dialogue_examples": [
+        "CARTMAN S MOTHER: Sure, hon. Goodnight.\nCARTMAN: Go away, scary noise.\nCARTMAN S MOTHER: Eric?! Eric, what is it?!\nCARTMAN: I saw him!! I saw Kenny!!\nCARTMAN S MOTHER: Oh you poor dear. You've been through so\nCARTMAN: I bet him he couldn't set himself on fire ",
+        "CARTMAN S MOTHER: Yes, hon?\nCARTMAN S MOTHER: Sure, hon. Goodnight.\nCARTMAN: Go away, scary noise.\nCARTMAN S MOTHER: Eric?! Eric, what is it?!\nCARTMAN: I saw him!! I saw Kenny!!\nCARTMAN S MOTHER: Oh you poor dear. You've been through so",
+        "CARTMAN S MOTHER: Sure, hon. Goodnight.\nCARTMAN: Go away, scary noise.\nCARTMAN S MOTHER: Eric?! Eric, what is it?!\nCARTMAN: I saw him!! I saw Kenny!!\nCARTMAN S MOTHER: Oh you poor dear. You've been through so"
+      ],
+      "non_male_topic_examples": [
+        "CARTMAN S MOTHER: Yes, hon?\nCARTMAN S MOTHER: Sure, hon. Goodnight.\nCARTMAN: Go away, scary noise.\nCARTMAN S MOTHER: Eric?! Eric, what is it?!"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Wild Things",
+    "release_year": 1998,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Thriller",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 25277,
+    "scene_count": 154,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "47:53",
+    "day_night_ratio": "64:36",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 7,
+    "female_dialogue_share_pct": 52,
+    "male_dialogue_share_pct": 48,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": true,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 11,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DETECTIVE GLORIA PEREZ",
+        "KELLY VAN RYAN",
+        "SANDRA VAN RYAN",
+        "RUBY",
+        "BAXTER",
+        "BARBARA BAXTER",
+        "NICOLE"
+      ],
+      "female_female_dialogue_examples": [
+        "RUBY: You come all the way out here to watch\nDETECTIVE GLORIA PEREZ: I was wondering if I could ask you a few\nRUBY: About Suzie?\nDETECTIVE GLORIA PEREZ: Actually, I was wondering if I might ask you about Ray Duquette.\nRUBY: He used to come around here. He had ",
+        "RUBY: Got sort of hung up on her, from what\nDETECTIVE GLORIA PEREZ: She still work there?\nRUBY: No. Not after that night. I don't know what happened. Maybe he\nDETECTIVE GLORIA PEREZ: Was there ever any kind of\nRUBY: Duquette always claimed the kid was dusted, ",
+        "DETECTIVE GLORIA PEREZ: So Suzie and Sandra Van Ryan were half-\nRUBY: And the other girl, Kelly. Suzie's\nDETECTIVE GLORIA PEREZ: Thank you for talking to me, Ruby. I am\nRUBY: You okay?\nDETECTIVE GLORIA PEREZ: I'm fine. Nice TV."
+      ],
+      "non_male_topic_examples": [
+        "SANDRA VAN RYAN: Okay, what's the matter?\nKELLY VAN RYAN: You notice my new jumper?\nKELLY VAN RYAN: My friends buy me clothes, so I don't look like trash.\nSANDRA VAN RYAN: I would hardly say you look like trash.\nKELLY VAN RYAN: No thanks to you.",
+        "KELLY VAN RYAN: You notice my new jumper?\nKELLY VAN RYAN: My friends buy me clothes, so I don't look like trash.\nSANDRA VAN RYAN: I would hardly say you look like trash.\nKELLY VAN RYAN: No thanks to you.\nSANDRA VAN RYAN: Come off of it. You run with all these ",
+        "KELLY VAN RYAN: My friends buy me clothes, so I don't look like trash.\nSANDRA VAN RYAN: I would hardly say you look like trash.\nKELLY VAN RYAN: No thanks to you.\nSANDRA VAN RYAN: Come off of it. You run with all these little trust fund"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "A John Deere tractor mower sits nearby. A groundsman -- a tall black guy with a shaved head, waits at the wheel of the bug as..."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

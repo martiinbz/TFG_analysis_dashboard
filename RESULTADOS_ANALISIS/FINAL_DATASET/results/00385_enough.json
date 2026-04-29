@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Enough",
+    "release_year": 2002,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 21582,
+    "scene_count": 138,
+    "dialogue_density_pct": 36,
+    "int_ext_ratio": "69:31",
+    "day_night_ratio": "61:39",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 10,
+    "female_dialogue_share_pct": 55,
+    "male_dialogue_share_pct": 45,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SLIM HILLER",
+        "GINNY",
+        "GRACIE HILLER",
+        "OUR HERO",
+        "MRS TYLER",
+        "TEACHER BETTY"
+      ],
+      "female_female_dialogue_examples": [
+        "SLIM HILLER: Ever try the rock, hey?\nGINNY: Excuse me?\nSLIM HILLER: The deodorant thing. It's salts or\nGINNY: You're saying I sweat.\nSLIM HILLER: Perspire, Ginny. You lightly -\nGINNY: I'll remember that. Your turn, I'm sweatin' too much. Slim gives her a look,",
+        "SLIM HILLER: Okay, so he likes me.\nGINNY: Do you like him?\nSLIM HILLER: I don't know him.\nGINNY: What's that got to do with it? Slim: he is a major piece of cake/piece of pie.\nSLIM HILLER: I didn't notice.\nGINNY: Trust me. Carrot cake. And when a guy like that",
+        "GINNY: It worked?!\nSLIM HILLER: Listen to me! I did it, but I can't do it! I can't kill him!\nGINNY: Slim. He'll come after you -\nSLIM HILLER: I know -\nGINNY: He'll come after Gracie -\nSLIM HILLER: I know all that! I have to, but I can't! I'm not a killer! I'm "
+      ],
+      "non_male_topic_examples": [
+        "SLIM HILLER: Ever try the rock, hey?\nGINNY: Excuse me?\nSLIM HILLER: The deodorant thing. It's salts or\nGINNY: You're saying I sweat.\nSLIM HILLER: Perspire, Ginny. You lightly -\nGINNY: I'll remember that. Your turn, I'm sweatin' too much. Slim gives her a look,",
+        "SLIM HILLER: And you're only like 299 thousand short of what you'd need for law\nGINNY: I Piece of cake -\nSLIM HILLER: Piece of pie -\nGINNY: Piece of ass. So what would you do?\nGINNY: In what? I thought you hated -\nSLIM HILLER: Psychology maybe, I don't know. I",
+        "SLIM HILLER: Something to drink?\nOUR HERO: Just water, thanks.\nSLIM HILLER: I'll give you a minute to look over -\nOUR HERO: What's your real name?\nOUR HERO: Hmm. I like it, but don't you think it's kinds negative?\nSLIM HILLER: No, I don't tell my name."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "HER FACE. FLASHES . She looks gorgeous, then ordinary, sloppy, white waitress uniform, gorgeous again, dishes stacked in her arms, turning, looking, happy, tired. INTERCUT TITLES.",
+        "large, simple,' beautiful house. Mitch is knocking at the door. The man who answers the door is 62, white-haired, vigorous. Looks like he walked out of a Viagra ad.",
+        "T.T. (the African-American woman who works there) watches \"Erin\" exit the bathroom and put away the scissors. Not a",
+        "JUPITER How's that black guy I .set you up with?"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

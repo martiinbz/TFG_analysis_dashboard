@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "New York Minute",
+    "release_year": 2004,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19606,
+    "scene_count": 119,
+    "dialogue_density_pct": 39,
+    "int_ext_ratio": "70:30",
+    "day_night_ratio": "97:3",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 19,
+    "male_named_character_count": 5,
+    "female_dialogue_share_pct": 93,
+    "male_dialogue_share_pct": 7,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 1,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PARKER",
+        "DREW",
+        "QUINN",
+        "CHARLEY",
+        "DESK CLERK",
+        "RED",
+        "CHINESE REP",
+        "DREW S POV"
+      ],
+      "female_female_dialogue_examples": [
+        "PARKER: I told you, I didn't know you liked him! It was no big deal!\nDREW: It was to me!\nPARKER: How could I know? You never tell me anything!\nDREW: There's a good reason for that!\nPARKER: What's that supposed to mean?\nDREW: You know very well what it means, M",
+        "DREW: It was to me!\nPARKER: How could I know? You never tell me anything!\nDREW: There's a good reason for that!\nPARKER: What's that supposed to mean?\nDREW: You know very well what it means, Ms. Big Mouth!\nPARKER: Big mouth?! Ooh, I hope you miss that stupid in",
+        "PARKER: What's wrong?\nDREW: Oh. My. God.\nPARKER: Where's your, uh, stuff?\nDREW: I left it in his car.\nDREW: He knows where I live. He's going to hunt me down and kill me.\nPARKER: Come on, Drew. I don't think even the Mafia kills people just for scamming a ride"
+      ],
+      "non_male_topic_examples": [
+        "DREW: It was to me!\nPARKER: How could I know? You never tell me anything!\nDREW: There's a good reason for that!\nPARKER: What's that supposed to mean?\nDREW: You know very well what it means, Ms. Big Mouth!\nPARKER: Big mouth?! Ooh, I hope you miss that stupid in",
+        "DREW: No way Mom knows about that. Self-consciously, Parker drops her arms, pulls her shirt\nPARKER: And she never will. At least until after I'm married.\nDREW: Didn't it hurt?\nPARKER: Like hell. Drew shivers.\nDREW: Breakfast. Drew turns on her heel and EXITS. ",
+        "DREW: Ow! I'm awake now. You're supposed to\nPARKER: You know, I just got this itch.\nDREW: Then scratch it and get back to\nPARKER: I couldn't concentrate anyway.\nDREW: You're permanently distracted. It's called Attention Deficit"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

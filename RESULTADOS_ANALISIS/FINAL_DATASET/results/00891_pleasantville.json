@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "Pleasantville",
+    "release_year": 1998,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 32020,
+    "scene_count": 260,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "74:26",
+    "day_night_ratio": "42:58",
+    "story_time_span": "days",
+    "geographic_setting": "suburban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 16,
+    "male_named_character_count": 28,
+    "female_dialogue_share_pct": 35,
+    "male_dialogue_share_pct": 65,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "psychological",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JENNIFER",
+        "BETTY",
+        "MARGARET HENDERSON",
+        "MARY",
+        "MISS PETERS",
+        "PEGGY JANE",
+        "MARGE JENKINS",
+        "CLOSER BETTY"
+      ],
+      "female_female_dialogue_examples": [
+        "JENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)\nBETTY: What's sex?\nJENNIFER: You sure you want to know this?",
+        "BETTY: What goes on up at Lover's Lane?\nJENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)",
+        "JENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)\nBETTY: What's sex?"
+      ],
+      "non_male_topic_examples": [
+        "JENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)\nBETTY: What's sex?\nJENNIFER: You sure you want to know this?",
+        "BETTY: What goes on up at Lover's Lane?\nJENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)",
+        "JENNIFER: What do you mean?\nBETTY: Well, you hear all these things lately. You know--kids spending so much time up\nJENNIFER: It doesn't matter.\nBETTY: No. I want to know.\nJENNIFER: lowers her voice)\nBETTY: What's sex?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "counter. He is a \"pleasant\" looking man, in his early forties wearing a white apron and black glasses. The strains of \"MISTY\" get louder as Bud lets the screen door slam behind"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

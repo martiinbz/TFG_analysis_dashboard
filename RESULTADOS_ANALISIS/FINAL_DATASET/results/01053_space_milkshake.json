@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Space Milkshake",
+    "release_year": 2012,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 17606,
+    "scene_count": 255,
+    "dialogue_density_pct": 44,
+    "int_ext_ratio": "50:50",
+    "day_night_ratio": "24:76",
+    "story_time_span": "days",
+    "geographic_setting": "space",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 5,
+    "female_dialogue_share_pct": 38,
+    "male_dialogue_share_pct": 62,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "VALENTINA",
+        "LT TILDA GENNARO",
+        "WENDI"
+      ],
+      "female_female_dialogue_examples": [
+        "VALENTINA: Nice to hear you speaking again\nLT TILDA GENNARO: I've never spoken before today. Where I come from, we don't need to\nVALENTINA: We've all heard you speak.\nLT TILDA GENNARO: I've come from a mirror universe.",
+        "VALENTINA: Nice to hear you speaking again\nLT TILDA GENNARO: I've never spoken before today. Where I come from, we don't need to\nVALENTINA: We've all heard you speak.\nLT TILDA GENNARO: I've come from a mirror universe.\nANTON: Since when?",
+        "VALENTINA: Wendi, can you reach ground\nWENDI: No communications. Relay stations not responding. Initial analysis is\nVALENTINA: Wendi, what happened to us? The computer screens flicker off with a `power down' sound."
+      ],
+      "non_male_topic_examples": [
+        "VALENTINA: Nice to hear you speaking again\nLT TILDA GENNARO: I've never spoken before today. Where I come from, we don't need to\nVALENTINA: We've all heard you speak.\nLT TILDA GENNARO: I've come from a mirror universe.",
+        "VALENTINA: Nice to hear you speaking again\nLT TILDA GENNARO: I've never spoken before today. Where I come from, we don't need to\nVALENTINA: We've all heard you speak.\nLT TILDA GENNARO: I've come from a mirror universe.\nANTON: Since when?",
+        "VALENTINA: Wendi, can you reach ground\nWENDI: No communications. Relay stations not responding. Initial analysis is\nVALENTINA: Wendi, what happened to us? The computer screens flicker off with a `power down' sound."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

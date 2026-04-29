@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Despicable Me 2",
+    "release_year": 2013,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Animation",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "child",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20436,
+    "scene_count": 125,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "56:44",
+    "day_night_ratio": "73:27",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 39,
+    "male_dialogue_share_pct": 61,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "happy",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LUCY",
+        "AGNES",
+        "MARGO",
+        "EDITH",
+        "JILLIAN",
+        "SHANNON",
+        "GIRLS",
+        "FLIGHT ATTENDANT"
+      ],
+      "female_female_dialogue_examples": [
+        "AGNES: Gru's not here!\nJILLIAN: Are you sure?\nAGNES: Yes! He just told me!\nAGNES: I mean no, he didn't just tell me!\nJILLIAN: Agnes--where is Gru?\nAGNES: He's putting on lipstick!\nAGNES: He's swatting at flies!\nJILLIAN: I know you're in there, Gru! There's no ",
+        "JILLIAN: Uhh, open up!\nGRU: Agnes! Agnes! Tell Jillian I'm not here!\nAGNES: Gru's not here!\nJILLIAN: Are you sure?\nAGNES: Yes! He just told me!\nAGNES: I mean no, he didn't just tell me!\nJILLIAN: Agnes--where is Gru?\nAGNES: He's putting on lipstick!",
+        "AGNES: Gru's not here!\nJILLIAN: Are you sure?\nAGNES: Yes! He just told me!\nAGNES: I mean no, he didn't just tell me!\nJILLIAN: Agnes--where is Gru?\nAGNES: He's putting on lipstick!\nAGNES: He's swatting at flies!"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "latino"
+      ],
+      "evidence_snippets": [
+        "Classic Spaghetti western sepia-toned shot of El Macho looking menacing. He looks like the large Hispanic man from the mall, only younger and wearing a Lucha Libre outfit and"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

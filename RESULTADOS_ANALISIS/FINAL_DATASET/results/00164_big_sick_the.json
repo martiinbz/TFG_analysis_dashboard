@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Big Sick, The",
+    "release_year": 2017,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "asian",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19607,
+    "scene_count": 118,
+    "dialogue_density_pct": 41,
+    "int_ext_ratio": "91:9",
+    "day_night_ratio": "38:62",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 15,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 34,
+    "male_dialogue_share_pct": 66,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": true,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "EMILY GARDNER",
+        "BETH GARDNER",
+        "SHARMEEN NANJIANI",
+        "KHADIJA",
+        "DR CUNNINGHAM",
+        "NURSE JUDY",
+        "JESSIE",
+        "FATIMA NANJIANI"
+      ],
+      "female_female_dialogue_examples": [
+        "EMILY GARDNER: Yeah, Dad.\nBETH GARDNER: Have fun.\nTERRY GARDNER: If you feel a coma coming on, call us.\nEMILY GARDNER: Dad, it's too soon. I love you, I'll see you in the morning.\nTERRY GARDNER: Love you, bye.\nBETH GARDNER: Have fun.\nEMILY GARDNER: I will.",
+        "BETH GARDNER: And where is the infection?\nDR CUNNINGHAM: On the lung.\nBETH GARDNER: What's the risk?\nDR CUNNINGHAM: Low. My advice to you is that you go home, you get something to eat, and try to relax.",
+        "NURSE JUDY: Sorry hon.\nEMILY GARDNER: What is that crap?\nNURSE JUDY: We have to thicken your liquids for a bit. Your esophagus isn't strong enough to swallow yet.\nEMILY GARDNER: That shit tastes like semen."
+      ],
+      "non_male_topic_examples": [
+        "BETH GARDNER: And where is the infection?\nDR CUNNINGHAM: On the lung.\nBETH GARDNER: What's the risk?\nDR CUNNINGHAM: Low. My advice to you is that you go home, you get something to eat, and try to relax.",
+        "NURSE JUDY: Sorry hon.\nEMILY GARDNER: What is that crap?\nNURSE JUDY: We have to thicken your liquids for a bit. Your esophagus isn't strong enough to swallow yet.\nEMILY GARDNER: That shit tastes like semen.",
+        "BETH GARDNER: We gotta go.\nBETH GARDNER: Yeah, it's time.\nEMILY GARDNER: I'm not ready.\nBETH GARDNER: Yeah, you know what? You're strong and you are."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "THE BIG SICK Written by Emily V. Gordon & Kumail Nanjiani 1 OVER BLACK. We hear audience laughter. ANDY DODD (V.O.) Give it up for"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

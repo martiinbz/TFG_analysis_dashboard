@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Bridesmaids",
+    "release_year": 2011,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 24451,
+    "scene_count": 133,
+    "dialogue_density_pct": 42,
+    "int_ext_ratio": "73:27",
+    "day_night_ratio": "48:52",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 13,
+    "male_named_character_count": 7,
+    "female_dialogue_share_pct": 97,
+    "male_dialogue_share_pct": 3,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 10,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "belonging"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANNIE",
+        "LILLIAN",
+        "HELEN",
+        "BECCA",
+        "DONNA",
+        "LAURIE",
+        "SHOWER GIRLS",
+        "WHITNEY"
+      ],
+      "female_female_dialogue_examples": [
+        "ANNIE: Sorry, yes. Hi!\nHELEN: Maid of Honor!!\nANNIE: Yeah. It is quite an honor.\nHELEN: It's the number one spot. So how many times have you been in the B.P?\nANNIE: I'm sorry, the what?\nHELEN: Bridal Party?\nANNIE: I've never even been in a wedding before.",
+        "ANNIE: Sorry, yes. Hi!\nHELEN: Maid of Honor!!\nANNIE: Yeah. It is quite an honor.\nHELEN: It's the number one spot. So how many times have you been in the B.P?\nANNIE: I'm sorry, the what?\nHELEN: Bridal Party?",
+        "HELEN: Maid of Honor!!\nANNIE: Yeah. It is quite an honor.\nHELEN: It's the number one spot. So how many times have you been in the B.P?\nANNIE: I'm sorry, the what?\nHELEN: Bridal Party?\nANNIE: I've never even been in a wedding before."
+      ],
+      "non_male_topic_examples": [
+        "HELEN: Oh, I didn't know that you did that.\nANNIE: Oh, well, sorry.\nHELEN: I deserved it.\nANNIE: I must say you do put on some pretty spectacular events.\nHELEN: Well, I'm really rich. They smile.\nANNIE: It is getting pretty late."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Sweetheart...did I ever tell you the story of the little paralyzed Chinese girl who wanted to be dancer?",
+        "Becca Whitman. REVEAL a very smart looking, older African-American MAN standing next to Annie. He is wearing an ascot and",
+        "Hi, I have a reservation for Walker. RICK, an East Indian man, stands behind the desk in front of a large portrait of himself, posed exactly as he is",
+        "Annie watches the valet drives her car away. When she turns back around, there is a man with a white horse holding out his hand to her."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Thunderheart",
+    "release_year": 1992,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "ambiguous",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 30536,
+    "scene_count": 129,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "34:66",
+    "day_night_ratio": "56:44",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 1,
+    "male_named_character_count": 33,
+    "female_dialogue_share_pct": 0,
+    "male_dialogue_share_pct": 100,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MAGGIE EAGLE BEAR"
+      ],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black",
+        "latino",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Maggie Eagle Bear is an Indian woman",
+        "Jimmy Looks Twice is an Indian man",
+        "comes into view. Shoulders. A man, running in ghostly SLOW MOTION, his long black hair trailing in the wind. The INDIAN MAN wears only buckskin pants and a bone choker around his",
+        "Behind the wheel -- an intense young man with close-cropped black hair, eyes hidden by sunglasses. Whatever he does for a living, he does in a suit (not expensive but well-fit. But",
+        "sheetrock walls. There is nothing in here but cardboard boxes, and two people; a bearded HISPANIC MAN standing behind a counter, writing on a clipboard. The other is a middle-aged"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "Ray is described as Indian"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Cherry Falls",
+    "release_year": 2000,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19547,
+    "scene_count": 298,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "58:42",
+    "day_night_ratio": "0:100",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 4,
+    "female_dialogue_share_pct": 83,
+    "male_dialogue_share_pct": 17,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 13,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JODY MARKEN",
+        "SANDY",
+        "MARGE MARKEN",
+        "CINDY",
+        "STACY TWELFMANN",
+        "TOM",
+        "KILLER",
+        "SHARON"
+      ],
+      "female_female_dialogue_examples": [
+        "KILLER: Are you Jody?\nKILLER: I'm Kenny's Aunt Lisa.\nJODY MARKEN: Kenny's aunt?\nKILLER: Yes. He asked me to come over and talk to you.\nJODY MARKEN: On what side of the family?\nKILLER: His mother's side.\nJODY MARKEN: His mother's an only child.",
+        "KILLER: I'm Kenny's Aunt Lisa.\nJODY MARKEN: Kenny's aunt?\nKILLER: Yes. He asked me to come over and talk to you.\nJODY MARKEN: On what side of the family?\nKILLER: His mother's side.\nJODY MARKEN: His mother's an only child.",
+        "JODY MARKEN: Hi mom.\nMARGE MARKEN: Hi princess.\nJODY MARKEN: I need to ask you something.\nMARGE MARKEN: You can ask me anything.\nJODY MARKEN: Have you ever heard of someone named Lisa Sherman?\nMARGE MARKEN: Lisa Sherman?"
+      ],
+      "non_male_topic_examples": [
+        "JODY MARKEN: Hi mom.\nMARGE MARKEN: Hi princess.\nJODY MARKEN: I need to ask you something.\nMARGE MARKEN: You can ask me anything.\nJODY MARKEN: Have you ever heard of someone named Lisa Sherman?\nMARGE MARKEN: Lisa Sherman?",
+        "MARGE MARKEN: Hi princess.\nJODY MARKEN: I need to ask you something.\nMARGE MARKEN: You can ask me anything.\nJODY MARKEN: Have you ever heard of someone named Lisa Sherman?\nMARGE MARKEN: Lisa Sherman?\nJODY MARKEN: Yeah. Who is she?",
+        "JODY MARKEN: I need to ask you something.\nMARGE MARKEN: You can ask me anything.\nJODY MARKEN: Have you ever heard of someone named Lisa Sherman?\nMARGE MARKEN: Lisa Sherman?\nJODY MARKEN: Yeah. Who is she?\nMARGE MARKEN: I don't know. Where did you hear that name"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Devil Wears Prada, The",
+    "release_year": 2006,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23874,
+    "scene_count": 187,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "49:51",
+    "day_night_ratio": "72:28",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 14,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 75,
+    "male_dialogue_share_pct": 25,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "upper-middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 1,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "power"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANDY SACHS",
+        "MIRANDA",
+        "EMILY",
+        "LILY",
+        "JOCELYN",
+        "CLACKER",
+        "CASSIDY",
+        "JACQUELINE FOLLET"
+      ],
+      "female_female_dialogue_examples": [
+        "MIRANDA: What do they have?\nANDY SACHS: There's a um, variety of skirts. Let's\nMIRANDA: Who's there? Who are you dealing with?\nANDY SACHS: I'm sorry. What's your name?\nANDY SACHS: It's Liz.\nMIRANDA: Get away from her. She is useless and unattractive. Ask for I",
+        "ANDY SACHS: Sounds great. I'd love to be\nEMILY: Andrea, Runway is a fashion magazine. An interest in fashion is crucial.\nANDY SACHS: What makes you think I'm not interested in fashion?\nEMILY: Oh my God. No. No, no, no.\nANDY SACHS: What's wrong?",
+        "MIRANDA: Make sure you confirm my dinner with--\nANDY SACHS: --Galliano at Pastis. Done.\nMIRANDA: And I need to see the look book for the November denim shoot.\nANDY SACHS: It's in the car.\nMIRANDA: Oh, and you'll be bringing The Book to my home tonight. Emily w"
+      ],
+      "non_male_topic_examples": [
+        "ANDY SACHS: Sounds great. I'd love to be\nEMILY: Andrea, Runway is a fashion magazine. An interest in fashion is crucial.\nANDY SACHS: What makes you think I'm not interested in fashion?\nEMILY: Oh my God. No. No, no, no.\nANDY SACHS: What's wrong?",
+        "MIRANDA: Make sure you confirm my dinner with--\nANDY SACHS: --Galliano at Pastis. Done.\nMIRANDA: And I need to see the look book for the November denim shoot.\nANDY SACHS: It's in the car.\nMIRANDA: Oh, and you'll be bringing The Book to my home tonight. Emily w",
+        "CASSIDY: It's that door. On the left.\nCAROLINE: You can give us the Book.\nCASSIDY: We'll give it to her.\nCAROLINE: It's okay. Come on up.\nCASSIDY: It's okay."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

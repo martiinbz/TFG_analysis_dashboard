@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Twilight New Moon",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22489,
+    "scene_count": 135,
+    "dialogue_density_pct": 22,
+    "int_ext_ratio": "52:48",
+    "day_night_ratio": "65:35",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 12,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 50,
+    "male_dialogue_share_pct": 50,
+    "gender_power_dynamics": "balanced",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "BELLA SWAN",
+        "ALICE CULLEN",
+        "JESSICA",
+        "ROSALIE HALE",
+        "EMILY",
+        "VICTORIA",
+        "ANGELA",
+        "ESME CULLEN"
+      ],
+      "female_female_dialogue_examples": [
+        "BELLA SWAN: Oh my God, Alice. You're here.\nALICE CULLEN: I heard voices - I didn't think it was\nBELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.",
+        "ALICE CULLEN: I heard voices - I didn't think it was\nBELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.\nBELLA SWAN: Until I hit the water.",
+        "BELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.\nBELLA SWAN: Until I hit the water.\nALICE CULLEN: I have never met anyone more prone to"
+      ],
+      "non_male_topic_examples": [
+        "BELLA SWAN: Oh my God, Alice. You're here.\nALICE CULLEN: I heard voices - I didn't think it was\nBELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.",
+        "ALICE CULLEN: I heard voices - I didn't think it was\nBELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.\nBELLA SWAN: Until I hit the water.",
+        "BELLA SWAN: You keep saying that.\nALICE CULLEN: I saw you - a vision of you - you\nBELLA SWAN: I didn't. I was cliff diving.\nALICE CULLEN: That was fun for you.\nBELLA SWAN: Until I hit the water.\nALICE CULLEN: I have never met anyone more prone to"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

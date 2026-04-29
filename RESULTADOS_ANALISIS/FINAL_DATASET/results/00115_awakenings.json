@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Awakenings",
+    "release_year": 1990,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 31168,
+    "scene_count": 230,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "85:15",
+    "day_night_ratio": "71:29",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 26,
+    "female_dialogue_share_pct": 18,
+    "male_dialogue_share_pct": 82,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MRS LOWE",
+        "ELEANOR COSTELLO",
+        "LUCY FISHMAN",
+        "NURSE MARGARET",
+        "ROSE",
+        "MIRIAM",
+        "LOLLY",
+        "NURSE BETH"
+      ],
+      "female_female_dialogue_examples": [
+        "ROSE: It's legal again?\nELEANOR COSTELLO: For some time now. Rose is delighted; she can hardly believe it. She gets the bartender's attention.\nROSE: A Rob Roy on the rocks.\nELEANOR COSTELLO: A Shirley Temple.",
+        "ROSE: And some dye. Black.\nNURSE MARGARET: request) Black, are you sure?\nROSE: And some clothes . . . my. clothes.\nROSE: Who put me in this?",
+        "LUCY FISHMAN: Comes love's old song Comes love's old sweet song . . . Her voice trails into silence.\nELEANOR COSTELLO: That was lovely. '.\nLUCY FISHMAN: , I learned that song a long, long\nLUCY FISHMAN: I know what year it is . . . I ju st ca n' t i ma gin e be"
+      ],
+      "non_male_topic_examples": [
+        "ROSE: It's legal again?\nELEANOR COSTELLO: For some time now. Rose is delighted; she can hardly believe it. She gets the bartender's attention.\nROSE: A Rob Roy on the rocks.\nELEANOR COSTELLO: A Shirley Temple.",
+        "ROSE: And some dye. Black.\nNURSE MARGARET: request) Black, are you sure?\nROSE: And some clothes . . . my. clothes.\nROSE: Who put me in this?",
+        "LUCY FISHMAN: Comes love's old song Comes love's old sweet song . . . Her voice trails into silence.\nELEANOR COSTELLO: That was lovely. '.\nLUCY FISHMAN: , I learned that song a long, long\nLUCY FISHMAN: I know what year it is . . . I ju st ca n' t i ma gin e be"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Confessions of a Dangerous Mind",
+    "release_year": 2002,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24090,
+    "scene_count": 222,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "71:29",
+    "day_night_ratio": "67:33",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 23,
+    "female_dialogue_share_pct": 24,
+    "male_dialogue_share_pct": 76,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 23,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PENNY",
+        "PATRICIA WATSON",
+        "TUVIA",
+        "LORETTA",
+        "GEORGIA",
+        "HOUSEKEEPER",
+        "DEBBIE",
+        "BLONDE BACHELORETTE"
+      ],
+      "female_female_dialogue_examples": [
+        "PATRICIA WATSON: Are you serious? That's what I do for a\nPENNY: Who's Patricia? What does she mean, that's what she does for a living?\nPATRICIA WATSON: You're dead in my book, Strawberry-dick.\nPENNY: Strawberry dick? What's that?",
+        "PENNY: Who's Patricia? What does she mean, that's what she does for a living?\nPATRICIA WATSON: You're dead in my book, Strawberry-dick.\nPENNY: Strawberry dick? What's that?\nPATRICIA WATSON: There is no second chance. Get it? Nice meeting you, Penny. I've heard",
+        "PATRICIA WATSON: Are you serious? That's what I do for a\nPENNY: Who's Patricia? What does she mean, that's what she does for a living?\nPATRICIA WATSON: You're dead in my book, Strawberry-dick."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "GOLDBERG The point isn't that he's black, Hank.",
+        "Barris gets up, glances around, spots another pretty young woman in white go-go boots, sitting by herself. He approaches her."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

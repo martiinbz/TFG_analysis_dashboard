@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "A Million Miles Away",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "latino",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22337,
+    "scene_count": 184,
+    "dialogue_density_pct": 18,
+    "int_ext_ratio": "67:33",
+    "day_night_ratio": "68:32",
+    "story_time_span": "days",
+    "geographic_setting": "space",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 18,
+    "female_dialogue_share_pct": 23,
+    "male_dialogue_share_pct": 77,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ADELA",
+        "KALPANA CHAWLA",
+        "MARISA",
+        "STACEY",
+        "FEMALE ASTRONAUT CANDIDATE"
+      ],
+      "female_female_dialogue_examples": [
+        "KALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm\nADELA: Un uchepo is a soft tamal, from",
+        "KALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm",
+        "JOSE: You can have all of them! Salud!\nKALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm"
+      ],
+      "non_male_topic_examples": [
+        "KALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm\nADELA: Un uchepo is a soft tamal, from",
+        "KALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm",
+        "JOSE: You can have all of them! Salud!\nKALPANA CHAWLA: What about YOU?\nADELA: What do you mean?\nADELA: Well I always dreamed of having a\nKALPANA CHAWLA: That explains it! I'm not joking,\nADELA: This? Nah! This is nothing. I'm"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "latino"
+      ],
+      "evidence_snippets": [
+        "teacher, a Chinese-American in her 20's.",
+        "Jose notices a young Mexican woman in the fields, ADELA (25),",
+        "Mexican people? moment? Was this a childhood"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "Jose is an astronaut candidate of Mexican descent, and Kalpana is an Indian American astronaut and instructor.",
+        "Jose is a Mexican astronaut"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

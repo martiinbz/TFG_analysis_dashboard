@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Teachers' Lounge, The",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 15961,
+    "scene_count": 64,
+    "dialogue_density_pct": 26,
+    "int_ext_ratio": "97:3",
+    "day_night_ratio": "95:5",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 13,
+    "male_named_character_count": 8,
+    "female_dialogue_share_pct": 68,
+    "male_dialogue_share_pct": 32,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "mixed",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CARLA NOWAK",
+        "FRIEDERIKE KUHN",
+        "VANESSA K NIG",
+        "HATICE",
+        "JENNY",
+        "KRISSI",
+        "LORE SEMNIK",
+        "LUISE"
+      ],
+      "female_female_dialogue_examples": [
+        "CARLA NOWAK: Yes, but I was born in Westphalia.\nHATICE: Do you speak Polish?\nCARLA NOWAK: Ciekawo zabila kota. (Curiosity\nHATICE: What does that mean?\nCARLA NOWAK: Research it.\nHATICE: Do you have tattoos? And if so,\nCARLA NOWAK: I always wanted tattoos, but n",
+        "HATICE: Do you speak Polish?\nCARLA NOWAK: Ciekawo zabila kota. (Curiosity\nHATICE: What does that mean?\nCARLA NOWAK: Research it.\nHATICE: Do you have tattoos? And if so,\nCARLA NOWAK: I always wanted tattoos, but never\nHATICE: What advice would you give your",
+        "CARLA NOWAK: So why the lighter?\nJIEUN: To cook heroin.\nCARLA NOWAK: Jieun, that's not funny.\nJIEUN: I think it is.\nCARLA NOWAK: You said you were sick. I believed\nJIEUN: We needed fresh air.\nJENNY: It's true.\nCARLA NOWAK: In you go."
+      ],
+      "non_male_topic_examples": [
+        "CARLA NOWAK: Yes, but I was born in Westphalia.\nHATICE: Do you speak Polish?\nCARLA NOWAK: Ciekawo zabila kota. (Curiosity\nHATICE: What does that mean?\nCARLA NOWAK: Research it.\nHATICE: Do you have tattoos? And if so,\nCARLA NOWAK: I always wanted tattoos, but n",
+        "HATICE: Do you speak Polish?\nCARLA NOWAK: Ciekawo zabila kota. (Curiosity\nHATICE: What does that mean?\nCARLA NOWAK: Research it.\nHATICE: Do you have tattoos? And if so,\nCARLA NOWAK: I always wanted tattoos, but never\nHATICE: What advice would you give your",
+        "CARLA NOWAK: So why the lighter?\nJIEUN: To cook heroin.\nCARLA NOWAK: Jieun, that's not funny.\nJIEUN: I think it is.\nCARLA NOWAK: You said you were sick. I believed\nJIEUN: We needed fresh air.\nJENNY: It's true.\nCARLA NOWAK: In you go."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

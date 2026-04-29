@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "title": "Elemental",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24442,
+    "scene_count": 125,
+    "dialogue_density_pct": 18,
+    "int_ext_ratio": "50:50",
+    "day_night_ratio": "61:39",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 14,
+    "female_dialogue_share_pct": 62,
+    "male_dialogue_share_pct": 38,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "EMBER",
+        "GALE",
+        "BIG KID EMBER",
+        "LITTLE KID EMBER"
+      ],
+      "female_female_dialogue_examples": [
+        "EMBER: Yeah bummer, aww yeah. Okay, so the\nGALE: Do you mind? There's a GAME going\nEMBER: Actually, I do mind. This is my\nGALE: \"Some game?\" This is the PLAYOFFS.\nEMBER: Well that \"little shop\" matters WAY\nGALE: I dare you. Say \"cloud puffs\" one",
+        "BROOK: Oh no!\nEMBER: Yeah bummer, aww yeah. Okay, so the\nGALE: Do you mind? There's a GAME going\nEMBER: Actually, I do mind. This is my\nGALE: \"Some game?\" This is the PLAYOFFS.\nEMBER: Well that \"little shop\" matters WAY\nGALE: I dare you. Say \"cloud puffs\" one",
+        "GALE: Keep talking.\nBROOK: I could call in a city crew to fix\nEMBER: Yes! And there'd be no need to\nGALE: You're lucky you're a cute couple.\nEMBER: Oh, we're not a--\nGALE: You got until FRIDAY. If you can\nEMBER: Thank you!"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

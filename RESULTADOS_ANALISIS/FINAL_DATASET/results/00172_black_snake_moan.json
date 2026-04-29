@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Black Snake Moan",
+    "release_year": 2006,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24409,
+    "scene_count": 134,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "57:43",
+    "day_night_ratio": "63:37",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 14,
+    "female_dialogue_share_pct": 23,
+    "male_dialogue_share_pct": 77,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 9,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANGELA",
+        "ROSE WOODS",
+        "SANDY",
+        "JESSE",
+        "MAYELLA",
+        "ELLA MAE",
+        "KELL"
+      ],
+      "female_female_dialogue_examples": [
+        "KELL: Good thing you can block, Conner, cuz you're dumb as a sack of shit.\nJESSE: You wanna go home?\nRAE: It gets worse there. Leavin' me to my own mind. That's just not good.\nJESSE: Here. Pound this and I'll join you.\nJESSE: One more. Fuck the chaser.",
+        "KELL: He fixed up that Buick for my uncle Dale. He say it purrs like a kitten every morning.\nJESSE: Nothing's gonna happen. Not like everybody over there is in the line of fire with them Arabs blowin' themselves up.",
+        "KELL: Good thing you can block, Conner, cuz you're dumb as a sack of shit.\nJESSE: You wanna go home?"
+      ],
+      "non_male_topic_examples": [
+        "KELL: Good thing you can block, Conner, cuz you're dumb as a sack of shit.\nJESSE: You wanna go home?\nRAE: It gets worse there. Leavin' me to my own mind. That's just not good.\nJESSE: Here. Pound this and I'll join you.\nJESSE: One more. Fuck the chaser.",
+        "KELL: Good thing you can block, Conner, cuz you're dumb as a sack of shit.\nJESSE: You wanna go home?",
+        "KELL: Good thing you can block, Conner, cuz you're dumb as a sack of shit.\nJESSE: You wanna go home?\nRAE: It gets worse there. Leavin' me to my own mind. That's just not good.\nJESSE: Here. Pound this and I'll join you."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "asian",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Tehronne is a muscular, dark-skinned, black male in his late twenties.",
+        "LINCOLN, a 13-year-old black boy, comes out of the open loading door.",
+        "MAYELLA is a heavy, forty-year-old black woman. Her blue neon tube top matches her short pants stretched across her",
+        "Jesse is straddling a guy in an arm chair, Chinese-eyed and bouncing. Rae tries to respond coherently as another football",
+        "An old black man named RED sits on a bench next to an older white man in his early eighties holding a cane. RED is the"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

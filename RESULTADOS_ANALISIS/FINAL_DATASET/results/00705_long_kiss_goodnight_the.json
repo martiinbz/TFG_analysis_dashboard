@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Long Kiss Goodnight, The",
+    "release_year": 1996,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 28386,
+    "scene_count": 159,
+    "dialogue_density_pct": 26,
+    "int_ext_ratio": "51:49",
+    "day_night_ratio": "55:45",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 6,
+    "male_named_character_count": 14,
+    "female_dialogue_share_pct": 47,
+    "male_dialogue_share_pct": 53,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "Cold War",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SAMANTHA CAINE",
+        "CAITLIN CAINE",
+        "ICE",
+        "REFLECTION",
+        "TRIN",
+        "ALICE"
+      ],
+      "female_female_dialogue_examples": [
+        "SAMANTHA CAINE: I want a cigarette, why do I want a\nREFLECTION: I want a cigarette.\nSAMANTHA CAINE: I don't smoke.\nREFLECTION: You used to.\nREFLECTION: Relax, you can drop the act. Nice and smooth, take another hit. There you go. See how easy it comes back?",
+        "SAMANTHA CAINE: I want a cigarette, why do I want a\nREFLECTION: I want a cigarette.\nSAMANTHA CAINE: I don't smoke.\nREFLECTION: You used to.",
+        "CAITLIN CAINE: Put Perkins in the basket. He's luck.\nSAMANTHA CAINE: Mr. Perkins, going in the basket.\nCAITLIN CAINE: Are the training wheels off?\nSAMANTHA CAINE: Just pretend they're still there. Piece of cake. You can do it."
+      ],
+      "non_male_topic_examples": [
+        "SAMANTHA CAINE: I want a cigarette, why do I want a\nREFLECTION: I want a cigarette.\nSAMANTHA CAINE: I don't smoke.\nREFLECTION: You used to.\nREFLECTION: Relax, you can drop the act. Nice and smooth, take another hit. There you go. See how easy it comes back?",
+        "SAMANTHA CAINE: I want a cigarette, why do I want a\nREFLECTION: I want a cigarette.\nSAMANTHA CAINE: I don't smoke.\nREFLECTION: You used to.",
+        "REFLECTION: I want a cigarette.\nSAMANTHA CAINE: I don't smoke.\nREFLECTION: You used to.\nREFLECTION: Relax, you can drop the act. Nice and smooth, take another hit. There you go. See how easy it comes back?\nREFLECTION: *I'm* coming back. You know that, don't yo"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "friend Perkins recruited you for Chapter, a black bag operation working out of the U.S. State Department."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

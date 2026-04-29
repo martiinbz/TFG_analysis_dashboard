@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "title": "Fruitvale Station",
+    "release_year": 2013,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "dies",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19373,
+    "scene_count": 76,
+    "dialogue_density_pct": 30,
+    "int_ext_ratio": "89:11",
+    "day_night_ratio": "61:39",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 15,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 39,
+    "male_dialogue_share_pct": 61,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "death"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SOPHINA",
+        "WANDA",
+        "TATIANA",
+        "KATIE",
+        "CHANTAY",
+        "LAUREN",
+        "STEPH",
+        "ASHAE"
+      ],
+      "female_female_dialogue_examples": [
+        "SOPHINA: Naw, he upstairs, with the Police and I can't see them. We downstairs-\nWANDA: Where are you?\nSOPHINA: We in Oakland, at Fruitvale BART.\nWANDA: Did Oscar get arrested?\nSOPHINA: I don't know, I think so.\nSOPHINA: Imma call you back.",
+        "WANDA: Sophina, baby calm down. I can't hear you. Is Oscar there with you?\nSOPHINA: Naw, he upstairs, with the Police and I can't see them. We downstairs-\nWANDA: Where are you?\nSOPHINA: We in Oakland, at Fruitvale BART.\nWANDA: Did Oscar get arrested?",
+        "SOPHINA: Naw, he upstairs, with the Police and I can't see them. We downstairs-\nWANDA: Where are you?\nSOPHINA: We in Oakland, at Fruitvale BART.\nWANDA: Did Oscar get arrested?\nSOPHINA: I don't know, I think so."
+      ],
+      "non_male_topic_examples": [
+        "TATIANA: Mommy can I have two of the fruit snacks today?\nSOPHINA: No, T. You can take an extra apple if you want.\nTATIANA: But mommy I-\nSOPHINA: Don't argue T.\nSOPHINA: Com'on Osc. We gotta stop and get gas too.",
+        "TATIANA: Mommy can I have two of the fruit snacks today?\nSOPHINA: No, T. You can take an extra apple if you want.\nTATIANA: But mommy I-\nSOPHINA: Don't argue T."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white",
+        "latino"
+      ],
+      "evidence_snippets": [
+        "The Lead SURGEON, a tall, slim Black man in his 50's, points to an object that",
+        "his face and we see him for the first time, a 22 year old Black man with a warm smile.",
+        "MRS. STACY a motherly looking Black woman in her 50's opens the door.",
+        "A beautiful Black woman in her late 40's wears a UPS manager's uniform, this is WANDA JOHNSON. She walks towards",
+        "move about the aisles. Oscar walks over to the seafood section where Cato CALDWELL, a 22 year old charismatic Black male stands behind the counter wearing a Deli apron."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

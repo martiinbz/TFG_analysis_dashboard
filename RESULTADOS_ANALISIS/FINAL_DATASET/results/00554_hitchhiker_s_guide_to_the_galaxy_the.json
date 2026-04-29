@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "Hitchhiker's Guide to the Galaxy, The",
+    "release_year": 2005,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 24688,
+    "scene_count": 65,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "58:42",
+    "day_night_ratio": "36:64",
+    "story_time_span": "hours",
+    "geographic_setting": "space",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 34,
+    "female_dialogue_share_pct": 13,
+    "male_dialogue_share_pct": 87,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "ambiguous",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "satirical",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "freedom vs control"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "TRILLIAN",
+        "DEEP THOUGHT",
+        "QUESTULAR RONTOK"
+      ],
+      "female_female_dialogue_examples": [
+        "TRILLIAN: Alright, follow me. She aims the can at Zaphod's ear- Arthur's face registers the madness of the moment.\n59: HHGG 3rd Revised Draft 8/8/03\nQUESTULAR RONTOK: There they are!\nTRILLIAN: Back off or I'll kill him, I swear I will!",
+        "FORD PREFECT: I think that was his campaign slogan.\nTRILLIAN: Alright, follow me. She aims the can at Zaphod's ear- Arthur's face registers the madness of the moment.\n59: HHGG 3rd Revised Draft 8/8/03\nQUESTULAR RONTOK: There they are!\nTRILLIAN: Back off or I'l",
+        "ZAPHOD BEEBLEBROX: Build bridges between the stars! He holds up two peace signs, a la Nixon.\nFORD PREFECT: I think that was his campaign slogan.\nTRILLIAN: Alright, follow me. She aims the can at Zaphod's ear- Arthur's face registers the madness of the moment.\n"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "Next Friday",
+    "release_year": 2000,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 16211,
+    "scene_count": 93,
+    "dialogue_density_pct": 30,
+    "int_ext_ratio": "49:51",
+    "day_night_ratio": "62:38",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 12,
+    "male_dialogue_share_pct": 88,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "KARLA",
+        "D WANA",
+        "SUGA",
+        "MISS HO-KYM",
+        "BABY D"
+      ],
+      "female_female_dialogue_examples": [
+        "BABY D: You suppose to work here now or\nCRAIG JONES: Yeah, I work here now.\nD WANA: We didn't come here for Day-Day.\nCRAIG JONES: Yes you did.\nD WANA: No we didn't. We came to buy a CD.\nBABY D: Now move.\nD WANA: Where's that boy that told me Day-Day was",
+        "D WANA: No we didn't. We came to buy a CD.\nBABY D: Now move.\nD WANA: Where's that boy that told me Day-Day was\nD WANA: Can I look for myself?",
+        "D WANA: Who are you?\nCRAIG JONES: I'm his cousin.\nBABY D: You suppose to work here now or\nCRAIG JONES: Yeah, I work here now.\nD WANA: We didn't come here for Day-Day.\nCRAIG JONES: Yes you did.\nD WANA: No we didn't. We came to buy a CD.\nBABY D: Now move."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "white"
+      ],
+      "evidence_snippets": [
+        "They turn to spot MISS HO KYM (67), the old Korean lady who lives next door. She's sitting on her porch nursing a cup of",
+        "Come on, jerky, you can tell me. Got a white wife, huh? Blonde bombshell type. Remember what happen to O.J... what team",
+        "D'WANA That white boy said he was in there.",
+        "to get high, and I was going to show this white boy how to make Kool-Aid. That's all."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

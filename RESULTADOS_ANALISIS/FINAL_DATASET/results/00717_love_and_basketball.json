@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Love and Basketball",
+    "release_year": 2000,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 21033,
+    "scene_count": 108,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "78:22",
+    "day_night_ratio": "41:59",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 15,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 34,
+    "male_dialogue_share_pct": 66,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CAMILLE WRIGHT",
+        "SIDRA O NEAL",
+        "LENA",
+        "COACH MILLER",
+        "KYRA KESSLER",
+        "SHAYLA",
+        "SHAWNEE",
+        "SANDRA"
+      ],
+      "female_female_dialogue_examples": [
+        "LENA: The doctor said it was okay. Anyway, I'm still trying to lose some of this baby\nCAMILLE WRIGHT: You might want to put a jacket on him, it's getting cold.\nLENA: He's fine.\nLENA: Come on, L.P. Grandma says it's too\nCAMILLE WRIGHT: God. \"Grandma.\"",
+        "CAMILLE WRIGHT: So you're still breast-feeding?\nLENA: The doctor said it was okay. Anyway, I'm still trying to lose some of this baby\nCAMILLE WRIGHT: You might want to put a jacket on him, it's getting cold.\nLENA: He's fine.",
+        "CAMILLE WRIGHT: Fine, you don't like this one, which one would you rather wear?\nCAMILLE WRIGHT: When you're done can you make sure she brushes her teeth?\nLENA: Are you okay?\nCAMILLE WRIGHT: I just need to lay down. I've been running around all day."
+      ],
+      "non_male_topic_examples": [
+        "CAMILLE WRIGHT: Fine, you don't like this one, which one would you rather wear?\nCAMILLE WRIGHT: When you're done can you make sure she brushes her teeth?\nLENA: Are you okay?\nCAMILLE WRIGHT: I just need to lay down. I've been running around all day.",
+        "MONICA: I hate it.\nCAMILLE WRIGHT: Fine, you don't like this one, which one would you rather wear?\nCAMILLE WRIGHT: When you're done can you make sure she brushes her teeth?\nLENA: Are you okay?\nCAMILLE WRIGHT: I just need to lay down. I've been running around a",
+        "CAMILLE WRIGHT: When you're done can you make sure she brushes her teeth?\nLENA: Are you okay?\nCAMILLE WRIGHT: I just need to lay down. I've been running around all day."
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "MONICA"
+      ],
+      "identity_or_relationship_evidence": [
+        "MONICA says, 'I'm a lesbian.'"
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "CAMILLE Until the Black family down the street became the Black family next door.",
+        "Until the Black family down the street became the Black family next door.",
+        "Behind him, in a second row seat, a ONE YEAR BLACK GIRL sits in a lap, bouncing, watching feet and legs ballin' on the"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

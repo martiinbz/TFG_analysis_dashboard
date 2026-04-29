@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Jennifer's Body",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "non-linear",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 22738,
+    "scene_count": 102,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "45:55",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 17,
+    "male_named_character_count": 10,
+    "female_dialogue_share_pct": 75,
+    "male_dialogue_share_pct": 25,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "NEEDY",
+        "LITTLE JENNIFER",
+        "GOTH GIRL",
+        "CHASTITY",
+        "LITTLE NEEDY",
+        "GOTH GIRL 2",
+        "MRS CHECK",
+        "CAMILLE"
+      ],
+      "female_female_dialogue_examples": [
+        "LITTLE JENNIFER: Hey, Monistat.\nNEEDY: What's up, Vagisil?\nLITTLE JENNIFER: You and me are going out tonight.\nNEEDY: Tonight? Why?\nLITTLE JENNIFER: Soft Shoulder are playing at the\nLITTLE JENNIFER: And it's all-ages, for once, which means I won't have to play ",
+        "LITTLE JENNIFER: Hey, Monistat.\nNEEDY: What's up, Vagisil?\nLITTLE JENNIFER: You and me are going out tonight.\nNEEDY: Tonight? Why?\nLITTLE JENNIFER: Soft Shoulder are playing at the",
+        "LITTLE JENNIFER: Happy Friday!, D-bag!\nNEEDY: You-- you're all right!\nLITTLE JENNIFER: Yeah. Why wouldn't I be?\nNEEDY: Last night. At my house. You were hurt. You had two black eyes and\nLITTLE JENNIFER: Needy, you're delusional. I got a little banged up when y"
+      ],
+      "non_male_topic_examples": [
+        "LITTLE JENNIFER: Hey, Monistat.\nNEEDY: What's up, Vagisil?\nLITTLE JENNIFER: You and me are going out tonight.\nNEEDY: Tonight? Why?\nLITTLE JENNIFER: Soft Shoulder are playing at the",
+        "LITTLE JENNIFER: Happy Friday!, D-bag!\nNEEDY: You-- you're all right!\nLITTLE JENNIFER: Yeah. Why wouldn't I be?\nNEEDY: Last night. At my house. You were hurt. You had two black eyes and\nLITTLE JENNIFER: Needy, you're delusional. I got a little banged up when y",
+        "LITTLE JENNIFER: Anyone we know?\nNEEDY: We know everyone!\nLITTLE JENNIFER: Sucks to be them, I guess. She giggles and reaches for her knockoff designer purse.\nNEEDY: I don't get it. What's wrong with\nLITTLE JENNIFER: What's wrong with you? I mean, besides the "
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "As they prepare to leave, COLIN GRAY approaches Needy. He's a cute PUNK/GOTH guy wearing black nail polish, a lip ring, and full wardrobe by Hot Topic."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

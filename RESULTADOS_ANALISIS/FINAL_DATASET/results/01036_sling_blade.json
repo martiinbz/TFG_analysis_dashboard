@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Sling Blade",
+    "release_year": 1996,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 21300,
+    "scene_count": 86,
+    "dialogue_density_pct": 41,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "64:36",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 12,
+    "male_dialogue_share_pct": 88,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LINDA WHEATLEY",
+        "MELINDA",
+        "THERESA EVANS"
+      ],
+      "female_female_dialogue_examples": [
+        "MELINDA: You mean about y'all bein' together in \"that\" way?\nMELINDA: I think everybody at the store knows that already. They always talk about it. Maureen Ledbetter told a awful story about why you ain't allowed over at the First Baptist Church no more.\nLINDA ",
+        "LINDA WHEATLEY: Hey Karl, you know what? Melinda was voted employee of the month at the Dollar Store last February. Isn't that somethin'?\nKARL: Yes ma'am, I reckon.\nMELINDA: Well, when you like pricing items as much as I do, I guess it's just bound to happen s",
+        "MELINDA: I get real mean when my feet hurt. It's the only time I don't like checkin' out the customers, when my feet hurt.\nLINDA WHEATLEY: Frank, you and Karl aren't talkin' much, you boys must really like that food."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "Horsefeathers. He claims he's an Indian. His real name's Randy Collins and he works at the feed",
+        "wheelchair on bass, RANDY, a long haired younger guy who's not an Indian on guitar, Doyle on a guitar which he can't play and MONTY \"The Johnson \" Johnson, a large guy with a ZZ",
+        "The door opens and we see an older black lady, the HOUSEKEEPER."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Persian Version, The",
+    "release_year": 2023,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "non-linear",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "middle_eastern",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 18874,
+    "scene_count": 207,
+    "dialogue_density_pct": 23,
+    "int_ext_ratio": "69:31",
+    "day_night_ratio": "64:36",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 14,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 82,
+    "male_dialogue_share_pct": 18,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "incompetent",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LEILA",
+        "SHIRIN",
+        "MAMANJOON",
+        "YOUNG LEILA",
+        "DR ANAHITA",
+        "ELENA",
+        "YOUNG MAMANJOON",
+        "HEDWIG"
+      ],
+      "female_female_dialogue_examples": [
+        "LEILA: Of course. It's the anniversary of\nSHIRIN: I remember --\nLEILA: I read Elena some of his poems on\nSHIRIN: Well, I think if he saw you today,\nLEILA: No he wouldn't. He was a poet. He\nSHIRIN: You barely knew him.\nLEILA: I read his books more than you,",
+        "SHIRIN: I remember --\nLEILA: I read Elena some of his poems on\nSHIRIN: Well, I think if he saw you today,\nLEILA: No he wouldn't. He was a poet. He\nSHIRIN: You barely knew him.\nLEILA: I read his books more than you,\nSHIRIN: Your truth? Your truth is going to",
+        "LEILA: My mom always leaned on me hard. To\nSHIRIN: Don't work too hard, honey!\nLEILA: I had to stand up to her or she\nSHIRIN: I need your help setting up inside\nLEILA: I'll just wait here.\nSHIRIN: Just 10 minutes.\nLEILA: You always say 10 minutes."
+      ],
+      "non_male_topic_examples": [
+        "LEILA: My mom always leaned on me hard. To\nSHIRIN: Don't work too hard, honey!\nLEILA: I had to stand up to her or she\nSHIRIN: I need your help setting up inside\nLEILA: I'll just wait here.\nSHIRIN: Just 10 minutes.\nLEILA: You always say 10 minutes.",
+        "SHIRIN: Don't work too hard, honey!\nLEILA: I had to stand up to her or she\nSHIRIN: I need your help setting up inside\nLEILA: I'll just wait here.\nSHIRIN: Just 10 minutes.\nLEILA: You always say 10 minutes.\nSHIRIN: Let's go.",
+        "ELENA: Is that you?\nLEILA: Elena, hi, how are you?\nELENA: Evidently better than you. You've\nLEILA: Maybe I called a few times.\nELENA: I have fifty-four missed calls from\nLEILA: Okay, maybe more than a few times.\nLEILA: I just, I think we should give it"
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "LEILA",
+        "MAXIMILLIAN",
+        "MAXIMILLIAN HEDWIG",
+        "HEDWIG"
+      ],
+      "identity_or_relationship_evidence": [
+        "LEILA: If you're going to have one last boyfriend before becoming gay, you can do a lot worse than Duncan."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "lone are visible under the aqua burka. A hand grabs a surfboard. EXT. STREET - EVENING LEILA (29, mischievous, Iranian-American) walks through the streets of New York dressed in an"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

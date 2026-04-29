@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Autumn in New York",
+    "release_year": 2000,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23549,
+    "scene_count": 153,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "42:58",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 12,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 78,
+    "male_dialogue_share_pct": 22,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 13,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "CHARLOTTE",
+        "LISA TYLER",
+        "SHANNON",
+        "DR SIBLEY",
+        "SARAH",
+        "OLIVIA",
+        "TANYA",
+        "MELISSA"
+      ],
+      "female_female_dialogue_examples": [
+        "CHARLOTTE: Have fun!\nLISA TYLER: I had to come. I work at the Met. What's your excuse?\nCHARLOTTE: Sort of a date.\nLISA TYLER: With Wills Keane, right?\nCHARLOTTE: You know him?\nLISA TYLER: Just by reputation.\nCHARLOTTE: A major womanizer, right?",
+        "CHARLOTTE: Sort of a date.\nLISA TYLER: With Wills Keane, right?\nCHARLOTTE: You know him?\nLISA TYLER: Just by reputation.\nCHARLOTTE: A major womanizer, right?\nLISA TYLER: That's what they say. I'm Lisa.\nCHARLOTTE: Charlotte Fielding.",
+        "LISA TYLER: With Wills Keane, right?\nCHARLOTTE: You know him?\nLISA TYLER: Just by reputation.\nCHARLOTTE: A major womanizer, right?\nLISA TYLER: That's what they say. I'm Lisa.\nCHARLOTTE: Charlotte Fielding.\nLISA TYLER: Anyway, I should keep mingling. But it was"
+      ],
+      "non_male_topic_examples": [
+        "LISA TYLER: Just by reputation.\nCHARLOTTE: A major womanizer, right?\nLISA TYLER: That's what they say. I'm Lisa.\nCHARLOTTE: Charlotte Fielding.\nLISA TYLER: Anyway, I should keep mingling. But it was nice to meet you.\nCHARLOTTE: Same here."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "FIND SIMON AND SHANNON styling a BLACK FEMALE MODEL in a tank top and fatigues."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "windowless. Only a small brass plaque on the grey marble reveals that this is ELYSIUM. Wills and ERIKO, 30's, Japanese, aloof and stunning, emerge from the taxi, elegantly dressed,"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "title": "Night Time (The Poltergeist Treatment)",
+    "release_year": null,
+    "decade": "unknown",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": null,
+    "opening_type": "threat/disruption",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "unknown",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "unknown",
+    "character_arc_pattern": "unknown",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 10744,
+    "scene_count": 2,
+    "dialogue_density_pct": 1,
+    "int_ext_ratio": "100:0",
+    "day_night_ratio": "0:100",
+    "story_time_span": "unknown",
+    "geographic_setting": "unknown",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 0,
+    "male_named_character_count": 0,
+    "female_dialogue_share_pct": 0,
+    "male_dialogue_share_pct": 0,
+    "gender_power_dynamics": "unknown",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "unknown",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "unknown",
+    "parental_figure_status": "unknown",
+    "family_dynamics": "unknown",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": null,
+    "violence_type": "physical",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 1,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "incompetent",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 3,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [],
+      "female_female_dialogue_examples": [],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "(something to be established earlier in the story possibly). Then instantly, Carol Ann reels around, confronts Jeanette and begins speaking like an adult (or perhaps in an Indian language), all signs of being six years old are gone except for her physical appe"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

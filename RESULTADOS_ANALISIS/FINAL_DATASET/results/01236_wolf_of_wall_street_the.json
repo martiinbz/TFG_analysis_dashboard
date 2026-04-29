@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Wolf of Wall Street, The",
+    "release_year": 2013,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 30436,
+    "scene_count": 210,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "80:20",
+    "day_night_ratio": "72:28",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 37,
+    "female_dialogue_share_pct": 14,
+    "male_dialogue_share_pct": 86,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "background",
+    "coming_out_narrative": false,
+    "same_sex_relationships": true,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "upper-middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "rewarded",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 12,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "NAOMI LAPAGLIA",
+        "AUNT EMMA",
+        "JANET",
+        "HILDY AZOFF",
+        "KIMMIE BELZER",
+        "CHANTALLE",
+        "VIOLET",
+        "ROCHELLE APPLEBAUM"
+      ],
+      "female_female_dialogue_examples": [
+        "NAOMI LAPAGLIA: Omigod! Aunt Emma!\nNAOMI LAPAGLIA: Jordan! Look!\nAUNT EMMA: Jordan dear, how lovely.\nJORDAN BELFORT: It's so nice to see you again.\nAUNT EMMA: Into the donuts, I see.",
+        "NAOMI LAPAGLIA: Jordan! Look!\nAUNT EMMA: Jordan dear, how lovely.\nJORDAN BELFORT: It's so nice to see you again.\nAUNT EMMA: Into the donuts, I see.\nAUNT EMMA: I lived through the 60s, my dear. Enjoy the day.",
+        "RUGRAT ABBY: Good luck! We love you!\nNAOMI LAPAGLIA: Omigod! Aunt Emma!\nNAOMI LAPAGLIA: Jordan! Look!\nAUNT EMMA: Jordan dear, how lovely."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [
+        "NICHOLAS THE BUTLER",
+        "A GAY ORGY",
+        "NICHOLAS THE BUTLER"
+      ],
+      "identity_or_relationship_evidence": [
+        "A GAY ORGY is in progress, a dozen naked MEN, including Nicholas, in various sexual positions about the room.",
+        "NICHOLAS THE BUTLER (to Jordan) It's because I'm gay, isn't it? Jordan (V.O.) The motherfucker stole fifty grand in cash and jewelry."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "The quaalude was first synthesized in 1951 by an Indian doctor -- that's dot Indian, not feathers --",
+        "in 1951 by an Indian doctor -- that's dot Indian, not feathers -- as a sedative, and was prescribed"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "170 foot yacht. 8 INT. HOTEL BEDROOM - NIGHT (FEB `95) 8 Sweaty, wild-eyed and naked, Jordan fucks an HISPANIC HOOKER from behind. JORDAN (V.O.) I also gamble like a degenerate,"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

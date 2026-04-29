@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "title": "Gangs of New York",
+    "release_year": 2002,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 38343,
+    "scene_count": 101,
+    "dialogue_density_pct": 27,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "57:43",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 29,
+    "female_dialogue_share_pct": 16,
+    "male_dialogue_share_pct": 84,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JENNY",
+        "GENT 1",
+        "GENT 2",
+        "FRIEND",
+        "HELL-CAT MAGGIE",
+        "RABBIT WARRIOR"
+      ],
+      "female_female_dialogue_examples": [
+        "JENNY: Let me see! I don't believe it.\nFRIEND: No! It's a danger.\nJENNY: Oh come on! It's not. Then tell me where you got it.\nFRIEND: From some man. He took me in his carriage. He only wanted to do something to me fast.\nFRIEND: I didn't understand.",
+        "FRIEND: No! It's a danger.\nJENNY: Oh come on! It's not. Then tell me where you got it.\nFRIEND: From some man. He took me in his carriage. He only wanted to do something to me fast.\nFRIEND: I didn't understand.\nJENNY: Would he do the same with me?",
+        "JENNY: Oh come on! It's not. Then tell me where you got it.\nFRIEND: From some man. He took me in his carriage. He only wanted to do something to me fast.\nFRIEND: I didn't understand.\nJENNY: Would he do the same with me?\nFRIEND: I won't tell you if he's around "
+      ],
+      "non_male_topic_examples": [
+        "JENNY: Let me see! I don't believe it.\nFRIEND: No! It's a danger.\nJENNY: Oh come on! It's not. Then tell me where you got it."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white",
+        "indigenous"
+      ],
+      "evidence_snippets": [
+        "Half in shadow, a man named VALLON, dressed in black, fastens a clean white clerical collar around his thick neck. He raises a jagged razor to",
+        "Half in shadow, a man named VALLON, dressed in black, fastens a clean white clerical collar around his thick neck. He raises a jagged razor to his face, RAKES it across his right cheek, drawing BLOOD. He does not",
+        "Across the square, Amsterdam has reached his father in time to see a NATIVE AMERICAN sneaking up behind him. Amsterdam grabs a long TRUNCHEON from a fallen warrior and uses it to hit the man a strong blow behind the",
+        "TEARFUL WOMAN The Black Joke could have saved my house!"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

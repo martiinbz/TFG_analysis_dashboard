@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "title": "Black Dahlia, The",
+    "release_year": 2006,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 36198,
+    "scene_count": 316,
+    "dialogue_density_pct": 27,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "48:52",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 34,
+    "female_dialogue_share_pct": 6,
+    "male_dialogue_share_pct": 94,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "supporting",
+    "coming_out_narrative": false,
+    "same_sex_relationships": true,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 18,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ELIZABETH SHORT",
+        "RAMONA LINSCOTT",
+        "SHERYL SADDON",
+        "MARTHA LINSCOTT"
+      ],
+      "female_female_dialogue_examples": [
+        "RAMONA LINSCOTT: When Emmett married me for my father's money he promised my family that he would use his influence with the City Zoning Board to have a street named after me. But all he could manage was a dead-end block in a red light district in Lincoln Heig"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [
+        "LINDA MARTIN",
+        "SHERYL",
+        "RAMONA"
+      ],
+      "identity_or_relationship_evidence": [
+        "A dimly lit lesbian bar. Butch women in GI khakis mix with soft girls in cashmere skirt suits."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "latino",
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "EXT. THE ENSENADA STREETS - NIGHT - FLASHBACK As Madeleine, dressed as a Mexican woman in heavy makeup and a large hat, tails Lee back to his motel... Voice OVER Madeleine stalking Lee... Revenge-killing him in Ensenada to avenge the Sprague honor...",
+        "As Lee and Bucky exit the car, the four men immediately start the slow walk to the wall, arms over their heads. The white guy glances at Lee:",
+        "Out of the corner of his eye, Bucky sees the black man closest to Lee reaches for something shiny in his belt--",
+        "THE WHITE GUY swings around and LEE SHOOTS HIM twice in the face--",
+        "THE FIRST BLACK MAN pulls a SHIV free and BUCKY SHOOTS HIM in the neck--"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "EXT. THE ENSENADA STREETS - NIGHT - FLASHBACK As Madeleine, dressed as a Mexican woman in heavy makeup and a large hat, tails Lee back to his motel... Voice OVER Madeleine stalking Lee... Revenge-killing him in Ensenada to avenge the Sprague honor..."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

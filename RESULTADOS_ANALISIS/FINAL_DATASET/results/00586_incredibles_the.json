@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Incredibles, The",
+    "release_year": 2004,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Animation",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 11072,
+    "scene_count": 0,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "unknown",
+    "day_night_ratio": "unknown",
+    "story_time_span": "hours",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 13,
+    "female_dialogue_share_pct": 50,
+    "male_dialogue_share_pct": 50,
+    "gender_power_dynamics": "balanced",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "happy",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HELEN PARR",
+        "MIRAGE",
+        "HONEY",
+        "KARI",
+        "MRS HOGENSON"
+      ],
+      "female_female_dialogue_examples": [
+        "HELEN PARR: Oh, you're referring to me now?\nBOB: Where are the kids?\nMIRAGE: They might've triggered the alert.\nMIRAGE: Security's been sent into the jungle. You better get going.\nHELEN PARR: Now our kids are in danger?!",
+        "MIRAGE: See you there.\nHELEN PARR: [gasps] Edna.\nHELEN PARR: I'd like to speak to Edna, please.\nHELEN PARR: E? This is Helen.\nHELEN PARR: Yes, yes, yes. It's been a while. Listen, there's only one person Bob would trust to patch his supersuit and that's you, E",
+        "KARI: You don't have to worry about one single thing, Mrs. Parr. I've got this baby-sitting thing wired. I've taken courses and learned CPR and\nKARI: I also brought Mozart to play while he sleeps to make him smarter because leading experts say Mozart makes bab"
+      ],
+      "non_male_topic_examples": [
+        "HELEN PARR: Oh, you're referring to me now?\nBOB: Where are the kids?\nMIRAGE: They might've triggered the alert.\nMIRAGE: Security's been sent into the jungle. You better get going.\nHELEN PARR: Now our kids are in danger?!",
+        "MIRAGE: See you there.\nHELEN PARR: [gasps] Edna.\nHELEN PARR: I'd like to speak to Edna, please.\nHELEN PARR: E? This is Helen.",
+        "BOB: How could I betray the perfect woman?\nHELEN PARR: Oh, you're referring to me now?\nBOB: Where are the kids?\nMIRAGE: They might've triggered the alert.\nMIRAGE: Security's been sent into the jungle. You better get going.\nHELEN PARR: Now our kids are in dange"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

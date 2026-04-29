@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Malibu's Most Wanted",
+    "release_year": 2003,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "non-linear",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "corruption",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 18691,
+    "scene_count": 90,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "74:26",
+    "day_night_ratio": "54:46",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 20,
+    "female_dialogue_share_pct": 17,
+    "male_dialogue_share_pct": 83,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SHONDRA",
+        "BESS GLUCKMAN",
+        "JEN",
+        "RAT",
+        "GLADYS",
+        "MALIBU SHOPPER",
+        "KRISTA THE BARISTA",
+        "SISTER 1"
+      ],
+      "female_female_dialogue_examples": [
+        "SISTER 1: Cool playa.\nSISTER 2: Let's get busy. They laugh when suddenly Shondra comes through the door.\nSHONDRA: That's the same damn line he used on me, and now this no good deadbeat weak-ass white boy won't take care of little Malik.\nSISTER 1: This gettin' ",
+        "BRAD: Yeah, I just got tested positive\nSISTER 1: Cool playa.\nSISTER 2: Let's get busy. They laugh when suddenly Shondra comes through the door.\nSHONDRA: That's the same damn line he used on me, and now this no good deadbeat weak-ass white boy won't take care o",
+        "SHONDRA: Word up. She throws open her shirt, and before we see anything\nKRISTA THE BARISTA: Can I help you?\nKRISTA THE BARISTA: Tall, Grande, Venti, nonfat,\nBRAD: Yo, Krista the Barista. Put it on my account. Get yourself a blueberry scizonne too, girl.\nSHONDR"
+      ],
+      "non_male_topic_examples": [
+        "SHONDRA: Word up. She throws open her shirt, and before we see anything\nKRISTA THE BARISTA: Can I help you?\nKRISTA THE BARISTA: Tall, Grande, Venti, nonfat,"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black",
+        "middle_eastern"
+      ],
+      "evidence_snippets": [
+        "SHONDRA (emotional) Listen to reason. If you just be a nice little white boy and say you're sorry, I think I can convince them to let you go.",
+        "BILL is described as a white man, and BRAD is described as a black man, providing explicit race signals.",
+        "Next out is HADJI (a.k.a. YUSEF AMIRASLANI), a skinny Persian kid with cornrows. HADJI",
+        "starts acting like a nice little white boy again? TOM",
+        "Remember your core character. You're an oppressed black man from the ghetto."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

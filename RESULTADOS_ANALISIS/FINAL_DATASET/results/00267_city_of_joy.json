@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "City of Joy",
+    "release_year": 1992,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 29963,
+    "scene_count": 193,
+    "dialogue_density_pct": 35,
+    "int_ext_ratio": "42:58",
+    "day_night_ratio": "74:26",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 30,
+    "female_dialogue_share_pct": 22,
+    "male_dialogue_share_pct": 78,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JOAN BETHEL",
+        "ALOKA",
+        "VEEJAY",
+        "MANUBAI",
+        "HASARI S MOTHER",
+        "AMRITA H PAL"
+      ],
+      "female_female_dialogue_examples": [
+        "JOAN BETHEL: It's too far.\nALOKA: I could help. I've had three\nRAM: You can't do that. They're outcasts, they're unclean. There are murmurs of assent from the others.\nJOAN BETHEL: Oh nonsense! It's not contagious!",
+        "JOAN BETHEL: Good Christ, son, because she's a leper doesn't mean she's not built like a woman!\nHASARI: I can run and get Dr. Sunil.\nJOAN BETHEL: It's too far.\nALOKA: I could help. I've had three\nRAM: You can't do that. They're outcasts, they're unclean. There",
+        "HASARI: I can run and get Dr. Sunil.\nJOAN BETHEL: It's too far.\nALOKA: I could help. I've had three\nRAM: You can't do that. They're outcasts, they're unclean. There are murmurs of assent from the others.\nJOAN BETHEL: Oh nonsense! It's not contagious!"
+      ],
+      "non_male_topic_examples": [
+        "JOAN BETHEL: It's too far.\nALOKA: I could help. I've had three\nRAM: You can't do that. They're outcasts, they're unclean. There are murmurs of assent from the others.\nJOAN BETHEL: Oh nonsense! It's not contagious!",
+        "JOAN BETHEL: Good Christ, son, because she's a leper doesn't mean she's not built like a woman!\nHASARI: I can run and get Dr. Sunil.\nJOAN BETHEL: It's too far.\nALOKA: I could help. I've had three"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black"
+      ],
+      "evidence_snippets": [
+        "neck. His girl friend, BETSY KAHN, overdressed somewhat in an Indian style, endeavors to exercise the inner peace she's been pursuing...",
+        "with sweat, her hair is plastered to her face. A girl with black eyes is fanning her with a piece of wood. Meeta sends up a SOFT, uninterrupted MOAN. A wedge of"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

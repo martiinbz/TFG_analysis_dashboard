@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Supergirl",
+    "release_year": 2026,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 25651,
+    "scene_count": 183,
+    "dialogue_density_pct": 36,
+    "int_ext_ratio": "47:53",
+    "day_night_ratio": "52:48",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 12,
+    "male_named_character_count": 2,
+    "female_dialogue_share_pct": 95,
+    "male_dialogue_share_pct": 5,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SELENA",
+        "SUPERGIRL",
+        "LUCY",
+        "LINDA",
+        "BIANCA",
+        "KARA ZOR-EL",
+        "ALURA IN-ZE",
+        "SECOND SELENA"
+      ],
+      "female_female_dialogue_examples": [
+        "LINDA: I can do that.\nLUCY: No sweat. When's the rest of your stuff arriving?\nLINDA: There isn't any.\nLUCY: This is all your clothes?\nLINDA: I have money to buy more, but I haven't had a\nLUCY: Since what?? Did you have a fire at your house or",
+        "SELENA: Why did she have to show up now?\nBIANCA: Eliminate her.\nSELENA: That's easy for you to say, Bianca.\nBIANCA: You can do it. You're the most powerful woman on Earth.\nSELENA: Am I? Still?\nBIANCA: Yes! You own the Coffer of Shadow. Nothing can withstand it",
+        "SUPERGIRL: Is this how?\nSELENA: What a touching scene!\nSUPERGIRL: Who are you ?\nSELENA: I am Selena. Give him to me. Now. Or you'll both be sorry.\nSUPERGIRL: I don't scare that easily.\nSELENA: All right, Miss Know-it-all. If I can't have him, nobody can."
+      ],
+      "non_male_topic_examples": [
+        "LINDA: I can do that.\nLUCY: No sweat. When's the rest of your stuff arriving?\nLINDA: There isn't any.\nLUCY: This is all your clothes?\nLINDA: I have money to buy more, but I haven't had a\nLUCY: Since what?? Did you have a fire at your house or",
+        "SELENA: Why did she have to show up now?\nBIANCA: Eliminate her.\nSELENA: That's easy for you to say, Bianca.\nBIANCA: You can do it. You're the most powerful woman on Earth.\nSELENA: Am I? Still?\nBIANCA: Yes! You own the Coffer of Shadow. Nothing can withstand it",
+        "LINDA: There isn't any.\nLUCY: This is all your clothes?\nLINDA: I have money to buy more, but I haven't had a\nLUCY: Since what?? Did you have a fire at your house or\nLINDA: I'd rather not talk about it.\nLINDA: My cousin Clark is my only relative on Earth."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "Waiting for her are an extraordinary group of people, all of whom we met or glimpsed briefly at the garden party. Bianca is talking to ERICA, a red-haired female dwarf. A proud, barefoot AMERICAN INDIAN WOMAN in fringed doeskin is talking to a muscular, young ",
+        "INDIAN WOMAN But Superman has been away."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

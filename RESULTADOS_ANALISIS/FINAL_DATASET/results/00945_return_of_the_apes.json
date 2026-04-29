@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "title": "Return of the Apes",
+    "release_year": null,
+    "decade": "unknown",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Sci-fi",
+    "story_structure": "three-act",
+    "plot_complexity": null,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "unknown",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 31938,
+    "scene_count": 98,
+    "dialogue_density_pct": 26,
+    "int_ext_ratio": "47:53",
+    "day_night_ratio": "100:0",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 28,
+    "female_dialogue_share_pct": 39,
+    "male_dialogue_share_pct": 61,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "unknown",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "unknown",
+    "family_dynamics": "unknown",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": null,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": null,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "mixed",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DIAMOND",
+        "MCQUADE"
+      ],
+      "female_female_dialogue_examples": [
+        "DIAMOND: The smartest assistant I've ever known.\nMCQUADE: What - he can mop and fart at the same time?\nMCQUADE: He's handsome, at least I'll say -\nDIAMOND: No, but he's the most unbelievable smelling man.\nMCQUADE: Smelling? You're pregnant - obviously your hor",
+        "DIAMOND: He hasn't done anything - I'm just interested.\nMCQUADE: Ten thousand employment records I've got on file and you want to know about a lab assisant?\nDIAMOND: The smartest assistant I've ever known.\nMCQUADE: What - he can mop and fart at the same time?",
+        "MCQUADE: That's strange - there's supposed to be a background sheet. Family, school -all that shit. It must have gotten lost.\nDIAMOND: Tell her to take a message.\nMCQUADE: What do they want?\nDIAMOND: I think Washington's news management just went south."
+      ],
+      "non_male_topic_examples": [
+        "MCQUADE: That's strange - there's supposed to be a background sheet. Family, school -all that shit. It must have gotten lost.\nDIAMOND: Tell her to take a message.\nMCQUADE: What do they want?\nDIAMOND: I think Washington's news management just went south.",
+        "MCQUADE: You want to tell me what's going on?\nDIAMOND: Don't ask, Kris, I'd have to lie and I don't want to do that to my best\nMCQUADE: The rumor is, you've done something really big. They say the Defense Department is taking it over."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

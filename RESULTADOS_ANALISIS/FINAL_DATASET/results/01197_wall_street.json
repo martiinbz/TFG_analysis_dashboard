@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Wall Street",
+    "release_year": 1987,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 30506,
+    "scene_count": 174,
+    "dialogue_density_pct": 27,
+    "int_ext_ratio": "74:26",
+    "day_night_ratio": "80:20",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 23,
+    "female_dialogue_share_pct": 14,
+    "male_dialogue_share_pct": 86,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "power"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DARIEN TAYLOR",
+        "NATALIE",
+        "KATE GEKKO",
+        "TONI CARPENTER",
+        "CAROLYN",
+        "SUSAN",
+        "JANET",
+        "GINA"
+      ],
+      "female_female_dialogue_examples": [
+        "KATE GEKKO: Nicole, take him for a nap, please.\nNICOLE: He doesn't nap anymore, Madame.\nKATE GEKKO: Then play with him till he gets tired. We're going out tonight but we like to see him at, let's see, six; give him a bath and put that",
+        "BUD: What's it cost these days?\nKATE GEKKO: Nicole, take him for a nap, please.\nNICOLE: He doesn't nap anymore, Madame.\nKATE GEKKO: Then play with him till he gets tired. We're going out tonight but we like to see him at, let's see, six; give him a bath and pu",
+        "DARIEN TAYLOR: You really do believe in destiny?\nBUD: Only if I want something bad enough.\nKATE GEKKO: That's our Darien: elusive, reclusive, exclusive. You know Bud right? He works for\nBUD: No, I'm afraid I've got to get some\nDARIEN TAYLOR: Call me next week,"
+      ],
+      "non_male_topic_examples": [
+        "MUFFIE LIVINGSTON: So, I had to sit around the beach wearing a moo-moo for 10 days, my whole vacation ruined. laughs, chokes on the wine, spilling some on the couch) You just spilled your wine.\nCANDICE ROGERS: You're just making it worse."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "Credits continue to run. Bud moves past the functional reception area, past CAROLYN, a cheerful young black girl.",
+        "Lou Mannheim and a Chinese LADY BROKER intersect.",
+        "CHINESE LADY Gordo the Great, way to go.",
+        "CHINESE LADY (to Bud)"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "rind continues. INT. JACKSON, STEINEM INVESTMENT HOUSE - DAY Credits continue to run. Bud moves past the functional reception area, past CAROLYN, a cheerful young black girl. C"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

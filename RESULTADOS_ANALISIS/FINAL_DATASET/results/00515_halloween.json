@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Halloween",
+    "release_year": 1978,
+    "decade": "1970s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Horror",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "teenager",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "ambiguous",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 19728,
+    "scene_count": 122,
+    "dialogue_density_pct": 32,
+    "int_ext_ratio": "58:42",
+    "day_night_ratio": "43:57",
+    "story_time_span": "hours",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 6,
+    "female_dialogue_share_pct": 77,
+    "male_dialogue_share_pct": 23,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 5,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 16,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 5,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LAURIE",
+        "ALLYSON",
+        "SHANAH",
+        "AARON",
+        "VICKY",
+        "DANA"
+      ],
+      "female_female_dialogue_examples": [
+        "AARON: So is he real?\nAARON: The Boogeyman. I've read you\nLAURIE: You don't believe in The Boogeyman?\nAARON: I believe in Michael Myers, a deranged serial killer. But The\nLAURIE: Well, you should.\nAARON: We have archival recordings of Dr. Loomis from after tha",
+        "AARON: The Boogeyman. I've read you\nLAURIE: You don't believe in The Boogeyman?\nAARON: I believe in Michael Myers, a deranged serial killer. But The\nLAURIE: Well, you should.\nAARON: We have archival recordings of Dr. Loomis from after that horrific",
+        "LAURIE: Shanah. I need to talk to you.\nSHANAH: Well hello mother. New glasses?\nLAURIE: Allyson reached out to me-\nSHANAH: I specifically told you you're not to have any communication with her.\nLAURIE: I can't control who calls me. She's her own person and she'"
+      ],
+      "non_male_topic_examples": [
+        "AARON: Room for one more?\nDANA: Take that hideous thing off.\nAARON: When I wear this, there is a certain tendency or inclination that the legacy of the mask seems to inspire.\nDANA: Please don't murder me.\nAARON: I would never. I need your smile.",
+        "DANA: You've lived here since 1985.\nLAURIE: Sounds about right.\nDANA: Do you feel isolated?\nLAURIE: I don't.\nAARON: You tell yourself that you're protecting your family. That if he come for you again you've distanced yourself from everyone that you\nDANA: Aaron",
+        "AARON: The Boogeyman. I've read you\nLAURIE: You don't believe in The Boogeyman?\nAARON: I believe in Michael Myers, a deranged serial killer. But The\nLAURIE: Well, you should."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "where she see THE SHAPE step out of the Bronco. A man in white patient attire.",
+        "As Richards approaches Laurie, Hawkins joins the Sheriff. A DETECTIVE in rubber gloves holds up the white hospital clothes found on the ground.",
+        "She notices Cameron talking to a girl in a black cat costume, KIM. Cameron is still in drag. His back is to Allyson. A"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "ts it back and spins the cylinder. Engaged. She cocks the hammer. A BUZZ startles her. Laurie eyeballs four black and white security camera monitors. She looks to the arrival of her"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

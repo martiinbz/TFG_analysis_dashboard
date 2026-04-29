@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Blast from the Past, The",
+    "release_year": 1999,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24147,
+    "scene_count": 217,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "62:38",
+    "day_night_ratio": "58:42",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 27,
+    "female_dialogue_share_pct": 14,
+    "male_dialogue_share_pct": 86,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "Cold War",
+    "war_portrayal": "mixed",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "happy",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HELEN",
+        "DR ARON",
+        "MISS SWEET",
+        "BETTY",
+        "HEATHER",
+        "POSTAL WORKER",
+        "RUTH",
+        "WOMAN BUYER"
+      ],
+      "female_female_dialogue_examples": [
+        "BETTY: Well, I wouldn't go that far.\nHELEN: Hi, Betty! Dave!\nBETTY: Just look at you!\nHELEN: Any day now!\nBETTY: This is my sister and her husband.\nHELEN: Oh, hi! Welcome!",
+        "RUTH: Normal, then.\nBETTY: Well, I wouldn't go that far.\nHELEN: Hi, Betty! Dave!\nBETTY: Just look at you!\nHELEN: Any day now!\nBETTY: This is my sister and her husband.\nHELEN: Oh, hi! Welcome!",
+        "DAVE: Likes to cook. Pregnant.\nRUTH: Normal, then.\nBETTY: Well, I wouldn't go that far.\nHELEN: Hi, Betty! Dave!\nBETTY: Just look at you!\nHELEN: Any day now!\nBETTY: This is my sister and her husband.\nHELEN: Oh, hi! Welcome!"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "Adam continues down the sidewalk,looking up. A BLACK WOMAN POSTAL WORKER passes by."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

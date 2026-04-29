@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Miracle Worker, The",
+    "release_year": 2000,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "child",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 3435,
+    "scene_count": 20,
+    "dialogue_density_pct": 38,
+    "int_ext_ratio": "93:7",
+    "day_night_ratio": "50:50",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 1,
+    "female_dialogue_share_pct": 92,
+    "male_dialogue_share_pct": 8,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "hopeful",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "KATE KELLER",
+        "AUNT EV",
+        "YOUNG ANNIE",
+        "MARTHA"
+      ],
+      "female_female_dialogue_examples": [
+        "AUNT EV: My goodness me, I'm not decent.\nKATE KELLER: She doesn't know better, Aunt Ev. I'll sew them on again.\nAUNT EV: 40 It's worth a couple of buttons, Kate, look. HELEN now has the doll with eyes, and cannot contain herself for joy; she rocks the doll, pa",
+        "14 CONTINUED: HELEN pushes the buttons into the doll's face. KATE 0 now sees, comes swiftly to kneel, lifts HELEN'S hand to her own eyes in question.\nKATE KELLER: Eyes? HELEN nods energetically. She wants the doll to have eyes. Another kind of silence now, whi",
+        "AUNT EV: Why, she's your sister, James, not a nobody --\nJAMES KELLER: Half sister, and half-mentally defective, she can't even keep herself clean. It's not pleasant to see her about all the time.\nKATE KELLER: Do you dare? Complain of what 0 you can see?\nKELLER"
+      ],
+      "non_male_topic_examples": [
+        "14 CONTINUED: HELEN pushes the buttons into the doll's face. KATE 0 now sees, comes swiftly to kneel, lifts HELEN'S hand to her own eyes in question.\nKATE KELLER: Eyes? HELEN nods energetically. She wants the doll to have eyes. Another kind of silence now, whi",
+        "AUNT EV: Why, she's your sister, James, not a nobody --\nJAMES KELLER: Half sister, and half-mentally defective, she can't even keep herself clean. It's not pleasant to see her about all the time.\nKATE KELLER: Do you dare? Complain of what 0 you can see?\nKELLER",
+        "AUNT EV: Helena My buttons.\n14 CONTINUED: HELEN pushes the buttons into the doll's face. KATE 0 now sees, comes swiftly to kneel, lifts HELEN'S hand to her own eyes in question.\nKATE KELLER: Eyes? HELEN nods energetically. She wants the doll to have eyes. Anot"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "dot How can I teach her, beat her -- until she's black and blue?"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

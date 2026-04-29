@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Clash of the Titans",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23625,
+    "scene_count": 157,
+    "dialogue_density_pct": 36,
+    "int_ext_ratio": "29:71",
+    "day_night_ratio": "56:44",
+    "story_time_span": "days",
+    "geographic_setting": "mixed",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 23,
+    "female_dialogue_share_pct": 22,
+    "male_dialogue_share_pct": 78,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "mixed",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "TIAMAT",
+        "WILTING GIRL",
+        "CASSIOPEIA",
+        "PESHET",
+        "TEKLA",
+        "DANAE",
+        "APHRODITE"
+      ],
+      "female_female_dialogue_examples": [
+        "CASSIOPEIA: This union represents new hope for a lasting peace! That is the only cause for celebration. The crowd reacts with exclamations and applause. Amoun wills her to stop. Cassiopeia takes another drink, looks over at the Princess.\nCASSIOPEIA: More beaut",
+        "TIAMAT: A treaty! Zeus and his eagle turn their heads. The God's eyes are familiar -- the blazing orbs we saw in The Dog. In the shadowed corner of the atrium stand TWO MORE Olympians: SET THE VOID, whose countenance is death made visible, and -- -- TIAMAT, QU",
+        "PESHET: Andromeda! You'll care enough if you're caught! Remember last\nCASSIOPEIA: Peshet! Startled, Peshet spins to see the Queen approach.\nCASSIOPEIA: Where is the Princess?"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

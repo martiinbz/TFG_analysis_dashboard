@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Reader, The",
+    "release_year": 2008,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 16213,
+    "scene_count": 196,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "74:26",
+    "day_night_ratio": "85:15",
+    "story_time_span": "years",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 22,
+    "male_dialogue_share_pct": 78,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "WW2",
+    "war_portrayal": "critical",
+    "historical_event_reference": "Holocaust",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JULIA",
+        "CARLA BERG",
+        "MS BRENNER",
+        "MARTHE",
+        "BRIGITTE",
+        "ROSE MATHER",
+        "PRISON LIBRARIAN"
+      ],
+      "female_female_dialogue_examples": [
+        "CARLA BERG: I don't know. It's so long since I saw her, Michael, how can I tell?\nMICHAEL BERG: My fault. We shouldn't have come\nJULIA: Daddy, why's she angry?\nMICHAEL BERG: I'm afraid I've have some bad news. Julia knows.\n62: MICHAEL (cont'd) We've already tol",
+        "JULIA: Daddy's going to live in his own\nCARLA BERG: You didn't come for your father's funeral, but you come for this?",
+        "JULIA: Daddy's going to live in his own\nCARLA BERG: You didn't come for your father's funeral, but you come for this?\nMICHAEL BERG: You know, it's not easy for me to visit this town.\nCARLA BERG: Were you really so unhappy?"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "Holocaust"
+      ],
+      "event_evidence": [
+        "concentration camp scenes",
+        "The concentration camp scenes and the mention of Auschwitz refer to the Holocaust."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

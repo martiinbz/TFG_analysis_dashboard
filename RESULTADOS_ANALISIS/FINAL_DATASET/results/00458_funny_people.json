@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "title": "Funny People",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Comedy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "white",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26918,
+    "scene_count": 172,
+    "dialogue_density_pct": 44,
+    "int_ext_ratio": "81:19",
+    "day_night_ratio": "51:49",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 17,
+    "female_dialogue_share_pct": 28,
+    "male_dialogue_share_pct": 72,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 1,
+    "violence_type": "none",
+    "violence_consequences": "minimal",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 17,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "9/11 terrorist attacks",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "comedic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 3,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "LAURA",
+        "DAISY DANBY",
+        "MABLE",
+        "INGRID",
+        "RACHEL",
+        "DAWN",
+        "MANDY"
+      ],
+      "female_female_dialogue_examples": [
+        "MABLE: When is George gonna die?\nINGRID: George is gonna die?\nIRA: Why would you say that?\nMABLE: I heard my mom talking to her friend about it on the phone and\nINGRID: I don't want George to die.\nMABLE: What do you care? You just met",
+        "MABLE: I think Paula is drunk. You will never be American Idol.\nLAURA: Mable, stop it. Stop being mean to your sister. Say something nice.\nMABLE: You were good.\nLAURA: Okay, you're not Simon anymore. Simon, what did you think?",
+        "MABLE: When is George gonna die?\nINGRID: George is gonna die?\nIRA: Why would you say that?\nMABLE: I heard my mom talking to her friend about it on the phone and\nINGRID: I don't want George to die."
+      ],
+      "non_male_topic_examples": [
+        "MABLE: I think Paula is drunk. You will never be American Idol.\nLAURA: Mable, stop it. Stop being mean to your sister. Say something nice.\nMABLE: You were good.\nLAURA: Okay, you're not Simon anymore. Simon, what did you think?",
+        "MABLE: I think Paula is drunk. You will never be American Idol.\nLAURA: Mable, stop it. Stop being mean to your sister. Say something nice.\nMABLE: You were good.",
+        "LAURA: Mable, stop it. Stop being mean to your sister. Say something nice.\nMABLE: You were good.\nLAURA: Okay, you're not Simon anymore. Simon, what did you think?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "9/11 terrorist attacks"
+      ],
+      "event_evidence": [
+        "GEORGE mentions it's like 9/11 after 9/11 you kind of liked everybody? But then it went away."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian"
+      ],
+      "evidence_snippets": [
+        "George walks down the stairs towards the parking lot in a daze. An ASIAN GIRL and her MOTHER and BROTHER see him and start screaming.",
+        "Do you know who might be able to help you? A Chinese doctor. Have you explored Eastern medicine at",
+        "guy at work turned me onto a Chinese doctor and he gave me some herbs that tasted like dogshit, but"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "GEORGE is a white comedian",
+        "p early. DOCTOR STEVENS George there are some irregularities in your blood work... George's face turns white. He knows what this means. The doctor keeps talking but the sound kee"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

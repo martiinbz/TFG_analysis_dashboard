@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "Agnes of God",
+    "release_year": 1985,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 13966,
+    "scene_count": 94,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "67:33",
+    "day_night_ratio": "81:19",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 11,
+    "male_named_character_count": 5,
+    "female_dialogue_share_pct": 95,
+    "male_dialogue_share_pct": 5,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "DR MARTHA LOUISE LIVINGSTON",
+        "SISTER AGNES",
+        "MOTHER MIRIAM RUTH",
+        "EVE",
+        "SISTER ANNE",
+        "ELDERLY NUN",
+        "HOUSEKEEPER"
+      ],
+      "female_female_dialogue_examples": [
+        "SISTER AGNES: Right now?\nDR MARTHA LOUISE LIVINGSTON: Uh huh.\nSISTER AGNES: I love you.\nDR MARTHA LOUISE LIVINGSTON: Agnes, have you ever loved another\nSISTER AGNES: Oh, there are so many.\nSISTER AGNES: Oh, yes!\nDR MARTHA LOUISE LIVINGSTON: Do you think he lov",
+        "DR MARTHA LOUISE LIVINGSTON: You have a lovely voice.\nSISTER AGNES: No I don't.\nDR MARTHA LOUISE LIVINGSTON: I just heard you.\nSISTER AGNES: That wasn't me.\nDR MARTHA LOUISE LIVINGSTON: Was it Sister Marguerite?\nSISTER AGNES: No I'm not.",
+        "SISTER AGNES: No I don't.\nDR MARTHA LOUISE LIVINGSTON: I just heard you.\nSISTER AGNES: That wasn't me.\nDR MARTHA LOUISE LIVINGSTON: Was it Sister Marguerite?\nSISTER AGNES: No I'm not.\nDR MARTHA LOUISE LIVINGSTON: Hasn't anyone ever told you that before?"
+      ],
+      "non_male_topic_examples": [
+        "DR MARTHA LOUISE LIVINGSTON: You have a lovely voice.\nSISTER AGNES: No I don't.\nDR MARTHA LOUISE LIVINGSTON: I just heard you.\nSISTER AGNES: That wasn't me.\nDR MARTHA LOUISE LIVINGSTON: Was it Sister Marguerite?\nSISTER AGNES: No I'm not.",
+        "SISTER AGNES: No I don't.\nDR MARTHA LOUISE LIVINGSTON: I just heard you.\nSISTER AGNES: That wasn't me.\nDR MARTHA LOUISE LIVINGSTON: Was it Sister Marguerite?\nSISTER AGNES: No I'm not.\nDR MARTHA LOUISE LIVINGSTON: Hasn't anyone ever told you that before?",
+        "DR MARTHA LOUISE LIVINGSTON: Well, who in particular?\nSISTER AGNES: Right now?\nDR MARTHA LOUISE LIVINGSTON: Uh huh.\nSISTER AGNES: I love you.\nDR MARTHA LOUISE LIVINGSTON: Agnes, have you ever loved another\nSISTER AGNES: Oh, there are so many."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

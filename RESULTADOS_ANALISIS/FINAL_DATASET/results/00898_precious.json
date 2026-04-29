@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Precious",
+    "release_year": 2024,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23314,
+    "scene_count": 153,
+    "dialogue_density_pct": 30,
+    "int_ext_ratio": "88:12",
+    "day_night_ratio": "84:16",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 16,
+    "male_named_character_count": 2,
+    "female_dialogue_share_pct": 98,
+    "male_dialogue_share_pct": 2,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "supporting",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": true,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "psychological",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 7,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "PRECIOUS",
+        "MARY",
+        "CORNROWS",
+        "MRS LICHENSTEIN",
+        "TOM"
+      ],
+      "female_female_dialogue_examples": [
+        "PRECIOUS: This the alternative?\nCORNROWS: The what?\nPRECIOUS: This the alternative?\nCORNROWS: What exactly are you looking for?\nPRECIOUS: Well what is this here?\nCORNROWS: This is Higher Education Alternative / Each One Teach One.",
+        "CORNROWS: The what?\nPRECIOUS: This the alternative?\nCORNROWS: What exactly are you looking for?\nPRECIOUS: Well what is this here?\nCORNROWS: This is Higher Education Alternative / Each One Teach One.\nPRECIOUS: I'm looking for alternative school.",
+        "PRECIOUS: Mrs. Lichenstein ain' say all that.\nCORNROWS: Oh you're the one Mrs. Lichenstein called about.\nPRECIOUS: What she say?\nCORNROWS: Are you Claireece P. Jones?\nPRECIOUS: Thas me.\nCORNROWS: Well the principal at I.S. 111 already sent your discharge paper"
+      ],
+      "non_male_topic_examples": [
+        "PRECIOUS: This the alternative?\nCORNROWS: The what?\nPRECIOUS: This the alternative?\nCORNROWS: What exactly are you looking for?\nPRECIOUS: Well what is this here?\nCORNROWS: This is Higher Education Alternative / Each One Teach One.",
+        "CORNROWS: The what?\nPRECIOUS: This the alternative?\nCORNROWS: What exactly are you looking for?\nPRECIOUS: Well what is this here?\nCORNROWS: This is Higher Education Alternative / Each One Teach One.\nPRECIOUS: I'm looking for alternative school.",
+        "PRECIOUS: Mrs. Lichenstein ain' say all that.\nCORNROWS: Oh you're the one Mrs. Lichenstein called about.\nPRECIOUS: What she say?\nCORNROWS: Are you Claireece P. Jones?\nPRECIOUS: Thas me.\nCORNROWS: Well the principal at I.S. 111 already sent your discharge paper"
+      ]
+    },
+    "lgbtq": {
+      "characters": [
+        "MS. RAIN"
+      ],
+      "identity_or_relationship_evidence": [
+        "I am a proud lesbian."
+      ],
+      "evidence_type": [
+        "self-identification",
+        "other explicit evidence"
+      ]
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "When the clock reads 8:30, Precious stands, looks in a mirror, sees a pretty blond white girl and leaves the room.",
+        "Precious enters the lobby. An older black man in a blue uniform sits in a chair reading the Daily News through thick",
+        "Precious steps out to find an AFRICAN AMERICAN WOMAN IN HER EARLY 30'S WEARING HER HAIR IN \"CORNROWS\".",
+        "whole family as less than dumb just ugly black grease to be wiped away, punished, caged up, kilt, changed,",
+        "When the clock reads 8:30, she stands, turns to a mirror, sees a pretty blond white girl and leaves the room."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Queen of the Damned",
+    "release_year": 2002,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 27856,
+    "scene_count": 97,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "62:38",
+    "day_night_ratio": "5:95",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 25,
+    "female_dialogue_share_pct": 41,
+    "male_dialogue_share_pct": 59,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "incidental",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "YOUNG JESSE",
+        "AKASHA",
+        "MAHARET",
+        "LONDON GROUPIE",
+        "TALAMASCAN",
+        "PANDORA",
+        "MAUDY"
+      ],
+      "female_female_dialogue_examples": [
+        "TALAMASCAN: Oh please, based on this so-called 'data'? That's a waste of time.\nTALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this direct",
+        "TALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this directive?\nTALAMASCAN: Jesse! You're just an apprentice here! You must follow our",
+        "TALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this directive?"
+      ],
+      "non_male_topic_examples": [
+        "TALAMASCAN: Oh please, based on this so-called 'data'? That's a waste of time.\nTALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this direct",
+        "TALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this directive?\nTALAMASCAN: Jesse! You're just an apprentice here! You must follow our",
+        "TALAMASCAN: moment, interrupting) Wait a second. Who took this\nYOUNG JESSE: I did.\nTALAMASCAN: You went there?\nYOUNG JESSE: Yes. Last night.\nTALAMASCAN: And who gave you this directive?"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "A beautiful young woman, JESSE, 22, lays in black satin sheets. Her long red hair snakes over her slender neck as"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

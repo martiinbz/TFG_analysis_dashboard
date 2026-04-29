@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "St. Elmo's Fire",
+    "release_year": 1985,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 21590,
+    "scene_count": 136,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "84:16",
+    "day_night_ratio": "42:58",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 10,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 27,
+    "male_dialogue_share_pct": 73,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "love"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JULES",
+        "WENDY BEAMISH",
+        "DALE BIBERMAN",
+        "FELICIA",
+        "JUDITH",
+        "MRS BEAMISH",
+        "LIBBY"
+      ],
+      "female_female_dialogue_examples": [
+        "JULES: Wendy, this is all too destructive.\nWENDY BEAMISH: Life in the-fat lane.\nJULES: You're not fat.\nWENDY BEAMISH: My thighs are fat. And no diet works. The only way to lose weight on your thighs is amputation.\nJULES: You have to amputate Billy the Kid.",
+        "WENDY BEAMISH: Life in the-fat lane.\nJULES: You're not fat.\nWENDY BEAMISH: My thighs are fat. And no diet works. The only way to lose weight on your thighs is amputation.\nJULES: You have to amputate Billy the Kid.\nWENDY BEAMISH: I know, but I can't.",
+        "JULES: You're not fat.\nWENDY BEAMISH: My thighs are fat. And no diet works. The only way to lose weight on your thighs is amputation.\nJULES: You have to amputate Billy the Kid.\nWENDY BEAMISH: I know, but I can't.\nJULES: I don't get it."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "She races down the hall, joining paramedics wheeling in a large black man on a gurney. His hysterical wife runs screaming behind them.",
+        "Dale helps them maneuver the gurney down the hall, leaving a small black child, alone and frightened, in their wake. Dale comes running back and picks up the child. Kirbo"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

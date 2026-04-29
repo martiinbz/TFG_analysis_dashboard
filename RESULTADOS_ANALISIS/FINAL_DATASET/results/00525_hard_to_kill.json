@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Hard to Kill",
+    "release_year": 1990,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 23152,
+    "scene_count": 206,
+    "dialogue_density_pct": 25,
+    "int_ext_ratio": "61:39",
+    "day_night_ratio": "37:63",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 5,
+    "male_named_character_count": 47,
+    "female_dialogue_share_pct": 24,
+    "male_dialogue_share_pct": 76,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANDY STEWART",
+        "MARTHA COE",
+        "FELICIA STORM",
+        "HOUSEWIFE",
+        "HENRIETTA WADE"
+      ],
+      "female_female_dialogue_examples": [
+        "MARTHA COE: How's the sleeping prince?\nANDY STEWART: Still sleeping. It's bad enough when it's old people. But a young handsome guy --\nMARTHA COE: Don't let this job get you, honey. It's eight hours, not twenty-four.\nANDY STEWART: You can have my orgasms, Mart",
+        "ANDY STEWART: Can I phone you?\nHENRIETTA WADE: innocuous) Of course, my dear.\nCLOSET: Andy opens the door, reaches in for her jacket. Suddenly she pauses.\nANDY STEWART: This is my number, Mrs. O'Malley.\nHENRIETTA WADE: You mean Mrs. Wade. O'Malley is the perso",
+        "MARTHA COE: -- Dr. Cannon ordered a glucose drip on Jimmy See. Mack's E.E.G. monitor's developing a nice electronic hiccup -- and your\nANDY STEWART: He did?\nMARTHA COE: I thought he was going to sit up. I almost shit!"
+      ],
+      "non_male_topic_examples": [
+        "MARTHA COE: You're early again.\nANDY STEWART: You won't report me, will you?\nANDY STEWART: Inquiring minds want to know --"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

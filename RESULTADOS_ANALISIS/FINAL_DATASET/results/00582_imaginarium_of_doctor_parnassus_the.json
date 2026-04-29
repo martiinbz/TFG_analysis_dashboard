@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "title": "Imaginarium of Doctor Parnassus, The",
+    "release_year": 2009,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "circular-narrative",
+    "plot_complexity": 4,
+    "opening_type": "in media res",
+    "ending_type": "ambiguity",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "antihero",
+    "character_arc_pattern": "multiple",
+    "protagonist_fate": "unclear",
+    "relationship_structure": "rivalry"
+  },
+  "technical": {
+    "word_count": 23543,
+    "scene_count": 51,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "34:66",
+    "day_night_ratio": "31:69",
+    "story_time_span": "hours",
+    "geographic_setting": "mixed",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 19,
+    "female_dialogue_share_pct": 21,
+    "male_dialogue_share_pct": 79,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "mixed",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "mixed",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 7,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "dark",
+    "emotional_intensity": 4,
+    "ending_tone": "ambiguous",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "VALENTINA",
+        "SALLY",
+        "MUM"
+      ],
+      "female_female_dialogue_examples": [
+        "MUM: Is he insulting us?\nMUM: Diego!? Where's Diego?\nDIEGO: VALENTINA turns her head just in time to see DIEGO vanish through the mirror.\nVALENTINA: Ladies and Gentlemen, let Dr.",
+        "DOCTOR PARNASSUS: Please! This is The Imaginarium! It\nMUM: Is he insulting us?\nMUM: Diego!? Where's Diego?\nDIEGO: VALENTINA turns her head just in time to see DIEGO vanish through the mirror.\nVALENTINA: Ladies and Gentlemen, let Dr.",
+        "MUM: Is he insulting us?\nMUM: Diego!? Where's Diego?\nDIEGO: VALENTINA turns her head just in time to see DIEGO vanish through the mirror.\nVALENTINA: Ladies and Gentlemen, let Dr.\nAAAHHHH DAMN AND BLAST: Things fly in all directions."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "DOCTOR PARNASSUS is described as an Indian holy man, indicating his race and ethnicity.",
+        "ANTON/MERCURY rises to reveal DOCTOR PARNASSUS - he appears to be an Indian holy man - long scraggly beard, chalk white make up, a large red circle on his bald head, a crown of",
+        "I want to adopt that unfortunate black child. It shouldn't be working like this. It should be in"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

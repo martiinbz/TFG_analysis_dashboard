@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Scott Pilgrim vs the World",
+    "release_year": 2010,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Action",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "in media res",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "asian",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 24948,
+    "scene_count": 84,
+    "dialogue_density_pct": 43,
+    "int_ext_ratio": "75:25",
+    "day_night_ratio": "50:50",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 17,
+    "male_named_character_count": 12,
+    "female_dialogue_share_pct": 63,
+    "male_dialogue_share_pct": 37,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "mixed",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": true
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SCOTT",
+        "KNIVES CHAU",
+        "KIM PINE",
+        "STACEY PILGRIM",
+        "ENVY ADAMS",
+        "JULIE POWERS",
+        "ROXY RICHTER",
+        "TAMARA CHEN"
+      ],
+      "female_female_dialogue_examples": [
+        "ENVY ADAMS: So. That's Ramona?\nENVY ADAMS: Okay, I'm jealous.\nSCOTT: YOU'RE jealous?\nENVY ADAMS: I'm allowed.\nSCOTT: You left me! For that cocky pretty boy!\nENVY ADAMS: You've never even seen him.\nSCOTT: Yeah. I know. You left me for a guy I've never even seen",
+        "STACEY PILGRIM: You're thinking of juggling two chicks!?\nSCOTT: Not even!\nSTACEY PILGRIM: Well, you should break up with your fake high school girlfriend.\nSCOTT: Wait. Who told you?\nSTACEY PILGRIM: Duh. Wallace.\nSCOTT: He's not even conscious!",
+        "SCOTT: Not even!\nSTACEY PILGRIM: Well, you should break up with your fake high school girlfriend.\nSCOTT: Wait. Who told you?\nSTACEY PILGRIM: Duh. Wallace.\nSCOTT: He's not even conscious!\nSTACEY PILGRIM: Whatever. You of all people should know how sucky it is t"
+      ],
+      "non_male_topic_examples": [
+        "SCOTT: That's garbage! Completely untrue.\nJULIE POWERS: That time with Lisa-\nJULIE POWERS: That time with Hollie-\nSCOTT: Not what it looked like!\nJULIE POWERS: That time you dumped Kim for-\nSCOTT: Hey, me and Kim are all good now. SCOTT looks to KIM. We hear t",
+        "ENVY ADAMS: A year I think?\nENVY ADAMS: How are you?\nSCOTT: I'm not doing so good right now.\nENVY ADAMS: That's too bad. Still breaking hearts?\nSCOTT: What? No, stop. I've been-it's been different. You have no idea.\nENVY ADAMS: Probably not. Do you have a girl"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "white"
+      ],
+      "evidence_snippets": [
+        "(pleased as punch) Knives Chau. She's Chinese.",
+        "KNIVES CHAU Tamara is into this Korean guy, Bobby, but everyone thinks Bobby",
+        "She's probably like 25! She's just some fat-ass white girl, you know?"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "SCOTT PILGRIM mentions Knives Chau is Chinese."
+      ],
+      "explicit_reference": true
+    }
+  }
+}

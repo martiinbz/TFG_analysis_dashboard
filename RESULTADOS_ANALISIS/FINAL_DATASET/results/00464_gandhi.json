@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Gandhi",
+    "release_year": 1982,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "asian",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 49352,
+    "scene_count": 172,
+    "dialogue_density_pct": 24,
+    "int_ext_ratio": "43:57",
+    "day_night_ratio": "82:18",
+    "story_time_span": "years",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 43,
+    "female_dialogue_share_pct": 48,
+    "male_dialogue_share_pct": 52,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "mixed",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "mixed",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "GANDHI",
+        "MIRABEHN",
+        "MARGARET BOURKE-WHITE",
+        "COLIN S MOTHER",
+        "AYAH",
+        "SONJA SCHLESIN"
+      ],
+      "female_female_dialogue_examples": [
+        "GANDHI: Ask Panditji to -- to consider what we've discussed.\nMARGARET BOURKE-WHITE: One more.\nGANDHI: You're a temptress.\nGANDHI: Nothing's more dangerous, especially for an old man.\nMARGARET BOURKE-WHITE: There's a sadness in him.",
+        "GANDHI: Is that homespun? Or cotton from\nMIRABEHN: I -- I sent for it, from here. I dyed it myself.\nGANDHI: What do the workers in England make of what we're doing? It must have produced hardship.\nMIRABEHN: It has. But you'd be surprised. They understand -- th",
+        "MIRABEHN: It has. But you'd be surprised. They understand -- they really do. It's not the workers you have to worry\nGANDHI: Good. Ba will have to teach you to spin\nMIRABEHN: I would rather march.\nGANDHI: First spin. Let the others march for a time."
+      ],
+      "non_male_topic_examples": [
+        "GANDHI: Is that homespun? Or cotton from\nMIRABEHN: I -- I sent for it, from here. I dyed it myself.\nGANDHI: What do the workers in England make of what we're doing? It must have produced hardship.\nMIRABEHN: It has. But you'd be surprised. They understand -- th",
+        "MIRABEHN: It has. But you'd be surprised. They understand -- they really do. It's not the workers you have to worry\nGANDHI: Good. Ba will have to teach you to spin\nMIRABEHN: I would rather march.\nGANDHI: First spin. Let the others march for a time.",
+        "MARGARET BOURKE-WHITE: But do you really believe you could use non-violence against someone like Hitler?\nGANDHI: Not without defeats -- and great\nMARGARET BOURKE-WHITE: Is my finger supposed to be wrapped around that?\nGANDHI: No. That is what you get for distr"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "pictures. There is a newsreel crew center. The camera features a woman photographer (Margaret Bourke-White) who sits with her legs dangling over the side of the truck, her famous",
+        "An Indian woman near the entrance sits in a woolen sari, her face half-veiled. A small child sleeps in her arms, and there",
+        "(a shrug) I'm rich -- but I'm Indian. I therefore do not expect to travel",
+        "statement all the more bewildering. Gandhi looks around helplessly. We see Mr. Baker, a wealthy white lawyer, whose home this is, poking at the fire, slightly amused at Gandhi's"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "e of prayer to his jacket, in an instant -- it holds a gun, and he fires point blank at Gandhi -- loud, startling -- once, twice... thrice. Gandhi's white shawl is stained with bloo"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

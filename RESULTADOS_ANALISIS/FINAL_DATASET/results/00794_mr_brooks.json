@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "title": "Mr Brooks",
+    "release_year": 2007,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Crime",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "white",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26703,
+    "scene_count": 162,
+    "dialogue_density_pct": 31,
+    "int_ext_ratio": "64:36",
+    "day_night_ratio": "49:51",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 9,
+    "male_named_character_count": 11,
+    "female_dialogue_share_pct": 21,
+    "male_dialogue_share_pct": 79,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "medium",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SNYDER",
+        "JANE BROOKS",
+        "EMMA BROOKS",
+        "CAPTAIN LISTER",
+        "SHEILA",
+        "SUNDAY",
+        "FLIGHT ATTENDANT",
+        "DETECTIVE CARFAGNO"
+      ],
+      "female_female_dialogue_examples": [
+        "JANE BROOKS: Some guy I was seeing.\nEMMA BROOKS: Does he know?\nJANE BROOKS: Yes, he's a married man and he doesn't want to have anything to do with me.\nEMMA BROOKS: Oh, Honey, I'm so sorry.\nJANE BROOKS: I'm going to have an abortion anyway, so there is nothing",
+        "MR BROOKS: Who's the father?\nJANE BROOKS: Some guy I was seeing.\nEMMA BROOKS: Does he know?\nJANE BROOKS: Yes, he's a married man and he doesn't want to have anything to do with me.\nEMMA BROOKS: Oh, Honey, I'm so sorry.\nJANE BROOKS: I'm going to have an abortio",
+        "JANE BROOKS: Some guy I was seeing.\nEMMA BROOKS: Does he know?\nJANE BROOKS: Yes, he's a married man and he doesn't want to have anything to do with me.\nEMMA BROOKS: Oh, Honey, I'm so sorry."
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black",
+        "asian"
+      ],
+      "evidence_snippets": [
+        "MR. BROOKS is described as a white man",
+        "Move up; the person in the black slacks is Marshall.",
+        "An OLDER DETECTIVE, an African-American, comes out on the porch and calls to two other DETECTIVES who are drinking",
+        "Atwood and her ATTORNEYS, a gray-haired Man in his 60's, and an Asian Woman about the same age as Atwood are on one side of the table."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [
+        "MR. BROOKS is described as a white man"
+      ],
+      "explicit_reference": true
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "title": "Authors Anonymous",
+    "release_year": 2014,
+    "decade": "2010s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 20868,
+    "scene_count": 124,
+    "dialogue_density_pct": 34,
+    "int_ext_ratio": "85:15",
+    "day_night_ratio": "79:21",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 5,
+    "female_dialogue_share_pct": 52,
+    "male_dialogue_share_pct": 48,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 2,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "positive"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "Vietnam",
+    "war_portrayal": "critical",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HANNAH RINALDI",
+        "COLETTE MOONEY",
+        "SIGRID HAGENGUTH",
+        "LOIS PEPPER",
+        "EUDORA",
+        "MAUREEN"
+      ],
+      "female_female_dialogue_examples": [
+        "HANNAH RINALDI: So sweet of you, Colette.\nCOLETTE MOONEY: Is he--Is he taking on new clients?\nHANNAH RINALDI: Gee. I don't really know.\nCOLETTE MOONEY: Think you could ask?\nHANNAH RINALDI: I guess so. Maybe.\nHANNAH RINALDI: Let's talk about this at group meeti",
+        "HANNAH RINALDI: Oh my god!\nMAUREEN: What's he saying?\nHANNAH RINALDI: He sold my novel.\nHANNAH RINALDI: Brian sold Sleeping on the Moon!\nMAUREEN: Oh my god! Oh my god!\nHANNAH RINALDI: Yes, Brian. I will. Thank you. Thank you. Thank you. I will. Promise. Thank ",
+        "HANNAH RINALDI: So sweet of you, Colette.\nCOLETTE MOONEY: Is he--Is he taking on new clients?\nHANNAH RINALDI: Gee. I don't really know.\nCOLETTE MOONEY: Think you could ask?\nHANNAH RINALDI: I guess so. Maybe."
+      ],
+      "non_male_topic_examples": [
+        "HANNAH RINALDI: Gee. I don't really know.\nCOLETTE MOONEY: Think you could ask?\nHANNAH RINALDI: I guess so. Maybe.\nHANNAH RINALDI: Let's talk about this at group meeting, OK?\nCOLETTE MOONEY: Oh. Of course. Of course.\nCOLETTE MOONEY: I've got to go. Talk soon. B",
+        "HANNAH RINALDI: Gee. I don't really know.\nCOLETTE MOONEY: Think you could ask?\nHANNAH RINALDI: I guess so. Maybe.\nHANNAH RINALDI: Let's talk about this at group meeting, OK?\nCOLETTE MOONEY: Oh. Of course. Of course."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black"
+      ],
+      "evidence_snippets": [
+        "Colette is back on her bench. Standing behind her is a mysterious MAN (Over 40) who favors black clothes and dark shades."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

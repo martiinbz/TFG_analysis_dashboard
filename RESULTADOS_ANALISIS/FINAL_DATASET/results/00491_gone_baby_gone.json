@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "title": "Gone Baby Gone",
+    "release_year": 2007,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "threat/disruption",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26147,
+    "scene_count": 151,
+    "dialogue_density_pct": 37,
+    "int_ext_ratio": "53:47",
+    "day_night_ratio": "51:49",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 17,
+    "male_named_character_count": 15,
+    "female_dialogue_share_pct": 85,
+    "male_dialogue_share_pct": 15,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "corrupt",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ANGIE GENNARO",
+        "HELENE MCCREADY",
+        "DOYLE",
+        "BEATRICE",
+        "BEA",
+        "DOTTIE",
+        "AMANDA MCCREADY",
+        "ALCOHOLIC 2"
+      ],
+      "female_female_dialogue_examples": [
+        "AMANDA MCCREADY: Can I have a, please a sandwich?\nDOYLE: What kind do you want.\nAMANDA MCCREADY: Grill Cheese.\nDOYLE: You like the crusts on, right?\nAMANDA MCCREADY: Noooo! I don't like the crusts on!\nDOYLE: That' s right, that's right. Patrick and Angie have ",
+        "AMANDA MCCREADY: Can I have a, please a sandwich?\nDOYLE: What kind do you want.\nAMANDA MCCREADY: Grill Cheese.\nDOYLE: You like the crusts on, right?\nAMANDA MCCREADY: Noooo! I don't like the crusts on!",
+        "DOYLE: What kind do you want.\nAMANDA MCCREADY: Grill Cheese.\nDOYLE: You like the crusts on, right?\nAMANDA MCCREADY: Noooo! I don't like the crusts on!\nDOYLE: That' s right, that's right. Patrick and Angie have ducked into the woods. They are both in shock."
+      ],
+      "non_male_topic_examples": [
+        "DOYLE: Nice to meet you.\nANGIE GENNARO: Good to meet you, Captain\nDOYLE: I take it Bea hired you?\nPATRICK KENZIE: She wants to cover as much ground as she\nANGIE GENNARO: I take it you didn't want us hired.\nDOYLE: These people aren' t rich.",
+        "PATRICK KENZIE: Patrick Kenzie. Angela Gennaro.\nDOYLE: Nice to meet you.\nANGIE GENNARO: Good to meet you, Captain\nDOYLE: I take it Bea hired you?\nPATRICK KENZIE: She wants to cover as much ground as she\nANGIE GENNARO: I take it you didn't want us hired.\nDOYLE:",
+        "BEATRICE: You took Amanda with you?\nHELENE MCCREADY: What am I gonna do? Leave her in the car,\nBEATRICE: You are an abomination. God as my\nHELENE MCCREADY: You know what, Bea? It's hard bein' a mother. It's hard raisinf children. And if God made you barren the"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

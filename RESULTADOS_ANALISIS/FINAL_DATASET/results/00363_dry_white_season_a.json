@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "title": "Dry White Season, A",
+    "release_year": 1989,
+    "decade": "1980s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 33744,
+    "scene_count": 169,
+    "dialogue_density_pct": 36,
+    "int_ext_ratio": "64:36",
+    "day_night_ratio": "77:23",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "minor"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 24,
+    "female_dialogue_share_pct": 15,
+    "male_dialogue_share_pct": 85,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": false,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 5,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "MELANIE BRUWER",
+        "SUZETTE DU TOIT",
+        "EMILY NGUBENE",
+        "MARGARET",
+        "SADIE",
+        "LARGE WOMAN"
+      ],
+      "female_female_dialogue_examples": [
+        "BEN: I didn't mean to disturb you. I've come to talk to you.\nEMILY NGUBENE: broken chair) Yes, it's good. What I want to know is why did they kill him. He didn't do them nothing. You know, Mr. Ben, sir, I washed his whole body for he was my husband. And I know",
+        "EMILY NGUBENE: Well, thank you, Mr. Ben, sir. Eh, that's father Masonwane, our priest, and that's Margaret from next door.\nEMILY NGUBENE: Please sit down. Take this chair, the other one is broken.\nBEN: I didn't mean to disturb you. I've come to talk to you.\nEM",
+        "PRIEST: Aren't you afraid sis Emily?\nEMILY NGUBENE: No. In the end one grows tired of being afraid.\nBEN: Emily, Stanley and I will do all we can. As I said we have a good advocate. Everyone involved with Gordon's death will be questioned and all that's known r"
+      ],
+      "non_male_topic_examples": []
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "the first white man arrived in South Africa",
+        "EXT. BEN'S GATE - DAY Ben watches the black man and his son trudge down the long drive, the father's arm on the son's shouldre. At",
+        "SMARTLY-DRESSED MAN The white people, they will pay, and soon.",
+        "INT. SOWETO POLICE STATION - DAY Black parents, waiting. At the counter with Gordon, a large black man, STANLEY, a friend -- his big easy smile",
+        "Black parents, waiting. At the counter with Gordon, a large black man, STANLEY, a friend -- his big easy smile is working hard on a white policeman, the station SERGEANT"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

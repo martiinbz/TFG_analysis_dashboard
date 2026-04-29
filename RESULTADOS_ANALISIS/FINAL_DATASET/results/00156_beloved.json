@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "title": "Beloved",
+    "release_year": 1998,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 33551,
+    "scene_count": 216,
+    "dialogue_density_pct": 29,
+    "int_ext_ratio": "49:51",
+    "day_night_ratio": "67:33",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 13,
+    "male_named_character_count": 9,
+    "female_dialogue_share_pct": 65,
+    "male_dialogue_share_pct": 35,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "humanized"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 4,
+    "violence_type": "psychological",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 8,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "other",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "identity"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "SETHE",
+        "DENVER",
+        "BELOVED",
+        "BABY SUGGS",
+        "ELLA",
+        "JANEY WAGON",
+        "MRS GARNER",
+        "LADY JONES"
+      ],
+      "female_female_dialogue_examples": [
+        "DENVER: All this time you were on the bridge?\nBELOVED: No. After. When I got out.\nDENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.",
+        "BELOVED: No. After. When I got out.\nDENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.\nDENVER: You won't leave us, will you?",
+        "DENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.\nDENVER: You won't leave us, will you?\nBELOVED: No. Never. This is where I am."
+      ],
+      "non_male_topic_examples": [
+        "DENVER: All this time you were on the bridge?\nBELOVED: No. After. When I got out.\nDENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.",
+        "BELOVED: No. After. When I got out.\nDENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.\nDENVER: You won't leave us, will you?",
+        "DENVER: Why'd you come here?\nBELOVED: To see her face.\nDENVER: Ma'am's? Sethe's?\nBELOVED: Yes. Sethe.\nDENVER: You my sister, ain't you? You really are.\nDENVER: You won't leave us, will you?\nBELOVED: No. Never. This is where I am."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [
+        "other"
+      ],
+      "event_evidence": [
+        "The mention of Sweet Home and the context of slavery."
+      ],
+      "explicit_reference": true
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Sethe is described as a Black woman with a 'sweet face.'",
+        "Denver is described as a Black girl.",
+        "Paul D. Garner is described as a Black man.",
+        "Sethe is a black woman who kills her own children to protect them.",
+        "C.U. OF A WAGON WHEEL MOVING RAPIDLY ON A ROAD. CAMERA PANS UP TO THE MAN DRIVING THE WAGON - A STERN WHITE MAN WEARING A DISTINCTIVE HAT..."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

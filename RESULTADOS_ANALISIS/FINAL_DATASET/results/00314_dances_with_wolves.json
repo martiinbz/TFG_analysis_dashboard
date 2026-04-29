@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "title": "Dances with Wolves",
+    "release_year": 1990,
+    "decade": "1990s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "middle-aged",
+    "protagonist_gender": "ensemble",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "ensemble",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 36460,
+    "scene_count": 296,
+    "dialogue_density_pct": 15,
+    "int_ext_ratio": "18:82",
+    "day_night_ratio": "77:23",
+    "story_time_span": "days",
+    "geographic_setting": "rural",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 4,
+    "male_named_character_count": 28,
+    "female_dialogue_share_pct": 16,
+    "male_dialogue_share_pct": 84,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "middle class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 4,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "none"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "background",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "belonging"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "STANDS WITH A FIST",
+        "BLACK SHAWL",
+        "CHRISTINE",
+        "PRETTY SHIELD"
+      ],
+      "female_female_dialogue_examples": [
+        "STANDS WITH A FIST: What are they saying?\nBLACK SHAWL: They are proud of the medicine you are making with Dances With Wolves.\nSTANDS WITH A FIST: I have hurt him and I must go talk to him.\nBLACK SHAWL: You can't, he is gone.",
+        "BLACK SHAWL: How is Dances With Wolves?\nSTANDS WITH A FIST: What do you mean?\nBLACK SHAWL: How is he learning?",
+        "STANDS WITH A FIST: What are they saying?\nBLACK SHAWL: They are proud of the medicine you are making with Dances With Wolves.\nSTANDS WITH A FIST: I have hurt him and I must go talk to him."
+      ],
+      "non_male_topic_examples": [
+        "BLACK SHAWL: How is Dances With Wolves?\nSTANDS WITH A FIST: What do you mean?",
+        "BLACK SHAWL: You are not talking today?\nSTANDS WITH A FIST: No, I'm not.",
+        "STANDS WITH A FIST: What are they saying?\nBLACK SHAWL: They are proud of the medicine you are making with Dances With Wolves."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "asian",
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "Stands With A Fist is an Indian woman.",
+        "Footfalls sound in a hallway and a blue-eyed officer with slick, black hair swings into the foyer. He too has a slackness that echoes the dreariness of this post.",
+        "THE TOUGHEST Only a white man would make a fire for everyone to see."
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

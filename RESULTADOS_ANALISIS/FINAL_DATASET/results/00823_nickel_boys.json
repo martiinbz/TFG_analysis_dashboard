@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "title": "Nickel Boys",
+    "release_year": 2024,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 4,
+    "opening_type": "establishing shot",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 30270,
+    "scene_count": 141,
+    "dialogue_density_pct": 13,
+    "int_ext_ratio": "66:34",
+    "day_night_ratio": "76:24",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 7,
+    "male_named_character_count": 18,
+    "female_dialogue_share_pct": 16,
+    "male_dialogue_share_pct": 84,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "high",
+    "minority_portrayal_tone": "mixed"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": false
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "occasional",
+    "explicit_scene_count": 3,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "central",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dark",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "bittersweet",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "HATTIE",
+        "DENISE",
+        "MRS HARDEE",
+        "OLDER GUY",
+        "EVELYN",
+        "MILLIE",
+        "NURSE SCARLET"
+      ],
+      "female_female_dialogue_examples": [
+        "EVELYN: Elwood? Elwood! (louder) El!\nHATTIE: He's out back, looking like he fell",
+        "EVELYN: I said I'd do the washing up, Mama.\nHATTIE: At least tell the child you're",
+        "EVELYN: What you need to do is mind your\n3 CONTINUED 3: The women's voices can be faintly heard from the kitchen.\nEVELYN: I said I'd do the washing up, Mama.\nHATTIE: At least tell the child you're"
+      ],
+      "non_male_topic_examples": [
+        "EVELYN: I said I'd do the washing up, Mama.\nHATTIE: At least tell the child you're",
+        "EVELYN: What you need to do is mind your\n3 CONTINUED 3: The women's voices can be faintly heard from the kitchen.\nEVELYN: I said I'd do the washing up, Mama.\nHATTIE: At least tell the child you're",
+        "PERCY: She know she ain't even driving,\nEVELYN: What you need to do is mind your\n3 CONTINUED 3: The women's voices can be faintly heard from the kitchen.\nEVELYN: I said I'd do the washing up, Mama.\nHATTIE: At least tell the child you're"
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "white",
+        "black"
+      ],
+      "evidence_snippets": [
+        "White lady accused my daddy. Big, cheerful daddy, walking to his second job. I'd just waved to you across the street, going home from school. Said you didn't get outta her way.",
+        "I ain't take more than my portion! White man teach me never to ask for more crumbs than he wants to give.",
+        "White man teach me never to ask for more crumbs than he wants to give.",
+        "white family, and one with a white couple finishing",
+        "In the window reflection, more Black people are visible"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

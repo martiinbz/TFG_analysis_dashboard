@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "How to Train Your Dragon",
+    "release_year": 2025,
+    "decade": "2020s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Fantasy",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "male",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "buddy duo"
+  },
+  "technical": {
+    "word_count": 21927,
+    "scene_count": 70,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "23:77",
+    "day_night_ratio": "68:32",
+    "story_time_span": "days",
+    "geographic_setting": "wilderness",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 3,
+    "male_named_character_count": 16,
+    "female_dialogue_share_pct": 14,
+    "male_dialogue_share_pct": 86,
+    "gender_power_dynamics": "male_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "none"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": false,
+    "wealth_disparity": "none",
+    "parental_figure_status": "present",
+    "family_dynamics": "supportive",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 2,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "none",
+    "explicit_scene_count": 0,
+    "moral_ambiguity": "low",
+    "drug_culture_presence": false
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "none",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "inspirational",
+    "tonal_shift_presence": "none",
+    "humor_type": "witty",
+    "emotional_intensity": 4,
+    "ending_tone": "happy",
+    "primary_universal_theme": "redemption"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "ASTRID",
+        "RUFFNUT",
+        "PHLEGMA"
+      ],
+      "female_female_dialogue_examples": [
+        "ASTRID: No turning back.\nTUFFNUT: I hope I get some serious burns.\nRUFFNUT: I'm hoping for some mauling, like on my shoulder or lower back.\nASTRID: Yeah, it's only fun if you get a scar out of it.",
+        "GOBBER: Welcome to dragon training! The recruits file through the gate, and out onto the arena floor. They take it in like gladiators entering the colosseum. The walls are covered in scorched silhouettes of blasted Vikings. It's a grim yet awe-inspiring place.",
+        "ASTRID: No turning back.\nTUFFNUT: I hope I get some serious burns.\nRUFFNUT: I'm hoping for some mauling, like on my shoulder or lower back.\nASTRID: Yeah, it's only fun if you get a scar out of it.\nHICCUP: Yeah, no kidding, right? Pain. Love"
+      ],
+      "non_male_topic_examples": [
+        "ASTRID: No turning back.\nTUFFNUT: I hope I get some serious burns.\nRUFFNUT: I'm hoping for some mauling, like on my shoulder or lower back.\nASTRID: Yeah, it's only fun if you get a scar out of it.",
+        "RUFFNUT: I'm hoping for some mauling, like on my shoulder or lower back.\nASTRID: Yeah, it's only fun if you get a scar out of it.",
+        "ASTRID: I mistimed my summersault dive. It was sloppy. It threw off my reverse tumble. Eye rolls from the group.\nRUFFNUT: Yeah. We noticed."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [],
+      "evidence_snippets": []
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}

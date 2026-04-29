@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "title": "Little Athens",
+    "release_year": 2005,
+    "decade": "2000s",
+    "script_source": "dataset"
+  },
+  "narrative": {
+    "primary_genre": "Drama",
+    "story_structure": "three-act",
+    "plot_complexity": 3,
+    "opening_type": "ordinary world",
+    "ending_type": "resolution",
+    "protagonist_age_group": "young adult",
+    "protagonist_gender": "female",
+    "protagonist_race_coding": "unknown",
+    "lead_structure": "single",
+    "protagonist_type": "hero",
+    "character_arc_pattern": "transformation",
+    "protagonist_fate": "survives",
+    "relationship_structure": "solo hero"
+  },
+  "technical": {
+    "word_count": 26576,
+    "scene_count": 153,
+    "dialogue_density_pct": 33,
+    "int_ext_ratio": "51:49",
+    "day_night_ratio": "56:44",
+    "story_time_span": "days",
+    "geographic_setting": "urban",
+    "non_linear_usage": "none"
+  },
+  "representation": {
+    "female_named_character_count": 8,
+    "male_named_character_count": 23,
+    "female_dialogue_share_pct": 36,
+    "male_dialogue_share_pct": 64,
+    "gender_power_dynamics": "female_dominated",
+    "bechdel_test": true,
+    "sexual_content_presence": "different-sex"
+  },
+  "identity_and_social": {
+    "lgbtq_presence": false,
+    "lgbtq_character_importance": "none",
+    "coming_out_narrative": false,
+    "same_sex_relationships": false,
+    "racial_diversity_presence": false,
+    "minority_portrayal_salience": "none",
+    "minority_portrayal_tone": "neutral"
+  },
+  "class_and_family": {
+    "class_representation": "working class",
+    "economic_struggle_presence": true,
+    "wealth_disparity": "background",
+    "parental_figure_status": "absent",
+    "family_dynamics": "conflictual",
+    "divorce_presence": false,
+    "physical_disability_representation": true
+  },
+  "violence_and_morality": {
+    "violence_intensity": 3,
+    "violence_type": "physical",
+    "violence_consequences": "punished",
+    "strong_language_frequency": "frequent",
+    "explicit_scene_count": 6,
+    "moral_ambiguity": "medium",
+    "drug_culture_presence": true
+  },
+  "institutions": {
+    "law_enforcement_portrayal": "negative",
+    "government_representation": "none",
+    "corporate_power_portrayal": "negative"
+  },
+  "technology_and_environment": {
+    "environmental_concerns": "none",
+    "ai_presence": false,
+    "human_vs_technology_conflict": false,
+    "scientific_progress_portrayal": "none",
+    "digital_revolution_presence": false
+  },
+  "historical_context": {
+    "war_reference": "None",
+    "war_portrayal": "none",
+    "historical_event_reference": "None",
+    "historical_event_salience": "none",
+    "political_climate_reference": "none",
+    "social_movement_focus": "none"
+  },
+  "thematic": {
+    "overall_tone": "dramatic",
+    "tonal_shift_presence": "minor",
+    "humor_type": "none",
+    "emotional_intensity": 4,
+    "ending_tone": "tragic",
+    "primary_universal_theme": "good vs evil"
+  },
+  "evidence_payload": {
+    "bechdel": {
+      "female_named_characters": [
+        "JESSICA",
+        "HEATHER",
+        "ALLISON",
+        "KATIE KINNEY",
+        "JINA",
+        "LIFEGUARD",
+        "ANSWERING MACHINE",
+        "BARNES GIRLFRIEND"
+      ],
+      "female_female_dialogue_examples": [
+        "KATIE KINNEY: And you're not a loser.\nJESSICA: And neither are you.\nKATIE KINNEY: But it's okay to drink.\nJESSICA: When you're older it'll be okay.\nKATIE KINNEY: How old are you?\nJESSICA: Old enough.\nKATIE KINNEY: But you're not twenty-one yet. The law says yo",
+        "HEATHER: That's her. Tess.\nALLISON: You're just guessing.\nHEATHER: Ally, I know that's her. That's his type, too. That little slut.\nALLISON: Harry's waiting.\nHEATHER: Sorry if I snapped.\nALLISON: You didn't snap.\nHEATHER: I mean this morning.",
+        "ALLISON: You're just guessing.\nHEATHER: Ally, I know that's her. That's his type, too. That little slut.\nALLISON: Harry's waiting.\nHEATHER: Sorry if I snapped.\nALLISON: You didn't snap.\nHEATHER: I mean this morning.\nALLISON: Oh. That's okay."
+      ],
+      "non_male_topic_examples": [
+        "KATIE KINNEY: And you're not a loser.\nJESSICA: And neither are you.\nKATIE KINNEY: But it's okay to drink.\nJESSICA: When you're older it'll be okay.\nKATIE KINNEY: How old are you?\nJESSICA: Old enough.\nKATIE KINNEY: But you're not twenty-one yet. The law says yo",
+        "JESSICA: I'd rather go over in person.\nKATIE KINNEY: Hello, this is Katie Kinney!\nJESSICA: Katie, it's Jessica.\nKATIE KINNEY: Where are you?\nJESSICA: Have you eaten?\nKATIE KINNEY: I'm starving!\nJESSICA: Okay, I'm going to be home in a little bit, okay?",
+        "JESSICA: I slept late.\nKATIE KINNEY: Were you drinking last night?\nJESSICA: No. But thanks for asking.\nKATIE KINNEY: Were you doing drugs?\nJESSICA: Katie, I told you, drugs are for losers.\nKATIE KINNEY: And you're not a loser."
+      ]
+    },
+    "lgbtq": {
+      "characters": [],
+      "identity_or_relationship_evidence": [],
+      "evidence_type": []
+    },
+    "historical_event_reference": {
+      "event_candidates": [],
+      "event_evidence": [],
+      "explicit_reference": false
+    },
+    "social_movement_focus": {
+      "movement_candidates": [],
+      "movement_evidence": []
+    },
+    "minority_portrayal": {
+      "groups_present": [
+        "black",
+        "white"
+      ],
+      "evidence_snippets": [
+        "have been left behind. JIMMY and RJ are looking across the room at SINJIN, a young African-American male about RJ's age, with an average build, sharply dressed in a button-down, and sport coat.",
+        "old POGO STICK - his behavior constituting a sharp contrast to his stylish threads. LOUIE, an overweight, slobbish Caucasian male a few years older than Sinjin, sits in a rickety old WHEELCHAIR that"
+      ]
+    },
+    "protagonist_race_coding": {
+      "evidence_snippets": [],
+      "explicit_reference": false
+    }
+  }
+}
