@@ -1351,6 +1351,100 @@ def grouped_rate_by_bool(df: pd.DataFrame, group: str, flag: str, title: str, co
     return finish_fig(fig, percent_y=True)
 
 
+def social_signals_line(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    plot_df = df.dropna(subset=["decade"]).copy()
+    metrics: dict[str, pd.Series] = {}
+    if "bechdel_test" in plot_df:
+        metrics["Bechdel pass"] = plot_df["bechdel_test"]
+    if "protagonist_gender" in plot_df:
+        metrics["Female protagonist"] = plot_df["protagonist_gender"].eq("female")
+    if "female_dialogue_share_pct" in plot_df:
+        metrics["Female dialogue >= 40%"] = plot_df["female_dialogue_share_pct"].ge(40)
+    if "lgbtq_presence" in plot_df:
+        metrics["LGBTQ+ presence"] = plot_df["lgbtq_presence"]
+    if "racial_diversity_presence" in plot_df:
+        metrics["Racial diversity"] = plot_df["racial_diversity_presence"]
+
+    parts = []
+    for name, series in metrics.items():
+        tmp = plot_df.assign(_hit=series.fillna(False).astype(bool))
+        tmp = filter_min_decade(tmp, controls.min_films_per_decade)
+        grouped = tmp.groupby("decade", dropna=False)["_hit"].mean().reset_index(name="Percent")
+        grouped["Percent"] *= 100
+        grouped["Metric"] = name
+        parts.append(grouped)
+    long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    long = apply_smoothing(sorted_by_decade(long), "decade", "Percent", "Metric", controls.smoothing)
+    fig = px.line(long, x="decade", y="Percent", color="Metric", markers=True, title="Social Signals Over Time")
+    return finish_fig(fig, percent_y=True)
+
+
+def narrative_intensity_line(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    return multi_metric_line(
+        df,
+        ["plot_complexity", "violence_intensity", "emotional_intensity"],
+        "Narrative Intensity Over Time",
+        controls,
+        (0, 5),
+    )
+
+
+def binary_rate_summary(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    plot_df = df.copy()
+    flags = {
+        "Bechdel pass": plot_df.get("bechdel_test"),
+        "Female protagonist": plot_df.get("protagonist_gender").eq("female") if "protagonist_gender" in plot_df else None,
+        "LGBTQ+ presence": plot_df.get("lgbtq_presence"),
+        "Racial diversity": plot_df.get("racial_diversity_presence"),
+        "Economic struggle": plot_df.get("economic_struggle_presence"),
+        "Drug culture": plot_df.get("drug_culture_presence"),
+        "High violence": plot_df.get("violence_intensity").ge(4) if "violence_intensity" in plot_df else None,
+        "Dark / tense tone": plot_df.get("overall_tone").isin(["dark", "tense"]) if "overall_tone" in plot_df else None,
+        "War reference": plot_df.get("war_reference").notna() & ~plot_df.get("war_reference").astype(str).str.lower().isin(["none", "unknown", "nan"]) if "war_reference" in plot_df else None,
+        "Technology theme": (
+            plot_df.get("ai_presence").fillna(False).astype(bool)
+            | plot_df.get("digital_revolution_presence").fillna(False).astype(bool)
+            | plot_df.get("human_vs_technology_conflict").fillna(False).astype(bool)
+            if {"ai_presence", "digital_revolution_presence", "human_vs_technology_conflict"}.issubset(plot_df.columns)
+            else None
+        ),
+    }
+    rows = []
+    for name, series in flags.items():
+        if series is not None:
+            clean = series.fillna(False).astype(bool)
+            rows.append({"Feature": name, "Percent": clean.mean() * 100, "Films": int(clean.sum())})
+    summary = pd.DataFrame(rows).sort_values("Percent")
+    fig = px.bar(
+        summary,
+        x="Percent",
+        y="Feature",
+        orientation="h",
+        text=summary["Percent"].round(1).astype(str) + "%",
+        title="Main Signal Rates",
+        labels={"Percent": "% films"},
+        hover_data={"Films": True, "Percent": ":.1f"},
+    )
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    return finish_fig(fig, height=500, percent_y=False)
+
+
+def compact_scatter(df: pd.DataFrame, x: str, y: str, title: str, controls: Controls) -> go.Figure:
+    color = "overall_tone" if "overall_tone" in df else "primary_genre"
+    plot_df = valid_df(df, [x, y, color], controls).dropna(subset=[x, y])
+    fig = px.scatter(
+        plot_df,
+        x=x,
+        y=y,
+        color=color,
+        opacity=0.72,
+        hover_name="title",
+        title=title,
+        labels={x: label(x), y: label(y), color: label(color)},
+    )
+    return finish_fig(fig, height=500)
+
+
 def identity_representation_line(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = df.dropna(subset=["decade"]).copy()
     metrics = {
@@ -1410,16 +1504,14 @@ def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
     st.markdown('<div class="kicker">Dashboard 1 - General Overview</div>', unsafe_allow_html=True)
     kpi_row(df)
     wanted = [
-        "Numeric Feature Correlations",
-        "Binary Feature Co-occurrence",
         "Films by Decade",
         "Genre Evolution",
         "Coverage by Decade and Genre",
-        "Extraction Quality",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
     st.markdown("#### Filtered Films")
     filtered_table(df, controls)
+    render_chart_grid(df, controls, select_specs(specs, ["Numeric Feature Correlations", "Binary Feature Co-occurrence"]))
 
 
 def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -1513,21 +1605,18 @@ def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Chart
 
 def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
     st.markdown('<div class="kicker">Dashboard 7 - Cross-analysis</div>', unsafe_allow_html=True)
-    wanted = [
-        "Numeric Feature Correlations",
-        "Binary Feature Co-occurrence",
-        "Has Female Representation Increased?",
-        "Does Bechdel Improve Over Time?",
-        "Is Cinema Getting Darker?",
-        "Does Violence Increase?",
-        "Economic Struggle and Ending Tone",
-        "Female Dialogue and Bechdel",
-        "Ambiguous Endings and Complexity",
-        "Scenes and Complexity",
-        "Dialogue and Violence",
-        "Identity Theme, LGBTQ+ and Racial Diversity",
+    overview_specs = [
+        ChartSpec("Cross-analysis", "Social Signals Over Time", "Aggregated social representation signals over time.", social_signals_line),
+        ChartSpec("Cross-analysis", "Narrative Intensity Over Time", "Mean plot complexity, violence and emotional intensity.", narrative_intensity_line),
+        ChartSpec("Cross-analysis", "Main Signal Rates", "Overall rates for the most interpretable binary signals.", binary_rate_summary),
+        ChartSpec("Cross-analysis", "Female Dialogue and Bechdel", "Female dialogue distribution by Bechdel result.", lambda d, c: boxplot(d, "bechdel_test", "female_dialogue_share_pct", "Female Dialogue and Bechdel", c)),
+        ChartSpec("Cross-analysis", "Economic Struggle and Ending Tone", "Economic struggle and ending tone.", lambda d, c: crosstab_heatmap(d, "economic_struggle_presence", "ending_tone", "Economic Struggle and Ending Tone", c)),
+        ChartSpec("Cross-analysis", "Scenes and Complexity", "Scene count and plot complexity.", lambda d, c: compact_scatter(d, "scene_count", "plot_complexity", "Scenes and Complexity", c)),
+        ChartSpec("Cross-analysis", "Dialogue and Violence", "Dialogue density and violence intensity.", lambda d, c: compact_scatter(d, "dialogue_density_pct", "violence_intensity", "Dialogue and Violence", c)),
+        ChartSpec("Cross-analysis", "Numeric Feature Correlations", "Correlation heatmap across numeric screenplay and representation metrics.", numeric_correlation_heatmap),
+        ChartSpec("Cross-analysis", "Binary Feature Co-occurrence", "Pairwise co-occurrence heatmap for the main binary and derived flags.", binary_feature_cooccurrence_heatmap),
     ]
-    render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_chart_grid(df, controls, overview_specs)
 
 
 def explorer_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
