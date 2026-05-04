@@ -225,14 +225,18 @@ FEATURE_LABELS = {
     "dialogue_gender_gap": "Dialogue Gender Gap",
     "characters_total": "Named Characters",
     "female_protagonist": "Female Protagonist",
+    "female_dialogue_40": "Female Dialogue >= 40%",
     "high_violence": "High Violence",
     "high_emotion": "High Emotional Intensity",
     "complex_plot": "Complex Plot",
     "dark_or_tense_tone": "Dark or Tense Tone",
+    "dark_or_disturbing_ending": "Dark or Disturbing Ending",
     "tragic_or_ambiguous_ending": "Tragic or Ambiguous Ending",
     "institutional_negativity": "Institutional Negativity",
+    "corporate_negative": "Negative Corporate Power",
     "war_film": "War Reference",
     "technology_theme": "Technology Theme",
+    "feared_science": "Feared Science",
     "historical_or_political": "Historical or Political",
 }
 
@@ -601,6 +605,7 @@ def load_dataset(data_dir: Path, signature: tuple[int, int, int]) -> pd.DataFram
         df["female_character_share"] = np.where(total > 0, df["female_named_character_count"] / total * 100, np.nan)
     if {"female_dialogue_share_pct", "male_dialogue_share_pct"}.issubset(df.columns):
         df["dialogue_gender_gap"] = df["female_dialogue_share_pct"] - df["male_dialogue_share_pct"]
+        df["female_dialogue_40"] = df["female_dialogue_share_pct"].ge(40)
     if "protagonist_race_coding" in df:
         df["explicit_non_white_protagonist"] = df["protagonist_race_coding"].isin(NON_WHITE_RACE)
     if {"family_dynamics", "ending_tone"}.issubset(df.columns):
@@ -616,10 +621,33 @@ def load_dataset(data_dir: Path, signature: tuple[int, int, int]) -> pd.DataFram
         df["law_negative_or_corrupt"] = df["law_enforcement_portrayal"].isin(["negative", "corrupt"])
     if {"government_representation"}.issubset(df.columns):
         df["government_bad"] = df["government_representation"].isin(["oppressive", "incompetent"])
+    if {"corporate_power_portrayal"}.issubset(df.columns):
+        df["corporate_negative"] = df["corporate_power_portrayal"].eq("negative")
+    institution_cols = [col for col in ["law_negative_or_corrupt", "government_bad", "corporate_negative"] if col in df]
+    if institution_cols:
+        df["institutional_negativity"] = df[institution_cols].fillna(False).astype(bool).any(axis=1)
     if {"overall_tone"}.issubset(df.columns):
         df["dark_or_tense_tone"] = df["overall_tone"].isin(["dark", "tense"])
     if {"ending_tone"}.issubset(df.columns):
         df["tragic_or_disturbing_ending"] = df["ending_tone"].isin(["tragic", "disturbing"])
+        df["dark_or_disturbing_ending"] = df["ending_tone"].isin(["tragic", "ambiguous", "disturbing"])
+    tech_cols = [col for col in ["ai_presence", "digital_revolution_presence", "human_vs_technology_conflict"] if col in df]
+    if tech_cols:
+        df["technology_theme"] = df[tech_cols].fillna(False).astype(bool).any(axis=1)
+    if {"scientific_progress_portrayal"}.issubset(df.columns):
+        df["feared_science"] = df["scientific_progress_portrayal"].eq("feared")
+    historical_cols = [col for col in ["war_reference", "historical_event_salience", "political_climate_reference", "social_movement_focus"] if col in df]
+    if historical_cols:
+        parts = []
+        if "war_reference" in df:
+            parts.append(df["war_reference"].notna() & ~df["war_reference"].astype(str).str.lower().isin(["none", "unknown", "nan"]))
+        if "historical_event_salience" in df:
+            parts.append(df["historical_event_salience"].astype(str).str.lower().isin(["background", "central", "secondary"]))
+        if "political_climate_reference" in df:
+            parts.append(~df["political_climate_reference"].astype(str).str.lower().isin(["none", "unknown", "nan"]))
+        if "social_movement_focus" in df:
+            parts.append(~df["social_movement_focus"].astype(str).str.lower().isin(["none", "unknown", "nan"]))
+        df["historical_or_political"] = pd.concat(parts, axis=1).fillna(False).astype(bool).any(axis=1)
     if {"primary_universal_theme"}.issubset(df.columns):
         df["identity_theme"] = df["primary_universal_theme"].astype(str).str.lower().eq("identity")
         df["power_theme"] = df["primary_universal_theme"].astype(str).str.lower().eq("power")
@@ -1041,6 +1069,171 @@ def unknown_rate_chart(df: pd.DataFrame, controls: Controls, block: str | None =
     return finish_fig(fig, height=max(420, min(960, 28 * len(rates))))
 
 
+def data_reliability_by_block(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    rows = []
+    for block, features in FEATURE_BLOCKS.items():
+        present = [feature for feature in features if feature in df]
+        if not present:
+            continue
+        missing_rates = []
+        for feature in present:
+            missing = df[feature].isna() | df[feature].astype(str).str.lower().isin(["unknown", "nan", ""])
+            missing_rates.append(missing.mean() * 100)
+        rows.append(
+            {
+                "Block": BLOCK_LABELS.get(block, block),
+                "Unknown Rate": float(np.mean(missing_rates)),
+                "Features": len(present),
+            }
+        )
+    plot_df = pd.DataFrame(rows).sort_values("Unknown Rate")
+    fig = px.bar(
+        plot_df,
+        x="Unknown Rate",
+        y="Block",
+        orientation="h",
+        text=plot_df["Unknown Rate"].round(1).astype(str) + "%",
+        title="Data Reliability by Feature Block",
+        labels={"Unknown Rate": "Avg. unknown/null rate (%)"},
+        hover_data={"Features": True, "Unknown Rate": ":.1f"},
+    )
+    fig.update_traces(textposition="outside", cliponaxis=False, marker_color="#0f766e")
+    return finish_fig(fig, height=500)
+
+
+def representational_visibility_matrix(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    plot_df = df.dropna(subset=["decade"]).copy()
+    metrics = {
+        "Bechdel pass": plot_df.get("bechdel_test"),
+        "Female protagonist": plot_df.get("protagonist_gender").eq("female") if "protagonist_gender" in plot_df else None,
+        "Female dialogue >= 40%": plot_df.get("female_dialogue_40"),
+        "LGBTQ+ presence": plot_df.get("lgbtq_presence"),
+        "Racial diversity": plot_df.get("racial_diversity_presence"),
+        "Non-white protagonist": plot_df.get("explicit_non_white_protagonist"),
+        "Humanized minorities": plot_df.get("minority_portrayal_tone").eq("humanized") if "minority_portrayal_tone" in plot_df else None,
+        "Physical disability": plot_df.get("physical_disability_representation"),
+    }
+    parts = []
+    for name, series in metrics.items():
+        if series is None:
+            continue
+        tmp = plot_df.assign(_hit=series.fillna(False).astype(bool))
+        tmp = filter_min_decade(tmp, controls.min_films_per_decade)
+        grouped = tmp.groupby("decade", dropna=False)["_hit"].mean().reset_index(name="Percent")
+        grouped["Percent"] *= 100
+        grouped["Metric"] = name
+        parts.append(grouped)
+    long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    pivot = long.pivot(index="Metric", columns="decade", values="Percent")
+    pivot = pivot.reindex(columns=decade_category_order(pivot.columns))
+    pivot = pivot.fillna(0)
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=pivot.values,
+            x=pivot.columns,
+            y=pivot.index,
+            zmin=0,
+            zmax=100,
+            colorscale=["#f4eee5", "#0f766e"],
+            colorbar=dict(title="% films"),
+            text=np.round(pivot.values, 1),
+            texttemplate="%{text:.1f}%",
+            hovertemplate="%{y}<br>%{x}: %{z:.1f}%<extra></extra>",
+        )
+    )
+    fig.update_layout(title="Representation Visibility Matrix")
+    return finish_fig(fig, height=520)
+
+
+def genre_profile_chart(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    if "primary_genre" not in df:
+        raise ValueError("Primary genre is not available.")
+    genres = available_options(df, "primary_genre")
+    default_index = genres.index("Drama") if "Drama" in genres else 0
+    selected = st.selectbox("Genre profile", genres, index=default_index)
+    genre_df = df[df["primary_genre"].eq(selected)].copy()
+    metrics: list[tuple[str, str, str]] = [
+        ("Female dialogue", "female_dialogue_share_pct", "mean"),
+        ("Female characters", "female_character_share", "mean"),
+        ("Bechdel pass", "bechdel_test", "rate"),
+        ("LGBTQ+ presence", "lgbtq_presence", "rate"),
+        ("Racial diversity", "racial_diversity_presence", "rate"),
+        ("Violence intensity", "violence_intensity", "scale5"),
+        ("Emotional intensity", "emotional_intensity", "scale5"),
+        ("Plot complexity", "plot_complexity", "scale5"),
+        ("Technology theme", "technology_theme", "rate"),
+        ("Dark / tense tone", "dark_or_tense_tone", "rate"),
+    ]
+    rows = []
+    for name, col, mode in metrics:
+        if col not in df:
+            continue
+        if mode == "scale5":
+            overall = pd.to_numeric(df[col], errors="coerce").mean() / 5 * 100
+            genre_value = pd.to_numeric(genre_df[col], errors="coerce").mean() / 5 * 100
+        elif mode == "rate":
+            overall = df[col].fillna(False).astype(bool).mean() * 100
+            genre_value = genre_df[col].fillna(False).astype(bool).mean() * 100
+        else:
+            overall = pd.to_numeric(df[col], errors="coerce").mean()
+            genre_value = pd.to_numeric(genre_df[col], errors="coerce").mean()
+        rows.append({"Metric": name, "Dataset": "All films", "Score": overall})
+        rows.append({"Metric": name, "Dataset": selected, "Score": genre_value})
+    profile = pd.DataFrame(rows)
+    fig = px.bar(
+        profile,
+        x="Score",
+        y="Metric",
+        color="Dataset",
+        barmode="group",
+        orientation="h",
+        title=f"Genre Profile: {selected} vs Dataset",
+        labels={"Score": "Comparable score (0-100)"},
+        text=profile["Score"].round(1),
+    )
+    fig.update_traces(textposition="outside", cliponaxis=False)
+    fig.update_xaxes(range=[0, 105])
+    return finish_fig(fig, height=560)
+
+
+def violence_vs_moral_ambiguity(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    return boxplot(df, "moral_ambiguity", "violence_intensity", "Violence vs Moral Ambiguity", controls)
+
+
+def sci_fi_tech_profile(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    if "primary_genre" not in df:
+        raise ValueError("Primary genre is not available.")
+    sci_fi = df[df["primary_genre"].astype(str).str.lower().eq("sci-fi")].copy()
+    if sci_fi.empty:
+        raise ValueError("No Sci-fi films match the current filters.")
+    metrics = {
+        "AI presence": "ai_presence",
+        "Digital revolution": "digital_revolution_presence",
+        "Human vs technology": "human_vs_technology_conflict",
+        "Feared science": "feared_science",
+        "Dark / disturbing ending": "dark_or_disturbing_ending",
+    }
+    parts = []
+    for name, col in metrics.items():
+        if col not in sci_fi:
+            continue
+        tmp = sci_fi.dropna(subset=["decade"]).copy()
+        tmp["_hit"] = tmp[col].fillna(False).astype(bool)
+        tmp = filter_min_decade(tmp, controls.min_films_per_decade)
+        grouped = tmp.groupby("decade", dropna=False)["_hit"].mean().reset_index(name="Percent")
+        grouped["Percent"] *= 100
+        grouped["Metric"] = name
+        parts.append(grouped)
+    long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    long = apply_smoothing(sorted_by_decade(long), "decade", "Percent", "Metric", controls.smoothing)
+    fig = px.line(long, x="decade", y="Percent", color="Metric", markers=True, title="Sci-fi Technology, Science and Endings")
+    return finish_fig(fig, percent_y=True)
+
+
+def technology_vs_dark_disturbing(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    return grouped_rate_by_bool(df, "technology_theme", "dark_or_disturbing_ending", "Technology vs Dark / Disturbing Endings", controls)
+
+
 def bechdel_by_decade(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = valid_df(df, ["decade", "bechdel_test"], controls).dropna(subset=["decade"])
     plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
@@ -1095,6 +1288,7 @@ def build_specs() -> list[ChartSpec]:
         S("Dataset and Temporal Coverage", "Coverage by Decade and Genre", "Heatmap of decade by primary genre.", lambda d, c: heatmap_percent(d, "decade", "primary_genre", "Coverage by Decade and Genre", c, c.top_n)),
         S("Dataset and Temporal Coverage", "Unknown Rate by Decade", "Unknown percentage for a selected feature.", lambda d, c: selected_unknown_line(d, c)),
         S("Dataset and Temporal Coverage", "Extraction Quality", "Horizontal bars with unknown/null rates by feature.", lambda d, c: unknown_rate_chart(d, c)),
+        S("Dataset and Temporal Coverage", "Data Reliability by Block", "Average unknown/null rate summarized by feature block.", lambda d, c: data_reliability_by_block(d, c)),
         S("Dataset and Temporal Coverage", "Films by Source", "Film counts by script source.", lambda d, c: bar_count(d, "script_source", "Films by Source", c)),
         S("Narrative", "Genre Evolution", "Stacked percentage of primary genres by decade.", lambda d, c: stacked_percent(d, "decade", "primary_genre", "Genre Evolution", c, c.top_n)),
         S("Narrative", "Dominant Genre by Decade", "Genre x decade heatmap.", lambda d, c: heatmap_percent(d, "decade", "primary_genre", "Dominant Genre by Decade", c, c.top_n)),
@@ -1201,6 +1395,7 @@ def build_specs() -> list[ChartSpec]:
         S("Violence, Morality, Language, Sex and Drugs", "Drug Culture", "Drug culture by decade.", lambda d, c: rate_line(d, "drug_culture_presence", True, "Drug Culture", c)),
         S("Violence, Morality, Language, Sex and Drugs", "Drug Culture by Genre", "Drug culture by genre.", lambda d, c: boolean_rate_by_category(d, "primary_genre", "drug_culture_presence", "Drug Culture by Genre", c)),
         S("Violence, Morality, Language, Sex and Drugs", "Drugs vs Violence", "Drug culture and violence heatmap.", lambda d, c: crosstab_heatmap(d, "drug_culture_presence", "violence_intensity", "Drugs vs Violence", c)),
+        S("Violence, Morality, Language, Sex and Drugs", "Violence vs Moral Ambiguity", "Violence intensity distribution by moral ambiguity.", lambda d, c: violence_vs_moral_ambiguity(d, c)),
         S("Violence, Morality, Language, Sex and Drugs", "Moral Ambiguity vs Ending", "Moral ambiguity and ending tone.", lambda d, c: crosstab_heatmap(d, "moral_ambiguity", "ending_tone", "Moral Ambiguity vs Ending", c)),
         S("Violence, Morality, Language, Sex and Drugs", "Violence vs Overall Tone", "Violence boxplot by tone.", lambda d, c: boxplot(d, "overall_tone", "violence_intensity", "Violence vs Overall Tone", c)),
         S("Violence, Morality, Language, Sex and Drugs", "Violence vs Bechdel", "Violence boxplot by Bechdel result.", lambda d, c: boxplot(d, "bechdel_test", "violence_intensity", "Violence vs Bechdel", c)),
@@ -1212,7 +1407,7 @@ def build_specs() -> list[ChartSpec]:
         S("Institutions and Power", "Trustworthy Government", "Trustworthy government.", lambda d, c: rate_line(d, "government_representation", "trustworthy", "Trustworthy Government", c)),
         S("Institutions and Power", "Corporate Power", "Stacked corporate power portrayal.", lambda d, c: stacked_percent(d, "decade", "corporate_power_portrayal", "Corporate Power", c)),
         S("Institutions and Power", "Negative Corporations", "Negative corporate power portrayal.", lambda d, c: rate_line(d, "corporate_power_portrayal", "negative", "Negative Corporations", c)),
-        S("Institutions and Power", "Institutional Negativity", "Combined negative institution selector.", lambda d, c: multi_rate_line(d, "law_enforcement_portrayal", ["negative", "corrupt"], "Institutional Negativity", c)),
+        S("Institutions and Power", "Institutional Negativity", "Combined negative law, government and corporate portrayal.", lambda d, c: rate_line(d, "institutional_negativity", True, "Institutional Negativity", c)),
         S("Institutions and Power", "Institutions by Genre", "Genre by institution portrayal.", lambda d, c: crosstab_heatmap(d, "primary_genre", "law_enforcement_portrayal", "Institutions by Genre", c)),
         S("Institutions and Power", "Government vs Political Climate", "Government and political climate.", lambda d, c: crosstab_heatmap(d, "political_climate_reference", "government_representation", "Government vs Political Climate", c)),
         S("Institutions and Power", "Police vs Racial Diversity", "Negative/corrupt police by diversity.", lambda d, c: grouped_rate_by_bool(d, "racial_diversity_presence", "law_negative_or_corrupt", "Police vs Racial Diversity", c)),
@@ -1228,6 +1423,8 @@ def build_specs() -> list[ChartSpec]:
         S("Technology, Science and Environment", "AI vs Tech Conflict", "Tech conflict by AI presence.", lambda d, c: grouped_rate_by_bool(d, "ai_presence", "human_vs_technology_conflict", "AI vs Tech Conflict", c)),
         S("Technology, Science and Environment", "Environment by Genre", "Environmental concern by genre.", lambda d, c: heatmap_percent(d, "primary_genre", "environmental_concerns", "Environment by Genre", c)),
         S("Technology, Science and Environment", "Technology vs Ending Tone", "Technology conflict and ending tone.", lambda d, c: crosstab_heatmap(d, "human_vs_technology_conflict", "ending_tone", "Technology vs Ending Tone", c)),
+        S("Technology, Science and Environment", "Technology vs Dark / Disturbing Endings", "Dark or disturbing endings by technology theme.", lambda d, c: technology_vs_dark_disturbing(d, c)),
+        S("Technology, Science and Environment", "Sci-fi Technology Profile", "Sci-fi-only view of AI, digital, tech conflict, feared science and endings.", lambda d, c: sci_fi_tech_profile(d, c)),
         S("History, War and Politics", "War References", "Stacked war references.", lambda d, c: stacked_percent(d, "decade", "war_reference", "War References", c)),
         S("History, War and Politics", "WW2 / Vietnam / Cold War", "War reference lines.", lambda d, c: multi_rate_line(d, "war_reference", ["WW2", "Vietnam", "Cold War"], "WW2 / Vietnam / Cold War", c)),
         S("History, War and Politics", "War Portrayal", "Stacked war portrayal.", lambda d, c: stacked_percent(d, "decade", "war_portrayal", "War Portrayal", c)),
@@ -1266,6 +1463,8 @@ def build_specs() -> list[ChartSpec]:
         S("Tone, Emotion and Themes", "Theme vs Protagonist", "Theme and protagonist gender.", lambda d, c: crosstab_heatmap(d, "primary_universal_theme", "protagonist_gender", "Theme vs Protagonist", c)),
         S("Cross-analysis", "Numeric Feature Correlations", "Correlation heatmap across numeric screenplay and representation metrics.", lambda d, c: numeric_correlation_heatmap(d, c)),
         S("Cross-analysis", "Binary Feature Co-occurrence", "Pairwise co-occurrence heatmap for the main binary and derived flags.", lambda d, c: binary_feature_cooccurrence_heatmap(d, c)),
+        S("Cross-analysis", "Representation Visibility Matrix", "Decade heatmap for the strongest representation visibility signals.", lambda d, c: representational_visibility_matrix(d, c)),
+        S("Cross-analysis", "Genre Profile", "Selected genre compared with the whole dataset across normalized signals.", lambda d, c: genre_profile_chart(d, c)),
         S("Cross-analysis", "Has Female Representation Increased?", "Female dialogue by decade and genre.", lambda d, c: mean_line(d, "female_dialogue_share_pct", "Has Female Representation Increased?", c, "primary_genre")),
         S("Cross-analysis", "Does Bechdel Improve Over Time?", "Bechdel over time by genre.", lambda d, c: rate_line(d, "bechdel_test", True, "Does Bechdel Improve Over Time?", c, "primary_genre")),
         S("Cross-analysis", "Female Protagonists and Ending Tone", "Protagonist gender and ending tone.", lambda d, c: crosstab_heatmap(d, "protagonist_gender", "ending_tone", "Female Protagonists and Ending Tone", c)),
@@ -1482,17 +1681,19 @@ def select_specs(specs: list[ChartSpec], titles: list[str]) -> list[ChartSpec]:
 
 
 def kpi_row(df: pd.DataFrame) -> None:
-    c = st.columns(5)
+    c = st.columns(6)
     c[0].metric("Films analyzed", f"{len(df):,}")
     if "release_year" in df and df["release_year"].notna().any():
         c[1].metric("Year range", f"{int(df['release_year'].min())}-{int(df['release_year'].max())}")
         c[2].metric("Decades covered", f"{df['decade'].nunique():,}")
         c[3].metric("Known year", f"{df['release_year'].notna().mean() * 100:.1f}%")
+        c[4].metric("Missing year", f"{df['release_year'].isna().sum():,}")
     else:
         c[1].metric("Year range", "n/a")
         c[2].metric("Decades covered", "n/a")
         c[3].metric("Known year", "n/a")
-    c[4].metric("Bechdel true", f"{df['bechdel_test'].mean() * 100:.1f}%" if "bechdel_test" in df else "n/a")
+        c[4].metric("Missing year", "n/a")
+    c[5].metric("Bechdel true", f"{df['bechdel_test'].mean() * 100:.1f}%" if "bechdel_test" in df else "n/a")
     c = st.columns(4)
     c[0].metric("LGBTQ+ presence", f"{df['lgbtq_presence'].mean() * 100:.1f}%" if "lgbtq_presence" in df else "n/a")
     c[1].metric("Racial diversity", f"{df['racial_diversity_presence'].mean() * 100:.1f}%" if "racial_diversity_presence" in df else "n/a")
@@ -1507,10 +1708,17 @@ def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
         "Films by Decade",
         "Genre Evolution",
         "Coverage by Decade and Genre",
+        "Data Reliability by Block",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
     st.markdown("#### Filtered Films")
     filtered_table(df, controls)
+    if "release_year" in df and df["release_year"].isna().any():
+        with st.expander("Films missing release year"):
+            missing_cols = [c for c in ["title", "source_file", "primary_genre", "script_source"] if c in df]
+            st.dataframe(df[df["release_year"].isna()][missing_cols], width="stretch", hide_index=True)
+    with st.expander("Detailed extraction quality"):
+        show_chart(unknown_rate_chart(df, controls), key="overview_extraction_quality_detail")
     render_chart_grid(df, controls, select_specs(specs, ["Numeric Feature Correlations", "Binary Feature Co-occurrence"]))
 
 
@@ -1563,6 +1771,7 @@ def violence_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
         "Drug Culture",
         "Dark Tone by Decade",
         "Ambiguous / Disturbing Endings",
+        "Violence vs Moral Ambiguity",
         "Moral Ambiguity vs Ending",
         "Drugs vs Violence",
     ]
@@ -1573,8 +1782,11 @@ def institutions_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Cha
     st.markdown('<div class="kicker">Dashboard 5 - Institutions, Politics and History</div>', unsafe_allow_html=True)
     wanted = [
         "Law Enforcement Portrayal",
+        "Negative / Corrupt Police",
         "Government Representation",
+        "Bad Government",
         "Negative Corporations",
+        "Institutional Negativity",
         "War References",
         "War Portrayal",
         "Historical Events",
@@ -1596,6 +1808,8 @@ def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Chart
         "Environmental Concerns",
         "AI vs Feared Science",
         "Technology vs Ending Tone",
+        "Technology vs Dark / Disturbing Endings",
+        "Sci-fi Technology Profile",
         "Central Environment",
         "Is Cinema Getting Darker?",
         "Are AI Films More Dystopian?",
@@ -1606,11 +1820,15 @@ def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Chart
 def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
     st.markdown('<div class="kicker">Dashboard 7 - Cross-analysis</div>', unsafe_allow_html=True)
     overview_specs = [
+        ChartSpec("Cross-analysis", "Representation Visibility Matrix", "Decade heatmap for the strongest representation visibility signals.", representational_visibility_matrix),
+        ChartSpec("Cross-analysis", "Genre Profile", "Selected genre compared with the whole dataset across normalized signals.", genre_profile_chart),
         ChartSpec("Cross-analysis", "Social Signals Over Time", "Aggregated social representation signals over time.", social_signals_line),
         ChartSpec("Cross-analysis", "Narrative Intensity Over Time", "Mean plot complexity, violence and emotional intensity.", narrative_intensity_line),
         ChartSpec("Cross-analysis", "Main Signal Rates", "Overall rates for the most interpretable binary signals.", binary_rate_summary),
         ChartSpec("Cross-analysis", "Female Dialogue and Bechdel", "Female dialogue distribution by Bechdel result.", lambda d, c: boxplot(d, "bechdel_test", "female_dialogue_share_pct", "Female Dialogue and Bechdel", c)),
         ChartSpec("Cross-analysis", "Economic Struggle and Ending Tone", "Economic struggle and ending tone.", lambda d, c: crosstab_heatmap(d, "economic_struggle_presence", "ending_tone", "Economic Struggle and Ending Tone", c)),
+        ChartSpec("Cross-analysis", "Violence vs Moral Ambiguity", "Violence intensity distribution by moral ambiguity.", violence_vs_moral_ambiguity),
+        ChartSpec("Cross-analysis", "Technology vs Dark / Disturbing Endings", "Dark or disturbing endings by technology theme.", technology_vs_dark_disturbing),
         ChartSpec("Cross-analysis", "Scenes and Complexity", "Scene count and plot complexity.", lambda d, c: compact_scatter(d, "scene_count", "plot_complexity", "Scenes and Complexity", c)),
         ChartSpec("Cross-analysis", "Dialogue and Violence", "Dialogue density and violence intensity.", lambda d, c: compact_scatter(d, "dialogue_density_pct", "violence_intensity", "Dialogue and Violence", c)),
         ChartSpec("Cross-analysis", "Numeric Feature Correlations", "Correlation heatmap across numeric screenplay and representation metrics.", numeric_correlation_heatmap),
