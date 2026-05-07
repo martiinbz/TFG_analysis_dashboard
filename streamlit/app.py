@@ -1808,10 +1808,6 @@ def kpi_row(df: pd.DataFrame) -> None:
 def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
     st.markdown('<div class="kicker">Dashboard 1 - General Overview</div>', unsafe_allow_html=True)
     kpi_row(df)
-    st.info(
-        "Excluded technical features: " + ", ".join(contaminated_feature_summary()),
-        icon="ℹ️",
-    )
     wanted = [
         "Films by Decade",
         "Genre Evolution",
