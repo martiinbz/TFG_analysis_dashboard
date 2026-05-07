@@ -40,10 +40,10 @@
     "sexual_content_presence": "different-sex"
   },
   "identity_and_social": {
-    "lgbtq_presence": false,
-    "lgbtq_character_importance": "none",
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "main",
     "coming_out_narrative": false,
-    "same_sex_relationships": false,
+    "same_sex_relationships": true,
     "racial_diversity_presence": true,
     "minority_portrayal_salience": "medium",
     "minority_portrayal_tone": "humanized"

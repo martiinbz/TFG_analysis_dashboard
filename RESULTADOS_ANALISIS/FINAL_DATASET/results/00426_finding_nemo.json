@@ -18,7 +18,7 @@
     "protagonist_type": "hero",
     "character_arc_pattern": "transformation",
     "protagonist_fate": "survives",
-    "relationship_structure": "solo hero"
+    "relationship_structure": "family unit"
   },
   "technical": {
     "word_count": 12903,
@@ -27,7 +27,7 @@
     "int_ext_ratio": "100:0",
     "day_night_ratio": "unknown",
     "story_time_span": "hours",
-    "geographic_setting": "wilderness",
+    "geographic_setting": "underwater",
     "non_linear_usage": "none"
   },
   "representation": {

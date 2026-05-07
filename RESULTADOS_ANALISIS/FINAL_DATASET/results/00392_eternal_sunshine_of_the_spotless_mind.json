@@ -28,7 +28,7 @@
     "day_night_ratio": "45:55",
     "story_time_span": "days",
     "geographic_setting": "urban",
-    "non_linear_usage": "minor"
+    "non_linear_usage": "heavy"
   },
   "representation": {
     "female_named_character_count": 5,

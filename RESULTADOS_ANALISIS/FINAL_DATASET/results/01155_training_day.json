@@ -26,7 +26,7 @@
     "dialogue_density_pct": 31,
     "int_ext_ratio": "unknown",
     "day_night_ratio": "unknown",
-    "story_time_span": "days",
+    "story_time_span": "hours",
     "geographic_setting": "urban",
     "non_linear_usage": "none"
   },

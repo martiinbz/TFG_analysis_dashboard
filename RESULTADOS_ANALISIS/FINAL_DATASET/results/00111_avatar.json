@@ -69,7 +69,7 @@
   "institutions": {
     "law_enforcement_portrayal": "none",
     "government_representation": "none",
-    "corporate_power_portrayal": "positive"
+    "corporate_power_portrayal": "negative"
   },
   "technology_and_environment": {
     "environmental_concerns": "central",

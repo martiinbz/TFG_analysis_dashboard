@@ -73,9 +73,9 @@
   },
   "technology_and_environment": {
     "environmental_concerns": "background",
-    "ai_presence": false,
-    "human_vs_technology_conflict": false,
-    "scientific_progress_portrayal": "none",
+    "ai_presence": true,
+    "human_vs_technology_conflict": true,
+    "scientific_progress_portrayal": "feared",
     "digital_revolution_presence": true
   },
   "historical_context": {

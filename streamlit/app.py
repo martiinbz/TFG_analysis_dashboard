@@ -22,6 +22,21 @@ PLOTLY_TEMPLATE = "plotly_white"
 MISSING_STRINGS = {"", "unknown", "Unknown", "UNKNOWN", "n/a", "N/A", "null", "Null"}
 NONE_STRINGS = {"none", "None", "NONE"}
 NON_WHITE_RACE = {"black", "latino", "asian", "middle_eastern"}
+LOW_QUALITY_WORD_COUNT_THRESHOLD = 1000
+LOW_QUALITY_SCENE_COUNT_THRESHOLD = 0
+REPRESENTATION_FEATURES = {
+    "female_named_character_count",
+    "male_named_character_count",
+    "female_dialogue_share_pct",
+    "male_dialogue_share_pct",
+    "gender_power_dynamics",
+    "bechdel_test",
+    "sexual_content_presence",
+    "female_character_share",
+    "dialogue_gender_gap",
+    "female_dialogue_40",
+    "representational_visibility_matrix",
+}
 BLOCKS = [
     "metadata",
     "narrative",
@@ -606,6 +621,38 @@ def load_dataset(data_dir: Path, signature: tuple[int, int, int]) -> pd.DataFram
     if {"female_dialogue_share_pct", "male_dialogue_share_pct"}.issubset(df.columns):
         df["dialogue_gender_gap"] = df["female_dialogue_share_pct"] - df["male_dialogue_share_pct"]
         df["female_dialogue_40"] = df["female_dialogue_share_pct"].ge(40)
+    if {"word_count", "scene_count"}.issubset(df.columns):
+        df["low_quality_record"] = (
+            df["word_count"].fillna(np.inf).lt(LOW_QUALITY_WORD_COUNT_THRESHOLD)
+            | df["scene_count"].fillna(np.inf).le(LOW_QUALITY_SCENE_COUNT_THRESHOLD)
+        )
+        df["very_low_quality_record"] = (
+            df["word_count"].fillna(np.inf).lt(LOW_QUALITY_WORD_COUNT_THRESHOLD)
+            & df["scene_count"].fillna(np.inf).le(LOW_QUALITY_SCENE_COUNT_THRESHOLD)
+        )
+    if {"female_named_character_count", "male_named_character_count", "female_dialogue_share_pct", "male_dialogue_share_pct", "gender_power_dynamics", "bechdel_test", "sexual_content_presence"}.issubset(df.columns):
+        empty_representation = (
+            df["female_named_character_count"].fillna(0).eq(0)
+            & df["male_named_character_count"].fillna(0).eq(0)
+            & df["female_dialogue_share_pct"].fillna(0).eq(0)
+            & df["male_dialogue_share_pct"].fillna(0).eq(0)
+        )
+        partial_representation = (
+            ~empty_representation
+            & (
+                df["female_named_character_count"].fillna(0).eq(0)
+                | df["male_named_character_count"].fillna(0).eq(0)
+                | df["female_dialogue_share_pct"].fillna(0).eq(0)
+                | df["male_dialogue_share_pct"].fillna(0).eq(0)
+                | df["gender_power_dynamics"].astype(str).str.lower().eq("unknown")
+                | df["sexual_content_presence"].astype(str).str.lower().eq("different-sex")
+            )
+        )
+        df["representation_quality"] = np.select(
+            [empty_representation, partial_representation],
+            ["empty", "partial"],
+            default="normal",
+        )
     if "protagonist_race_coding" in df:
         df["explicit_non_white_protagonist"] = df["protagonist_race_coding"].isin(NON_WHITE_RACE)
     if {"family_dynamics", "ending_tone"}.issubset(df.columns):
@@ -682,6 +729,7 @@ class Controls:
     top_n: int
     smoothing: int
     exclude_unknown: bool
+    exclude_low_quality: bool
     show_evidence: bool
     year_range: tuple[int, int]
 
@@ -697,6 +745,7 @@ def apply_global_controls(df: pd.DataFrame) -> tuple[pd.DataFrame, Controls]:
     decades = st.sidebar.multiselect("Decades", available_options(df, "decade"))
     genres = st.sidebar.multiselect("Primary genre", available_options(df, "primary_genre"))
     exclude_unknown = st.sidebar.checkbox("Exclude unknown values", value=True)
+    exclude_low_quality = st.sidebar.checkbox("Exclude suspect low-quality records", value=True)
     calc_mode = st.sidebar.radio("Calculation mode", ["count", "% by decade", "% of total", "mean"], index=1)
     min_n = st.sidebar.slider("Minimum films per decade", 1, 50, 1)
     group_options = ["decade", "primary_genre", "protagonist_gender", "protagonist_race_coding", "overall_tone"]
@@ -714,13 +763,22 @@ def apply_global_controls(df: pd.DataFrame) -> tuple[pd.DataFrame, Controls]:
         filtered = filtered[filtered["decade"].astype(str).isin(decades)]
     if genres:
         filtered = filtered[filtered["primary_genre"].astype(str).isin(genres)]
+    if exclude_low_quality:
+        low_quality_mask = pd.Series(False, index=filtered.index)
+        if "word_count" in filtered:
+            low_quality_mask = low_quality_mask | filtered["word_count"].fillna(np.inf).lt(LOW_QUALITY_WORD_COUNT_THRESHOLD)
+        if "scene_count" in filtered:
+            low_quality_mask = low_quality_mask | filtered["scene_count"].fillna(np.inf).le(LOW_QUALITY_SCENE_COUNT_THRESHOLD)
+        filtered = filtered[~low_quality_mask]
 
     st.sidebar.caption(f"{len(filtered):,} of {len(df):,} films visible")
-    return filtered, Controls(calc_mode, min_n, group_by, top_n, smoothing, exclude_unknown, show_evidence, year_range)
+    return filtered, Controls(calc_mode, min_n, group_by, top_n, smoothing, exclude_unknown, exclude_low_quality, show_evidence, year_range)
 
 
 def valid_df(df: pd.DataFrame, cols: list[str], controls: Controls | None = None) -> pd.DataFrame:
     out = df.copy()
+    if any(col in REPRESENTATION_FEATURES for col in cols) and "representation_quality" in out:
+        out = out[out["representation_quality"].eq("normal")]
     for col in cols:
         if col not in out:
             return out.iloc[0:0]
@@ -1103,6 +1161,8 @@ def data_reliability_by_block(df: pd.DataFrame, controls: Controls) -> go.Figure
 
 def representational_visibility_matrix(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = df.dropna(subset=["decade"]).copy()
+    if "representation_quality" in plot_df:
+        plot_df = plot_df[plot_df["representation_quality"].eq("normal")]
     metrics = {
         "Bechdel pass": plot_df.get("bechdel_test"),
         "Female protagonist": plot_df.get("protagonist_gender").eq("female") if "protagonist_gender" in plot_df else None,
@@ -1152,6 +1212,9 @@ def genre_profile_chart(df: pd.DataFrame, controls: Controls) -> go.Figure:
     default_index = genres.index("Drama") if "Drama" in genres else 0
     selected = st.selectbox("Genre profile", genres, index=default_index)
     genre_df = df[df["primary_genre"].eq(selected)].copy()
+    if "representation_quality" in df:
+        df = df[df["representation_quality"].eq("normal")]
+        genre_df = genre_df[genre_df["representation_quality"].eq("normal")]
     metrics: list[tuple[str, str, str]] = [
         ("Female dialogue", "female_dialogue_share_pct", "mean"),
         ("Female characters", "female_character_share", "mean"),
@@ -1278,6 +1341,43 @@ class ChartSpec:
     title: str
     description: str
     builder: Callable[[pd.DataFrame, Controls], go.Figure]
+
+
+CONTAMINATED_CHART_TITLES = {
+    "Average Script Length",
+    "Script Length Distribution",
+    "Average Scenes by Decade",
+    "Scenes vs Words",
+    "Dialogue Density by Decade",
+    "Dialogue Density by Genre",
+    "Most Dialogue-heavy Films",
+    "Explicit Scenes",
+    "Interior vs Exterior",
+    "Interiority by Genre",
+    "Day vs Night",
+    "Nocturnality by Genre",
+    "Scenes and Complexity",
+    "Dialogue and Violence",
+}
+
+
+CONTAMINATED_NUMERIC_FEATURES = {
+    "word_count",
+    "scene_count",
+    "dialogue_density_pct",
+    "explicit_scene_count",
+    "int_pct",
+    "ext_pct",
+    "day_pct",
+    "night_pct",
+}
+
+
+def is_contaminated_spec(spec: ChartSpec) -> bool:
+    if spec.title in CONTAMINATED_CHART_TITLES:
+        return True
+    text = f"{spec.title} {spec.description}".lower()
+    return any(feature in text for feature in CONTAMINATED_NUMERIC_FEATURES)
 
 
 def build_specs() -> list[ChartSpec]:
@@ -1552,6 +1652,8 @@ def grouped_rate_by_bool(df: pd.DataFrame, group: str, flag: str, title: str, co
 
 def social_signals_line(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = df.dropna(subset=["decade"]).copy()
+    if "representation_quality" in plot_df:
+        plot_df = plot_df[plot_df["representation_quality"].eq("normal")]
     metrics: dict[str, pd.Series] = {}
     if "bechdel_test" in plot_df:
         metrics["Bechdel pass"] = plot_df["bechdel_test"]
@@ -1590,6 +1692,8 @@ def narrative_intensity_line(df: pd.DataFrame, controls: Controls) -> go.Figure:
 
 def binary_rate_summary(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = df.copy()
+    if "representation_quality" in plot_df:
+        plot_df = plot_df[plot_df["representation_quality"].eq("normal")]
     flags = {
         "Bechdel pass": plot_df.get("bechdel_test"),
         "Female protagonist": plot_df.get("protagonist_gender").eq("female") if "protagonist_gender" in plot_df else None,
@@ -1704,6 +1808,10 @@ def kpi_row(df: pd.DataFrame) -> None:
 def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
     st.markdown('<div class="kicker">Dashboard 1 - General Overview</div>', unsafe_allow_html=True)
     kpi_row(df)
+    st.info(
+        "Excluded technical features: " + ", ".join(contaminated_feature_summary()),
+        icon="ℹ️",
+    )
     wanted = [
         "Films by Decade",
         "Genre Evolution",
@@ -1834,7 +1942,41 @@ def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[C
         ChartSpec("Cross-analysis", "Numeric Feature Correlations", "Correlation heatmap across numeric screenplay and representation metrics.", numeric_correlation_heatmap),
         ChartSpec("Cross-analysis", "Binary Feature Co-occurrence", "Pairwise co-occurrence heatmap for the main binary and derived flags.", binary_feature_cooccurrence_heatmap),
     ]
-    render_chart_grid(df, controls, overview_specs)
+    clean_overview_specs, contaminated_overview_specs = split_specs_by_quality(overview_specs)
+    render_chart_grid(df, controls, clean_overview_specs)
+    with st.expander("Excluded technical charts"):
+        st.write(", ".join(spec.title for spec in contaminated_overview_specs))
+
+
+def contaminated_feature_summary() -> list[str]:
+    return [
+        "word_count",
+        "scene_count",
+        "dialogue_density_pct",
+        "explicit_scene_count",
+        "int_pct / ext_pct",
+        "day_pct / night_pct",
+        "Average Script Length",
+        "Script Length Distribution",
+        "Average Scenes by Decade",
+        "Scenes vs Words",
+        "Dialogue Density by Decade",
+        "Dialogue Density by Genre",
+        "Most Dialogue-heavy Films",
+        "Explicit Scenes",
+        "Interior vs Exterior",
+        "Interiority by Genre",
+        "Day vs Night",
+        "Nocturnality by Genre",
+        "Scenes and Complexity",
+        "Dialogue and Violence",
+    ]
+
+
+def split_specs_by_quality(specs: list[ChartSpec]) -> tuple[list[ChartSpec], list[ChartSpec]]:
+    clean_specs = [spec for spec in specs if not is_contaminated_spec(spec)]
+    contaminated_specs = [spec for spec in specs if is_contaminated_spec(spec)]
+    return clean_specs, contaminated_specs
 
 
 def explorer_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2031,6 +2173,7 @@ def main() -> None:
 
     filtered, controls = apply_global_controls(df)
     specs = build_specs()
+    clean_specs, contaminated_specs = split_specs_by_quality(specs)
 
     tabs = st.tabs(
         [
@@ -2047,25 +2190,28 @@ def main() -> None:
         ]
     )
     with tabs[0]:
-        overview_dashboard(filtered, controls, specs)
+        overview_dashboard(filtered, controls, clean_specs)
     with tabs[1]:
-        social_dashboard(filtered, controls, specs)
+        social_dashboard(filtered, controls, clean_specs)
     with tabs[2]:
-        narrative_dashboard(filtered, controls, specs)
+        narrative_dashboard(filtered, controls, clean_specs)
     with tabs[3]:
-        violence_dashboard(filtered, controls, specs)
+        violence_dashboard(filtered, controls, clean_specs)
     with tabs[4]:
-        institutions_dashboard(filtered, controls, specs)
+        institutions_dashboard(filtered, controls, clean_specs)
     with tabs[5]:
-        technology_dashboard(filtered, controls, specs)
+        technology_dashboard(filtered, controls, clean_specs)
     with tabs[6]:
-        cross_analysis_dashboard(filtered, controls, specs)
+        cross_analysis_dashboard(filtered, controls, clean_specs)
     with tabs[7]:
-        explorer_dashboard(filtered, controls, specs)
+        explorer_dashboard(filtered, controls, clean_specs)
     with tabs[8]:
         film_view(filtered)
     with tabs[9]:
         data_view(filtered)
+    with st.expander("Excluded technical charts"):
+        st.write("These charts are excluded from the main analysis because they depend on contaminated screenplay extraction metrics.")
+        st.write(", ".join(spec.title for spec in contaminated_specs))
 
 
 if __name__ == "__main__":

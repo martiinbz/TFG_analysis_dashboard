@@ -44,8 +44,8 @@
     "lgbtq_character_importance": "none",
     "coming_out_narrative": false,
     "same_sex_relationships": false,
-    "racial_diversity_presence": false,
-    "minority_portrayal_salience": "none",
+    "racial_diversity_presence": true,
+    "minority_portrayal_salience": "low",
     "minority_portrayal_tone": "neutral"
   },
   "class_and_family": {

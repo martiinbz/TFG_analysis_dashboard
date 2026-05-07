@@ -27,7 +27,7 @@
     "int_ext_ratio": "28:72",
     "day_night_ratio": "62:38",
     "story_time_span": "days",
-    "geographic_setting": "urban",
+    "geographic_setting": "wilderness",
     "non_linear_usage": "minor"
   },
   "representation": {

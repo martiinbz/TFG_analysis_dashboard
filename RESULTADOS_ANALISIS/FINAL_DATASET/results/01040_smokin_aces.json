@@ -36,12 +36,12 @@
     "female_dialogue_share_pct": 19,
     "male_dialogue_share_pct": 81,
     "gender_power_dynamics": "male_dominated",
-    "bechdel_test": false,
+    "bechdel_test": true,
     "sexual_content_presence": "different-sex"
   },
   "identity_and_social": {
-    "lgbtq_presence": false,
-    "lgbtq_character_importance": "none",
+    "lgbtq_presence": true,
+    "lgbtq_character_importance": "supporting",
     "coming_out_narrative": false,
     "same_sex_relationships": false,
     "racial_diversity_presence": true,
