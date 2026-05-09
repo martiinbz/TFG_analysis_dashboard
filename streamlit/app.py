@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import itertools
+import html
 import json
 import re
 from dataclasses import dataclass
@@ -17,6 +18,7 @@ import streamlit as st
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR.parent
 DATA_DIR = PROJECT_ROOT / "RESULTADOS_ANALISIS" / "FINAL_DATASET" / "results"
+BECHDEL_REFERENCE_URL = "https://raw.githubusercontent.com/AlisonYao/HCDS-Bechdel-Test-Final-Project/main/Data/Bechdel_detailed.csv"
 
 PLOTLY_TEMPLATE = "plotly_white"
 MISSING_STRINGS = {"", "unknown", "Unknown", "UNKNOWN", "n/a", "N/A", "null", "Null"}
@@ -495,6 +497,13 @@ def sorted_by_decade(df: pd.DataFrame, col: str = "decade") -> pd.DataFrame:
     return out.sort_values("_order").drop(columns="_order")
 
 
+def normalize_title_for_match(value: Any) -> str:
+    text = "" if pd.isna(value) else html.unescape(str(value)).lower()
+    text = text.replace("&", " and ")
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def stringify_evidence(value: Any) -> str:
     if value is None or (isinstance(value, float) and np.isnan(value)):
         return ""
@@ -703,6 +712,56 @@ def load_dataset(data_dir: Path, signature: tuple[int, int, int]) -> pd.DataFram
         )
 
     return df.sort_values(["release_year", "title"], na_position="last").reset_index(drop=True)
+
+
+@st.cache_data(show_spinner=False)
+def load_bechdel_reference() -> pd.DataFrame:
+    try:
+        ref = pd.read_csv(BECHDEL_REFERENCE_URL)
+    except Exception:
+        import ssl
+        from io import BytesIO
+        from urllib.request import urlopen
+
+        context = ssl._create_unverified_context()
+        with urlopen(BECHDEL_REFERENCE_URL, context=context, timeout=30) as response:
+            ref = pd.read_csv(BytesIO(response.read()))
+
+    required = {"title", "year", "rating"}
+    if not required.issubset(ref.columns):
+        return pd.DataFrame()
+
+    ref = ref.copy()
+    ref["reference_title_key"] = ref["title"].map(normalize_title_for_match)
+    ref["reference_year"] = pd.to_numeric(ref["year"], errors="coerce")
+    ref["reference_rating"] = pd.to_numeric(ref["rating"], errors="coerce")
+    ref["reference_bechdel_pass"] = ref["reference_rating"].eq(3)
+    optional_cols = [col for col in ["dubious", "imdbid", "id", "visible"] if col in ref.columns]
+    ref = ref.dropna(subset=["reference_year", "reference_rating"])
+    if "visible" in ref.columns:
+        ref = ref.sort_values("visible", ascending=False)
+    ref = ref.drop_duplicates(["reference_title_key", "reference_year"], keep="first")
+    return ref[
+        ["reference_title_key", "reference_year", "title", "reference_rating", "reference_bechdel_pass"] + optional_cols
+    ].rename(columns={"title": "reference_title"})
+
+
+def matched_bechdel_reference(df: pd.DataFrame, reference: pd.DataFrame) -> pd.DataFrame:
+    required = {"title", "release_year", "bechdel_test"}
+    if not required.issubset(df.columns) or reference.empty:
+        return pd.DataFrame()
+
+    local = df.dropna(subset=["title", "release_year", "bechdel_test"]).copy()
+    local["reference_title_key"] = local["title"].map(normalize_title_for_match)
+    local["reference_year"] = pd.to_numeric(local["release_year"], errors="coerce")
+    local["local_bechdel_pass"] = local["bechdel_test"].astype("boolean")
+    local = local.dropna(subset=["reference_title_key", "reference_year", "local_bechdel_pass"])
+
+    merged = local.merge(reference, on=["reference_title_key", "reference_year"], how="inner")
+    if merged.empty:
+        return merged
+    merged["bechdel_match"] = merged["local_bechdel_pass"].astype(bool) == merged["reference_bechdel_pass"].astype(bool)
+    return merged
 
 
 def data_signature(data_dir: Path) -> tuple[int, int, int]:
@@ -1308,6 +1367,107 @@ def bechdel_by_decade(df: pd.DataFrame, controls: Controls) -> go.Figure:
     return finish_fig(fig, percent_y=True)
 
 
+def bechdel_reference_evolution_chart(matched: pd.DataFrame) -> go.Figure:
+    parts = []
+    plot_df = matched.copy()
+    plot_df["reference_decade"] = (plot_df["reference_year"] // 10 * 10).astype("Int64").astype(str) + "s"
+    for source, col in [
+        ("My results", "local_bechdel_pass"),
+        ("Kaggle / Bechdel Test Movie List", "reference_bechdel_pass"),
+    ]:
+        tmp = plot_df.groupby("reference_decade", dropna=False).agg(Percent=(col, "mean"), Films=(col, "count")).reset_index()
+        tmp["Percent"] *= 100
+        tmp["Source"] = source
+        parts.append(tmp)
+    long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    long = sorted_by_decade(long, "reference_decade")
+    fig = px.line(
+        long,
+        x="reference_decade",
+        y="Percent",
+        color="Source",
+        markers=True,
+        hover_data={"Films": True, "reference_decade": True, "Percent": ":.1f"},
+        title="Bechdel Pass Rate by Decade: My Results vs Kaggle",
+        labels={"Percent": "%", "reference_decade": "Decade"},
+    )
+    return finish_fig(fig, percent_y=True)
+
+
+def render_bechdel_reference_validation(df: pd.DataFrame) -> None:
+    st.markdown("#### Bechdel Validation Against Kaggle")
+    try:
+        reference = load_bechdel_reference()
+    except Exception as exc:
+        st.warning(f"Kaggle Bechdel data could not be loaded: {exc}")
+        return
+
+    matched = matched_bechdel_reference(df, reference)
+    if matched.empty:
+        st.info("No matching films were found between the visible dataset and the Kaggle Bechdel data.")
+        return
+
+    correct = int(matched["bechdel_match"].sum())
+    total = int(len(matched))
+    accuracy = correct / total * 100
+    mismatches = matched[~matched["bechdel_match"]].copy()
+
+    c = st.columns(4)
+    c[0].metric("Matched films", f"{total:,}")
+    c[1].metric("Accuracy", f"{accuracy:.1f}%")
+    c[2].metric("Matches", f"{correct:,}")
+    c[3].metric("Mismatches", f"{len(mismatches):,}")
+    st.caption("Reference rule: Kaggle `rating == 3` is treated as true; ratings 0, 1 and 2 are treated as false.")
+    show_chart(bechdel_reference_evolution_chart(matched), key="bechdel_reference_evolution")
+
+    if not mismatches.empty:
+        with st.expander("Films where results differ"):
+            cols = [
+                "title",
+                "release_year",
+                "local_bechdel_pass",
+                "reference_bechdel_pass",
+                "reference_rating",
+                "dubious",
+            ]
+            display = mismatches[[col for col in cols if col in mismatches]].rename(
+                columns={
+                    "title": "My title",
+                    "release_year": "Year",
+                    "local_bechdel_pass": "My Bechdel",
+                    "reference_bechdel_pass": "Kaggle Bechdel",
+                    "reference_rating": "Kaggle rating",
+                    "dubious": "Dubious",
+                }
+            )
+            st.dataframe(display, width="stretch", hide_index=True)
+
+    with st.expander("Matched comparison sample"):
+        cols = [
+            "title",
+            "release_year",
+            "local_bechdel_pass",
+            "reference_title",
+            "reference_rating",
+            "dubious",
+            "reference_bechdel_pass",
+            "bechdel_match",
+        ]
+        sample = matched[[col for col in cols if col in matched]].rename(
+            columns={
+                "title": "My title",
+                "release_year": "Year",
+                "local_bechdel_pass": "My Bechdel",
+                "reference_title": "Kaggle title",
+                "reference_rating": "Kaggle rating",
+                "dubious": "Dubious",
+                "reference_bechdel_pass": "Kaggle Bechdel",
+                "bechdel_match": "Match",
+            }
+        )
+        st.dataframe(sample.head(100), width="stretch", hide_index=True)
+
+
 def filtered_table(df: pd.DataFrame, controls: Controls) -> None:
     cols = [
         "title",
@@ -1832,6 +1992,7 @@ def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec
         '<p class="note">These features are conservative: a false or unknown value often means no explicit evidence was detected in the script, not necessarily real-world absence.</p>',
         unsafe_allow_html=True,
     )
+    render_bechdel_reference_validation(df)
     wanted = [
         "Bechdel by Decade",
         "Female Dialogue by Decade",
