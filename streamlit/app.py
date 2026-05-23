@@ -5,6 +5,7 @@ import html
 import json
 import re
 from dataclasses import dataclass
+from io import BytesIO
 from pathlib import Path
 from typing import Any, Callable
 
@@ -19,6 +20,8 @@ APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR.parent
 DATA_DIR = PROJECT_ROOT / "RESULTADOS_ANALISIS" / "FINAL_DATASET" / "results"
 BECHDEL_REFERENCE_URL = "https://raw.githubusercontent.com/AlisonYao/HCDS-Bechdel-Test-Final-Project/main/Data/Bechdel_detailed.csv"
+PUDDING_DIALOGUE_META_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/meta_data7.csv"
+PUDDING_CHARACTER_LIST_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/character_list5.csv"
 
 PLOTLY_TEMPLATE = "plotly_white"
 MISSING_STRINGS = {"", "unknown", "Unknown", "UNKNOWN", "n/a", "N/A", "null", "Null"}
@@ -764,6 +767,99 @@ def matched_bechdel_reference(df: pd.DataFrame, reference: pd.DataFrame) -> pd.D
     return merged
 
 
+@st.cache_data(show_spinner=False)
+def load_female_dialogue_reference() -> pd.DataFrame:
+    def read_csv_url(url: str) -> pd.DataFrame:
+        try:
+            return pd.read_csv(url)
+        except Exception:
+            import ssl
+            from urllib.request import urlopen
+
+            context = ssl._create_unverified_context()
+            with urlopen(url, context=context, timeout=30) as response:
+                return pd.read_csv(BytesIO(response.read()), encoding="latin1")
+
+    try:
+        meta = read_csv_url(PUDDING_DIALOGUE_META_URL)
+        characters = read_csv_url(PUDDING_CHARACTER_LIST_URL)
+    except Exception:
+        return pd.DataFrame()
+
+    if not {"script_id", "title", "year"}.issubset(meta.columns):
+        return pd.DataFrame()
+    if not {"script_id", "imdb_character_name", "words", "gender"}.issubset(characters.columns):
+        return pd.DataFrame()
+
+    meta = meta.copy()
+    characters = characters.copy()
+    characters["reference_words"] = pd.to_numeric(characters["words"], errors="coerce")
+    gender = characters["gender"].astype(str).str.lower()
+    characters["_is_female"] = gender.eq("f")
+    characters["_is_male"] = gender.eq("m")
+    characters["reference_female_words"] = characters["reference_words"].where(characters["_is_female"], 0)
+    characters = characters.dropna(subset=["script_id", "reference_words"])
+
+    grouped = (
+        characters.groupby("script_id", dropna=False)
+        .agg(
+            reference_female_words=("reference_female_words", "sum"),
+            reference_total_words=("reference_words", "sum"),
+            reference_characters=("imdb_character_name", "count"),
+            reference_female_speakers=("_is_female", "sum"),
+            reference_male_speakers=("_is_male", "sum"),
+        )
+        .reset_index()
+    )
+    grouped = grouped[grouped["reference_total_words"].gt(0)].copy()
+    grouped["reference_female_dialogue_share_pct"] = (
+        grouped["reference_female_words"] / grouped["reference_total_words"] * 100
+    )
+
+    meta["reference_title_key"] = meta["title"].map(normalize_title_for_match)
+    meta["reference_year"] = pd.to_numeric(meta["year"], errors="coerce")
+    reference = meta.merge(grouped, on="script_id", how="inner")
+    reference = reference.dropna(
+        subset=["reference_title_key", "reference_year", "reference_female_dialogue_share_pct"]
+    )
+    reference = reference.drop_duplicates(["reference_title_key", "reference_year"], keep="first")
+    return reference.rename(columns={"title": "reference_title"})[
+        [
+            "reference_title_key",
+            "reference_year",
+            "reference_title",
+            "imdb_id",
+            "reference_female_dialogue_share_pct",
+            "reference_female_words",
+            "reference_total_words",
+            "reference_characters",
+            "reference_female_speakers",
+            "reference_male_speakers",
+        ]
+    ]
+
+
+def matched_female_dialogue_reference(df: pd.DataFrame, reference: pd.DataFrame) -> pd.DataFrame:
+    required = {"title", "release_year", "female_dialogue_share_pct"}
+    if not required.issubset(df.columns) or reference.empty:
+        return pd.DataFrame()
+
+    local = df.dropna(subset=["title", "release_year", "female_dialogue_share_pct"]).copy()
+    local["reference_title_key"] = local["title"].map(normalize_title_for_match)
+    local["reference_year"] = pd.to_numeric(local["release_year"], errors="coerce")
+    local["local_female_dialogue_share_pct"] = pd.to_numeric(local["female_dialogue_share_pct"], errors="coerce")
+    local = local.dropna(subset=["reference_title_key", "reference_year", "local_female_dialogue_share_pct"])
+
+    merged = local.merge(reference, on=["reference_title_key", "reference_year"], how="inner")
+    if merged.empty:
+        return merged
+    merged["female_dialogue_error_pct"] = (
+        merged["local_female_dialogue_share_pct"] - merged["reference_female_dialogue_share_pct"]
+    )
+    merged["female_dialogue_abs_error_pct"] = merged["female_dialogue_error_pct"].abs()
+    return merged
+
+
 def data_signature(data_dir: Path) -> tuple[int, int, int]:
     files = list(data_dir.glob("*.json"))
     return (
@@ -1447,6 +1543,9 @@ def render_bechdel_reference_validation(df: pd.DataFrame) -> None:
         return
 
     matched = matched_bechdel_reference(df, reference)
+    if matched.empty:
+        st.info("No matching films were found between the visible dataset and the Bechdel reference data.")
+        return
     
 
     correct = int(matched["bechdel_match"].sum())
@@ -1518,6 +1617,195 @@ def render_bechdel_reference_validation(df: pd.DataFrame) -> None:
             }
         )
         st.dataframe(sample.head(100), width="stretch", hide_index=True)
+
+
+def female_dialogue_reference_metrics(matched: pd.DataFrame) -> dict[str, float]:
+    error = matched["female_dialogue_error_pct"]
+    mae = float(error.abs().mean())
+    rmse = float(np.sqrt(np.mean(np.square(error))))
+    pearson = matched["local_female_dialogue_share_pct"].corr(matched["reference_female_dialogue_share_pct"])
+    spearman = matched["local_female_dialogue_share_pct"].corr(
+        matched["reference_female_dialogue_share_pct"], method="spearman"
+    )
+    return {
+        "mae": mae,
+        "rmse": rmse,
+        "pearson": float(pearson) if pd.notna(pearson) else np.nan,
+        "spearman": float(spearman) if pd.notna(spearman) else np.nan,
+        "mean_error": float(error.mean()),
+    }
+
+
+def female_dialogue_reference_scatter(matched: pd.DataFrame) -> go.Figure:
+    fig = px.scatter(
+        matched,
+        x="reference_female_dialogue_share_pct",
+        y="local_female_dialogue_share_pct",
+        hover_name="title",
+        color="decade" if "decade" in matched else None,
+        opacity=0.72,
+        title="Female Dialogue Share: Analysis vs The Pudding",
+        labels={
+            "reference_female_dialogue_share_pct": "Reference female dialogue (%)",
+            "local_female_dialogue_share_pct": "Analysis female dialogue (%)",
+            "decade": "Decade",
+        },
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=[0, 100],
+            y=[0, 100],
+            mode="lines",
+            name="Perfect agreement",
+            line=dict(color="#475569", dash="dash"),
+            hoverinfo="skip",
+        )
+    )
+    fig.update_xaxes(range=[0, 100])
+    fig.update_yaxes(range=[0, 100])
+    return finish_fig(fig, height=500, percent_y=False)
+
+
+def female_dialogue_reference_evolution_chart(matched: pd.DataFrame) -> go.Figure:
+    parts = []
+    plot_df = matched.dropna(subset=["decade"]).copy()
+    for source, col in [
+        ("Analysis results", "local_female_dialogue_share_pct"),
+        ("The Pudding", "reference_female_dialogue_share_pct"),
+    ]:
+        tmp = plot_df.groupby("decade", dropna=False).agg(Percent=(col, "mean"), Films=("title", "count")).reset_index()
+        tmp["Source"] = source
+        parts.append(tmp)
+    long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
+    long = sorted_by_decade(long, "decade")
+    long["Decade"] = long["decade"].astype(str) + "<br>n=" + long["Films"].astype(str)
+    fig = px.line(
+        long,
+        x="Decade",
+        y="Percent",
+        color="Source",
+        markers=True,
+        title="Female Dialogue Share by Decade: Analysis vs The Pudding",
+        labels={"Percent": "%"},
+        hover_data={"Films": True, "Percent": ":.1f"},
+    )
+    return finish_fig(fig, height=500, percent_y=True)
+
+
+def female_dialogue_error_by_decade(matched: pd.DataFrame) -> go.Figure:
+    if "decade" not in matched:
+        return go.Figure()
+    plot_df = matched.dropna(subset=["decade"]).copy()
+    grouped = (
+        plot_df.groupby("decade", dropna=False)
+        .agg(MeanAbsError=("female_dialogue_abs_error_pct", "mean"), Films=("title", "count"))
+        .reset_index()
+    )
+    grouped = sorted_by_decade(grouped)
+    grouped["Decade"] = grouped["decade"].astype(str) + "<br>n=" + grouped["Films"].astype(str)
+    fig = px.bar(
+        grouped,
+        x="Decade",
+        y="MeanAbsError",
+        title="Female Dialogue Error by Decade",
+        labels={"MeanAbsError": "Mean absolute error (points)"},
+    )
+    return finish_fig(fig, height=500)
+
+
+def render_female_dialogue_reference_validation(df: pd.DataFrame) -> None:
+    st.markdown("#### Female Dialogue Share Validation Against The Pudding")
+    try:
+        reference = load_female_dialogue_reference()
+    except Exception as exc:
+        st.warning(f"The Pudding dialogue data could not be loaded: {exc}")
+        return
+
+    matched = matched_female_dialogue_reference(df, reference)
+    if matched.empty:
+        st.info("No matching films were found between the visible dataset and The Pudding dialogue data.")
+        return
+
+    metrics = female_dialogue_reference_metrics(matched)
+    c = st.columns(5)
+    c[0].metric("Matched films", f"{len(matched):,}")
+    c[1].metric("MAE", f"{metrics['mae']:.1f} pts")
+    c[2].metric("RMSE", f"{metrics['rmse']:.1f} pts")
+    c[3].metric("r", f"{metrics['pearson']:.2f}" if pd.notna(metrics["pearson"]) else "n/a")
+    c[4].metric("ρ", f"{metrics['spearman']:.2f}" if pd.notna(metrics["spearman"]) else "n/a")
+    st.caption(
+        "Reference rule: The Pudding female dialogue share is derived from character-level word counts "
+        "and matched by title plus release year."
+    )
+    with st.expander("How to read these metrics"):
+        st.markdown(
+            """
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="label">MAE</div>
+                    <div class="value">Average absolute error in percentage points. Lower is better.</div>
+                </div>
+                <div class="feature-card">
+                    <div class="label">RMSE</div>
+                    <div class="value">Like MAE, but it punishes large errors more strongly. Lower is better.</div>
+                </div>
+                <div class="feature-card">
+                    <div class="label">r</div>
+                    <div class="value">Linear correlation between both percentages. Closer to 1 means stronger agreement.</div>
+                </div>
+                <div class="feature-card">
+                    <div class="label">ρ</div>
+                    <div class="value">Ranking correlation. It checks whether high/low films appear in a similar order.</div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    show_chart(female_dialogue_reference_evolution_chart(matched), key="female_dialogue_reference_evolution")
+    left, right = st.columns([1.2, 1])
+    with left:
+        show_chart(female_dialogue_reference_scatter(matched), key="female_dialogue_reference_scatter")
+    with right:
+        show_chart(female_dialogue_error_by_decade(matched), key="female_dialogue_error_by_decade")
+
+    with st.expander("Largest female dialogue share differences"):
+        cols = [
+            "title",
+            "reference_title",
+            "release_year",
+            "decade",
+            "local_female_dialogue_share_pct",
+            "reference_female_dialogue_share_pct",
+            "female_dialogue_error_pct",
+            "reference_characters",
+            "reference_female_speakers",
+            "reference_male_speakers",
+            "reference_female_words",
+            "reference_total_words",
+        ]
+        display = (
+            matched.sort_values("female_dialogue_abs_error_pct", ascending=False)
+            [[col for col in cols if col in matched]]
+            .head(50)
+            .rename(
+                columns={
+                    "title": "Analysis title",
+                    "reference_title": "The Pudding title",
+                    "release_year": "Year",
+                    "decade": "Decade",
+                    "local_female_dialogue_share_pct": "Analysis female dialogue (%)",
+                    "reference_female_dialogue_share_pct": "Reference female dialogue (%)",
+                    "female_dialogue_error_pct": "Error (points)",
+                    "reference_characters": "Reference characters",
+                    "reference_female_speakers": "Reference female characters",
+                    "reference_male_speakers": "Reference male characters",
+                    "reference_female_words": "Reference female words",
+                    "reference_total_words": "Reference total words",
+                }
+            )
+        )
+        st.dataframe(display, width="stretch", hide_index=True)
 
 
 def filtered_table(df: pd.DataFrame, controls: Controls) -> None:
@@ -2045,6 +2333,7 @@ def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec
         unsafe_allow_html=True,
     )
     render_bechdel_reference_validation(df)
+    render_female_dialogue_reference_validation(df)
     wanted = [
         "Bechdel by Decade",
         "Female Dialogue by Decade",
