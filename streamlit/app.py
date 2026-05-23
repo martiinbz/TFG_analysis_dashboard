@@ -1372,8 +1372,8 @@ def bechdel_reference_evolution_chart(matched: pd.DataFrame) -> go.Figure:
     plot_df = matched.copy()
     plot_df["reference_decade"] = (plot_df["reference_year"] // 10 * 10).astype("Int64").astype(str) + "s"
     for source, col in [
-        ("My results", "local_bechdel_pass"),
-        ("Kaggle / Bechdel Test Movie List", "reference_bechdel_pass"),
+        ("Analysis results", "local_bechdel_pass"),
+        ("Ground Truth Bechdel Test", "reference_bechdel_pass"),
     ]:
         tmp = plot_df.groupby("reference_decade", dropna=False).agg(Percent=(col, "mean"), Films=(col, "count")).reset_index()
         tmp["Percent"] *= 100
@@ -1388,10 +1388,54 @@ def bechdel_reference_evolution_chart(matched: pd.DataFrame) -> go.Figure:
         color="Source",
         markers=True,
         hover_data={"Films": True, "reference_decade": True, "Percent": ":.1f"},
-        title="Bechdel Pass Rate by Decade: My Results vs Kaggle",
+        title="Bechdel Pass Rate by Decade: Our results vs Ground Truth",
         labels={"Percent": "%", "reference_decade": "Decade"},
     )
     return finish_fig(fig, percent_y=True)
+
+
+def bechdel_confusion_counts(matched: pd.DataFrame) -> dict[str, int]:
+    predicted = matched["local_bechdel_pass"].astype(bool)
+    actual = matched["reference_bechdel_pass"].astype(bool)
+    return {
+        "tp": int((predicted & actual).sum()),
+        "tn": int((~predicted & ~actual).sum()),
+        "fp": int((predicted & ~actual).sum()),
+        "fn": int((~predicted & actual).sum()),
+    }
+
+
+def bechdel_confusion_matrix_chart(counts: dict[str, int]) -> go.Figure:
+    matrix = np.array([[counts["tn"], counts["fp"]], [counts["fn"], counts["tp"]]])
+    labels = [["TN", "FP"], ["FN", "TP"]]
+    texts = np.array(
+        [
+            [f"TN<br>{counts['tn']}", f"FP<br>{counts['fp']}"],
+            [f"FN<br>{counts['fn']}", f"TP<br>{counts['tp']}"],
+        ]
+    )
+    fig = go.Figure(
+        data=go.Heatmap(
+            z=matrix,
+            x=["Predicted fail", "Predicted pass"],
+            y=["Actual fail", "Actual pass"],
+            colorscale=["#fef2f2", "#fca5a5", "#ef4444"],
+            showscale=False,
+            text=texts,
+            texttemplate="%{text}",
+            textfont={"size": 14, "color": "#111827"},
+            hovertemplate="%{y} / %{x}<br>Count=%{z}<extra></extra>",
+        )
+    )
+    fig.update_layout(
+        title="Confusion Matrix",
+        template=PLOTLY_TEMPLATE,
+        height=360,
+        margin=dict(l=10, r=10, t=58, b=35),
+    )
+    fig.update_xaxes(title_text="")
+    fig.update_yaxes(title_text="")
+    return finish_fig(fig, height=360)
 
 
 def render_bechdel_reference_validation(df: pd.DataFrame) -> None:
@@ -1399,26 +1443,34 @@ def render_bechdel_reference_validation(df: pd.DataFrame) -> None:
     try:
         reference = load_bechdel_reference()
     except Exception as exc:
-        st.warning(f"Kaggle Bechdel data could not be loaded: {exc}")
+        st.warning(f" Bechdel data could not be loaded: {exc}")
         return
 
     matched = matched_bechdel_reference(df, reference)
-    if matched.empty:
-        st.info("No matching films were found between the visible dataset and the Kaggle Bechdel data.")
-        return
+    
 
     correct = int(matched["bechdel_match"].sum())
     total = int(len(matched))
     accuracy = correct / total * 100
     mismatches = matched[~matched["bechdel_match"]].copy()
+    counts = bechdel_confusion_counts(matched)
+    precision = counts["tp"] / (counts["tp"] + counts["fp"]) if (counts["tp"] + counts["fp"]) else 0.0
+    recall = counts["tp"] / (counts["tp"] + counts["fn"]) if (counts["tp"] + counts["fn"]) else 0.0
+    f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) else 0.0
 
     c = st.columns(4)
     c[0].metric("Matched films", f"{total:,}")
     c[1].metric("Accuracy", f"{accuracy:.1f}%")
-    c[2].metric("Matches", f"{correct:,}")
-    c[3].metric("Mismatches", f"{len(mismatches):,}")
-    st.caption("Reference rule: Kaggle `rating == 3` is treated as true; ratings 0, 1 and 2 are treated as false.")
-    show_chart(bechdel_reference_evolution_chart(matched), key="bechdel_reference_evolution")
+    c[2].metric("Precision", f"{precision * 100:.1f}%")
+    c[3].metric("Recall", f"{recall * 100:.1f}%")
+    c2 = st.columns(2)
+    c2[0].metric("F1-score", f"{f1 * 100:.1f}%")
+    c2[1].metric("Mismatches", f"{len(mismatches):,}")
+    left, right = st.columns([1.35, 1])
+    with left:
+        show_chart(bechdel_reference_evolution_chart(matched), key="bechdel_reference_evolution")
+    with right:
+        show_chart(bechdel_confusion_matrix_chart(counts), key="bechdel_confusion_matrix")
 
     if not mismatches.empty:
         with st.expander("Films where results differ"):
