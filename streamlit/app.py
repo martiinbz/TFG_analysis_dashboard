@@ -1623,9 +1623,10 @@ def female_dialogue_reference_metrics(matched: pd.DataFrame) -> dict[str, float]
     error = matched["female_dialogue_error_pct"]
     mae = float(error.abs().mean())
     rmse = float(np.sqrt(np.mean(np.square(error))))
-    pearson = matched["local_female_dialogue_share_pct"].corr(matched["reference_female_dialogue_share_pct"])
-    spearman = matched["local_female_dialogue_share_pct"].corr(
-        matched["reference_female_dialogue_share_pct"], method="spearman"
+    pair = matched[["local_female_dialogue_share_pct", "reference_female_dialogue_share_pct"]].dropna()
+    pearson = pair["local_female_dialogue_share_pct"].corr(pair["reference_female_dialogue_share_pct"])
+    spearman = pair["local_female_dialogue_share_pct"].rank().corr(
+        pair["reference_female_dialogue_share_pct"].rank()
     )
     return {
         "mae": mae,
