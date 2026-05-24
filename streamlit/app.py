@@ -2285,6 +2285,35 @@ def select_specs(specs: list[ChartSpec], titles: list[str]) -> list[ChartSpec]:
     return [by_title[title] for title in titles if title in by_title]
 
 
+def render_related_chart_expanders(
+    df: pd.DataFrame,
+    controls: Controls,
+    specs: list[ChartSpec],
+    curated_titles: list[str],
+    key_prefix: str,
+    sections: list[str] | None = None,
+) -> None:
+    curated = set(curated_titles)
+    related = [spec for spec in specs if spec.title not in curated]
+    if sections is not None:
+        section_set = set(sections)
+        related = [spec for spec in related if spec.section in section_set]
+    if not related:
+        return
+
+    st.markdown("#### More related charts")
+    for spec in related:
+        with st.expander(spec.title):
+            st.caption(spec.description)
+            key_slug = re.sub(r"[^a-zA-Z0-9_]+", "_", f"{spec.section}_{spec.title}").strip("_").lower()
+            show_chart_toggle = st.toggle("Show chart", key=f"toggle_related_{key_prefix}_{key_slug}")
+            if show_chart_toggle:
+                try:
+                    show_chart(spec.builder(df, controls), key=f"related_{key_prefix}_{key_slug}")
+                except Exception as exc:
+                    st.warning(f"{spec.title} could not be rendered: {exc}")
+
+
 def kpi_row(df: pd.DataFrame) -> None:
     c = st.columns(6)
     c[0].metric("Films analyzed", f"{len(df):,}")
@@ -2324,7 +2353,16 @@ def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
             st.dataframe(df[df["release_year"].isna()][missing_cols], width="stretch", hide_index=True)
     with st.expander("Detailed extraction quality"):
         show_chart(unknown_rate_chart(df, controls), key="overview_extraction_quality_detail")
-    render_chart_grid(df, controls, select_specs(specs, ["Numeric Feature Correlations", "Binary Feature Co-occurrence"]))
+    summary_titles = ["Numeric Feature Correlations", "Binary Feature Co-occurrence"]
+    render_chart_grid(df, controls, select_specs(specs, summary_titles))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted + ["Extraction Quality"] + summary_titles,
+        "overview",
+        ["Dataset and Temporal Coverage"],
+    )
 
 
 def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2348,6 +2386,18 @@ def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec
         "Identity Theme by Decade",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted,
+        "social",
+        [
+            "Gender Representation",
+            "LGBTQ, Race and Minorities",
+            "Class, Family and Disability",
+        ],
+    )
 
 
 def narrative_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2365,6 +2415,14 @@ def narrative_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartS
         "Relationship Structure",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted,
+        "narrative",
+        ["Narrative", "Technical Screenplay"],
+    )
 
 
 def violence_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2383,6 +2441,14 @@ def violence_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
         "Drugs vs Violence",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted,
+        "violence",
+        ["Violence, Morality, Language, Sex and Drugs", "Tone, Emotion and Themes"],
+    )
 
 
 def institutions_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2403,6 +2469,14 @@ def institutions_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Cha
         "Government vs Political Climate",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted,
+        "institutions",
+        ["Institutions and Power", "History, War and Politics"],
+    )
 
 
 def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2422,6 +2496,14 @@ def technology_dashboard(df: pd.DataFrame, controls: Controls, specs: list[Chart
         "Are AI Films More Dystopian?",
     ]
     render_chart_grid(df, controls, select_specs(specs, wanted))
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        wanted,
+        "technology",
+        ["Technology, Science and Environment"],
+    )
 
 
 def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
@@ -2443,6 +2525,14 @@ def cross_analysis_dashboard(df: pd.DataFrame, controls: Controls, specs: list[C
     ]
     clean_overview_specs, contaminated_overview_specs = split_specs_by_quality(overview_specs)
     render_chart_grid(df, controls, clean_overview_specs)
+    render_related_chart_expanders(
+        df,
+        controls,
+        specs,
+        [spec.title for spec in clean_overview_specs],
+        "cross_analysis",
+        ["Cross-analysis"],
+    )
     with st.expander("Excluded technical charts"):
         st.write(", ".join(spec.title for spec in contaminated_overview_specs))
 
@@ -2480,27 +2570,7 @@ def split_specs_by_quality(specs: list[ChartSpec]) -> tuple[list[ChartSpec], lis
 
 def explorer_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
     st.markdown('<div class="kicker">Chart Explorer</div>', unsafe_allow_html=True)
-    sections = ["All"] + sorted({s.section for s in specs})
-    section = st.selectbox("Chart section", sections)
-    visible = specs if section == "All" else [s for s in specs if s.section == section]
-    search = st.text_input("Search charts", placeholder="Bechdel, violence, AI, protagonist...")
-    if search:
-        visible = [s for s in visible if search.lower() in s.title.lower() or search.lower() in s.description.lower()]
-
-    titles = [s.title for s in visible]
-    selected = st.selectbox("Recommended charts", titles)
-    spec = next(s for s in visible if s.title == selected)
-    st.caption(spec.description)
-    try:
-        show_chart(spec.builder(df, controls))
-    except Exception as exc:
-        st.error(f"This chart could not be rendered: {exc}")
-
-    with st.expander("Custom chart"):
-        custom_chart(df, controls)
-
-    if controls.show_evidence:
-        evidence_views(df)
+    custom_chart(df, controls)
 
 
 def custom_chart(df: pd.DataFrame, controls: Controls) -> None:
