@@ -19,7 +19,7 @@ import streamlit as st
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR.parent
 DATA_DIR = PROJECT_ROOT / "RESULTADOS_ANALISIS" / "FINAL_DATASET" / "results"
-APP_VERSION = "3e81b05-normalized-columns"
+APP_VERSION = "visible-100-v2"
 BECHDEL_REFERENCE_URL = "https://raw.githubusercontent.com/AlisonYao/HCDS-Bechdel-Test-Final-Project/main/Data/Bechdel_detailed.csv"
 PUDDING_DIALOGUE_META_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/meta_data7.csv"
 PUDDING_CHARACTER_LIST_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/character_list5.csv"
@@ -1065,6 +1065,7 @@ def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, control
         title=title,
         labels={x: label(x), category: label(category), "Percent": "%"},
     )
+    fig.update_layout(barmode="stack")
     return finish_fig(fig, percent_y=True)
 
 

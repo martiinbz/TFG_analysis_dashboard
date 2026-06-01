@@ -49,6 +49,7 @@ def test_stacked_percent_uses_visible_categories_as_denominator():
     visible_share = sum(float(y) for trace in fig.data for y in trace.y)
 
     assert visible_share == 100.0
+    assert fig.layout.barmode == "stack"
 
 
 def test_heatmap_percent_uses_visible_categories_as_denominator():
