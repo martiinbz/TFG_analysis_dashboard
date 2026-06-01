@@ -19,6 +19,7 @@ import streamlit as st
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR.parent
 DATA_DIR = PROJECT_ROOT / "RESULTADOS_ANALISIS" / "FINAL_DATASET" / "results"
+APP_VERSION = "3e81b05-normalized-columns"
 BECHDEL_REFERENCE_URL = "https://raw.githubusercontent.com/AlisonYao/HCDS-Bechdel-Test-Final-Project/main/Data/Bechdel_detailed.csv"
 PUDDING_DIALOGUE_META_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/meta_data7.csv"
 PUDDING_CHARACTER_LIST_URL = "https://raw.githubusercontent.com/matthewfdaniels/scripts/graphs/character_list5.csv"
@@ -928,6 +929,7 @@ def apply_global_controls(df: pd.DataFrame) -> tuple[pd.DataFrame, Controls]:
         filtered = filtered[~low_quality_mask]
 
     st.sidebar.caption(f"{len(filtered):,} of {len(df):,} films visible")
+    st.sidebar.caption(f"Build: {APP_VERSION}")
     return filtered, Controls(calc_mode, min_n, group_by, top_n, smoothing, exclude_unknown, exclude_low_quality, show_evidence, year_range)
 
 
