@@ -26,6 +26,7 @@ PUDDING_CHARACTER_LIST_URL = "https://raw.githubusercontent.com/matthewfdaniels/
 PLOTLY_TEMPLATE = "plotly_white"
 MISSING_STRINGS = {"", "unknown", "Unknown", "UNKNOWN", "n/a", "N/A", "null", "Null"}
 NONE_STRINGS = {"none", "None", "NONE"}
+UNKNOWN_FILTER_STRINGS = {"", "unknown", "nan", "n/a", "null"}
 NON_WHITE_RACE = {"black", "latino", "asian", "middle_eastern"}
 LOW_QUALITY_WORD_COUNT_THRESHOLD = 1000
 LOW_QUALITY_SCENE_COUNT_THRESHOLD = 0
@@ -938,7 +939,7 @@ def valid_df(df: pd.DataFrame, cols: list[str], controls: Controls | None = None
         if col not in out:
             return out.iloc[0:0]
         if controls and controls.exclude_unknown and not pd.api.types.is_numeric_dtype(out[col]):
-            out = out[~out[col].astype(str).str.lower().isin(["unknown", "none", "nan"])]
+            out = out[~out[col].astype(str).str.lower().isin(UNKNOWN_FILTER_STRINGS)]
     return out
 
 
@@ -958,6 +959,45 @@ def apply_smoothing(data: pd.DataFrame, x: str, y: str, color: str | None, windo
     else:
         out[y] = out[y].rolling(window, min_periods=1).mean()
     return out
+
+
+def bootstrap_ci_by_decade(
+    df: pd.DataFrame,
+    metric: str,
+    value_mode: str,
+    iterations: int = 500,
+    random_state: int = 42,
+    color: str | None = None,
+    target: Any | None = None,
+    targets: set[Any] | None = None,
+) -> pd.DataFrame:
+    group_cols = ["decade"] + ([color] if color else [])
+    rng = np.random.default_rng(random_state)
+    rows = []
+    for keys, subset in df.groupby(group_cols, dropna=False):
+        if color:
+            decade, color_value = keys
+        else:
+            decade, color_value = keys[0] if isinstance(keys, tuple) else keys, None
+        if value_mode == "mean":
+            values = pd.to_numeric(subset[metric], errors="coerce").dropna().to_numpy(dtype=float)
+        else:
+            hits = subset[metric].isin(targets) if targets is not None else subset[metric].eq(target)
+            values = hits.astype(float).to_numpy(dtype=float)
+        if len(values) == 0:
+            continue
+        estimate = float(values.mean())
+        if len(values) == 1:
+            ci_low = ci_high = estimate
+        else:
+            samples = rng.choice(values, size=(iterations, len(values)), replace=True)
+            boot = samples.mean(axis=1)
+            ci_low, ci_high = np.quantile(boot, [0.025, 0.975])
+        row = {"decade": decade, "value": estimate, "ci_low": float(ci_low), "ci_high": float(ci_high)}
+        if color:
+            row[color] = color_value
+        rows.append(row)
+    return pd.DataFrame(rows)
 
 
 def finish_fig(fig: go.Figure, height: int = 430, percent_y: bool = False) -> go.Figure:
@@ -1000,9 +1040,13 @@ def bar_count(df: pd.DataFrame, x: str, title: str, controls: Controls, color: s
 
 
 def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, controls: Controls, top_n: int | None = None) -> go.Figure:
-    plot_df = valid_df(df, [x, category], controls)
+    plot_df = valid_df(df, [x], controls)
+    if category not in plot_df:
+        return go.Figure()
     if x == "decade":
         plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
+    if controls.exclude_unknown and not pd.api.types.is_numeric_dtype(plot_df[category]):
+        plot_df = plot_df[~plot_df[category].astype(str).str.lower().isin(UNKNOWN_FILTER_STRINGS)]
     if top_n:
         top = plot_df[category].value_counts().head(top_n).index
         plot_df = plot_df[plot_df[category].isin(top)]
@@ -1023,7 +1067,11 @@ def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, control
 
 
 def heatmap_percent(df: pd.DataFrame, x: str, y: str, title: str, controls: Controls, top_n: int | None = None) -> go.Figure:
-    plot_df = valid_df(df, [x, y], controls)
+    plot_df = valid_df(df, [x], controls)
+    if y not in plot_df:
+        return go.Figure()
+    if controls.exclude_unknown and not pd.api.types.is_numeric_dtype(plot_df[y]):
+        plot_df = plot_df[~plot_df[y].astype(str).str.lower().isin(UNKNOWN_FILTER_STRINGS)]
     if top_n:
         top = plot_df[y].value_counts().head(top_n).index
         plot_df = plot_df[plot_df[y].isin(top)]
@@ -1048,10 +1096,23 @@ def mean_line(df: pd.DataFrame, metric: str, title: str, controls: Controls, col
     cols = ["decade", metric] + ([color] if color else [])
     plot_df = valid_df(df, cols, controls).dropna(subset=[metric, "decade"])
     plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
-    group_cols = ["decade"] + ([color] if color else [])
-    grouped = plot_df.groupby(group_cols, dropna=False)[metric].mean().reset_index(name="Mean")
-    grouped = apply_smoothing(sorted_by_decade(grouped), "decade", "Mean", color, controls.smoothing)
-    fig = px.line(grouped, x="decade", y="Mean", color=color, markers=True, title=title, labels={"Mean": label(metric)})
+    grouped = bootstrap_ci_by_decade(plot_df, metric, "mean", color=color)
+    grouped = grouped.rename(columns={"value": "Mean"})
+    for col in ["Mean", "ci_low", "ci_high"]:
+        grouped = apply_smoothing(sorted_by_decade(grouped), "decade", col, color, controls.smoothing)
+    grouped["ci_plus"] = grouped["ci_high"] - grouped["Mean"]
+    grouped["ci_minus"] = grouped["Mean"] - grouped["ci_low"]
+    fig = px.line(
+        grouped,
+        x="decade",
+        y="Mean",
+        color=color,
+        markers=True,
+        title=title,
+        labels={"Mean": label(metric)},
+        error_y="ci_plus",
+        error_y_minus="ci_minus",
+    )
     if metric in {"plot_complexity", "violence_intensity", "emotional_intensity"}:
         fig.update_yaxes(range=[0, 5])
     return finish_fig(fig)
@@ -1069,15 +1130,26 @@ def rate_line(
     cols = ["decade", feature] + ([color] if color else [])
     plot_df = valid_df(df, cols, controls).dropna(subset=["decade"])
     plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
-    if targets is None:
-        plot_df["_hit"] = plot_df[feature] == target
-    else:
-        plot_df["_hit"] = plot_df[feature].isin(targets)
-    group_cols = ["decade"] + ([color] if color else [])
-    grouped = plot_df.groupby(group_cols, dropna=False)["_hit"].mean().reset_index(name="Percent")
+    grouped = bootstrap_ci_by_decade(plot_df, feature, "rate", color=color, target=target, targets=targets)
+    grouped = grouped.rename(columns={"value": "Percent"})
     grouped["Percent"] *= 100
-    grouped = apply_smoothing(sorted_by_decade(grouped), "decade", "Percent", color, controls.smoothing)
-    fig = px.line(grouped, x="decade", y="Percent", color=color, markers=True, title=title, labels={"Percent": "%"})
+    grouped["ci_low"] *= 100
+    grouped["ci_high"] *= 100
+    for col in ["Percent", "ci_low", "ci_high"]:
+        grouped = apply_smoothing(sorted_by_decade(grouped), "decade", col, color, controls.smoothing)
+    grouped["ci_plus"] = grouped["ci_high"] - grouped["Percent"]
+    grouped["ci_minus"] = grouped["Percent"] - grouped["ci_low"]
+    fig = px.line(
+        grouped,
+        x="decade",
+        y="Percent",
+        color=color,
+        markers=True,
+        title=title,
+        labels={"Percent": "%"},
+        error_y="ci_plus",
+        error_y_minus="ci_minus",
+    )
     return finish_fig(fig, percent_y=True)
 
 
@@ -1086,14 +1158,28 @@ def multi_rate_line(df: pd.DataFrame, feature: str, targets: list[Any], title: s
     for target in targets:
         plot_df = valid_df(df, ["decade", feature], controls).dropna(subset=["decade"])
         plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
-        plot_df["_hit"] = plot_df[feature] == target
-        tmp = plot_df.groupby("decade", dropna=False)["_hit"].mean().reset_index(name="Percent")
+        tmp = bootstrap_ci_by_decade(plot_df, feature, "rate", target=target)
+        tmp = tmp.rename(columns={"value": "Percent"})
         tmp["Percent"] *= 100
+        tmp["ci_low"] *= 100
+        tmp["ci_high"] *= 100
         tmp["Metric"] = str(target)
         parts.append(tmp)
     long = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame()
-    long = apply_smoothing(sorted_by_decade(long), "decade", "Percent", "Metric", controls.smoothing)
-    fig = px.line(long, x="decade", y="Percent", color="Metric", markers=True, title=title)
+    for col in ["Percent", "ci_low", "ci_high"]:
+        long = apply_smoothing(sorted_by_decade(long), "decade", col, "Metric", controls.smoothing)
+    long["ci_plus"] = long["ci_high"] - long["Percent"]
+    long["ci_minus"] = long["Percent"] - long["ci_low"]
+    fig = px.line(
+        long,
+        x="decade",
+        y="Percent",
+        color="Metric",
+        markers=True,
+        title=title,
+        error_y="ci_plus",
+        error_y_minus="ci_minus",
+    )
     return finish_fig(fig, percent_y=True)
 
 
@@ -1109,24 +1195,21 @@ def boolean_rate_by_category(df: pd.DataFrame, category: str, feature: str, titl
 
 
 def boxplot(df: pd.DataFrame, x: str, y: str, title: str, controls: Controls, color: str | None = None) -> go.Figure:
+    return violin(df, x, y, title, controls, color)
+
+
+def violin(df: pd.DataFrame, x: str, y: str, title: str, controls: Controls, color: str | None = None) -> go.Figure:
     plot_df = valid_df(df, [x, y] + ([color] if color else []), controls).dropna(subset=[x, y])
     if x == "primary_genre":
         top = plot_df[x].value_counts().head(controls.top_n).index
         plot_df = plot_df[plot_df[x].isin(top)]
-    fig = px.box(plot_df, x=x, y=y, color=color or x, points="outliers", title=title, labels={x: label(x), y: label(y)})
+    fig = px.violin(plot_df, x=x, y=y, color=color or x, box=True, points=False, title=title, labels={x: label(x), y: label(y)})
+    fig.update_traces(spanmode="hard")
     fig.update_layout(showlegend=bool(color))
     if y in {"plot_complexity", "violence_intensity", "emotional_intensity"}:
         fig.update_yaxes(range=[0, 5])
-    return finish_fig(fig, height=465)
-
-
-def violin(df: pd.DataFrame, x: str, y: str, title: str, controls: Controls) -> go.Figure:
-    plot_df = valid_df(df, [x, y], controls).dropna(subset=[x, y])
-    if x == "primary_genre":
-        top = plot_df[x].value_counts().head(controls.top_n).index
-        plot_df = plot_df[plot_df[x].isin(top)]
-    fig = px.violin(plot_df, x=x, y=y, color=x, box=True, points=False, title=title, labels={x: label(x), y: label(y)})
-    fig.update_layout(showlegend=False)
+    elif y.endswith("_pct") or y.endswith("_share") or y in {"int_pct", "ext_pct", "night_pct", "day_pct"}:
+        fig.update_yaxes(range=[0, 100])
     return finish_fig(fig, height=465)
 
 

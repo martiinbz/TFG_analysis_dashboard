@@ -1,0 +1,1472 @@
+{
+  "page_count": 63,
+  "page_chars": [
+    204,
+    0,
+    0,
+    32,
+    0,
+    1186,
+    4083,
+    743,
+    4,
+    2339,
+    3479,
+    136,
+    3194,
+    1950,
+    2746,
+    2760,
+    1777,
+    3252,
+    3781,
+    4632,
+    3947,
+    3602,
+    1249,
+    335,
+    2947,
+    2094,
+    1135,
+    1935,
+    2114,
+    1208,
+    2830,
+    2595,
+    1642,
+    1178,
+    2164,
+    2701,
+    1504,
+    1638,
+    2690,
+    2387,
+    2731,
+    2801,
+    2608,
+    4075,
+    2471,
+    252,
+    1413,
+    2338,
+    1883,
+    2185,
+    3430,
+    3109,
+    3657,
+    2329,
+    2969,
+    3108,
+    1363,
+    816,
+    468,
+    618,
+    500,
+    488,
+    317
+  ],
+  "headings": [
+    {
+      "page": 7,
+      "line": "Abstract"
+    },
+    {
+      "page": 13,
+      "line": "Chapter 1"
+    },
+    {
+      "page": 15,
+      "line": "Chapter 2"
+    },
+    {
+      "page": 18,
+      "line": "Chapter 3"
+    },
+    {
+      "page": 20,
+      "line": "references, or social issue indicators, without allowing the model to know anything about what comes"
+    },
+    {
+      "page": 20,
+      "line": "Appendix F for more details in the Evidence Extraction of each feature group)"
+    },
+    {
+      "page": 25,
+      "line": "Chapter 4"
+    },
+    {
+      "page": 35,
+      "line": "Appendix L.4)"
+    },
+    {
+      "page": 42,
+      "line": "Appendix L.7)"
+    },
+    {
+      "page": 46,
+      "line": "Bibliography"
+    },
+    {
+      "page": 47,
+      "line": "Appendix A: Chosen Model technical information ................................................................. 36"
+    },
+    {
+      "page": 47,
+      "line": "Appendix B: Full List of features analyzed ............................................................................. 36"
+    },
+    {
+      "page": 47,
+      "line": "Appendix C: Detailed Prompt Structure .................................................................................. 39"
+    },
+    {
+      "page": 47,
+      "line": "Appendix D: Prompt Constraints and Output Formatting. ...................................................... 39"
+    },
+    {
+      "page": 47,
+      "line": "Appendix E: Notebook and Model Configuration Details ....................................................... 40"
+    },
+    {
+      "page": 47,
+      "line": "Appendix F: Extraction Rules of Different Feature Categories ............................................... 40"
+    },
+    {
+      "page": 47,
+      "line": "Appendix G: Code Snippet of Intermediate Chunk JSON Output........................................... 42"
+    },
+    {
+      "page": 47,
+      "line": "Appendix H: Rule-based Prechecks ......................................................................................... 42"
+    },
+    {
+      "page": 47,
+      "line": "Appendix I: Validation Logic by feature ................................................................................. 42"
+    },
+    {
+      "page": 47,
+      "line": "Appendix J: CORE_FINAL_SCHEMA and Final Payload .................................................... 43"
+    },
+    {
+      "page": 47,
+      "line": "Appendix K: Streamlit Dashboard Details ............................................................................... 44"
+    },
+    {
+      "page": 47,
+      "line": "Appendix L: Supplementary Analysis Figures ........................................................................ 45"
+    },
+    {
+      "page": 48,
+      "line": "Appendix A: Chosen Model technical information"
+    },
+    {
+      "page": 48,
+      "line": "Appendix B: Full List of features analyzed"
+    },
+    {
+      "page": 51,
+      "line": "Appendix C: Detailed Prompt Structure"
+    },
+    {
+      "page": 51,
+      "line": "Appendix D: Prompt Constraints and Output Formatting."
+    },
+    {
+      "page": 52,
+      "line": "Appendix E: Notebook and Model Configuration Details"
+    },
+    {
+      "page": 52,
+      "line": "Appendix F: Extraction Rules of Different Feature Categories"
+    },
+    {
+      "page": 54,
+      "line": "Appendix G: Code Snippet of Intermediate Chunk JSON Output"
+    },
+    {
+      "page": 54,
+      "line": "Appendix H: Rule-based Prechecks"
+    },
+    {
+      "page": 54,
+      "line": "Appendix I: Validation Logic by feature"
+    },
+    {
+      "page": 55,
+      "line": "references), otherwise the model assumes this to be \"unknown\", preventing speculative data entry into"
+    },
+    {
+      "page": 55,
+      "line": "Appendix J: CORE_FINAL_SCHEMA and Final Payload"
+    },
+    {
+      "page": 56,
+      "line": "Appendix K: Streamlit Dashboard Details"
+    },
+    {
+      "page": 57,
+      "line": "Appendix L: Supplementary Analysis Figures"
+    },
+    {
+      "page": 57,
+      "line": "Chapter 4. Figures included in the body are not repeated here. These additional graphs are intended as"
+    },
+    {
+      "page": 57,
+      "line": "conclusion, genre distribution should be considered when reading temporal trends."
+    }
+  ],
+  "captions": [
+    {
+      "page": 11,
+      "line": "Figure 3.1. Main view of the Streamlit Dashboard used to explore the final film analysis"
+    },
+    {
+      "page": 11,
+      "line": "Figure 3.2. Individual film inspection panel showing the extracted features block for a"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.1: Distribution graph of analyzed films by decade .................................................... 14"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.2: Graph showing data reliability across feature blocks ............................................ 15"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.3: Graph showing female dialogue % per decade ...................................................... 16"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.4: Graph showing the comparison of female dialogue share by decade between this"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.6: Graph showing Bechdel Test pass by decade ........................................................ 17"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.8: Graph showing female dialogue share according to Bechdel test results .............. 18"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.9: Graph showing protagonist gender distribution by decade ................................... 19"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.10: Graph showing explicit racial diversity per decade ............................................. 20"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.11: Grap showing explicit LGBTQ+ presence by decade ......................................... 20"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.12: Graph showing identity as primary theme by decade .......................................... 21"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.13: Graph swowing the representation visibility matrix ............................................ 22"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.14: Graph showing economic struggle presence by decade ...................................... 23"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.15: Graph showing distribution of social class representation by decade ................. 23"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.16: Graph showing the average violence intensity through the decades ................... 25"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.17: Graph showing the average dark tone by decade ................................................ 26"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.18: Graph showing the relationship between moral ambiguity and violence intensity"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.19: Graph showing drug culture presence across decades ......................................... 27"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.20: Graph showing institution negativity portrayal by decade .................................. 28"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.21: Graph showing law enforcement portrayal by decade......................................... 29"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.22: Graph showing digital revolution representation per decades ............................. 30"
+    },
+    {
+      "page": 11,
+      "line": "Figure 4.23: Graph showing war references by decade ........................................................... 31"
+    },
+    {
+      "page": 12,
+      "line": "Table 4.1: Comparison table between cloud and local models...............................................................4"
+    },
+    {
+      "page": 16,
+      "line": "Table 2.1: Comparison table between cloud and local models"
+    },
+    {
+      "page": 23,
+      "line": "Figure 3.1. Main view of the Streamlit Dashboard used to explore the final film analysis dataset."
+    },
+    {
+      "page": 24,
+      "line": "Figure 3.2. Individual film inspection panel showing the extracted features block for a selected movie."
+    },
+    {
+      "page": 26,
+      "line": "Figure 4.1: Distribution graph of analyzed films by decade"
+    },
+    {
+      "page": 27,
+      "line": "Figure 4.2: Graph showing data reliability across feature blocks"
+    },
+    {
+      "page": 28,
+      "line": "Figure 4.3: Graph showing female dialogue % per decade"
+    },
+    {
+      "page": 28,
+      "line": "Figure 4.4: Graph showing the comparison of female dialogue share by decade between this analysis and The"
+    },
+    {
+      "page": 29,
+      "line": "Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset."
+    },
+    {
+      "page": 29,
+      "line": "Figure 4.6: Graph showing Bechdel Test pass by decade"
+    },
+    {
+      "page": 30,
+      "line": "Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth"
+    },
+    {
+      "page": 30,
+      "line": "Figure 4.8: Graph showing female dialogue share according to Bechdel test results"
+    },
+    {
+      "page": 31,
+      "line": "Figure 4.9: Graph showing protagonist gender distribution by decade"
+    },
+    {
+      "page": 32,
+      "line": "Figure 4.10: Graph showing explicit racial diversity per decade"
+    },
+    {
+      "page": 32,
+      "line": "Figure 4.11: Grap showing explicit LGBTQ+ presence by decade"
+    },
+    {
+      "page": 33,
+      "line": "Figure 4.12: Graph showing identity as primary theme by decade"
+    },
+    {
+      "page": 34,
+      "line": "Figure 4.13: Graph showing the representation visibility matrix"
+    },
+    {
+      "page": 35,
+      "line": "Figure 4.14: Graph showing economic struggle presence by decade"
+    },
+    {
+      "page": 35,
+      "line": "Figure 4.15: Graph showing distribution of social class representation by decade"
+    },
+    {
+      "page": 37,
+      "line": "Figure 4.16: Graph showing the average violence intensity through the decades"
+    },
+    {
+      "page": 38,
+      "line": "Figure 4.17: Graph showing the average dark tone by decade"
+    },
+    {
+      "page": 38,
+      "line": "Figure 4.18: Graph showing the relationship between moral ambiguity and violence intensity"
+    },
+    {
+      "page": 39,
+      "line": "Figure 4.19: Graph showing drug culture presence across decades"
+    },
+    {
+      "page": 40,
+      "line": "Figure 4.20: Graph showing institution negativity portrayal by decade"
+    },
+    {
+      "page": 41,
+      "line": "Figure 4.21: Graph showing law enforcement portrayal by decade"
+    },
+    {
+      "page": 42,
+      "line": "Figure 4.22: Graph showing digital revolution representation per decades"
+    },
+    {
+      "page": 43,
+      "line": "Figure 4.23: Graph showing war references by decade"
+    },
+    {
+      "page": 57,
+      "line": "Figure L.1: Graph showing coverage by decade and genre"
+    },
+    {
+      "page": 58,
+      "line": "Figure L.2: graph showing Female Dialogue by Genre"
+    },
+    {
+      "page": 58,
+      "line": "Figure L.3: Bechdel Test pass rate by genre"
+    },
+    {
+      "page": 60,
+      "line": "Figure L.6: Economic Struggle by Genre"
+    }
+  ],
+  "duplicate_lines": [
+    {
+      "count": 2,
+      "text": "Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth",
+      "locations": [
+        11,
+        30
+      ]
+    },
+    {
+      "count": 2,
+      "text": "Figure 4.18: Graph showing the relationship between moral ambiguity and violence intensity",
+      "locations": [
+        11,
+        38
+      ]
+    }
+  ],
+  "appendix_refs": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "L.1",
+    "L.2",
+    "L.3",
+    "L.4",
+    "L.5",
+    "L.6",
+    "L.7",
+    "i"
+  ],
+  "figure_refs": [
+    "3.1",
+    "3.2",
+    "4.1",
+    "4.10",
+    "4.11",
+    "4.12",
+    "4.13",
+    "4.14",
+    "4.15",
+    "4.16",
+    "4.17",
+    "4.18",
+    "4.19",
+    "4.2",
+    "4.20",
+    "4.21",
+    "4.22",
+    "4.23",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "L.1",
+    "L.2",
+    "L.3",
+    "L.6"
+  ],
+  "keyword_hits": {
+    "dashboard": [
+      {
+        "page": 10,
+        "snippets": [
+          "_________________________________________ 9 3.8 Output Format and Creating Final Datasets ________________________________ 10 3.9 Streamlit Dashboard for Visual Exploration _______________________________ 10 Results and Discussion ____________________________________________________ 13 4.1 Dataset Coverage and Reliability _____"
+        ]
+      },
+      {
+        "page": 11,
+        "snippets": [
+          "XI Figures List Figure 3.1. Main view of the Streamlit Dashboard used to explore the final film analysis dataset. .................................................................................................................................."
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "changed in cinema since its beginning, we need to convert a dataset of screenplays into a quantifiable map of social history. 3.9 Streamlit Dashboard for Visual Exploration Following production of the final JSON files, we needed to develop an interface where users could visualize the data. For this reason, we built a Streamlit ",
+          "tion of the final JSON files, we needed to develop an interface where users could visualize the data. For this reason, we built a Streamlit Dashboard. Unlike other tools which produce a final interpretation of the results, our goal with this dashboard was to provide a platform for the features to be viewed interactively, either",
+          "For this reason, we built a Streamlit Dashboard. Unlike other tools which produce a final interpretation of the results, our goal with this dashboard was to provide a platform for the features to be viewed interactively, either alone, or side by side. Since we used Streamlit before, we thought it was the perfect library to use,"
+        ]
+      },
+      {
+        "page": 23,
+        "snippets": [
+          "11 Figure 3.1. Main view of the Streamlit Dashboard used to explore the final film analysis dataset. To do this, the Streamlit Dashboard takes the final JSON output files generated at the end of the pipeline and formats those files",
+          "11 Figure 3.1. Main view of the Streamlit Dashboard used to explore the final film analysis dataset. To do this, the Streamlit Dashboard takes the final JSON output files generated at the end of the pipeline and formats those files into tables that can be visualized. Every film is represented as its own table row. ",
+          "This makes comparison of films across decades, genres, social attributes, technical screenplay features and thematic attributes easier. The dashboard is divided into different categorical areas: General Overview, Social Evolution, Narrative Structure, Violence / Morality/Tone, Institutional/Political/Historical and Technology a"
+        ]
+      },
+      {
+        "page": 24,
+        "snippets": [
+          "12 Figure 3.2. Individual film inspection panel showing the extracted features block for a selected movie. Overall, the Streamlit Dashboard functions as the bridge between structured JSON outputs and the final analytical stage of study. It allows the database to be checked, filtered and visualized before presenting th"
+        ]
+      },
+      {
+        "page": 25,
+        "snippets": [
+          "rocessed through the analysis pipeline, this chapter displays the key results gained the final output of the analysis and the visualization dashboard. It is not the intention to detail each graph displayed in the dashboard. Rather, this chapter will focus upon those trends that are more significant for understanding the connect",
+          "ults gained the final output of the analysis and the visualization dashboard. It is not the intention to detail each graph displayed in the dashboard. Rather, this chapter will focus upon those trends that are more significant for understanding the connection between cinema and social progress. The dashboard enables the extract",
+          "his chapter will focus upon those trends that are more significant for understanding the connection between cinema and social progress. The dashboard enables the extracted features to be analyzed over time (decades), genre and thematic categories. Thanks to this, it is feasible to analyze how various aspects of cinema evolve ov"
+        ]
+      },
+      {
+        "page": 26,
+        "snippets": [
+          "en in interpreting them due to potential biases introduced by smaller sample sizes. In addition to demonstrating coverage over decades, the dashboard illustrates other reliability considerations. To minimize errors introduced by potentially incomplete or poorly formatted records, the dashboard applies default filters excluding ",
+          "oard illustrates other reliability considerations. To minimize errors introduced by potentially incomplete or poorly formatted records, the dashboard applies default filters excluding low-quality records, like records containing extremely low word counts or having no identified scenes. This assists in reducing noise within the "
+        ]
+      },
+      {
+        "page": 32,
+        "snippets": [
+          "ether there was a fair representation of Racial Diversity in a film. LGBTQ+ representation differs. As indicated above by data shown in the dashboard, Explicit LGBTQ+ presence has remained extremely low for almost all decades. While present as early as the 1970s, it wasn’t until then that we began to see this form of representa"
+        ]
+      },
+      {
+        "page": 44,
+        "snippets": [
+          "ture has its own difficulties and some of them couldn’t be handled correctly by the pipeline. Apart from that, we think the results and the dashboard are a very good tool for exploring cultural tendencies in scripts, even though they cannot be used as a definitive measurement of cinema. (See Appendix L.5) 4.10 Final Discussion "
+        ]
+      },
+      {
+        "page": 47,
+        "snippets": [
+          ".......... 42 Appendix J: CORE_FINAL_SCHEMA and Final Payload .................................................... 43 Appendix K: Streamlit Dashboard Details ............................................................................... 44 Appendix L: Supplementary Analysis Figures ............................................."
+        ]
+      },
+      {
+        "page": 56,
+        "snippets": [
+          "ology and Events in History. ● Themes: Classified Universal Themes and Secondary Themes based on aggregated evidence. Appendix K: Streamlit Dashboard Details The Streamlit Dashboard has been divided into multiple analytical areas: ● The general overview section displays basic information regarding the database, including total ",
+          "hemes: Classified Universal Themes and Secondary Themes based on aggregated evidence. Appendix K: Streamlit Dashboard Details The Streamlit Dashboard has been divided into multiple analytical areas: ● The general overview section displays basic information regarding the database, including total movies analyzed, years covered i"
+        ]
+      },
+      {
+        "page": 57,
+        "snippets": [
+          "45 There are many global controls available to modify all visual representations available within the dashboard. Users can filter the data based upon release year, decade and main genre. There are additional choices that enable users to remove unknowns, define the minimum number of movies p"
+        ]
+      }
+    ],
+    "pipeline": [
+      {
+        "page": 7,
+        "snippets": [
+          "terns, historical references, and thematic features relevant to social change. To conduct the analysis, the creation of a custom processing pipeline is needed, including GPU workers to run the local model and validation strategies to improve the JSON output. This pipeline implements a hybrid feature extraction, combining LLM b",
+          "stom processing pipeline is needed, including GPU workers to run the local model and validation strategies to improve the JSON output. This pipeline implements a hybrid feature extraction, combining LLM based semantic analysis with deterministic methods such as regular expressions and coding-based counting and parsing. By aggr"
+        ]
+      },
+      {
+        "page": 10,
+        "snippets": [
+          "_____________________________ 6 3.3 Dataset Preparation ___________________________________________________ 7 3.4 Multi-stage Data Analysis Pipeline _______________________________________ 7 3.5 Chunk Level Evidence Extraction ________________________________________ 8 3.6 Script Level Data Synthesis and Feature Integration __"
+        ]
+      },
+      {
+        "page": 11,
+        "snippets": [
+          "..................................................................... 16 Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset. ....................................................................................................................... 17 Figure 4.6: Graph showi"
+        ]
+      },
+      {
+        "page": 17,
+        "snippets": [
+          "d move to the next phase: build an optimized framework to conduct the analysis. This includes constructing a prompt, building the execution pipeline and configuring the model."
+        ]
+      },
+      {
+        "page": 19,
+        "snippets": [
+          "ltaneously using the exact same prompt logic, therefore reducing the total execution time by about 50%. After this, we had a working, tuned pipeline optimized to minimize execution time, thanks to the parallel execution and inference and quality, thanks to the model configuration parameters. 3.3 Dataset Preparation In order to",
+          "stent formatting, hidden characters, or unnecessary blank spaces. To ensure that the text could be processed consistently by the extraction pipeline, we applied a basic normalization step. This process included removing unnecessary whitespace, standardizing line breaks, and eliminating unusual characters that could interfere w",
+          "ecade, and the script source have been obtained. When executed, the metadata variables associated with each field were sent straight to the pipeline so the model could include the metadata in the final structured JSON. 3.4 Multi-stage Data Analysis Pipeline With the data cleaned and standardized, we could already proceed to th"
+        ]
+      },
+      {
+        "page": 20,
+        "snippets": [
+          "ontext. Second, the individual outputs are combined to create a complete analysis of the entire film. This project is based on a multistage pipeline architecture that transforms large amounts of raw, unstructured screenplay text into a very structured JSON format. The first stage in this process is the preprocessing phase, in ",
+          "ateless\" schema to capture raw evidence. Following the extraction stage is a validation/verification layer which includes a specialized sub-pipeline for the Bechdel Test, which was very problematic. The purpose of this layer is to eliminate false positives and ensure data accuracy. Finally, there is an aggregate step that comb",
+          "ort the significance of what was said. By providing the model with a small window of both preceding and following text, we ensured that our pipeline preserved all contextual information that spanned across multiple segments and allowed our extraction process to remain consistent through the entire script. Unlike other approach"
+        ]
+      },
+      {
+        "page": 21,
+        "snippets": [
+          "d into an aggregation of evidence structure so that the model has a full view of the film. The evidence structure created at the end of the pipeline will be combined with the previously calculated deterministic metrics to create the final prompt to produce the full JSON analysis for each film. To prevent duplication and allow ",
+          "than an aggregation of disparate snapshots. As previously mentioned, while the LLM handles the semantic analysis of the script content, the pipeline also calculates various deterministic features using Python. The purpose of creating these deterministic features is to provide a measurable, objective framework against which the",
+          "nplay and therefore reducing the possibility that an element may be overlooked. (See Appendix H for more information). The last step of the pipeline is the creation of the Final Core Prompt. This final core prompt incorporates all information from previous steps (aggregated evidence, Python metrics, speaker analysis, prechecks"
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "10 and cross-reference the LLMs’ narrative conclusions to hard data produced in the pre-processor and chunk sections of the pipeline, providing an additional level of accuracy. To ensure data quality, we developed a verification logic phase for some problematic features. These verification logic phases are appl",
+          "cause in the script it says, “black t-shirt\". (See Appendix I for more information) The fundamental design decision across all steps of the pipeline has been accuracy above speculation and guessing. Therefore, in situations where there is an ambiguous narrative or evidence, the system is designed to default to unknown, none, o",
+          "none, or false classifications rather than arbitrarily selecting one from among many possibilities. As such, the conservative nature of the pipeline minimizes noise in the resultant dataset and allows for reliable comparisons to be made. 3.8 Output Format and Creating Final Datasets In this last stage of the process, we descri"
+        ]
+      },
+      {
+        "page": 23,
+        "snippets": [
+          " explore the final film analysis dataset. To do this, the Streamlit Dashboard takes the final JSON output files generated at the end of the pipeline and formats those files into tables that can be visualized. Every film is represented as its own table row. While every table column represents a different feature. This makes com"
+        ]
+      },
+      {
+        "page": 25,
+        "snippets": [
+          "13 Chapter 4 Results and Discussion After the dataset was created and the scripts were processed through the analysis pipeline, this chapter displays the key results gained the final output of the analysis and the visualization dashboard. It is not the intention to detail each graph displayed in the dashb"
+        ]
+      },
+      {
+        "page": 28,
+        "snippets": [
+          "tself. (See Appendix L.2) To check whether this extracted feature was aligned with the reality, the female dialogue share calculated by the pipeline was compared with The Pudding’s Film Dialogue by Gender dataset (Daniels, 2007). This dataset estimates dialogue participation using character word counts by gender. After matchin",
+          "aph showing the comparison of female dialogue share by decade between this analysis and The Pudding dataset. These results suggest that the pipeline does not reproduce the external dataset exactly, which is expected since both datasets are based on different extraction methods, and gender assignments. However, the correlation "
+        ]
+      },
+      {
+        "page": 29,
+        "snippets": [
+          "17 Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset. In addition to the trend toward increased spoken lines for women, the Bechdel Test provides yet another way of analyzing these trends. Although it",
+          "1 percent of films passed the test. Figure 4.6: Graph showing Bechdel Test pass by decade We used the Bechdel test data provided by our own pipeline for comparison with ground truth Bechdel Test Dataset (Alison Yuhan Yao, 2022) to determine how similar our Bechdel test classification was. A comparison of our results resulted i"
+        ]
+      },
+      {
+        "page": 32,
+        "snippets": [
+          " in the most recent decade. Figure 4.11: Grap showing explicit LGBTQ+ presence by decade This lower rate must be examined with caution. The pipeline was built to be very conservative when it comes to identifying LGBTQ+ representation. The pipeline will only count explicit representations of LGBTQ+, which include statements abo",
+          " rate must be examined with caution. The pipeline was built to be very conservative when it comes to identifying LGBTQ+ representation. The pipeline will only count explicit representations of LGBTQ+, which include statements about an individual's identity (e.g. gay), representations of two people of the same sex being in a ro",
+          "le of the same sex being in a romantic relationship or representing one person having feelings for another of the same sex. Due to this the pipeline does not consider representation through implied or non-explicit ways, humor that may have been intended to be humorous but could be misinterpreted as \"queer\", stereotypes or othe"
+        ]
+      },
+      {
+        "page": 44,
+        "snippets": [
+          "ilarly complete and faithful to the final movie cut. Similarly, using Large Language Models introduces additional limitations. Although our pipeline was designed to minimize the potential for errors by being conservative and well structured, an LLM can miss implicit references or misinterpret the ambiguity differently than how",
+          " seriously as others. This was expected, since every feature has its own difficulties and some of them couldn’t be handled correctly by the pipeline. Apart from that, we think the results and the dashboard are a very good tool for exploring cultural tendencies in scripts, even though they cannot be used as a definitive measure"
+        ]
+      },
+      {
+        "page": 48,
+        "snippets": [
+          "ould be much longer. Appendix B: Full List of features analyzed The following features correspond to the analytical blocks extracted by the pipeline: Narrative and genre characteristics This block contains the features that describe the plot, their central characters and overall dramatic tone. It includes the following feature"
+        ]
+      },
+      {
+        "page": 51,
+        "snippets": [
+          "ons to Real World Events Features Table Appendix C: Detailed Prompt Structure This is an outline of the structure of the prompt used in the pipeline, the major parts include: 1. Role assignment: The first line of every prompt assigns the model to a particular role (\"You are an evidence extractor for screening play analysis.\"),"
+        ]
+      },
+      {
+        "page": 53,
+        "snippets": [
+          "sex relationships or explicit expressions of same-sex desire are included. Additionally, to prevent false positives being identified in the pipeline, the model has been designed to remove \"queer coding\" based on stereotypes as well as any humoristic/insultive/coercion that does not constitute authentic representation. By being"
+        ]
+      },
+      {
+        "page": 54,
+        "snippets": [
+          "s so if the script references collective actions or protests, campaigns, or specifically named social movements. With this stipulation, the pipeline limits itself to only what is on the script. Therefore, you get an even more objective analysis of how films acknowledge or ignore the politics and historical events of their resp",
+          "eature 1. Bechdel Verification Logic A test that is both critical and fragile. To assure the reliability of its output, the data processing pipeline has a verification step, which verifies a set of very strict criteria: The two females must be named in the script. They must interact with each other directly. And the dialogue e"
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          "ogic The identification of the main character(s) within an ensemble or ambiguous script can also be difficult for the model. Therefore, the pipeline uses a deterministic speaker distribution (counts and dialogue share) that was generated by identifying each character’s percentage of total dialogue. The LLM then compares its na",
+          "ds, or if all characters qualify as equal leads. 4. Racial/Minority Representation Logic Race and minority representation is handled by the pipeline in a very conservative way. The majority of screenplays do not include an explicit description of race, therefore the model will not make a determination based on name or cultural"
+        ]
+      }
+    ],
+    "appendix": [
+      {
+        "page": 16,
+        "snippets": [
+          " 7B parameters, instruction tuned for structured outputs (perfect for our JSON formatting) and AWQ quantization for local feasibility. (See Appendix A)"
+        ]
+      },
+      {
+        "page": 17,
+        "snippets": [
+          " possible responses in every feature, so the model must choose the one that fits the best, without generating answers outside the set. (See Appendix B) Once all the blocks and features we wanted to analyze were defined, and the dataset was constructed, we could move to the next phase: build an optimized framework to conduct th"
+        ]
+      },
+      {
+        "page": 18,
+        "snippets": [
+          ". Therefore, our prompt designs were created to be as consistent as possible across all scripts to make comparisons of results viable. (See Appendix D). To be able to communicate correctly with the model, and following the prompt engineering theory, we divided the prompts into different sections or components to ensure the mod",
+          "are as explicit as possible. The prompt components are Role assignment, Task Definition, Feature Instructions and Category Constraints (See Appendix C for more detail). After having the initial prompt, we had to test it and tune it based on the model’s reaction to that prompt. Prompt development is an important step in develop"
+        ]
+      },
+      {
+        "page": 19,
+        "snippets": [
+          "7 until speed, performance and quality were the desired. (See Appendix E for more information in dependencies, configuration and frameworks used for the model). In order to speed up processing times across thousands of scripts, the design of the exec"
+        ]
+      },
+      {
+        "page": 20,
+        "snippets": [
+          "lated evidence, social and institutional signals, historical and political references and violence, sexuality and contextual features. (See Appendix F for more details in the Evidence Extraction of each feature group) To ensure the LLM follows these strict rules, the extraction is done with a structured schema, where each chun"
+        ]
+      },
+      {
+        "page": 21,
+        "snippets": [
+          "9 This structured approach ensures that the model acts as a data extractor rather than a film critic, providing objective results. (See Appendix G for more information). 3.6 Script Level Data Synthesis and Feature Integration This step combines the individual chunk data into one single script report. A single output will b",
+          "o the final prompt that certain themes exist in a screenplay and therefore reducing the possibility that an element may be overlooked. (See Appendix H for more information). The last step of the pipeline is the creation of the Final Core Prompt. This final core prompt incorporates all information from previous steps (aggregate",
+          "ve classification of all relevant dimensions of a film, ensuring that all features are consistent in format and prepared for analysis. (See Appendix K for more information) 3.7 Post-Processing and Validation Following the generation of the final output from the LLM, the model’s output is not accepted blindly. Since it has been"
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "t understand completely the context, for example categorizing the protagonist as black because in the script it says, “black t-shirt\". (See Appendix I for more information) The fundamental design decision across all steps of the pipeline has been accuracy above speculation and guessing. Therefore, in situations where there is ",
+          " categories: title/year/ID, script/dialogue/scenes, character/representation, social conflict/institution/technology/events and themes (See appendix J for more information) To make sure our pipeline was not simply a black box, we included an evidence payload section in our JSON. Each piece of evidence, including the exact dial"
+        ]
+      },
+      {
+        "page": 23,
+        "snippets": [
+          " and future, as well as a cross-analysis section containing useful graphs crossing different categories, a chart explorer and creator. (See Appendix K) Lastly, we include a film view within the dashboard. In this section each individual movie can be selected and inspected individually. All the features analyzed for that movie "
+        ]
+      },
+      {
+        "page": 26,
+        "snippets": [
+          "t, scene count or dialog density can be informative metrics, they are relatively sensitive to quality and organization within scripts. (See Appendix L.1)"
+        ]
+      },
+      {
+        "page": 28,
+        "snippets": [
+          "en appear in greater numbers on screen today, but that they are also taking a more active role in the development of the story itself. (See Appendix L.2) To check whether this extracted feature was aligned with the reality, the female dialogue share calculated by the pipeline was compared with The Pudding’s Film Dialogue by Ge"
+        ]
+      },
+      {
+        "page": 33,
+        "snippets": [
+          "roved at the same rate during the past few decades, it does indicate that there are greater efforts to increase visibility in general. (See Appendix L.3)"
+        ]
+      },
+      {
+        "page": 35,
+        "snippets": [
+          "tragic ending. This could lead us to conclude that having money troubles will typically lead to less optimistic narrative conclusions. (See Appendix L.4) This pattern highlights the way in which cinema creates social conditions and translates them into an emotion-based media. The film does not just depict economic hardship as "
+        ]
+      },
+      {
+        "page": 39,
+        "snippets": [
+          "dicates a society re-examining itself and its beliefs about authority, safety, individuality and the existence of clear moral answers. (See Appendix L.5)"
+        ]
+      },
+      {
+        "page": 41,
+        "snippets": [
+          "ost obvious ways in which cinema represents social transformation in how people think politically and have confidence in institutions. (See Appendix L.6) 4.7 Technology, Science and Digitalization Technology has been an important way for movies to show how culture evolves. The same thing happens in other areas of life like sci"
+        ]
+      },
+      {
+        "page": 42,
+        "snippets": [
+          " contemporary culture, they provide a representation of the doubts and contradictions associated with the incorporation of technology. (See Appendix L.7)"
+        ]
+      },
+      {
+        "page": 44,
+        "snippets": [
+          " a very good tool for exploring cultural tendencies in scripts, even though they cannot be used as a definitive measurement of cinema. (See Appendix L.5) 4.10 Final Discussion The overall results of this chapter support the main idea of the project: cinema can be studied as a cultural mirror of society. Even though it does not"
+        ]
+      },
+      {
+        "page": 47,
+        "snippets": [
+          "35 Appendix Appendix A: Chosen Model technical information ................................................................. 36 Appendix B: Full List of features analyzed ....................",
+          "35 Appendix Appendix A: Chosen Model technical information ................................................................. 36 Appendix B: Full List of features analyzed .............................",
+          "35 Appendix Appendix A: Chosen Model technical information ................................................................. 36 Appendix B: Full List of features analyzed ............................................................................. 36 Appendix C: Detailed Prompt Structure .........................."
+        ]
+      },
+      {
+        "page": 48,
+        "snippets": [
+          "36 Appendix A: Chosen Model technical information The chosen model was Qwen2.5-7B-Instruct-AWQ, we chose it because of its balance between capacity, cost and size. Its technical specification",
+          "t no quality. Without this compression, the local deployment would be a lot heavier, and the time to process a script would be much longer. Appendix B: Full List of features analyzed The following features correspond to the analytical blocks extracted by the pipeline: Narrative and genre characteristics This block contains the"
+        ]
+      },
+      {
+        "page": 51,
+        "snippets": [
+          "ate reference Financial Crysis, BLM... Social movement focus Feminism, LGBTQ rights... B.4: Connections to Real World Events Features Table Appendix C: Detailed Prompt Structure This is an outline of the structure of the prompt used in the pipeline, the major parts include: 1. Role assignment: The first line of every prompt as",
+          "trictive: therefore, they require the model to generate either an empty list or “none/unknown” if evidence is insufficient or non-existent. Appendix D: Prompt Constraints and Output Formatting. To develop the prompt, the factors to be analyzed (described in Chapter 2.3) were identified: they were organized into an appropriate "
+        ]
+      },
+      {
+        "page": 52,
+        "snippets": [
+          "lly, we included specifications for how missing information was handled and defined the expected JSON schema that the model should produce. Appendix E: Notebook and Model Configuration Details ● Inference Framework: due to compatibility issues with the available GPU resources, as well as its high-performance capabilities at an",
+          "ted for that script, they would skip on to the next script. This feature was very useful, especially due to Kaggle’s 12-hour session limit. Appendix F: Extraction Rules of Different Feature Categories All categories were extracted using conservative evidence-first criteria. The approach used for extracting each block is the fo"
+        ]
+      },
+      {
+        "page": 54,
+        "snippets": [
+          "e, you get an even more objective analysis of how films acknowledge or ignore the politics and historical events of their respective times. Appendix G: Code Snippet of Intermediate Chunk JSON Output The following is a simplified example of an intermediate chunk-level output: { \"chunk_summary\": \"Protagonist enters the laborator",
+          "], \"lgbtq_evidence\": [], \"social_signals\": [ {\"type\": \"technology\", \"evidence\": \"Reference to neura-link\"} ], \"historical_references\": [] } Appendix H: Rule-based Prechecks The following prechecks were used to detect signals and validate consistency, but they were not used to sustitute the LLM: ● Narrative Markers: Identificat",
+          "ers: Identification of terms related to governmental institutions, corporations, or law enforcement agencies. (police, ACAB, corruption...) Appendix I: Validation Logic by feature 1. Bechdel Verification Logic A test that is both critical and fragile. To assure the reliability of its output, the data processing pipeline has a "
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          "n process, then either the category is refined or marked accordingly to ensure that the labels accurately reflect the content of the story. Appendix J: CORE_FINAL_SCHEMA and Final Payload The final classification is made by a payload like this: final_prompt = build_final_core_prompt( metadata=tmdb_metadata, py_metrics=computed"
+        ]
+      },
+      {
+        "page": 56,
+        "snippets": [
+          "t, Institutions, Technology and Events in History. ● Themes: Classified Universal Themes and Secondary Themes based on aggregated evidence. Appendix K: Streamlit Dashboard Details The Streamlit Dashboard has been divided into multiple analytical areas: ● The general overview section displays basic information regarding the dat"
+        ]
+      },
+      {
+        "page": 57,
+        "snippets": [
+          "t occur evenly throughout each decade, and there are a substantial number of unknown/conservative classifications present in most features. Appendix L: Supplementary Analysis Figures This appendix includes supplementary results visualizations that support the main findings discussed in Chapter 4. Figures included in the body a",
+          " are a substantial number of unknown/conservative classifications present in most features. Appendix L: Supplementary Analysis Figures This appendix includes supplementary results visualizations that support the main findings discussed in Chapter 4. Figures included in the body are not repeated here. These additional graphs ar"
+        ]
+      }
+    ],
+    "Figure 4": [
+      {
+        "page": 11,
+        "snippets": [
+          "elected movie. ......................................................................................................................... 12 Figure 4.1: Distribution graph of analyzed films by decade .................................................... 14 Figure 4.2: Graph showing data reliability across feature blocks ........",
+          "..................... 12 Figure 4.1: Distribution graph of analyzed films by decade .................................................... 14 Figure 4.2: Graph showing data reliability across feature blocks ............................................ 15 Figure 4.3: Graph showing female dialogue % per decade ....................",
+          "....................... 14 Figure 4.2: Graph showing data reliability across feature blocks ............................................ 15 Figure 4.3: Graph showing female dialogue % per decade ...................................................... 16 Figure 4.4: Graph showing the comparison of female dialogue share by decade"
+        ]
+      },
+      {
+        "page": 26,
+        "snippets": [
+          "14 Figure 4.1: Distribution graph of analyzed films by decade Therefore, this project demonstrates a considerable amount of chronological coverage allowing comparative analyses among nearly a"
+        ]
+      },
+      {
+        "page": 27,
+        "snippets": [
+          "15 Figure 4.2: Graph showing data reliability across feature blocks 4.2 Gender Representation: Visibility, Participation and Influence on the Storyline A key dimension for this study is gende"
+        ]
+      },
+      {
+        "page": 28,
+        "snippets": [
+          "16 Figure 4.3: Graph showing female dialogue % per decade This result is significant as dialogue is generally considered to be a stronger indicator of a woman’s role in a film than simply her",
+          "oints, and a root mean squared error (RMSE) of 15.74 points, with a Pearson correlation of r = 0.75 and a Spearman correlation of ρ = 0.69. Figure 4.4: Graph showing the comparison of female dialogue share by decade between this analysis and The Pudding dataset. These results suggest that the pipeline does not reproduce the ex"
+        ]
+      },
+      {
+        "page": 29,
+        "snippets": [
+          "17 Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset. In addition to the trend toward increased spoken lines for women, the Bechdel T",
+          "ts. Specifically, during the 2000s, 26.6 percent of films passed the Bechdel Test. During the 2010s, 42.1 percent of films passed the test. Figure 4.6: Graph showing Bechdel Test pass by decade We used the Bechdel test data provided by our own pipeline for comparison with ground truth Bechdel Test Dataset (Alison Yuhan Yao, 20"
+        ]
+      },
+      {
+        "page": 30,
+        "snippets": [
+          "18 Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth The connection between the Bechdel Test and female dialogue can be particularly important. With re",
+          "Thus, in addition to being a symbolic measure, the Bechdel Test has some relevance to differences in how much narrative space women occupy. Figure 4.8: Graph showing female dialogue share according to Bechdel test results Another significant result from this analysis includes changes for female protagonists as well. As seen ab"
+        ]
+      },
+      {
+        "page": 31,
+        "snippets": [
+          "19 Figure 4.9: Graph showing protagonist gender distribution by decade These findings relate to several broad societal trends. Gender equality has been more debated over the last few decades "
+        ]
+      },
+      {
+        "page": 32,
+        "snippets": [
+          "20 Values for each decade are: 32.4% for the 1980s, 35.2% for the 1990s, 33.7% for the 2000s, 32.3% for the 2010s, and 32.9% for the 2020s. Figure 4.10: Graph showing explicit racial diversity per decade The findings suggest that Racial Diversity has been becoming an increasingly common feature in Film Scripts since the last t",
+          "d finally in the 2020s, we had 6.6%. While these numbers are still quite small, they do indicate an upward trend in the most recent decade. Figure 4.11: Grap showing explicit LGBTQ+ presence by decade This lower rate must be examined with caution. The pipeline was built to be very conservative when it comes to identifying LGBT"
+        ]
+      },
+      {
+        "page": 33,
+        "snippets": [
+          "n their characters, but also are using character diversity to explore questions about identity like “who am I?”, “which is my purpose?” ... Figure 4.12: Graph showing identity as primary theme by decade The findings are particularly relevant to current social issues. Issues such as race, gender, sexual orientation, being part "
+        ]
+      },
+      {
+        "page": 34,
+        "snippets": [
+          "22 Figure 4.13: Graph showing the representation visibility matrix 4.4 Class, Economic Struggle and Social Anxiety Representing classes on screen is an additional method for examining how cin"
+        ]
+      },
+      {
+        "page": 35,
+        "snippets": [
+          "23 Figure 4.14: Graph showing economic struggle presence by decade It can be deduced from these findings that screenwriters have used financial struggles as a form of conflict. The peak durin",
+          "ame socioeconomic realities, many of which include money, jobs, family stability, social mobility and simply making it through another day. Figure 4.15: Graph showing distribution of social class representation by decade The way in which a class represents characters can be seen as an influence on how a story's emotional direc"
+        ]
+      },
+      {
+        "page": 37,
+        "snippets": [
+          "25 Figure 4.16: Graph showing the average violence intensity through the decades Beginning in the post-war years, an appropriate historical interpretation can be found. While the decades imme"
+        ]
+      },
+      {
+        "page": 38,
+        "snippets": [
+          "26 Figure 4.17: Graph showing the average dark tone by decade The dark atmosphere of the latter half of this century was mainly due to a number of significant social changes. At the same time",
+          "e overall trajectory of the development of modern cinema and particularly after the constraints of classical models of good vs. evil began. Figure 4.18: Graph showing the relationship between moral ambiguity and violence intensity"
+        ]
+      },
+      {
+        "page": 39,
+        "snippets": [
+          "ine epidemics, the \"War on Drugs\" and the increased awareness of addiction as a both personal issue and a structural problem by the public. Figure 4.19: Graph showing drug culture presence across decades Film has rarely used drug culture as an indifferent element. Instead, drugs have been associated with rebellion, marginality"
+        ]
+      },
+      {
+        "page": 40,
+        "snippets": [
+          "h Century. It has been evident since then that cinema is becoming increasingly skeptical of governmental, corporate and judicial authority. Figure 4.20: Graph showing institution negativity portrayal by decade This trend may be related to larger, historical trends. For many societies during the latter half of the 20th Century,"
+        ]
+      },
+      {
+        "page": 41,
+        "snippets": [
+          "29 Figure 4.21: Graph showing law enforcement portrayal by decade One of the most interesting cross-results is the correlation of film portrayals of police with racial diversity. When racial "
+        ]
+      },
+      {
+        "page": 42,
+        "snippets": [
+          "30 today, movies are beginning to reflect our increasingly digitally interconnected world within their stories. Figure 4.22: Graph showing digital revolution representation per decades The trend in how the film industry portrays technology can be connected to many of the larger, historical technolog"
+        ]
+      },
+      {
+        "page": 43,
+        "snippets": [
+          ", the representation of violence in film seems to be more related to a continuing process of remembering, evaluating and debating violence. Figure 4.23: Graph showing war references by decade The three biggest war-related signals come from:  Vietnam (with an occurrence rate of 9.2%),  WWII (with an occurrence rate of 5.4%) "
+        ]
+      },
+      {
+        "page": 57,
+        "snippets": [
+          "ndent causal evidence. L.1 Dataset Coverage and Reliability Figure L.1: Graph showing coverage by decade and genre This heatmap complements Figure 4.1 by showing that coverage is not only uneven across decades, but also across genres. Drama is the largest genre in the dataset, followed by action and comedy. In conclusion, genr"
+        ]
+      }
+    ],
+    "Bechdel": [
+      {
+        "page": 11,
+        "snippets": [
+          ".............................................................................................................. 17 Figure 4.6: Graph showing Bechdel Test pass by decade ........................................................ 17 Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth .........",
+          "chdel Test pass by decade ........................................................ 17 Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth .................................................................................................................................................. 18 F",
+          "........................................................................... 18 Figure 4.8: Graph showing female dialogue share according to Bechdel test results .............. 18 Figure 4.9: Graph showing protagonist gender distribution by decade ................................... 19 Figure 4.10: Graph showing explicit racia"
+        ]
+      },
+      {
+        "page": 17,
+        "snippets": [
+          " (34 features): this section covers representation, sexuality, race, class, family dynamics, violence, morality, science, and institutions (Bechdel Test, LGBTQ presence, Sexual content presence...)  Connections to real-world historical events (6 features). This section captures direct links between the screenplay and named w"
+        ]
+      },
+      {
+        "page": 18,
+        "snippets": [
+          " or a single piece, it works like a multi-stage pipe consisting of three parts of the prompt: a stateless chunk extraction part, a separate Bechdel Test evaluation part, and the last part which is a core analyzer. 3.2 Implementation Core This section defines how the analysis process was implemented technically after the crite"
+        ]
+      },
+      {
+        "page": 20,
+        "snippets": [
+          "o capture raw evidence. Following the extraction stage is a validation/verification layer which includes a specialized sub-pipeline for the Bechdel Test, which was very problematic. The purpose of this layer is to eliminate false positives and ensure data accuracy. Finally, there is an aggregate step that combines results fro",
+          "eline uses an intermediate “stateless” extraction method. We break each segment down into independent signals of evidence such as potential Bechdel interactions, explicit historical references, or social issue indicators, without allowing the model to know anything about what comes before or after. This approach keeps the mod"
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "lity, we developed a verification logic phase for some problematic features. These verification logic phases are applied for the following: Bechdel Test, LGBTQ representation, protagonist gender and lead structure , racial/minority representation and institution/ historical. In each of these phases, the payload provided by th"
+        ]
+      },
+      {
+        "page": 27,
+        "snippets": [
+          "f female characters) through evaluating women's percentage of dialogue, how often they serve as main characters, and if the movie meets the Bechdel test criteria. The results illustrate a positive trend in women's representation over the last several decades. Although films do not yet depict men and women equally, there appea"
+        ]
+      },
+      {
+        "page": 29,
+        "snippets": [
+          "male dialogue share between pipeline results and The Pudding dataset. In addition to the trend toward increased spoken lines for women, the Bechdel Test provides yet another way of analyzing these trends. Although it is very simple, the Bechdel Test does provide a way to measure whether women have some type of independent pla",
+          "ward increased spoken lines for women, the Bechdel Test provides yet another way of analyzing these trends. Although it is very simple, the Bechdel Test does provide a way to measure whether women have some type of independent place in the overall structure of the film. As indicated above, there is considerable variation in t",
+          " women have some type of independent place in the overall structure of the film. As indicated above, there is considerable variation in the Bechdel Pass Rate over time. However, like the increase in spoken lines for women, there appears to be an upward trend in terms of the Bechdel Pass Rate in each decade studied here. Regar"
+        ]
+      },
+      {
+        "page": 30,
+        "snippets": [
+          "18 Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth The connection between the Bechdel Test and female dialogue can be particularly important. With respect to female dialogue, films with a passing grade ",
+          "18 Figure 4.7: Graphs showing the comparison between our Bechdel results versus ground truth The connection between the Bechdel Test and female dialogue can be particularly important. With respect to female dialogue, films with a passing grade on the Bechdel Test have substantially larger average shares of",
+          "ween the Bechdel Test and female dialogue can be particularly important. With respect to female dialogue, films with a passing grade on the Bechdel Test have substantially larger average shares of female dialogue than films with failing grades. Specifically, films which do not meet the Bechdel Test criteria are shown as havin"
+        ]
+      },
+      {
+        "page": 31,
+        "snippets": [
+          "er-related findings supports the thesis that cinema represents social development. The increases in percentage of female dialogue in films, Bechdel pass rate, and female protagonists clearly indicates a slow progression toward greater female representation in cinema over the past several decades. As stated earlier, while ther"
+        ]
+      },
+      {
+        "page": 33,
+        "snippets": [
+          "representation Visibility Matrix indicates that there are greater values in 2020s than in previous decades for several representations like Bechdel pass rate, percentage of women speaking above 40% of total dialogue, female protagonists, LGBTQ+, non-white protagonists and identity-based themes. While this does not indicate th"
+        ]
+      },
+      {
+        "page": 45,
+        "snippets": [
+          "33 An important area covered in this project relates to the representation of women and minority groups in film. Female dialogue share or Bechdel Test pass rates have been increasing since the 1930s, especially in the last few decades. The same applies to the inclusion of minorities in film today, with LGBTQ+ representation"
+        ]
+      },
+      {
+        "page": 46,
+        "snippets": [
+          "34 Bibliography Anhnv125.(n.d.). Movie Scripts [Dataset]. Hugging Face Alison Yuhan Yao. (2022). Movie Bechdel Test Scores [Dataset]. Kaggle Daniels, M. (2017). Film dialogue from 2,000 screenplays, broken down by gender and age [Dataset]. The Pudding."
+        ]
+      },
+      {
+        "page": 49,
+        "snippets": [
+          "dialogue spoken by a male 1-100 scale Gender power dynamics Gender balance in narrative power Male dominated, female dominated, balanced... Bechdel Test Passes Bechdel Test? True, False",
+          " male 1-100 scale Gender power dynamics Gender balance in narrative power Male dominated, female dominated, balanced... Bechdel Test Passes Bechdel Test? True, False"
+        ]
+      },
+      {
+        "page": 51,
+        "snippets": [
+          "ons of these characteristics, and does not allow it to count jokes, insults, sexual assault, coercion or vague context. When evaluating the Bechdel Test, the model is required to evaluate whether there are two named women present in the script, and exclude generic names like “waitress”,”nurse”, etc. 4. Category Constraints: a"
+        ]
+      },
+      {
+        "page": 52,
+        "snippets": [
+          "for extracting each block is the following: 1. Extraction of Candidate Gender Interactions Prior to beginning the process of conducting the Bechdel-Wallace Test analysis, the model locates potential gender interactions among the named female characters in the film. A key filter has been applied to ensure that the model correc"
+        ]
+      },
+      {
+        "page": 54,
+        "snippets": [
+          "ntist about the ethical implications of the AI project.\", \"gender_interactions\": [ {\"chars\": [\"Alice\", \"Dr. Sarah\"], \"topic\": \"AI ethics\", \"bechdel_candidate\": true} ], \"lgbtq_evidence\": [], \"social_signals\": [ {\"type\": \"technology\", \"evidence\": \"Reference to neura-link\"} ], \"historical_references\": [] } Appendix H: Rule-base",
+          "ernmental institutions, corporations, or law enforcement agencies. (police, ACAB, corruption...) Appendix I: Validation Logic by feature 1. Bechdel Verification Logic A test that is both critical and fragile. To assure the reliability of its output, the data processing pipeline has a verification step, which verifies a set of"
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          " so subtle and not important to the plot, we conducted the analysis taking into account that the model wouldn’t be able to identify all the Bechdel Positive scripts. 2. LGBTQ Validation Logic The system has very strict validating evidence that will eliminate all LGBTQ related signals that could potentially be inaccurate. Ther"
+        ]
+      },
+      {
+        "page": 56,
+        "snippets": [
+          "44 ● Characters and Representation: Results of the Bechdel Test, Protagonist Gender Mapping, Lead Structures, etc. ● Social Conflict, Institutions, Technology, Events: Aggregated Signals for Social Conflict, Institutions, Technology and E",
+          "ys basic information regarding the database, including total movies analyzed, years covered in the database, decades found in the database, Bechdel pass rate and rate of unknown values across features among many other information ● The social evolution section focuses on representation related aspects. It illustrates Bechdel ",
+          "alues across features among many other information ● The social evolution section focuses on representation related aspects. It illustrates Bechdel test, female dialogue share, protagonist gender, LGBTQ+ presence, explicit racial diversity, economic struggle representation... These graphs illustrate broad changes over time in"
+        ]
+      },
+      {
+        "page": 58,
+        "snippets": [
+          "we can see, horror and musical have one of the highest average female dialogue share, while adventure or sci-fi are the lowest. Figure L.3: Bechdel Test pass rate by genre This chart complements the Bechdel by decade result by showing how pass rates vary per genre. We can see how musical, one of the genres with highest female",
+          "age female dialogue share, while adventure or sci-fi are the lowest. Figure L.3: Bechdel Test pass rate by genre This chart complements the Bechdel by decade result by showing how pass rates vary per genre. We can see how musical, one of the genres with highest female dialogue share, also has the most Bechdel passes. We can a",
+          "t by showing how pass rates vary per genre. We can see how musical, one of the genres with highest female dialogue share, also has the most Bechdel passes. We can also find interesting finding like crime or sci-fi having high rates while being the lowest on female dialogue share. This genre breakdown helps avoid interpreting "
+        ]
+      }
+    ],
+    "Pudding": [
+      {
+        "page": 11,
+        "snippets": [
+          ".............................. 16 Figure 4.4: Graph showing the comparison of female dialogue share by decade between this analysis and The Pudding dataset. ............................................................................................ 16 Figure 4.5: Film-level comparison of female dialogue share between pipelin",
+          "............................................ 16 Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset. ....................................................................................................................... 17 Figure 4.6: Graph showing Bechdel Test pass by "
+        ]
+      },
+      {
+        "page": 28,
+        "snippets": [
+          "eck whether this extracted feature was aligned with the reality, the female dialogue share calculated by the pipeline was compared with The Pudding’s Film Dialogue by Gender dataset (Daniels, 2007). This dataset estimates dialogue participation using character word counts by gender. After matching films by title and release y",
+          "Spearman correlation of ρ = 0.69. Figure 4.4: Graph showing the comparison of female dialogue share by decade between this analysis and The Pudding dataset. These results suggest that the pipeline does not reproduce the external dataset exactly, which is expected since both datasets are based on different extraction methods, "
+        ]
+      },
+      {
+        "page": 29,
+        "snippets": [
+          "17 Figure 4.5: Film-level comparison of female dialogue share between pipeline results and The Pudding dataset. In addition to the trend toward increased spoken lines for women, the Bechdel Test provides yet another way of analyzing these trends. Although it is very simple, the Bec"
+        ]
+      },
+      {
+        "page": 46,
+        "snippets": [
+          "echdel Test Scores [Dataset]. Kaggle Daniels, M. (2017). Film dialogue from 2,000 screenplays, broken down by gender and age [Dataset]. The Pudding."
+        ]
+      }
+    ],
+    "LLM": [
+      {
+        "page": 1,
+        "snippets": [
+          "CINEMA AS A MIRROR OF SOCIETY: A LLM-BASED ANALYSIS OF MOVIE SCRIPTS ACROSS TIME TREBALL FI DE GRAU DE Martín Bárcena Zafra Director: Andreas Kaltenbrunner Grau en Enginyeria en Informàtica Curs 2025-2026"
+        ]
+      },
+      {
+        "page": 7,
+        "snippets": [
+          " used as a cultural lens to study the evolution of society across decades through the analysis of movie scripts using Large Language Models(LLMs). The study is based on a dataset of more than 1250 movie scripts from multiple periods, providing a large view of different narrative, thematic, and social patterns. To contribu",
+          "ge view of different narrative, thematic, and social patterns. To contribute to this objective, the project combines prompt engineering and LLMs to extract structured and defined information from screenplays in a consistent way. The analytical framework includes narrative and genre variables, technical features, social an",
+          "o run the local model and validation strategies to improve the JSON output. This pipeline implements a hybrid feature extraction, combining LLM based semantic analysis with deterministic methods such as regular expressions and coding-based counting and parsing. By aggregating the extracted features across decades, the pro"
+        ]
+      },
+      {
+        "page": 8,
+        "snippets": [
+          "la sortida en format JSON. Aquesta canalització implementa una extracció híbrida de característiques, combinant anàlisi semàntica basada en LLMs amb mètodes deterministes com expressions regulars i tècniques de recompte i parsing basades en codi. Mitjançant l’agregació de les característiques extretes al llarg de les dèca",
+          "projecte presenta els guions cinematogràfics com un objecte valuós per estudiar l’evolució de la societat i també explora la capacitat dels LLMs en l’anàlisi estructurada de textos llargs."
+        ]
+      },
+      {
+        "page": 13,
+        "snippets": [
+          "ich makes it difficult to see large-scale trends. Thanks to the arrival of Artificial Intelligence tools, especially Large Language Models (LLMs), we can explore these scripts in a new way. These models can recognize ideas and narrative patterns that repeat or change over time, helping us understand how films reflect the ",
+          "al framework that allows for the identification of narrative, social, cultural and historical aspects of movies with Large Language Models (LLMs) within a structured process for analyzing a very large number of movie scripts. There are four goals associated with achieving this. First, the development of a wide and diverse"
+        ]
+      },
+      {
+        "page": 14,
+        "snippets": [
+          "2 consistent workflow that integrates LLM-based semantic extraction with predetermined rules and deterministic calculations. Third, the transformation of all extracted information into a structured format that facilitates",
+          " values, conflicts and ideologies of the time in which they were produced. Now, with the increasing digitalization of media and the rise of LLMs, there have been greater opportunities to study cinema on a larger scale. Additionally, recent advancements in Natural Language Processing (NLP) and Large Language Models have pr",
+          "portunities for examining lengthy and complex texts. Traditional computational approaches frequently rely on keywords or metadata. However, LLMs allow researchers to analyze at large scale and with much more detail. Despite this potential, most studies continue to focus on reviews, subtitles or shorter forms of textual re"
+        ]
+      },
+      {
+        "page": 15,
+        "snippets": [
+          "ext. 2.2 Large Language Models The analysis of movie scripts at scale requires advanced natural language processing. Large Language Models (LLMs) have emerged as powerful tools for understanding and extracting information from texts, which is why they’re the perfect tool for this project. The world of LLMs has grown signi",
+          "owerful tools for understanding and extracting information from texts, which is why they’re the perfect tool for this project. The world of LLMs has grown significantly in recent years, with more powerful, accurate and accessible models coming out every day, so it is very important to choose the right model for our study.",
+          "l, accurate and accessible models coming out every day, so it is very important to choose the right model for our study. When selecting the LLM that will be used, we need to have several factors considered: the price per token, context window, reasoning capabilities, and most importantly: whether to use a cloud model or a"
+        ]
+      },
+      {
+        "page": 16,
+        "snippets": [
+          "ually and adapt it to your exact architecture Table 2.1: Comparison table between cloud and local models The decision to choose the correct LLM was one of the key decisions for this project. While cloud models are very easy to set up and give great performance, the cost of using a good model is an obstacle. That’s why we ",
+          "is an obstacle. That’s why we decided to go with a local model, because setting it up is a much bigger technical challenge. Running a local LLM means dealing with hardware difficulties: memory management, environment setup, and hardware configurations. You also have to apply techniques such as model quantization and infer"
+        ]
+      },
+      {
+        "page": 18,
+        "snippets": [
+          "ogy In this Chapter, we will discuss in detail the practical aspects of running the Script Analysis with the help of Large Language Models (LLMs). We will outline each stage of the way in which we have processed the scripts dataset using LLMs, starting at the setup of the model within the Python notebook, through to the i",
+          "s with the help of Large Language Models (LLMs). We will outline each stage of the way in which we have processed the scripts dataset using LLMs, starting at the setup of the model within the Python notebook, through to the initial prompt creation through to the result of the processing of the data. 3.1 Prompt Designing, ",
+          "nclude specifying a role for the model, breaking processes into sequential steps, and defining an expected output. As previously mentioned, LLM responses are indeterminate. Therefore, when analyzing two different versions of the same script, there is no guarantee that you will obtain identical results. Therefore, our prom"
+        ]
+      },
+      {
+        "page": 19,
+        "snippets": [
+          "inference and quality, thanks to the model configuration parameters. 3.3 Dataset Preparation In order to feed the unprocessed text into the LLM, the source data required proper preprocessing. The preprocessing phase included cleaning and normalizing the data to ensure all film titles corresponded to only one valid script.",
+          "fere with the model’s behavior or affect tokenization. Thanks to this, we could also reduce the size of each script in tokens, allowing the LLM to process scripts more quickly. Information beyond the actual screenplay can help identify and analyze historical trends. Therefore, metadata fields such as the film title, the r",
+          "f the limited size of the model and its context window, which led to a well-known problem called the “lost in the middle” problem, in which LLMs tend to lose track of retrieving and using information located in the middle of a long input or context. To correct this issue, a multistage data analysis pipeline was created. T"
+        ]
+      },
+      {
+        "page": 20,
+        "snippets": [
+          "he next stage called extraction. In the extraction phase the screenplay text is broken down into smaller sections (chunks) and passed to an LLM for processing using a custom \"stateless\" schema to capture raw evidence. Following the extraction stage is a validation/verification layer which includes a specialized sub-pipeli",
+          "converted into the JSON output. Since the length movie scripts is generally quite long, and because there are limits to how much context an LLM can be aware of when processing a piece of text at once, we developed a chunking strategy. Rather than try to get the LLM to process an entire screenplay in one pass, which would ",
+          "w much context an LLM can be aware of when processing a piece of text at once, we developed a chunking strategy. Rather than try to get the LLM to process an entire screenplay in one pass, which would result in \"lost in the middle\" problems and much slower analysis, we divide each script into segments of around 7000 chara"
+        ]
+      },
+      {
+        "page": 21,
+        "snippets": [
+          "deduped set of evidence representing the entire film, rather than an aggregation of disparate snapshots. As previously mentioned, while the LLM handles the semantic analysis of the script content, the pipeline also calculates various deterministic features using Python. The purpose of creating these deterministic features",
+          "on of power dynamics and lead structures when classifying films during the final classification phase. To provide additional support to the LLM's final classification decision, the notebook uses a variety of rule-based pre-checks. These pre-checks utilize both keyword searches and regular expressions to identify indicator",
+          "incorporates all information from previous steps (aggregated evidence, Python metrics, speaker analysis, prechecks), which then enables the LLM to generate a valid JSON object that adheres strictly to the CORE_FINAL_SCHEMA. As a result, this final object will contain a definitive classification of all relevant dimensions "
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "10 and cross-reference the LLMs’ narrative conclusions to hard data produced in the pre-processor and chunk sections of the pipeline, providing an additional level of accuracy. To ensure data quality, we develo"
+        ]
+      },
+      {
+        "page": 44,
+        "snippets": [
+          "ditional limitations. Although our pipeline was designed to minimize the potential for errors by being conservative and well structured, an LLM can miss implicit references or misinterpret the ambiguity differently than how a human would. This is particularly true for themes such as race, representations of LGBTQ+ and his"
+        ]
+      },
+      {
+        "page": 52,
+        "snippets": [
+          ": due to compatibility issues with the available GPU resources, as well as its high-performance capabilities at an acceptable speed level; vLLM was selected as the inference framework. As a result, both Hugging Face Transformers and PyTorch were used for model load operations and tensor data management. ● AWQ Optimization"
+        ]
+      },
+      {
+        "page": 54,
+        "snippets": [
+          " Rule-based Prechecks The following prechecks were used to detect signals and validate consistency, but they were not used to sustitute the LLM: ● Narrative Markers: Identification of non-linear storytelling and/or specific genre-related cues (flashback, flashforward...) ● Thematic Keywords: Identification of explicit men"
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          "istic speaker distribution (counts and dialogue share) that was generated by identifying each character’s percentage of total dialogue. The LLM then compares its narrative section with the actual amount of dialogue per character, thereby refining the determination of whether there are one or two leads, or if all character",
+          " the resulting JSON against the determinative prechecks (presence of Government, Corporate, Military etc. keywords) for consistency. If the LLM determines the theme is \"War\", however no supporting historical or institutional markers were identified during the script scan process, then either the category is refined or mar"
+        ]
+      }
+    ],
+    "schema": [
+      {
+        "page": 20,
+        "snippets": [
+          "tion phase the screenplay text is broken down into smaller sections (chunks) and passed to an LLM for processing using a custom \"stateless\" schema to capture raw evidence. Following the extraction stage is a validation/verification layer which includes a specialized sub-pipeline for the Bechdel Test, which was very problemat",
+          "ls in the Evidence Extraction of each feature group) To ensure the LLM follows these strict rules, the extraction is done with a structured schema, where each chunk generates an intermediate JSON containing signals and evidence of that specific chunk only, allowing them to aggregate the signals and evidence of all chunks to "
+        ]
+      },
+      {
+        "page": 21,
+        "snippets": [
+          "n metrics, speaker analysis, prechecks), which then enables the LLM to generate a valid JSON object that adheres strictly to the CORE_FINAL_SCHEMA. As a result, this final object will contain a definitive classification of all relevant dimensions of a film, ensuring that all features are consistent in format and prepared for"
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          " of being compared and used to extract conclusions. For each movie script we create a comprehensive JSON object that follows our CORE_FINAL_SCHEMA. Our core_schema represents the standard definition of the movie within the study, while structuring our information along six fundamental categories: title/year/ID, script/dialog",
+          "d and used to extract conclusions. For each movie script we create a comprehensive JSON object that follows our CORE_FINAL_SCHEMA. Our core_schema represents the standard definition of the movie within the study, while structuring our information along six fundamental categories: title/year/ID, script/dialogue/scenes, charac"
+        ]
+      },
+      {
+        "page": 47,
+        "snippets": [
+          " I: Validation Logic by feature ................................................................................. 42 Appendix J: CORE_FINAL_SCHEMA and Final Payload .................................................... 43 Appendix K: Streamlit Dashboard Details ................................................................."
+        ]
+      },
+      {
+        "page": 51,
+        "snippets": [
+          "sis of the output. Therefore, the prompt contains constraints related to category output: “Produce one valid JSON that strictly follows the schema”, including enumerations of acceptable values for each feature, defined in CORE_FINAL_SCHEMA. Missing Information Handling: generative models can produce hallucinations due to mis",
+          "oduce one valid JSON that strictly follows the schema”, including enumerations of acceptable values for each feature, defined in CORE_FINAL_SCHEMA. Missing Information Handling: generative models can produce hallucinations due to missing evidence. The prompts have been designed to be restrictive: therefore, they require the "
+        ]
+      },
+      {
+        "page": 52,
+        "snippets": [
+          " of categories and examples. Additionally, we included specifications for how missing information was handled and defined the expected JSON schema that the model should produce. Appendix E: Notebook and Model Configuration Details ● Inference Framework: due to compatibility issues with the available GPU resources, as well as"
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          "the category is refined or marked accordingly to ensure that the labels accurately reflect the content of the story. Appendix J: CORE_FINAL_SCHEMA and Final Payload The final classification is made by a payload like this: final_prompt = build_final_core_prompt( metadata=tmdb_metadata, py_metrics=computed_metrics, top_speaker",
+          "trics=computed_metrics, top_speakers=speaker_counts, prechecks=deterministic_signals, aggregated_evidences=merged_chunk_outputs ) The final schema “CORE_FINAL_SCHEMA”, was divided and contained the following sections: ● Title and Year and ID: Information about the film (title, year, id). ● Script and Dialogue and Scenes: Sum",
+          "ics, top_speakers=speaker_counts, prechecks=deterministic_signals, aggregated_evidences=merged_chunk_outputs ) The final schema “CORE_FINAL_SCHEMA”, was divided and contained the following sections: ● Title and Year and ID: Information about the film (title, year, id). ● Script and Dialogue and Scenes: Summaries, dialogue de"
+        ]
+      }
+    ],
+    "JSON": [
+      {
+        "page": 7,
+        "snippets": [
+          "e creation of a custom processing pipeline is needed, including GPU workers to run the local model and validation strategies to improve the JSON output. This pipeline implements a hybrid feature extraction, combining LLM based semantic analysis with deterministic methods such as regular expressions and coding-based countin",
+          "personalizada, que incluya trabajadores con GPU para ejecutar el modelo local y estrategias de validación para mejorar la salida en formato JSON. Esta canalización implementa una extracción híbrida de características, combinando análisis semántico basado en LLMs con métodos deterministas como expresiones regulares y técnic"
+        ]
+      },
+      {
+        "page": 8,
+        "snippets": [
+          "executar el model local i estratègies de validació per millorar la sortida en format JSON. Aquesta canalització implementa una extracció híbrida de característiques, combinant anàlisi semàntica basada en LLMs amb mètodes deterministes com expressions regulars i tècniqu"
+        ]
+      },
+      {
+        "page": 16,
+        "snippets": [
+          " up choosing is Qwen2.5-7B-Instruct-AWQ, a middle-sized model with 7B parameters, instruction tuned for structured outputs (perfect for our JSON formatting) and AWQ quantization for local feasibility. (See Appendix A)"
+        ]
+      },
+      {
+        "page": 19,
+        "snippets": [
+          "ata variables associated with each field were sent straight to the pipeline so the model could include the metadata in the final structured JSON. 3.4 Multi-stage Data Analysis Pipeline With the data cleaned and standardized, we could already proceed to the next step. However, extracting complex social or historical attribu"
+        ]
+      },
+      {
+        "page": 20,
+        "snippets": [
+          "ct is based on a multistage pipeline architecture that transforms large amounts of raw, unstructured screenplay text into a very structured JSON format. The first stage in this process is the preprocessing phase, in which the screenplays are cleaned up (for example, removing formatting), and matched with additional externa",
+          "nes results from all the previous steps into one comprehensive global analysis of the movie. This final analysis is then converted into the JSON output. Since the length movie scripts is generally quite long, and because there are limits to how much context an LLM can be aware of when processing a piece of text at once, we",
+          ") To ensure the LLM follows these strict rules, the extraction is done with a structured schema, where each chunk generates an intermediate JSON containing signals and evidence of that specific chunk only, allowing them to aggregate the signals and evidence of all chunks to construct the final JSON."
+        ]
+      },
+      {
+        "page": 21,
+        "snippets": [
+          "he end of the pipeline will be combined with the previously calculated deterministic metrics to create the final prompt to produce the full JSON analysis for each film. To prevent duplication and allow for easier tracking of the overall storyline, evidence collected from all chunks (individual dialogue pieces, scenes, etc.",
+          "tion from previous steps (aggregated evidence, Python metrics, speaker analysis, prechecks), which then enables the LLM to generate a valid JSON object that adheres strictly to the CORE_FINAL_SCHEMA. As a result, this final object will contain a definitive classification of all relevant dimensions of a film, ensuring that "
+        ]
+      },
+      {
+        "page": 22,
+        "snippets": [
+          "tandable to humans and therefore capable of being compared and used to extract conclusions. For each movie script we create a comprehensive JSON object that follows our CORE_FINAL_SCHEMA. Our core_schema represents the standard definition of the movie within the study, while structuring our information along six fundamenta",
+          " (See appendix J for more information) To make sure our pipeline was not simply a black box, we included an evidence payload section in our JSON. Each piece of evidence, including the exact dialogues, candidate events and snippets that supported each conclusion are stored here. So, when we store our results, the entire tra",
+          " of screenplays into a quantifiable map of social history. 3.9 Streamlit Dashboard for Visual Exploration Following production of the final JSON files, we needed to develop an interface where users could visualize the data. For this reason, we built a Streamlit Dashboard. Unlike other tools which produce a final interpreta"
+        ]
+      },
+      {
+        "page": 23,
+        "snippets": [
+          ". Main view of the Streamlit Dashboard used to explore the final film analysis dataset. To do this, the Streamlit Dashboard takes the final JSON output files generated at the end of the pipeline and formats those files into tables that can be visualized. Every film is represented as its own table row. While every table col"
+        ]
+      },
+      {
+        "page": 24,
+        "snippets": [
+          "anel showing the extracted features block for a selected movie. Overall, the Streamlit Dashboard functions as the bridge between structured JSON outputs and the final analytical stage of study. It allows the database to be checked, filtered and visualized before presenting the final results."
+        ]
+      },
+      {
+        "page": 47,
+        "snippets": [
+          "ion Rules of Different Feature Categories ............................................... 40 Appendix G: Code Snippet of Intermediate Chunk JSON Output........................................... 42 Appendix H: Rule-based Prechecks ......................................................................................... 42 "
+        ]
+      },
+      {
+        "page": 48,
+        "snippets": [
+          "at the model has been pretrained to follow instructions and follow structured output formats, perfect for our project, since we need only a JSON output, without noise. ● AWQ: Activation-aware Weight Optimization is a quantization method that compresses the model’s parameters, going from their original precision (16bits) to"
+        ]
+      },
+      {
+        "page": 51,
+        "snippets": [
+          "ll facilitate statistical analysis of the output. Therefore, the prompt contains constraints related to category output: “Produce one valid JSON that strictly follows the schema”, including enumerations of acceptable values for each feature, defined in CORE_FINAL_SCHEMA. Missing Information Handling: generative models can "
+        ]
+      },
+      {
+        "page": 52,
+        "snippets": [
+          "40 determined to use the exact same JSON format for all scripts, with the only field populated being the field that corresponded to the specific output. Finally, the base prompt was constructed. This contained the task d",
+          "tions of categories and examples. Additionally, we included specifications for how missing information was handled and defined the expected JSON schema that the model should produce. Appendix E: Notebook and Model Configuration Details ● Inference Framework: due to compatibility issues with the available GPU resources, as ",
+          "as greatly reduced while very little loss in precision occurred. ● Data Management: Libraries like Pandas were used to manipulate datasets. JSON was used to create a structured format prior to storage for the model's responses. Due to almost all scripts being longer than the context window, we set for the model, we chose t"
+        ]
+      },
+      {
+        "page": 54,
+        "snippets": [
+          "ow films acknowledge or ignore the politics and historical events of their respective times. Appendix G: Code Snippet of Intermediate Chunk JSON Output The following is a simplified example of an intermediate chunk-level output: { \"chunk_summary\": \"Protagonist enters the laboratory and argues with the lead scientist about "
+        ]
+      },
+      {
+        "page": 55,
+        "snippets": [
+          "cal Logic At this stage, the normalized presence of institutions/historical settings are established. The system cross checks the resulting JSON against the determinative prechecks (presence of Government, Corporate, Military etc. keywords) for consistency. If the LLM determines the theme is \"War\", however no supporting hi"
+        ]
+      }
+    ],
+    "OpenAI": [],
+    "gpt": [],
+    "1270": [],
+    "1257": [
+      {
+        "page": 15,
+        "snippets": [
+          " and extensive dataset of movie scripts that cover different decades of cinema history. This section explains how we created the dataset of 1257 movie scripts, making it possible to analyze how society appears in cinema across more than a century. We began with an existing public dataset from HuggingFace, which contained 7",
+          " due to the growth of the film industry itself, every year producing more movies, and hence, more scripts. In the end, we have a dataset of 1257 scripts, distributed from the 1910s to the 2020s. These scripts are stored as 2 columns: one for the title, and the other for the whole script in plain text. 2.2 Large Language Mo"
+        ]
+      }
+    ],
+    "1,257": [],
+    "1931": [
+      {
+        "page": 25,
+        "snippets": [
+          "obviously poor-quality records). Thus, under these conditions, the dashboard depicts 1176 films with documented release years spanning from 1931 – 2026. The dataset spans 10 decades, however, there is an uneven distribution of releases. Most of the scripts come from the 1990’s, 2000’s and 2010’s. Due to this issue, readers",
+          "tionable low-quality records, the final dataset contained approximately 1176 films. Moreover, the release years of these films spanned from 1931 to 2026."
+        ]
+      }
+    ],
+    "2026": [
+      {
+        "page": 1,
+        "snippets": [
+          " SCRIPTS ACROSS TIME TREBALL FI DE GRAU DE Martín Bárcena Zafra Director: Andreas Kaltenbrunner Grau en Enginyeria en Informàtica Curs 2025-2026"
+        ]
+      },
+      {
+        "page": 25,
+        "snippets": [
+          "ly poor-quality records). Thus, under these conditions, the dashboard depicts 1176 films with documented release years spanning from 1931 – 2026. The dataset spans 10 decades, however, there is an uneven distribution of releases. Most of the scripts come from the 1990’s, 2000’s and 2010’s. Due to this issue, readers must c",
+          " low-quality records, the final dataset contained approximately 1176 films. Moreover, the release years of these films spanned from 1931 to 2026."
+        ]
+      }
+    ]
+  }
+}
