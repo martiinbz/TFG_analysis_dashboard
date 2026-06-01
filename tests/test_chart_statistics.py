@@ -51,6 +51,21 @@ def test_stacked_percent_uses_visible_categories_as_denominator():
     assert visible_share == 100.0
 
 
+def test_heatmap_percent_uses_visible_categories_as_denominator():
+    app = load_app_module()
+    df = pd.DataFrame(
+        {
+            "primary_genre": ["Drama", "Drama", "Comedy", "Comedy"],
+            "class_representation": ["working", "unknown", "wealthy", "unknown"],
+        }
+    )
+    controls = app.Controls("mean", 1, "primary_genre", 12, 1, True, False, False, (1960, 1969))
+
+    fig = app.heatmap_percent(df, "primary_genre", "class_representation", "Class Representation", controls)
+
+    assert list(fig.data[0].z) == [100.0, 100.0]
+
+
 def test_stacked_percent_keeps_none_as_a_real_category():
     app = load_app_module()
     df = pd.DataFrame(
