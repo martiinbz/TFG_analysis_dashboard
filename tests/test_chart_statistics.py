@@ -100,6 +100,76 @@ def test_bootstrap_intervals_use_error_bars_without_extra_traces():
     assert tuple(fig.data[0].error_y.arrayminus) == (0.0,)
 
 
+def test_bechdel_by_decade_uses_confidence_intervals():
+    app = load_app_module()
+    fig = app.bechdel_by_decade(
+        pd.DataFrame(
+            {
+                "title": [f"F{i}" for i in range(8)],
+                "decade": ["1980s"] * 4 + ["1990s"] * 4,
+                "bechdel_test": [True, False, True, False, True, True, False, False],
+            }
+        ),
+        app.Controls("mean", 1, "decade", 12, 1, True, False, False, (1980, 1999)),
+    )
+
+    assert len(fig.data) == 1
+    assert tuple(fig.data[0].error_y.array) == tuple(fig.data[0].error_y.arrayminus)
+    assert all(value >= 0 for value in fig.data[0].error_y.array)
+
+
+def test_protagonist_gender_stacks_female_at_bottom():
+    app = load_app_module()
+    fig = app.stacked_percent(
+        pd.DataFrame(
+            {
+                "title": ["A", "B", "C"],
+                "decade": ["2000s", "2000s", "2000s"],
+                "protagonist_gender": ["male", "female", "ensemble"],
+            }
+        ),
+        "decade",
+        "protagonist_gender",
+        "Protagonist Gender",
+        app.Controls("mean", 1, "decade", 12, 1, True, False, False, (2000, 2009)),
+    )
+
+    assert fig.data[0].name == "female"
+
+
+def test_female_dialogue_reference_metrics_include_bias_and_p_values():
+    app = load_app_module()
+    matched = pd.DataFrame(
+        {
+            "local_female_dialogue_share_pct": [10, 30, 60, 90, 95],
+            "reference_female_dialogue_share_pct": [12, 35, 55, 85, 100],
+            "female_dialogue_error_pct": [-2, -5, 5, 5, -5],
+        }
+    )
+
+    metrics = app.female_dialogue_reference_metrics(matched)
+
+    assert metrics["mean_error"] == -0.4
+    assert 0 <= metrics["pearson_p"] <= 1
+    assert 0 <= metrics["spearman_p"] <= 1
+
+
+def test_female_dialogue_majority_chart_counts_films_by_decade():
+    app = load_app_module()
+    fig = app.female_dialogue_majority_by_decade(
+        pd.DataFrame(
+            {
+                "title": ["A", "B", "C", "D"],
+                "decade": ["1990s", "1990s", "2000s", "2000s"],
+                "female_dialogue_share_pct": [51, 50, 75, 20],
+            }
+        ),
+        app.Controls("mean", 1, "decade", 12, 1, True, False, False, (1990, 2009)),
+    )
+
+    assert list(fig.data[0].y) == [1, 1]
+
+
 def test_violin_percentage_axis_stays_in_percent_range():
     app = load_app_module()
     fig = app.violin(

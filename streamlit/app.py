@@ -14,6 +14,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+from scipy import stats
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -1057,6 +1058,10 @@ def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, control
     grouped["Percent"] = np.where(totals > 0, grouped["Films"] / totals * 100, 0)
     if x == "decade":
         grouped = sorted_by_decade(grouped, x)
+    color_order = {"female": 0, "male": 1, "ensemble": 2, "unknown": 3} if category == "protagonist_gender" else None
+    if color_order:
+        grouped["_category_order"] = grouped[category].map(color_order).fillna(len(color_order))
+        grouped = grouped.sort_values([x, "_category_order"])
     fig = px.bar(
         grouped,
         x=x,
@@ -1064,6 +1069,7 @@ def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, control
         color=category,
         title=title,
         labels={x: label(x), category: label(category), "Percent": "%"},
+        category_orders={category: list(color_order)} if color_order else None,
     )
     fig.update_layout(barmode="stack")
     return finish_fig(fig, percent_y=True)
@@ -1541,11 +1547,28 @@ def technology_vs_dark_disturbing(df: pd.DataFrame, controls: Controls) -> go.Fi
 def bechdel_by_decade(df: pd.DataFrame, controls: Controls) -> go.Figure:
     plot_df = valid_df(df, ["decade", "bechdel_test"], controls).dropna(subset=["decade"])
     plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
-    grouped = plot_df.groupby("decade", dropna=False).agg(Rate=("bechdel_test", "mean"), Films=("title", "count")).reset_index()
-    grouped["Percent"] = grouped["Rate"] * 100
+    counts = plot_df.groupby("decade", dropna=False).agg(Films=("title", "count")).reset_index()
+    grouped = bootstrap_ci_by_decade(plot_df, "bechdel_test", "rate", target=True)
+    grouped = grouped.merge(counts, on="decade", how="left").rename(columns={"value": "Percent"})
+    grouped["Percent"] *= 100
+    grouped["ci_low"] *= 100
+    grouped["ci_high"] *= 100
+    for col in ["Percent", "ci_low", "ci_high"]:
+        grouped = apply_smoothing(sorted_by_decade(grouped), "decade", col, None, controls.smoothing)
+    grouped["ci_plus"] = grouped["ci_high"] - grouped["Percent"]
+    grouped["ci_minus"] = grouped["Percent"] - grouped["ci_low"]
     grouped["Decade"] = grouped["decade"].astype(str) + "<br>n=" + grouped["Films"].astype(str)
     grouped = sorted_by_decade(grouped)
-    fig = px.line(grouped, x="Decade", y="Percent", markers=True, title="Bechdel Pass Rate by Decade", labels={"Percent": "%"})
+    fig = px.line(
+        grouped,
+        x="Decade",
+        y="Percent",
+        markers=True,
+        title="Bechdel Pass Rate by Decade",
+        labels={"Percent": "%"},
+        error_y="ci_plus",
+        error_y_minus="ci_minus",
+    )
     return finish_fig(fig, percent_y=True)
 
 
@@ -1710,17 +1733,44 @@ def female_dialogue_reference_metrics(matched: pd.DataFrame) -> dict[str, float]
     mae = float(error.abs().mean())
     rmse = float(np.sqrt(np.mean(np.square(error))))
     pair = matched[["local_female_dialogue_share_pct", "reference_female_dialogue_share_pct"]].dropna()
-    pearson = pair["local_female_dialogue_share_pct"].corr(pair["reference_female_dialogue_share_pct"])
-    spearman = pair["local_female_dialogue_share_pct"].rank().corr(
-        pair["reference_female_dialogue_share_pct"].rank()
-    )
+    if len(pair) >= 3:
+        pearson_result = stats.pearsonr(pair["local_female_dialogue_share_pct"], pair["reference_female_dialogue_share_pct"])
+        spearman_result = stats.spearmanr(pair["local_female_dialogue_share_pct"], pair["reference_female_dialogue_share_pct"])
+        pearson, pearson_p = pearson_result.statistic, pearson_result.pvalue
+        spearman, spearman_p = spearman_result.statistic, spearman_result.pvalue
+    else:
+        pearson = pearson_p = spearman = spearman_p = np.nan
     return {
         "mae": mae,
         "rmse": rmse,
         "pearson": float(pearson) if pd.notna(pearson) else np.nan,
+        "pearson_p": float(pearson_p) if pd.notna(pearson_p) else np.nan,
         "spearman": float(spearman) if pd.notna(spearman) else np.nan,
+        "spearman_p": float(spearman_p) if pd.notna(spearman_p) else np.nan,
         "mean_error": float(error.mean()),
     }
+
+
+def female_dialogue_majority_by_decade(df: pd.DataFrame, controls: Controls) -> go.Figure:
+    plot_df = valid_df(df, ["decade", "female_dialogue_share_pct"], controls).dropna(subset=["decade", "female_dialogue_share_pct"]).copy()
+    plot_df = filter_min_decade(plot_df, controls.min_films_per_decade)
+    plot_df["FemaleDialogueMajority"] = pd.to_numeric(plot_df["female_dialogue_share_pct"], errors="coerce").gt(50)
+    grouped = (
+        plot_df.groupby("decade", dropna=False)
+        .agg(Films=("FemaleDialogueMajority", "sum"), Total=("title", "count"))
+        .reset_index()
+    )
+    grouped = sorted_by_decade(grouped)
+    grouped["Decade"] = grouped["decade"].astype(str) + "<br>n=" + grouped["Total"].astype(str)
+    fig = px.bar(
+        grouped,
+        x="Decade",
+        y="Films",
+        title="Films with More Than 50% Female Dialogue",
+        labels={"Films": "Films", "Decade": "Decade"},
+        hover_data={"Total": True, "Films": True},
+    )
+    return finish_fig(fig, height=430)
 
 
 def female_dialogue_reference_scatter(matched: pd.DataFrame) -> go.Figure:
@@ -1814,15 +1864,23 @@ def render_female_dialogue_reference_validation(df: pd.DataFrame) -> None:
         return
 
     metrics = female_dialogue_reference_metrics(matched)
-    c = st.columns(5)
+    c = st.columns(6)
     c[0].metric("Matched films", f"{len(matched):,}")
     c[1].metric("MAE", f"{metrics['mae']:.1f} pts")
     c[2].metric("RMSE", f"{metrics['rmse']:.1f} pts")
-    c[3].metric("r", f"{metrics['pearson']:.2f}" if pd.notna(metrics["pearson"]) else "n/a")
-    c[4].metric("ρ", f"{metrics['spearman']:.2f}" if pd.notna(metrics["spearman"]) else "n/a")
+    c[3].metric("ME", f"{metrics['mean_error']:.1f} pts")
+    c[4].metric("r", f"{metrics['pearson']:.2f}" if pd.notna(metrics["pearson"]) else "n/a")
+    c[5].metric("rho", f"{metrics['spearman']:.2f}" if pd.notna(metrics["spearman"]) else "n/a")
+    bias_direction = "overestimates" if metrics["mean_error"] > 0 else "underestimates" if metrics["mean_error"] < 0 else "is unbiased against"
     st.caption(
-        "Reference rule: The Pudding female dialogue share is derived from character-level word counts "
-        "and matched by title plus release year."
+        "To check whether this extracted feature was aligned with the reality, the female dialogue share calculated by the pipeline "
+        "was compared with The Pudding's Film Dialogue by Gender dataset (Daniels, 2007). This dataset estimates dialogue participation "
+        "using character word counts by gender. After matching films by title and release year, "
+        f"{len(matched):,} films were matched. The comparison produced a mean absolute error (MAE) of {metrics['mae']:.2f} points, "
+        f"a root mean squared error (RMSE) of {metrics['rmse']:.2f} points, with a Pearson correlation of r = {metrics['pearson']:.2f} "
+        f"(p = {metrics['pearson_p']:.2g}) and a Spearman correlation of rho = {metrics['spearman']:.2f} "
+        f"(p = {metrics['spearman_p']:.2g}). The mean error (ME) is {metrics['mean_error']:.2f} points, so the pipeline generally "
+        f"{bias_direction} female dialogue share."
     )
     with st.expander("How to read these metrics"):
         st.markdown(
@@ -1837,11 +1895,15 @@ def render_female_dialogue_reference_validation(df: pd.DataFrame) -> None:
                     <div class="value">Like MAE, but it punishes large errors more strongly. Lower is better.</div>
                 </div>
                 <div class="feature-card">
+                    <div class="label">ME</div>
+                    <div class="value">Average signed error. Positive means overestimation; negative means underestimation.</div>
+                </div>
+                <div class="feature-card">
                     <div class="label">r</div>
                     <div class="value">Linear correlation between both percentages. Closer to 1 means stronger agreement.</div>
                 </div>
                 <div class="feature-card">
-                    <div class="label">ρ</div>
+                    <div class="label">rho</div>
                     <div class="value">Ranking correlation. It checks whether high/low films appear in a similar order.</div>
                 </div>
             </div>
@@ -2021,6 +2083,7 @@ def build_specs() -> list[ChartSpec]:
         S("Gender Representation", "Female Character Share", "Mean female character share by decade.", lambda d, c: mean_line(d, "female_character_share", "Female Character Share", c)),
         S("Gender Representation", "Named Women vs Men", "Scatter of named women and men.", lambda d, c: scatter(d, "male_named_character_count", "female_named_character_count", "Named Women vs Men", c, "primary_genre")),
         S("Gender Representation", "Female Dialogue by Decade", "Mean female dialogue share by decade.", lambda d, c: mean_line(d, "female_dialogue_share_pct", "Female Dialogue by Decade", c)),
+        S("Gender Representation", "Female Dialogue Majority", "Count of films where female dialogue share is above 50%.", lambda d, c: female_dialogue_majority_by_decade(d, c)),
         S("Gender Representation", "Male Dialogue by Decade", "Mean male dialogue share by decade.", lambda d, c: mean_line(d, "male_dialogue_share_pct", "Male Dialogue by Decade", c)),
         S("Gender Representation", "Dialogue Gender Gap", "Female minus male dialogue share.", lambda d, c: dialogue_gap_line(d, c)),
         S("Gender Representation", "Female Dialogue Distribution", "Boxplot of female dialogue share by decade.", lambda d, c: boxplot(d, "decade", "female_dialogue_share_pct", "Female Dialogue Distribution", c)),
@@ -2451,17 +2514,19 @@ def overview_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSp
     )
 
 
-def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec]) -> None:
+def social_dashboard(df: pd.DataFrame, controls: Controls, specs: list[ChartSpec], validation_df: pd.DataFrame | None = None) -> None:
     st.markdown('<div class="kicker">Dashboard 2 - Social Evolution</div>', unsafe_allow_html=True)
     st.markdown(
         '<p class="note">These features are conservative: a false or unknown value often means no explicit evidence was detected in the script, not necessarily real-world absence.</p>',
         unsafe_allow_html=True,
     )
-    render_bechdel_reference_validation(df)
-    render_female_dialogue_reference_validation(df)
+    validation_source = validation_df if validation_df is not None else df
+    render_bechdel_reference_validation(validation_source)
+    render_female_dialogue_reference_validation(validation_source)
     wanted = [
         "Bechdel by Decade",
         "Female Dialogue by Decade",
+        "Female Dialogue Majority",
         "Protagonist Gender",
         "LGBTQ+ Presence by Decade",
         "Explicit Racial Diversity",
@@ -2847,7 +2912,7 @@ def main() -> None:
     with tabs[0]:
         overview_dashboard(filtered, controls, clean_specs)
     with tabs[1]:
-        social_dashboard(filtered, controls, clean_specs)
+        social_dashboard(filtered, controls, clean_specs, df)
     with tabs[2]:
         narrative_dashboard(filtered, controls, clean_specs)
     with tabs[3]:
