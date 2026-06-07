@@ -1,5 +1,9 @@
 from pathlib import Path
 
+import pandas as pd
+
+from test_chart_statistics import load_app_module
+
 
 APP_PATH = Path(__file__).resolve().parents[1] / "streamlit" / "app.py"
 
@@ -79,3 +83,12 @@ def test_related_chart_sections_stay_in_dashboard_category():
             assert snippet in body, f"{dashboard} missing {snippet}"
         for snippet in disallowed_sections.get(dashboard, []):
             assert snippet not in body, f"{dashboard} should not include {snippet}"
+
+
+def test_existing_columns_for_display_removes_duplicate_names():
+    app = load_app_module()
+    df = pd.DataFrame([[1, 2, 3]], columns=["title", "decade", "title"])
+
+    display = app.select_display_columns(df, ["title", "decade", "title", "missing"])
+
+    assert display.columns.tolist() == ["title", "decade"]

@@ -118,7 +118,7 @@ def test_bechdel_by_decade_uses_confidence_intervals():
     assert all(value >= 0 for value in fig.data[0].error_y.array)
 
 
-def test_protagonist_gender_stacks_female_at_bottom():
+def test_protagonist_gender_stacks_female_ensemble_male():
     app = load_app_module()
     fig = app.stacked_percent(
         pd.DataFrame(
@@ -134,7 +134,7 @@ def test_protagonist_gender_stacks_female_at_bottom():
         app.Controls("mean", 1, "decade", 12, 1, True, False, False, (2000, 2009)),
     )
 
-    assert fig.data[0].name == "female"
+    assert [trace.name for trace in fig.data] == ["female", "ensemble", "male"]
 
 
 def test_female_dialogue_reference_metrics_include_bias_and_p_values():

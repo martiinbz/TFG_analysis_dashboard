@@ -1058,7 +1058,7 @@ def stacked_percent(df: pd.DataFrame, x: str, category: str, title: str, control
     grouped["Percent"] = np.where(totals > 0, grouped["Films"] / totals * 100, 0)
     if x == "decade":
         grouped = sorted_by_decade(grouped, x)
-    color_order = {"female": 0, "male": 1, "ensemble": 2, "unknown": 3} if category == "protagonist_gender" else None
+    color_order = {"female": 0, "ensemble": 1, "male": 2, "unknown": 3} if category == "protagonist_gender" else None
     if color_order:
         grouped["_category_order"] = grouped[category].map(color_order).fillna(len(color_order))
         grouped = grouped.sort_values([x, "_category_order"])
@@ -2854,6 +2854,12 @@ def film_view(df: pd.DataFrame) -> None:
         st.markdown("".join(cards), unsafe_allow_html=True)
 
 
+def select_display_columns(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
+    unique_df = df.loc[:, ~df.columns.duplicated()]
+    unique_columns = list(dict.fromkeys(c for c in columns if c in unique_df))
+    return unique_df[unique_columns]
+
+
 def data_view(df: pd.DataFrame) -> None:
     st.markdown('<div class="kicker">Data</div>', unsafe_allow_html=True)
     block = st.selectbox("Feature block", ["All"] + [BLOCK_LABELS[b] for b in BLOCKS])
@@ -2863,7 +2869,7 @@ def data_view(df: pd.DataFrame) -> None:
         section = next(k for k, v in BLOCK_LABELS.items() if v == block)
         base = ["title", "release_year", "decade", "primary_genre"]
         cols = base + [c for c in FEATURE_BLOCKS.get(section, []) if c in df]
-    st.dataframe(df[[c for c in cols if c in df]], width="stretch", hide_index=True)
+    st.dataframe(select_display_columns(df, cols), width="stretch", hide_index=True)
     st.download_button("Download filtered CSV", df.to_csv(index=False).encode("utf-8"), "filtered_film_analysis.csv", "text/csv")
 
 
